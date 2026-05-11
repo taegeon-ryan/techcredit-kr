@@ -847,6 +847,14 @@ button { font-family: inherit; }
 }
 .detail-section:first-of-type { margin-top: 22px; }
 
+.detail-heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
 .detail-heading {
   font-size: 13px;
   font-weight: 700;
@@ -858,6 +866,34 @@ button { font-family: inherit; }
   align-items: baseline;
   gap: 8px;
 }
+
+.detail-heading-row .detail-heading {
+  margin-bottom: 0;
+}
+
+.mobile-history-button {
+  display: none;
+  flex-shrink: 0;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.2;
+  cursor: pointer;
+  padding: 3px 0;
+  transition: color 0.14s ease, opacity 0.14s ease;
+}
+
+.mobile-history-button:hover {
+  color: #1d4ed8;
+}
+
+.mobile-history-button:active {
+  opacity: 0.72;
+}
+
 .detail-count {
   font-size: 12px;
   color: var(--text-faint);
@@ -1074,6 +1110,30 @@ button { font-family: inherit; }
 .toggle-section-body {
   margin-top: 12px;
   animation: fadeSlideIn 0.24s ease-out;
+}
+
+.collapsible-history {
+  display: grid;
+  grid-template-rows: 0fr;
+  margin-top: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    grid-template-rows 0.26s ease,
+    opacity 0.2s ease,
+    margin-top 0.26s ease;
+  animation: none;
+}
+
+.collapsible-history.is-open {
+  grid-template-rows: 1fr;
+  margin-top: 12px;
+  opacity: 1;
+}
+
+.collapsible-history > * {
+  min-height: 0;
+  overflow: hidden;
 }
 
 .facility-history {
@@ -1323,6 +1383,8 @@ button { font-family: inherit; }
   .drill-title { font-size: 18px; }
   .tech-controls { align-items: stretch; }
   .sort-control { margin-left: 0; }
+  .mobile-history-button { display: inline-flex; }
+  .tech-history-heading-row { display: none; }
   .history-entry { grid-template-columns: 18px 1fr; gap: 9px; }
   .history-content { padding: 11px 12px; }
 }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { diffWords } from 'diff'
 import { historyKey, normalizeSector } from '../hooks/useAllData'
 import { crossTechKey, normalizeTechName, techSimilarity } from '../utils/crossCategoryMap'
@@ -298,14 +298,30 @@ function DiffDisplay({ parts, className = 'diff-text' }) {
   )
 }
 
+function isCompactViewport() {
+  if (typeof window === 'undefined') return false
+  return window.matchMedia('(max-width: 768px)').matches
+}
+
 export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSelect }) {
   const facilityKey = sector.type === 'growth' ? 'growth_facility' : 'strategic_facility'
   const techKey = sector.type === 'growth' ? 'growth_tech' : 'strategic_tech'
-  const [techHistoryOpen, setTechHistoryOpen] = useState(true)
+  const [techHistoryOpen, setTechHistoryOpen] = useState(() => !isCompactViewport())
   const [relatedOpen, setRelatedOpen] = useState(true)
   const [facilityHistoryOpen, setFacilityHistoryOpen] = useState(true)
   const techApplyDate = tech.first_apply_date || tech.apply_date
   const techElapsedMonths = tech.introduced_elapsed_months ?? tech.elapsed_months
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return undefined
+
+    const mediaQuery = window.matchMedia('(max-width: 768px)')
+    const syncHistoryOpen = () => setTechHistoryOpen(!mediaQuery.matches)
+
+    syncHistoryOpen()
+    mediaQuery.addEventListener('change', syncHistoryOpen)
+    return () => mediaQuery.removeEventListener('change', syncHistoryOpen)
+  }, [sector.type, tech.item_no, tech.sector_key, tech.subsector, tech.tech_name])
 
   const historyRows = useMemo(() => {
     const key = historyKey(tech)
@@ -426,7 +442,18 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
       </div>
 
       <div className="detail-section">
-        <h4 className="detail-heading">기술</h4>
+        <div className="detail-heading-row">
+          <h4 className="detail-heading">기술</h4>
+          <button
+            className="mobile-history-button"
+            type="button"
+            aria-expanded={techHistoryOpen}
+            aria-controls="tech-history-panel"
+            onClick={() => setTechHistoryOpen((open) => !open)}
+          >
+            {techHistoryOpen ? '연혁 닫기' : '연혁 보기'}
+          </button>
+        </div>
         <div className="detail-body">
           <p className="detail-body-text">{tech.tech_description || '(설명 없음)'}</p>
           <span className="detail-body-meta">
@@ -436,11 +463,12 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
             )}
           </span>
         </div>
-        <div className="history-heading-row">
+        <div className="history-heading-row tech-history-heading-row">
           <button
             className="history-toggle"
             type="button"
             aria-expanded={techHistoryOpen}
+            aria-controls="tech-history-panel"
             onClick={() => setTechHistoryOpen((open) => !open)}
           >
             <span className={`history-chevron ${techHistoryOpen ? 'is-open' : ''}`}>›</span>
@@ -449,58 +477,60 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
           </button>
         </div>
 
-        {techHistoryOpen && (
-          <div className="toggle-section-body">
-            <div className="history-timeline">
-              {historyEntries.map((entry, index) => {
-                const { row } = entry
-                const noContentChange = !entry.isFirst && !entry.nameChanged && !entry.descChanged && !entry.statusChanged
+        <div
+          id="tech-history-panel"
+          className={`toggle-section-body collapsible-history ${techHistoryOpen ? 'is-open' : ''}`}
+          aria-hidden={!techHistoryOpen}
+        >
+          <div className="history-timeline">
+            {historyEntries.map((entry, index) => {
+              const { row } = entry
+              const noContentChange = !entry.isFirst && !entry.nameChanged && !entry.descChanged && !entry.statusChanged
 
-                return (
-                  <article key={`${row.version}-${row.apply_date}-${index}`} className="history-entry">
-                    <div className="history-marker" aria-hidden="true">
-                      <span className="history-dot" />
-                      {index < historyEntries.length - 1 && <span className="history-line" />}
-                    </div>
-                    <div className="history-content">
-                      <div className="history-meta">
-                        <span className="history-date">{formatMonth(row.apply_date)}</span>
-                        <span className={`history-status ${statusClass(row.status)}`}>{statusLabel(row.status)}</span>
-                        {!entry.isFirst && entry.descRewrite && (
-                          <span className="history-status history-status--rewrite">전면개정</span>
-                        )}
-                        <span className="history-version">{formatVersion(row.version)}</span>
-                      </div>
-
-                      {row.status === '삭제' ? null : entry.isFirst ? (
-                        <div className="history-block">
-                          <p className="history-tech-name">{row.tech_name}</p>
-                          <p className="history-description">{row.tech_description || '(설명 없음)'}</p>
-                        </div>
-                      ) : (
-                        <div className="history-block">
-                          {entry.nameChanged ? (
-                            <DiffDisplay parts={entry.nameDiff} className="history-tech-name" />
-                          ) : (
-                            <p className="history-tech-name">{row.tech_name}</p>
-                          )}
-                          {entry.descChanged && (
-                            entry.descRewrite
-                              ? <p className="history-description">{row.tech_description || '(설명 없음)'}</p>
-                              : <DiffDisplay parts={entry.descDiff} />
-                          )}
-                          {noContentChange && (
-                            <p className="history-empty">내용 변경 없음</p>
-                          )}
-                        </div>
+              return (
+                <article key={`${row.version}-${row.apply_date}-${index}`} className="history-entry">
+                  <div className="history-marker" aria-hidden="true">
+                    <span className="history-dot" />
+                    {index < historyEntries.length - 1 && <span className="history-line" />}
+                  </div>
+                  <div className="history-content">
+                    <div className="history-meta">
+                      <span className="history-date">{formatMonth(row.apply_date)}</span>
+                      <span className={`history-status ${statusClass(row.status)}`}>{statusLabel(row.status)}</span>
+                      {!entry.isFirst && entry.descRewrite && (
+                        <span className="history-status history-status--rewrite">전면개정</span>
                       )}
+                      <span className="history-version">{formatVersion(row.version)}</span>
                     </div>
-                  </article>
-                )
-              })}
-            </div>
+
+                    {row.status === '삭제' ? null : entry.isFirst ? (
+                      <div className="history-block">
+                        <p className="history-tech-name">{row.tech_name}</p>
+                        <p className="history-description">{row.tech_description || '(설명 없음)'}</p>
+                      </div>
+                    ) : (
+                      <div className="history-block">
+                        {entry.nameChanged ? (
+                          <DiffDisplay parts={entry.nameDiff} className="history-tech-name" />
+                        ) : (
+                          <p className="history-tech-name">{row.tech_name}</p>
+                        )}
+                        {entry.descChanged && (
+                          entry.descRewrite
+                            ? <p className="history-description">{row.tech_description || '(설명 없음)'}</p>
+                            : <DiffDisplay parts={entry.descDiff} />
+                        )}
+                        {noContentChange && (
+                          <p className="history-empty">내용 변경 없음</p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </article>
+              )
+            })}
           </div>
-        )}
+        </div>
 
         {hasRelated && (
           <div className="related-subsection">
