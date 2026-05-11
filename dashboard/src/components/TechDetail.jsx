@@ -202,6 +202,11 @@ function relatedSectorLabel(item) {
   return item.sector_name
 }
 
+function CountBadge({ count }) {
+  if (count <= 1) return null
+  return <span className="detail-count">{count}건</span>
+}
+
 function similarityPercent(source, target) {
   const ratio = typeof target._similarity === 'number'
     ? target._similarity
@@ -546,7 +551,7 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
             >
               <span className={`history-chevron ${relatedOpen ? 'is-open' : ''}`}>›</span>
               <span>{relatedTitle(sector.type)}</span>
-              <span className="detail-count">{relatedCount}건</span>
+              <CountBadge count={relatedCount} />
             </button>
 
             {relatedOpen && (
@@ -595,7 +600,7 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
       <div className="detail-section">
         <div className="detail-heading-row">
           <h4 className="detail-heading">
-            사업화 시설 <span className="detail-count">{facilities.length}건</span>
+            사업화 시설 <CountBadge count={facilities.length} />
           </h4>
           {facilityHistoryGroups.length > 0 && (
             <button
