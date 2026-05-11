@@ -847,6 +847,14 @@ button { font-family: inherit; }
 }
 .detail-section:first-of-type { margin-top: 22px; }
 
+.detail-heading-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
 .detail-heading {
   font-size: 13px;
   font-weight: 700;
@@ -858,6 +866,34 @@ button { font-family: inherit; }
   align-items: baseline;
   gap: 8px;
 }
+
+.detail-heading-row .detail-heading {
+  margin-bottom: 0;
+}
+
+.detail-history-button {
+  display: inline-flex;
+  flex-shrink: 0;
+  border: none;
+  background: transparent;
+  color: #2563eb;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  padding: 3px 0;
+  transition: color 0.14s ease, opacity 0.14s ease;
+}
+
+.detail-history-button:hover {
+  color: #1d4ed8;
+}
+
+.detail-history-button:active {
+  opacity: 0.72;
+}
+
 .detail-count {
   font-size: 12px;
   color: var(--text-faint);
@@ -1007,19 +1043,6 @@ button { font-family: inherit; }
   padding: 0 1px;
 }
 
-.similarity-badge {
-  flex-shrink: 0;
-  margin-top: 1px;
-  padding: 2px 7px;
-  color: #92400e;
-  background: #fef3c7;
-  border-radius: 999px;
-  font-size: 11px;
-  font-weight: 800;
-  line-height: 1.25;
-  white-space: nowrap;
-}
-
 .related-item-desc {
   color: var(--text-muted);
   font-size: 12.5px;
@@ -1076,8 +1099,40 @@ button { font-family: inherit; }
   animation: fadeSlideIn 0.24s ease-out;
 }
 
+.collapsible-history {
+  display: grid;
+  grid-template-rows: 0fr;
+  margin-top: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    grid-template-rows 0.26s ease,
+    opacity 0.2s ease,
+    margin-top 0.26s ease;
+  animation: none;
+}
+
+.collapsible-history.is-open {
+  grid-template-rows: 1fr;
+  margin-top: 12px;
+  opacity: 1;
+}
+
+.collapsible-history > * {
+  min-height: 0;
+  overflow: hidden;
+}
+
 .facility-history {
   margin-top: 16px;
+}
+
+.facility-history.collapsible-history {
+  margin-top: 0;
+}
+
+.facility-history.collapsible-history.is-open {
+  margin-top: 12px;
 }
 
 .facility-history-groups {
@@ -1086,6 +1141,10 @@ button { font-family: inherit; }
   gap: 14px;
   margin-top: 14px;
   animation: fadeSlideIn 0.24s ease-out;
+}
+
+.facility-history.collapsible-history .facility-history-groups {
+  margin-top: 0;
 }
 
 .facility-history-group .history-timeline {
