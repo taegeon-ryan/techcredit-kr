@@ -871,8 +871,8 @@ button { font-family: inherit; }
   margin-bottom: 0;
 }
 
-.mobile-history-button {
-  display: none;
+.detail-history-button {
+  display: inline-flex;
   flex-shrink: 0;
   border: none;
   background: transparent;
@@ -886,11 +886,11 @@ button { font-family: inherit; }
   transition: color 0.14s ease, opacity 0.14s ease;
 }
 
-.mobile-history-button:hover {
+.detail-history-button:hover {
   color: #1d4ed8;
 }
 
-.mobile-history-button:active {
+.detail-history-button:active {
   opacity: 0.72;
 }
 
@@ -1140,12 +1140,24 @@ button { font-family: inherit; }
   margin-top: 16px;
 }
 
+.facility-history.collapsible-history {
+  margin-top: 0;
+}
+
+.facility-history.collapsible-history.is-open {
+  margin-top: 12px;
+}
+
 .facility-history-groups {
   display: flex;
   flex-direction: column;
   gap: 14px;
   margin-top: 14px;
   animation: fadeSlideIn 0.24s ease-out;
+}
+
+.facility-history.collapsible-history .facility-history-groups {
+  margin-top: 0;
 }
 
 .facility-history-group .history-timeline {
@@ -1383,8 +1395,6 @@ button { font-family: inherit; }
   .drill-title { font-size: 18px; }
   .tech-controls { align-items: stretch; }
   .sort-control { margin-left: 0; }
-  .mobile-history-button { display: inline-flex; }
-  .tech-history-heading-row { display: none; }
   .history-entry { grid-template-columns: 18px 1fr; gap: 9px; }
   .history-content { padding: 11px 12px; }
 }
