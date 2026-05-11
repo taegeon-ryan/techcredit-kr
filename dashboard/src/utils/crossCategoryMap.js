@@ -42,22 +42,6 @@ const TOKEN_STOPWORDS = new Set([
   '하는',
 ])
 
-const KNOWN_SIMILAR_NAME_PAIRS = [
-  ['고성능 마이크로 센서의 설계‧제조‧패키징 기술', '지능형 마이크로 센서 설계ㆍ제조ㆍ패키지 기술'],
-  ['학습 및 추론 고도화 기술', '학습 및 추론 기술'],
-  ['에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술', '에너지효율향상 반도체 설계ㆍ제조기술'],
-  ['방어 항원 등 스크리닝 및 제조기술', '방어 항원 스크리닝 및 제조기술'],
-  ['반도체용 실리콘 기판 및 화합물 기판 개발 및 제조기술', '반도체용 기판 개발 및 제조기술'],
-  [
-    '친환경 QD(Quantum Dot) 소재 적용 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술',
-    '친환경 QD(Quantum Dot) 나노 소재 적용 디스플레이 패널ㆍ부품ㆍ소재ㆍ장비 제조 기술',
-  ],
-  [
-    'Micro LED 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술',
-    '마이크로 LED 디스플레이 패널ㆍ부품ㆍ소재ㆍ장비 제조 기술',
-  ],
-]
-
 function normalizeName(name) {
   if (!name) return ''
   return String(name)
@@ -265,14 +249,6 @@ function canBeSimilarMatch(a, b) {
   return !aPhase || !bPhase || aPhase === bPhase
 }
 
-function isKnownSimilarPair(a, b) {
-  return KNOWN_SIMILAR_NAME_PAIRS.some(([left, right]) => {
-    const normalizedLeft = normalizeTechName(left)
-    const normalizedRight = normalizeTechName(right)
-    return (a === normalizedLeft && b === normalizedRight) || (a === normalizedRight && b === normalizedLeft)
-  })
-}
-
 function ensureEntry(map, type, row) {
   const key = crossTechKey(type, row)
   if (!map.has(key)) {
@@ -325,7 +301,7 @@ export function buildCrossMatches(growthTechs, strategicTechs) {
       const ratio = techSimilarity(strategic, growth)
       if (
         canBeSimilarMatch(strategicName, growthName)
-        && (ratio >= SIMILARITY_THRESHOLD || isKnownSimilarPair(strategicName, growthName))
+        && ratio >= SIMILARITY_THRESHOLD
       ) {
         pushUnique(strategicEntry.similarMatches, growth, 'growth', { _similarity: ratio })
         pushUnique(growthEntry.similarMatches, strategic, 'strategic', { _similarity: ratio })
