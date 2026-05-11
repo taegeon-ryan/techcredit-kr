@@ -3,6 +3,7 @@ import { diffWords } from 'diff'
 import { historyKey, normalizeSector } from '../hooks/useAllData'
 import { crossTechKey, normalizeTechName } from '../utils/crossCategoryMap'
 import { sectorIcon } from '../utils/sectorIcons'
+import { compareTechs, getOrderedTechs, techRowKey } from '../utils/techOrdering'
 
 function formatElapsed(months) {
   if (months == null) return ''
@@ -296,7 +297,7 @@ function DiffDisplay({ parts, className = 'diff-text' }) {
   )
 }
 
-export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSelect }) {
+export default function TechDetail({ data, tech, sector, controls, onBack, onRelatedTechSelect, onNavigateTech }) {
   const facilityKey = sector.type === 'growth' ? 'growth_facility' : 'strategic_facility'
   const techKey = sector.type === 'growth' ? 'growth_tech' : 'strategic_tech'
   const [relatedOpen, setRelatedOpen] = useState(true)
@@ -439,6 +440,26 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
 
   const relatedCount = relatedItems.length
   const hasRelated = relatedCount > 0 || related?.promoted
+
+  const { prevTech, nextTech } = useMemo(() => {
+    const ordered = getOrderedTechs(data[techKey], sector, controls)
+    const currentKey = techRowKey(tech)
+    let list = ordered
+    let index = ordered.findIndex((row) => techRowKey(row) === currentKey)
+    if (index === -1) {
+      const compare = compareTechs(controls?.sortBy || 'statute')
+      const insertAt = ordered.findIndex((row) => compare(tech, row) < 0)
+      const merged = ordered.slice()
+      if (insertAt === -1) merged.push(tech)
+      else merged.splice(insertAt, 0, tech)
+      list = merged
+      index = insertAt === -1 ? merged.length - 1 : insertAt
+    }
+    return {
+      prevTech: index > 0 ? list[index - 1] : null,
+      nextTech: index >= 0 && index < list.length - 1 ? list[index + 1] : null,
+    }
+  }, [data, techKey, sector, controls, tech])
 
   return (
     <div className="drill-view">
@@ -681,6 +702,33 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
           </div>
         )}
       </div>
+
+      <nav className="detail-pager" aria-label="기술 탐색">
+        <button
+          type="button"
+          className="detail-pager-btn detail-pager-btn--prev"
+          disabled={!prevTech}
+          onClick={() => prevTech && onNavigateTech(prevTech)}
+        >
+          <span className="detail-pager-arrow" aria-hidden="true">‹</span>
+          <span className="detail-pager-text">
+            <span className="detail-pager-direction">이전 기술</span>
+            <span className="detail-pager-name">{prevTech?.tech_name || '없음'}</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          className="detail-pager-btn detail-pager-btn--next"
+          disabled={!nextTech}
+          onClick={() => nextTech && onNavigateTech(nextTech)}
+        >
+          <span className="detail-pager-text">
+            <span className="detail-pager-direction">다음 기술</span>
+            <span className="detail-pager-name">{nextTech?.tech_name || '없음'}</span>
+          </span>
+          <span className="detail-pager-arrow" aria-hidden="true">›</span>
+        </button>
+      </nav>
     </div>
   )
 }

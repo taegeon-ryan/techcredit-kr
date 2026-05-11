@@ -195,6 +195,7 @@ export default function App() {
             onBack={handleSectorBack}
             onSelect={(t) => setSelectedTech(t)}
             onRelatedSectorSelect={handleRelatedSectorSelect}
+            onNavigateSector={handleSectorSelect}
           />
         )}
 
@@ -203,8 +204,10 @@ export default function App() {
             data={data}
             tech={selectedTech}
             sector={selectedSector}
+            controls={techListControls}
             onBack={() => setSelectedTech(null)}
             onRelatedTechSelect={handleRelatedTechSelect}
+            onNavigateTech={(t) => setSelectedTech(t)}
           />
         )}
 
