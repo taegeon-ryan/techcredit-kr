@@ -1,5 +1,6 @@
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import { useAllData } from './hooks/useAllData'
+import { useNavigationHistory } from './hooks/useNavigationHistory'
 import SectorCards from './components/SectorCards'
 import TechList from './components/TechList'
 import TechDetail from './components/TechDetail'
@@ -39,11 +40,28 @@ export default function App() {
 
   const isSearching = search.trim().length > 0
 
-  useEffect(() => {
-    if (selectedTech) {
-      requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'auto' }))
-    }
-  }, [selectedTech])
+  const navigationState = useMemo(() => ({
+    view,
+    filter,
+    selectedSector,
+    selectedTech,
+    techListControls,
+    search,
+  }), [view, filter, selectedSector, selectedTech, techListControls, search])
+
+  const applyNavigationSnapshot = useCallback((snapshot) => {
+    setView(snapshot.view || 'card')
+    setFilter(snapshot.filter || 'strategic')
+    setSelectedSector(snapshot.selectedSector || null)
+    setSelectedTech(snapshot.selectedTech || null)
+    setTechListControls(snapshot.techListControls || DEFAULT_TECH_LIST_CONTROLS)
+    setSearch(snapshot.search || '')
+  }, [])
+
+  useNavigationHistory({
+    state: navigationState,
+    applySnapshot: applyNavigationSnapshot,
+  })
 
   const handleSearchSelect = (tech, type) => {
     setSelectedSector({
@@ -76,7 +94,6 @@ export default function App() {
     setSelectedSector(sector)
     setSelectedTech(null)
     setTechListControls(DEFAULT_TECH_LIST_CONTROLS)
-    requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }))
   }
 
   const handleRelatedSectorSelect = (sector) => {
@@ -85,9 +102,7 @@ export default function App() {
   }
 
   const handleSectorBack = () => {
-    setSelectedSector(null)
-    setSelectedTech(null)
-    setTechListControls(DEFAULT_TECH_LIST_CONTROLS)
+    window.history.back()
   }
 
   const handleTechListControlsChange = (nextControls) => {
@@ -147,7 +162,7 @@ export default function App() {
           {isSearching && (
             <button
               className="search-clear"
-              onClick={() => setSearch('')}
+              onClick={() => window.history.back()}
               aria-label="검색 지우기"
             >×</button>
           )}
@@ -205,7 +220,7 @@ export default function App() {
             tech={selectedTech}
             sector={selectedSector}
             controls={techListControls}
-            onBack={() => setSelectedTech(null)}
+            onBack={() => window.history.back()}
             onRelatedTechSelect={handleRelatedTechSelect}
             onNavigateTech={(t) => setSelectedTech(t)}
           />
