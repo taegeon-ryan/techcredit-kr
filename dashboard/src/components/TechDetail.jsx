@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { diffWords } from 'diff'
 import { historyKey, normalizeSector } from '../hooks/useAllData'
-import { crossTechKey, normalizeTechName, techSimilarity } from '../utils/crossCategoryMap'
+import { crossTechKey, normalizeTechName } from '../utils/crossCategoryMap'
 import { sectorIcon } from '../utils/sectorIcons'
 
 function formatElapsed(months) {
@@ -205,13 +205,6 @@ function relatedSectorLabel(item) {
 function CountBadge({ count }) {
   if (count <= 1) return null
   return <span className="detail-count">{count}건</span>
-}
-
-function similarityPercent(source, target) {
-  const ratio = typeof target._similarity === 'number'
-    ? target._similarity
-    : techSimilarity(source, target)
-  return Math.round(Math.max(0, Math.min(1, ratio)) * 100)
 }
 
 function comparableChars(text) {
@@ -575,7 +568,6 @@ export default function TechDetail({ data, tech, sector, onBack, onRelatedTechSe
                           <span className="related-item-name">
                             <HighlightedSimilarity text={item.tech_name} reference={tech.tech_name} />
                           </span>
-                          <span className="similarity-badge">{similarityPercent(tech, item)}% 유사</span>
                         </span>
                         {item.tech_description && (
                           <span className="related-item-desc">
