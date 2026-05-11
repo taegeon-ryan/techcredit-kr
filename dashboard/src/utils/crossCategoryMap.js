@@ -77,10 +77,15 @@ export function normalizeTechName(name) {
 function normalizeTokenText(text) {
   return String(text || '')
     .replace(/micro/gi, '마이크로')
+    .replace(/(\d+(?:\.\d+)?)(?=\s*(?:nm|단|gb|tb|ghz|mhz|kw|mw|°c|℃|v|w|%))/gi, '#')
+    .toLowerCase()
+    .replace(/#\s*(?:°c|℃)/g, '#c')
+    .replace(/(#\s*(?:nm|단|gb|tb|ghz|mhz|kw|mw|c|v|w|%))\s*(?:이하|이상)?급/g, '$1')
+    .replace(/(#\s*(?:nm|단|gb|tb|ghz|mhz|kw|mw|c|v|w|%))\s*(?:이하|이상)/g, '$1')
+    .replace(/#\s+/g, '#')
     .replace(/[ㆍ‧·․∙•/]/g, ' ')
     .replace(/\((?=[^)]*[A-Za-z])[^)]*\)/g, '')
     .replace(/[()[\]{}]/g, ' ')
-    .toLowerCase()
 }
 
 function splitGenericTerms(token) {
@@ -98,10 +103,14 @@ function splitGenericTerms(token) {
 function techTokens(row, fields) {
   const text = normalizeTokenText(fields.map((field) => row[field] || '').join(' '))
   return text
-    .split(/[^0-9a-z가-힣]+/i)
+    .split(/[^#%0-9a-z가-힣]+/i)
     .flatMap(splitGenericTerms)
     .map((token) => token.trim())
     .filter((token) => token.length >= 2 && !TOKEN_STOPWORDS.has(token))
+}
+
+function comparableText(row, fields) {
+  return techTokens(row, fields).join('')
 }
 
 export function crossTechKey(type, row) {
@@ -188,14 +197,61 @@ function tokenDiceSimilarity(leftTokens, rightTokens) {
   return (2 * intersection) / total
 }
 
+function charBigrams(text) {
+  const counts = new Map()
+  if (!text) return counts
+  if (text.length < 2) {
+    counts.set(text, 1)
+    return counts
+  }
+
+  for (let index = 0; index <= text.length - 2; index += 1) {
+    const gram = text.slice(index, index + 2)
+    counts.set(gram, (counts.get(gram) || 0) + 1)
+  }
+  return counts
+}
+
+function charBigramDiceSimilarity(leftText, rightText) {
+  const left = charBigrams(leftText)
+  const right = charBigrams(rightText)
+  let intersection = 0
+  let total = 0
+
+  for (const count of left.values()) total += count
+  for (const count of right.values()) total += count
+  if (total === 0) return 0
+
+  for (const [gram, count] of left) {
+    intersection += Math.min(count, right.get(gram) || 0)
+  }
+
+  return (2 * intersection) / total
+}
+
 function fieldTokenSimilarity(a, b, fields) {
   return tokenDiceSimilarity(techTokens(a, fields), techTokens(b, fields))
 }
 
+function fieldBigramSimilarity(a, b, fields) {
+  return charBigramDiceSimilarity(comparableText(a, fields), comparableText(b, fields))
+}
+
 export function techSimilarity(a, b) {
-  const nameScore = fieldTokenSimilarity(a, b, ['tech_name'])
-  const fullTextScore = fieldTokenSimilarity(a, b, ['tech_name', 'tech_description'])
-  return (nameScore * 0.45) + (fullTextScore * 0.55)
+  const nameTokenScore = fieldTokenSimilarity(a, b, ['tech_name'])
+  const nameBigramScore = fieldBigramSimilarity(a, b, ['tech_name'])
+  const fullTokenScore = fieldTokenSimilarity(a, b, ['tech_name', 'tech_description'])
+  const fullBigramScore = fieldBigramSimilarity(a, b, ['tech_name', 'tech_description'])
+  const nameScore = (nameTokenScore * 0.5) + (nameBigramScore * 0.5)
+  const fullTextScore = (fullTokenScore * 0.5) + (fullBigramScore * 0.5)
+  const blendedScore = (nameScore * 0.45) + (fullTextScore * 0.55)
+
+  if (nameTokenScore >= 0.8 && nameBigramScore >= 0.6) {
+    const nameAlignedScore = (nameTokenScore * 0.9) + (fullTextScore * 0.1)
+    return Math.max(blendedScore, nameAlignedScore)
+  }
+
+  return blendedScore
 }
 
 function clinicalPhase(name) {
