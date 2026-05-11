@@ -1,18 +1,8 @@
 import { useMemo } from 'react'
 import { getRelatedSectors } from '../utils/crossCategoryMap'
 import { sectorIcon } from '../utils/sectorIcons'
-
-const AGE_FILTERS = [
-  { value: 'all', label: '전체', minMonths: 0 },
-  { value: '3y', label: '3년 이상', minMonths: 36 },
-  { value: '5y', label: '5년 이상', minMonths: 60 },
-]
-
-const SORT_OPTIONS = [
-  { value: 'statute', label: '별표 순' },
-  { value: 'introduced', label: '도입일 순' },
-  { value: 'name', label: '가나다 순' },
-]
+import { AGE_FILTERS, SORT_OPTIONS, compareTechs, techRowKey } from '../utils/techOrdering'
+import { getSectorsByType, sectorDisplayName } from '../utils/sectorOrdering'
 
 function datasetFullLabel(type) {
   return type === 'growth' ? '신성장' : '전략'
@@ -34,35 +24,6 @@ function collectSectors(rows) {
   return map
 }
 
-function compareStatuteOrder(a, b) {
-  const sectorDiff = (parseInt(a.sector_number, 10) || 999) - (parseInt(b.sector_number, 10) || 999)
-  if (sectorDiff !== 0) return sectorDiff
-
-  const subsectorDiff = (a.subsector || '').localeCompare(b.subsector || '', 'ko', { numeric: true })
-  if (subsectorDiff !== 0) return subsectorDiff
-
-  const itemDiff = (a.item_no || '').localeCompare(b.item_no || '', 'ko', { numeric: true })
-  if (itemDiff !== 0) return itemDiff
-
-  return (parseInt(a.index, 10) || 0) - (parseInt(b.index, 10) || 0)
-}
-
-function compareTechs(sortBy) {
-  return (a, b) => {
-    if (sortBy === 'name') {
-      const nameDiff = a.tech_name.localeCompare(b.tech_name, 'ko', { numeric: true })
-      return nameDiff || compareStatuteOrder(a, b)
-    }
-
-    if (sortBy === 'introduced') {
-      const dateDiff = (a.first_apply_date || '').localeCompare(b.first_apply_date || '')
-      return dateDiff || compareStatuteOrder(a, b)
-    }
-
-    return compareStatuteOrder(a, b)
-  }
-}
-
 function ageTag(row) {
   const label = row.first_apply_date ? row.first_apply_date.slice(0, 7) : ''
   if (!label) return null
@@ -71,7 +32,7 @@ function ageTag(row) {
   return { label, level: 'recent' }
 }
 
-export default function TechList({ data, sector, controls, onControlsChange, onBack, onSelect, onRelatedSectorSelect }) {
+export default function TechList({ data, sector, controls, onControlsChange, onBack, onSelect, onRelatedSectorSelect, onNavigateSector }) {
   const { ageFilter, includeDeleted, sortBy } = controls
   const key = sector.type === 'growth' ? 'growth_tech' : 'strategic_tech'
   const rows = data[key]
@@ -127,6 +88,15 @@ export default function TechList({ data, sector, controls, onControlsChange, onB
       .map(([, g]) => [g.label, g.items])
   }, [techs, sector.type, sortBy])
 
+  const { prevSector, nextSector } = useMemo(() => {
+    const siblings = getSectorsByType(data, sector.type)
+    const index = siblings.findIndex((s) => s.sectorKey === sector.sectorKey)
+    return {
+      prevSector: index > 0 ? siblings[index - 1] : null,
+      nextSector: index >= 0 && index < siblings.length - 1 ? siblings[index + 1] : null,
+    }
+  }, [data, sector.type, sector.sectorKey])
+
   const relatedSectors = useMemo(() => {
     const relatedRows = relatedType === 'growth' ? data.growth_tech : data.strategic_tech
     const sectorMap = collectSectors(relatedRows)
@@ -147,7 +117,7 @@ export default function TechList({ data, sector, controls, onControlsChange, onB
 
     return (
       <button
-        key={`${t.index}-${t.item_no}-${t.tech_name}`}
+        key={techRowKey(t)}
         className={`tech-item tech-item--${sector.type}${deleted ? ' tech-item--deleted' : ''}`}
         style={{ '--item-delay': `${Math.min(i * 12, 120)}ms` }}
         onClick={() => onSelect(t)}
@@ -259,6 +229,41 @@ export default function TechList({ data, sector, controls, onControlsChange, onB
         )}
         {techs.length === 0 && <div className="empty-msg">해당 조건의 기술이 없습니다.</div>}
       </div>
+
+      <nav className="detail-pager" aria-label="분야 탐색">
+        <button
+          type="button"
+          className="detail-pager-btn detail-pager-btn--prev"
+          disabled={!prevSector}
+          onClick={() => prevSector && onNavigateSector(prevSector)}
+        >
+          <span className="detail-pager-arrow" aria-hidden="true">‹</span>
+          <span className="detail-pager-text">
+            <span className="detail-pager-direction">이전 분야</span>
+            <span className="detail-pager-name">
+              {prevSector
+                ? `${sectorIcon(prevSector.sectorKey)} ${sectorDisplayName(prevSector.name)}`
+                : '없음'}
+            </span>
+          </span>
+        </button>
+        <button
+          type="button"
+          className="detail-pager-btn detail-pager-btn--next"
+          disabled={!nextSector}
+          onClick={() => nextSector && onNavigateSector(nextSector)}
+        >
+          <span className="detail-pager-text">
+            <span className="detail-pager-direction">다음 분야</span>
+            <span className="detail-pager-name">
+              {nextSector
+                ? `${sectorIcon(nextSector.sectorKey)} ${sectorDisplayName(nextSector.name)}`
+                : '없음'}
+            </span>
+          </span>
+          <span className="detail-pager-arrow" aria-hidden="true">›</span>
+        </button>
+      </nav>
     </div>
   )
 }
