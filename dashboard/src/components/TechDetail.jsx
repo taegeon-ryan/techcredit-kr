@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { diffWords } from 'diff'
 import { historyKey, normalizeSector } from '../hooks/useAllData'
 import { crossTechKey, normalizeTechName } from '../utils/crossCategoryMap'
@@ -76,6 +76,22 @@ function sameNormalized(a, b) {
   return normalizeSector(a || '') === normalizeSector(b || '')
 }
 
+function comparableFacilityTechName(name) {
+  return normalizeTechName(name || '')
+    .replace(/기능개선/g, '')
+    .replace(/이하[0-9a-z가-힣]*?같다/g, '')
+    .replace(/및/g, '')
+    .replace(/[ㆍ·]/g, '')
+    .replace(/[^0-9a-z가-힣]/gi, '')
+}
+
+function looselySameFacilityTechName(a, b) {
+  const left = comparableFacilityTechName(a)
+  const right = comparableFacilityTechName(b)
+  if (!left || !right) return false
+  return left === right || left.includes(right) || right.includes(left)
+}
+
 function isCommonFacility(row) {
   return !row.item_no && (!row.tech_name || row.tech_name.includes('공통'))
 }
@@ -84,11 +100,24 @@ function matchesFacility(row, tech) {
   const sameSector = row.sector_key === tech.sector_key
   const sameSubsector = sameNormalized(row.subsector, tech.subsector)
   const hasSubsectorScope = Boolean(row.subsector || tech.subsector)
-  const sameNumberedItem = hasSubsectorScope && row.item_no && row.item_no === tech.item_no && sameSector && sameSubsector
+  const sameItemNo = Boolean(row.item_no && row.item_no === tech.item_no)
   const sameNamedTech = sameNormalized(row.tech_name, tech.tech_name) && sameSector && sameSubsector
+  const sameLooselyNamedTech = (
+    sameSector
+    && sameSubsector
+    && sameItemNo
+    && looselySameFacilityTechName(row.tech_name, tech.tech_name)
+  )
+  const sameNumberedItem = (
+    hasSubsectorScope
+    && sameItemNo
+    && sameSector
+    && sameSubsector
+    && !row.tech_name
+  )
   const commonFacility = isCommonFacility(row) && sameSector
 
-  return sameNumberedItem || sameNamedTech || commonFacility
+  return sameNumberedItem || sameNamedTech || sameLooselyNamedTech || commonFacility
 }
 
 function facilityHistoryGroupKey(row) {
@@ -104,8 +133,14 @@ function facilityHistoryGroupKey(row) {
     'facility',
     row.sector_key,
     normalizeSector(row.subsector || ''),
+    row.item_no || '',
     normalizeSector(row.tech_name || row.facility_description || ''),
   ].join('::')
+}
+
+function facilityLabel(row) {
+  if (isCommonFacility(row)) return row.tech_name || '공통 사업화시설'
+  return [row.item_no, row.tech_name].filter(Boolean).join(' ')
 }
 
 function dayDiff(a, b) {
@@ -353,6 +388,22 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
       .filter((r) => r.current && r.status !== '삭제' && matchesFacility(r, tech))
   }, [data, tech, facilityKey])
 
+  useEffect(() => {
+    if (facilities.length <= 1) return
+
+    console.warn('[facility_matching] multiple current facilities', {
+      dataset: sector.type,
+      tech: `${tech.sector_name} / ${tech.subsector || ''} / ${tech.item_no || ''} / ${tech.tech_name}`,
+      facilities: facilities.map((facility) => ({
+        item_no: facility.item_no,
+        tech_name: facility.tech_name,
+        sector_name: facility.sector_name,
+        subsector: facility.subsector,
+        apply_date: facility.apply_date,
+      })),
+    })
+  }, [facilities, sector.type, tech])
+
   const facilityHistoryGroups = useMemo(() => {
     const groups = new Map()
     const facilityRows = data[facilityKey]
@@ -368,7 +419,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
       if (!groups.has(key)) {
         groups.set(key, {
           key,
-          title: row.tech_name || '공통 사업화시설',
+          title: facilityLabel(row),
           rows: [],
         })
       }
@@ -382,7 +433,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
         const latest = rows[rows.length - 1]
         return {
           ...group,
-          title: latest?.tech_name || group.title,
+          title: latest ? facilityLabel(latest) : group.title,
           rows,
           entries: buildFacilityHistoryEntries(rows).reverse(),
         }
@@ -430,6 +481,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
     const map = new Map()
     for (const item of [
       ...(related.exactMatches || []),
+      ...(related.manualMatches || []),
       ...(related.similarMatches || []),
       ...(related.promotedMatches || []),
     ]) {
@@ -654,6 +706,9 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
             <div className="facility-history-groups">
               {facilityHistoryGroups.map((group) => (
                 <section key={group.key} className="facility-history-group">
+                  {facilityHistoryGroups.length > 1 && (
+                    <h5 className="facility-history-title">{group.title}</h5>
+                  )}
                   <div className="history-timeline">
                     {group.entries.map((entry, index) => {
                       const { row } = entry

@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run sync:relations",
     "dev": "vite",
+    "sync:relations": "node scripts/copyManualRelations.js",
+    "prebuild": "npm run sync:relations",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

@@ -357,8 +357,20 @@ button { font-family: inherit; }
 /* ── Sector Cards ── */
 .sector-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
+}
+
+@media (min-width: 1120px) {
+  .sector-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1500px) {
+  .sector-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 .sector-card {
@@ -1153,6 +1165,13 @@ button { font-family: inherit; }
   margin-top: 0;
 }
 
+.facility-history-title {
+  margin: 0 0 8px 34px;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .history-chevron {
   display: inline-flex;
   align-items: center;
@@ -1378,7 +1397,7 @@ button { font-family: inherit; }
   .hstat-num { font-size: 22px; }
   .view-bar { padding: 0 16px; }
   .main-content { padding: 18px 16px; }
-  .sector-grid { grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
+  .sector-grid { gap: 12px; }
   .sector-card { padding: 16px; min-height: 152px; }
   .drill-view { padding: 18px; }
   .drill-title { font-size: 18px; }
