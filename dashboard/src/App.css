@@ -50,7 +50,7 @@
   --badge-danger-bg: #fee2e2;
   --badge-danger-text: #991b1b;
   --badge-danger-strong-text: #7f1d1d;
-  --highlight-bg: #fef3c7;
+  --highlight-bg: rgba(250, 204, 21, 0.24);
   --highlight-text: #0f172a;
 
   --radius: 12px;
@@ -108,8 +108,8 @@
   --badge-danger-bg: #7f1d1d;
   --badge-danger-text: #fecaca;
   --badge-danger-strong-text: #fecaca;
-  --highlight-bg: #fde047;
-  --highlight-text: #422006;
+  --highlight-bg: rgba(250, 204, 21, 0.18);
+  --highlight-text: #fef3c7;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
@@ -1082,6 +1082,7 @@ body,
 .detail-body-meta {
   display: block;
   font-size: 11px;
+  line-height: 1.45;
   color: var(--text-faint);
 }
 
@@ -1106,7 +1107,7 @@ body,
   border-radius: var(--radius-sm);
 }
 .facility-desc { font-size: 13px; line-height: 1.65; color: var(--text); }
-.facility-meta { display: block; font-size: 11px; color: var(--text-faint); margin-top: 4px; }
+.facility-meta { display: block; font-size: 11px; line-height: 1.45; color: var(--text-faint); margin-top: 4px; }
 
 .related-subsection {
   margin-top: 14px;
@@ -1229,14 +1230,18 @@ body,
 }
 
 .elapsed-badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 18px;
   margin-left: 6px;
   padding: 1px 7px;
   font-size: 11px;
   font-weight: 600;
+  line-height: 1;
   color: var(--elapsed-accent);
   background: color-mix(in srgb, var(--elapsed-accent) 12%, transparent);
   border-radius: 10px;
+  vertical-align: middle;
 }
 
 .history-heading-row {
