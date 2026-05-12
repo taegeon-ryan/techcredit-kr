@@ -46,3 +46,7 @@ AGENTS.md
 .env
 .env.local
 .env.*.local
+
+# 글로서리 LLM 워크플로우 매개체 (extract/chunk·LLM 응답으로 재생성 가능)
+input/candidate_chunks/
+input/glossary_batches/

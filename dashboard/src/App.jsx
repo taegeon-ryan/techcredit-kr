@@ -7,6 +7,7 @@ import TechDetail from './components/TechDetail'
 import StatsView from './components/StatsView'
 import SearchResults from './components/SearchResults'
 import ThemeToggle from './components/ThemeToggle'
+import { TermPopoverProvider } from './components/TermPopover'
 import useTheme from './hooks/useTheme'
 import { techRowKey } from './utils/techOrdering'
 import './App.css'
@@ -140,6 +141,7 @@ export default function App() {
   }, [data])
 
   return (
+    <TermPopoverProvider>
     <div className="app">
       <header className="app-header">
         <div className="header-inner">
@@ -258,5 +260,6 @@ export default function App() {
       </main>
 
     </div>
+    </TermPopoverProvider>
   )
 }
