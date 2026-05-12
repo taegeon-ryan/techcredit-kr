@@ -181,8 +181,16 @@ export default function TechList({ data, sector, controls, onControlsChange, onB
           aria-label="도입 기간 필터"
           style={{
             '--filter-index': AGE_FILTERS.findIndex((f) => f.value === ageFilter),
-            '--filter-color': ageFilter === '3y' ? '#dbeafe' : ageFilter === '5y' ? '#fef3c7' : '#f8fafc',
-            '--filter-text': ageFilter === '3y' ? '#1d4ed8' : ageFilter === '5y' ? '#92400e' : 'var(--text)',
+            '--filter-color': ageFilter === '3y'
+              ? 'var(--badge-info-bg)'
+              : ageFilter === '5y'
+                ? 'var(--badge-warn-bg)'
+                : 'var(--surface)',
+            '--filter-text': ageFilter === '3y'
+              ? 'var(--badge-info-text)'
+              : ageFilter === '5y'
+                ? 'var(--badge-warn-text)'
+                : 'var(--text)',
           }}
         >
           {AGE_FILTERS.map((f) => (
