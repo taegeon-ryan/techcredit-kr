@@ -10,18 +10,6 @@ function displayName(name) {
   return SHORT_NAME[name] ?? name
 }
 
-// 15px bold 기준 문자 폭 추정 (한글 full-width, 영문/숫자 narrow)
-function estimateNamePx(text) {
-  let w = 0
-  for (const ch of text) {
-    const code = ch.charCodeAt(0)
-    if (code >= 0xAC00 && code <= 0xD7A3) w += 15.5   // 한글
-    else if (ch === ' ') w += 5
-    else w += 9                                          // 영문·숫자·기호
-  }
-  return w
-}
-
 function aggregateSectors(data) {
   const map = new Map()
 
@@ -73,15 +61,8 @@ export default function SectorCards({ data, filter, onSelect }) {
   const sectors = useMemo(() => aggregateSectors(data), [data])
   const filtered = sectors.filter((s) => s.type === filter)
 
-  const minCardWidth = useMemo(() => {
-    if (filtered.length === 0) return 220
-    const maxNamePx = Math.max(...filtered.map((s) => estimateNamePx(displayName(s.name))))
-    // padding + 번호prefix + 분야명 + 기술 수 영역을 넉넉하게 잡아 큰 카드에서도 줄바꿈을 줄인다.
-    return Math.max(250, Math.ceil(maxNamePx + 170))
-  }, [filtered])
-
   return (
-    <div className="sector-grid" style={{ gridTemplateColumns: `repeat(auto-fill, minmax(${minCardWidth}px, 1fr))` }}>
+    <div className="sector-grid">
       {filtered.map((s, i) => (
         <button
           key={s.key}

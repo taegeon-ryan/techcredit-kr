@@ -128,7 +128,7 @@ function isActive(row) {
 }
 
 function isDeletedCurrent(row) {
-  return row.current && row.status === '삭제'
+  return row.current && row.status === '삭제' && !row.renumbered_deletion
 }
 
 function lcsLength(a, b) {
@@ -254,6 +254,7 @@ function ensureEntry(map, type, row) {
   if (!map.has(key)) {
     map.set(key, {
       exactMatches: [],
+      manualMatches: [],
       similarMatches: [],
       promotedMatches: [],
       promoted: false,
@@ -311,19 +312,27 @@ export function buildCrossMatches(growthTechs, strategicTechs) {
     for (const growth of deletedGrowth) {
       if (!isRelatedSector(strategic, growth)) continue
       if (activeGrowthNames.has(strategicName)) continue
-      if (strategicName !== normalizeTechName(growth.tech_name)) continue
+      const growthName = normalizeTechName(growth.tech_name)
+      const ratio = techSimilarity(strategic, growth)
+      const promotedByName = strategicName === growthName
+      const promotedBySimilarity = (
+        canBeSimilarMatch(strategicName, growthName)
+        && ratio >= SIMILARITY_THRESHOLD
+      )
+      if (!promotedByName && !promotedBySimilarity) continue
 
       const strategicEntry = ensureEntry(matches, 'strategic', strategic)
       const growthEntry = ensureEntry(matches, 'growth', growth)
       strategicEntry.promoted = true
       growthEntry.promoted = true
-      pushUnique(strategicEntry.promotedMatches, growth, 'growth')
-      pushUnique(growthEntry.promotedMatches, strategic, 'strategic')
+      pushUnique(strategicEntry.promotedMatches, growth, 'growth', { _similarity: ratio })
+      pushUnique(growthEntry.promotedMatches, strategic, 'strategic', { _similarity: ratio })
     }
   }
 
   for (const entry of matches.values()) {
     entry.exactMatches.sort(sortByScoreThenName)
+    entry.manualMatches.sort(sortByScoreThenName)
     entry.similarMatches.sort(sortByScoreThenName)
     entry.promotedMatches.sort(sortByScoreThenName)
   }

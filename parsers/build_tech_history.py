@@ -108,8 +108,20 @@ def row_col_map(tr):
     return col_map
 
 
+def find_desc_separator(text):
+    depth = 0
+    for index, char in enumerate(text or ""):
+        if char == "(":
+            depth += 1
+        elif char == ")" and depth > 0:
+            depth -= 1
+        elif char == ":" and depth == 0:
+            return index
+    return -1
+
+
 def split_name_desc(text):
-    colon = text.find(":")
+    colon = find_desc_separator(text)
     if colon != -1:
         return text[:colon].strip(), text[colon + 1:].strip()
     return text, ""
@@ -233,6 +245,31 @@ def _row_sort_key(r):
     return (sn, ss, ino_key[0], ino_key[1], ino_key[2], r.get("version", ""))
 
 
+def _current_deleted_duplicate_key(row):
+    return (
+        _norm_sector(row.get("sector_name", "")),
+        _norm_sector(row.get("subsector", "")),
+        _norm_sector(row.get("tech_name", "")),
+    )
+
+
+def collapse_duplicate_current_deletions(rows):
+    """번호 이동 후 최종 폐지된 동일 기술은 최신 폐지행만 current로 둔다."""
+    groups = {}
+    for row in rows:
+        if row.get("current") and row.get("status") == "삭제":
+            key = _current_deleted_duplicate_key(row)
+            if key[2]:
+                groups.setdefault(key, []).append(row)
+
+    for group in groups.values():
+        if len(group) <= 1:
+            continue
+        group.sort(key=lambda r: (r.get("apply_date", ""), r.get("version", "")))
+        for row in group[:-1]:
+            row["current"] = False
+
+
 # ── 버전별 diff 빌더 ────────────────────────────────────────────
 def build_diff(parse_fn, folder, key_fn, data_fields, output_path):
     files = sorted(
@@ -299,6 +336,8 @@ def build_diff(parse_fn, folder, key_fn, data_fields, output_path):
                 )
                 rows.append(new_row)
                 state[key] = len(rows) - 1
+
+    collapse_duplicate_current_deletions(rows)
 
     rows.sort(key=_row_sort_key)
     for i, row in enumerate(rows, 1):

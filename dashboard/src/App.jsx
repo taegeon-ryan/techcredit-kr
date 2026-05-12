@@ -102,7 +102,15 @@ export default function App() {
   }
 
   const handleSectorBack = () => {
-    window.history.back()
+    setSelectedSector(null)
+    setSelectedTech(null)
+    setTechListControls(DEFAULT_TECH_LIST_CONTROLS)
+    setSearch('')
+  }
+
+  const handleTechBack = () => {
+    setSelectedTech(null)
+    setSearch('')
   }
 
   const handleTechListControlsChange = (nextControls) => {
@@ -220,7 +228,7 @@ export default function App() {
             tech={selectedTech}
             sector={selectedSector}
             controls={techListControls}
-            onBack={() => window.history.back()}
+            onBack={handleTechBack}
             onRelatedTechSelect={handleRelatedTechSelect}
             onNavigateTech={(t) => setSelectedTech(t)}
           />

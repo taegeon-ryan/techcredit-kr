@@ -153,6 +153,26 @@ GitHub 푸시 및 Vercel 배포. Root Directory를 `dashboard`로 지정, Framew
 - 모바일 기술 목록에서 적용시기 태그의 줄바꿈 정렬을 다듬고, 이전/다음 페이저의 다음 버튼 우측 정렬 및 긴 기술명 줄임표 처리를 보강
 - 검증: `npm run lint`, `npm run build`, 인앱 브라우저 주요 탐색 흐름 확인
 
+## 2026-05-12
+
+**연관 기술 명시 매핑 기능 구현**:
+- 자동 유사도 추천으로 잡히지 않는 연관 기술을 사람이 CSV로 지정할 수 있도록 `input/manual_relations.csv` 원본과 `dashboard/public/data/manual_relations.csv` 배포 사본을 추가
+- CSV 스키마는 `id, strategic_sector, strategic_apply_date, strategic_tech_name, newgrowth_sector, newgrowth_subsector, newgrowth_apply_date, newgrowth_tech_name` 형식으로 단순화
+- `dashboard/src/utils/manualRelations.js`에서 최초 도입 스냅샷(`전략 분야 + 적용일 + 기술명`, `신성장 분야 + 소분야 + 적용일 + 기술명`)을 현행 기술 행으로 해석하고, 한 줄의 관계를 양방향 `manualMatches`로 병합
+- 세부기술 상세의 연관 기술 표시 순서를 `정확 일치 → 명시 매핑 → 유사 매칭 → 승격 이력`으로 확장하고, 명시 매핑은 유사도 하이라이트 없이 일반 카드로 표시
+- `dashboard/package.json`의 `prebuild` 훅에서 `input/manual_relations.csv`를 `dashboard/public/data/manual_relations.csv`로 자동 복사하도록 `sync:relations` 스크립트 추가. 수동 관계를 수정할 때는 `input/manual_relations.csv`만 편집하면 빌드 시 배포 사본이 갱신됨
+
+**사업화시설·승격 이력 매칭 보정**:
+- 사업화시설 매칭에서 `기능개선`, `이하 이 호에서 같다`, 괄호 안 영문 풀네임처럼 기술표와 시설표 사이에만 다른 법령 문구를 좁게 정규화해 AMOLED·바이오 신약 시설 누락을 수정
+- 폐지된 신성장 기술이 국가전략기술로 승격되며 기술명이 확장된 경우도 유사도 기준으로 승격 이력을 표시하도록 보완
+- 번호 이동 후 최종 폐지된 동일 기술/시설이 `current=True`로 중복 남는 문제를 파서 단계에서 보정해, 같은 `분야 + 소분류 + 기술명`의 현행 폐지행은 최신 폐지행만 current로 유지
+- 검증: `전기동력 자동차의 전력변환 및 충전 시스템 기술`의 신성장 현행 폐지 중복 0건, 승격 연관 1건 유지, `npm run lint`, `npm run build` 통과
+
+**탐색·레이아웃 정리**:
+- 세부기술 이전/다음 이동 후 상단의 `분야 목록`, `기술 목록` 버튼이 브라우저 뒤로가기처럼 동작하던 문제를 직접 목록 상태로 이동하도록 수정
+- 분야 카드 그리드를 폭 증가에 따라 `2 → 3 → 4`열로 자연스럽게 전환되도록 고정하고, 3열 전환 폭을 넓혀 카드 흐름을 정리
+- Vite 개발 서버를 5173 포트 고정(`strictPort`)으로 설정하고, `AGENTS.md`에 5173 포트만 사용하도록 기록
+
 ---
 
 ## 향후 개발 계획
@@ -162,3 +182,4 @@ GitHub 푸시 및 Vercel 배포. Root Directory를 `dashboard`로 지정, Framew
 - [ ] 연관 기술 추천/표시 기능 고도화
 - [ ] 과학기술 쉽게 설명하기 기능 구현 (GPT-5.4 Mini API 연동)
 - [ ] 법령 개정 시 자동 재파싱 및 버전별 diff 리포트
+- [ ] 수동 연관 기술 매핑 CSV 검증 스크립트 및 작성 보조 UI

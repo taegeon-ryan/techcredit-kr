@@ -17,6 +17,18 @@ MINOR_PREFIX_RE = re.compile(r"^[\uAC00-\uD7A3]\.\s*")
 ITEM_PREFIX_RE  = re.compile(r"^\d+\)\s*")
 
 
+def find_desc_separator(text):
+    depth = 0
+    for index, char in enumerate(text or ""):
+        if char == "(":
+            depth += 1
+        elif char == ")" and depth > 0:
+            depth -= 1
+        elif char == ":" and depth == 0:
+            return index
+    return -1
+
+
 def cell_text(tc):
     parts = []
     for t in tc.iter(f"{{{NS_HP}}}t"):
@@ -77,7 +89,7 @@ def parse_hwpx(path):
         if is_new_item:
             flush()
             tech = raw[m.end():].strip() if m else raw
-            colon = tech.find(":")
+            colon = find_desc_separator(tech)
             if colon != -1:
                 name = tech[:colon].strip()
                 desc = tech[colon + 1:].strip()
