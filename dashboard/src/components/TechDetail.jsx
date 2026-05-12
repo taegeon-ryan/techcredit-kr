@@ -471,6 +471,10 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
     }).reverse()
   }, [historyRows])
 
+  const facilityHistoryCount = useMemo(() => {
+    return facilityHistoryGroups.reduce((sum, group) => sum + group.entries.length, 0)
+  }, [facilityHistoryGroups])
+
   const related = useMemo(() => {
     return data.crossMatches?.get(crossTechKey(sector.type, tech)) || null
   }, [data.crossMatches, sector.type, tech])
@@ -539,7 +543,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
             aria-controls="tech-history-panel"
             onClick={toggleTechHistory}
           >
-            {techHistoryOpen ? '연혁 닫기' : '연혁 보기'}
+            {techHistoryOpen ? '연혁 닫기' : `연혁 보기(${historyEntries.length})`}
           </button>
         </div>
         <div className="detail-body">
@@ -672,7 +676,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
               aria-controls="facility-history-panel"
               onClick={toggleFacilityHistory}
             >
-              {facilityHistoryOpen ? '연혁 닫기' : '연혁 보기'}
+              {facilityHistoryOpen ? '연혁 닫기' : `연혁 보기(${facilityHistoryCount})`}
             </button>
           )}
         </div>

@@ -131,6 +131,7 @@ export default function StatsView({ data, filter }) {
               separator=""
               contentStyle={TOOLTIP_STYLE}
               labelStyle={TOOLTIP_LABEL_STYLE}
+              cursor={{ fill: color, opacity: 0.14 }}
             />
             <Bar dataKey="count" fill={color} radius={[0, 6, 6, 0]} />
           </BarChart>

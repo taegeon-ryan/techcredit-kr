@@ -11,6 +11,7 @@
   --text-muted: #64748b;
   --text-faint: #94a3b8;
   --accent: #2563eb;
+  --elapsed-accent: #7c3aed;
   --focus-ring: rgba(15, 23, 42, 0.08);
 
   /* ── Dataset colors ── */
@@ -72,6 +73,7 @@
   --text-muted: #cbd5e1;
   --text-faint: #94a3b8;
   --accent: #93c5fd;
+  --elapsed-accent: #c4b5fd;
   --focus-ring: rgba(148, 163, 184, 0.22);
 
   --growth: #6ee7b7;
@@ -1232,8 +1234,8 @@ body,
   padding: 1px 7px;
   font-size: 11px;
   font-weight: 600;
-  color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  color: var(--elapsed-accent);
+  background: color-mix(in srgb, var(--elapsed-accent) 12%, transparent);
   border-radius: 10px;
 }
 
