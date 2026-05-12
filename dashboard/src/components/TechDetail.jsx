@@ -572,9 +572,6 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
                     <div className="history-meta">
                       <span className="history-date">{formatMonth(row.apply_date)}</span>
                       <span className={`history-status ${statusClass(row.status)}`}>{statusLabel(row.status)}</span>
-                      {!entry.isFirst && entry.descRewrite && (
-                        <span className="history-status history-status--rewrite">전면개정</span>
-                      )}
                       <span className="history-version">{formatVersion(row.version)}</span>
                     </div>
 
@@ -724,9 +721,6 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
                             <div className="history-meta">
                               <span className="history-date">{formatMonth(row.apply_date)}</span>
                               <span className={`history-status ${statusClass(row.status)}`}>{statusLabel(row.status)}</span>
-                              {!entry.isFirst && entry.descRewrite && (
-                                <span className="history-status history-status--rewrite">전면개정</span>
-                              )}
                               <span className="history-version">{formatVersion(row.version)}</span>
                             </div>
 

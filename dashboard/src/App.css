@@ -1274,11 +1274,6 @@ button { font-family: inherit; }
   color: #991b1b;
   background: #fee2e2;
 }
-.history-status--rewrite {
-  color: #6d28d9;
-  background: #ede9fe;
-}
-
 .history-block {
   display: flex;
   flex-direction: column;
