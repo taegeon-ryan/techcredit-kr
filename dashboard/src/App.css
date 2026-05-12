@@ -52,6 +52,12 @@
   --badge-danger-strong-text: #7f1d1d;
   --highlight-bg: rgba(250, 204, 21, 0.24);
   --highlight-text: #0f172a;
+  --term-underline: #2563eb;
+  --term-popover-bg: #ffffff;
+  --term-popover-border: #c7d2fe;
+  --term-popover-text: #0f172a;
+  --term-popover-muted: #475569;
+  --term-popover-shadow: 0 6px 20px rgba(15, 23, 42, 0.16);
 
   --radius: 12px;
   --radius-sm: 8px;
@@ -110,6 +116,12 @@
   --badge-danger-strong-text: #fecaca;
   --highlight-bg: rgba(250, 204, 21, 0.18);
   --highlight-text: #fef3c7;
+  --term-underline: #93c5fd;
+  --term-popover-bg: #1e293b;
+  --term-popover-border: #3b82f6;
+  --term-popover-text: #f1f5f9;
+  --term-popover-muted: #cbd5e1;
+  --term-popover-shadow: 0 8px 22px rgba(0, 0, 0, 0.55);
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
   --shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
@@ -1772,4 +1784,71 @@ body,
     box-shadow 0.45s ease,
     opacity 0.15s ease,
     transform 0.15s ease;
+}
+
+/* ── Term popover (glossary highlight) ── */
+.term-marker {
+  border-bottom: 1px dashed var(--term-underline);
+  cursor: help;
+  outline-offset: 2px;
+}
+.term-marker:focus-visible {
+  outline: 2px solid var(--term-underline);
+  border-radius: 2px;
+}
+@media (hover: none) {
+  .term-marker { cursor: pointer; }
+}
+
+.term-popover {
+  position: absolute;
+  z-index: 1000;
+  max-width: 280px;
+  padding: 10px 12px;
+  background: var(--term-popover-bg);
+  color: var(--term-popover-text);
+  border: 1px solid var(--term-popover-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--term-popover-shadow);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+.term-popover-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.term-popover-title {
+  font-weight: 600;
+  color: var(--term-popover-text);
+}
+.term-popover-domain {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--term-underline);
+  color: var(--term-popover-bg);
+  white-space: nowrap;
+}
+.term-popover-aliases {
+  font-size: 0.75rem;
+  color: var(--term-popover-muted);
+  margin-bottom: 6px;
+}
+.term-popover-body {
+  color: var(--term-popover-text);
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.term-popover-disclaimer {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--term-popover-border);
+  font-size: 0.7rem;
+  color: var(--term-popover-muted);
+  line-height: 1.4;
 }

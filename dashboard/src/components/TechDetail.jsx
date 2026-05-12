@@ -4,6 +4,7 @@ import { historyKey, normalizeSector } from '../hooks/useAllData'
 import { crossTechKey, normalizeTechName } from '../utils/crossCategoryMap'
 import { sectorIcon } from '../utils/sectorIcons'
 import { compareTechs, getOrderedTechs, techRowKey } from '../utils/techOrdering'
+import { GlossarizedText } from './GlossarizedText'
 
 function formatElapsed(months) {
   if (months == null) return ''
@@ -547,7 +548,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
           </button>
         </div>
         <div className="detail-body">
-          <p className="detail-body-text">{tech.tech_description || '(설명 없음)'}</p>
+          <GlossarizedText as="p" className="detail-body-text" text={tech.tech_description} />
           <span className="detail-body-meta">
             적용시기 {techApplyDate?.slice(0, 7)}
             {techElapsedMonths != null && (
@@ -686,7 +687,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
           <ul className="facility-list">
             {facilities.map((f, i) => (
               <li key={i} className="facility-item">
-                <p className="facility-desc">{f.facility_description}</p>
+                <GlossarizedText as="p" className="facility-desc" text={f.facility_description} />
                 <span className="facility-meta">
                   적용시기 {f.apply_date?.slice(0, 7)}
                   {f.elapsed_months != null && (

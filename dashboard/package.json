@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predev": "npm run sync:relations",
+    "predev": "npm run sync:relations && npm run sync:glossary",
     "dev": "vite",
     "sync:relations": "node scripts/copyManualRelations.js",
-    "prebuild": "npm run sync:relations",
+    "sync:glossary": "node scripts/copyGlossary.js",
+    "prebuild": "npm run sync:relations && npm run sync:glossary",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

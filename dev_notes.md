@@ -79,11 +79,22 @@ GitHub 푸시 및 Vercel 배포. Root Directory를 `dashboard`로 지정, Framew
 - 세부기술 상세의 기술·사업화시설 `연혁 보기` 버튼에 닫힌 상태의 연혁 개수를 함께 표시
 - 검증: `npm run lint`, `npm run build`, 5173 개발 서버 브라우저 확인(데스크탑/모바일 토글, 새로고침 유지, 통계·목록·상세·연혁 다크 화면) 통과
 
+**과학기술 용어 글로서리(쉽게 설명하기) 1차 구현**:
+- 매 조회마다 LLM API를 부르는 대신, 빌드 타임에 한 번 생성한 정적 JSON(`dashboard/public/data/glossary.json`)을 본문 텍스트에 매칭해 점선 밑줄 + hover/tap 팝오버로 보여주는 방식 채택
+- 추출 파이프라인: `scripts/extract_terms.mjs`가 4개 CSV의 `tech_name`/`tech_description`/`facility_description`에서 영문 약자(블록리스트로 단위·일반 약어 제외), `한글(영문)` / `영문(한글)` 괄호 페어, `input/glossary_seed.txt`의 한글 시드를 끌어모아 `input/glossary_candidates.json`(393개)을 빈도순으로 생성. 각 후보에 `dominantSector`(등장 행의 sector_name 빈도 1위)와 매핑된 `domain`/`domainCandidates`, sampleContexts(±40자 ×3)를 동봉
+- 도메인 매핑: `input/sector_domains.json`에서 sector_name 36개를 짧은 라벨로 매핑. 값에 문자열 1개 또는 배열을 둘 수 있어, "차세대 전자정보 디바이스"처럼 한 분야에 반도체·디스플레이·전자가 섞인 경우 LLM이 sampleContexts 보고 라벨 1개를 선택
+- LLM 워크플로우(API 비사용): `scripts/chunk_candidates.mjs`가 후보를 20개씩 잘라 `input/candidate_chunks/01~20.json`으로 저장, 운영자가 [scripts/prompts/glossary_generation.md](scripts/prompts/glossary_generation.md) 프롬프트와 함께 Claude/ChatGPT/Gemini로 분담 실행. 응답을 `input/glossary_batches/NN.json`에 저장 후 `scripts/merge_glossary.mjs`가 dedup·conflict 보고하며 `input/glossary_source.json`으로 머지. `dashboard/scripts/copyGlossary.js`가 `predev`/`prebuild`에서 `dashboard/public/data/glossary.json`으로 자동 동기화
+- 런타임: `useGlossary` 훅이 글로서리 fetch, `glossaryMatcher.js`가 길이 내림차순 + ASCII(case-insensitive `\b`경계) / 한글(조사 무시) 두 정규식으로 토큰화, `GlossarizedText`가 텍스트→토큰, `TermPopover`가 단일 인스턴스 portal 팝오버(데스크탑 hover/focus, 모바일 tap, ESC·외부 클릭 닫힘, viewport flip)를 그림. 적용 지점은 `TechDetail.jsx`의 `tech_description`(551행)과 `facility_description`(690행) 두 곳 (`tech_name`/연혁 diff는 보류)
+- 팝오버 구성: 제목 + 도메인 배지 + aliases 라인(풀네임·한글 직역 분리 노출) + short 본문 + 점선 구분선 아래 "AI가 생성한 설명으로, 일부 불확실한 정보가 포함될 수 있습니다." 고지. 다크모드 시인성을 위해 `--term-underline`/`--term-popover-*` CSS 변수를 light/dark 양쪽 정의
+- 시드 글로서리는 LLM 출력 후 검수까지 진행해 18개→373개로 확장. 본문 첫 문장에 풀네임을 반복하지 않도록 프롬프트에 명시(aliases 라인이 같은 정보를 보여 줌)
+- 검증: `npm run lint`, `npm run build`, 5173 dev 서버 브라우저(데스크탑 hover/focus·라이트/다크 모드에서 "원자층증착법(ALD)…" 및 "AMOLED 패널…" 세부기술 본문의 점선 밑줄·팝오버·고지 표시) 통과
+
 ---
 
 ## 향후 개발 계획
 
-- [ ] README 파일 만들기
-- [ ] 다크모드 구현
-- [ ] 과학기술 쉽게 설명하기 기능 구현 (GPT-5.4 Mini API 연동)
+- [x] 다크모드 구현
+- [x] 과학기술 쉽게 설명하기 기능 1차 구현 (정적 글로서리 + 팝오버)
+- [ ] 팝오버에 관련 용어(`related`) 칩 + 점프 동작
 - [ ] 법령 개정 시 자동 재파싱 및 버전별 diff 리포트
+- [ ] 화면 내 텍스트 확대/축소 기능 구현
