@@ -9,3 +9,4 @@ id,strategic_sector,strategic_apply_date,strategic_tech_name,newgrowth_sector,ne
 8,이차전지,2022-01-01,사용후 배터리 평가 및 선별 기술,에너지ㆍ환경,가. 에너지 저장 시스템(ESS: Energy Storage System),2021-01-01,배터리 재사용ㆍ재제조를 위한 선별 기술
 9,이차전지,2025-01-01,양극재용 고순도 금속 화합물 제조ㆍ가공기술,첨단 소재ㆍ부품ㆍ장비,가. 첨단 소재,2024-01-01,고순도 리튬화합물 제조 기술
 10,디스플레이,2023-01-01,AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술,차세대전자정보 디바이스,다. 유기발광 다이오드(OLED: Organic Light Emitting Diode) 등 고기능 디스플레이,2019-01-01,9인치 이상 능동형 유기발광 다이오드(AMOLED: Active Matrix Organic Light Emitting Diode) 패널 기능개선 및 부품ㆍ소재ㆍ장비 제조 기술
+11,인공지능,2025-01-01,저전력ㆍ고효율 컴퓨팅 기술,지능정보,가. 인공지능,2017-01-01,인지컴퓨팅 기술
