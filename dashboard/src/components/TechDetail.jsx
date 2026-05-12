@@ -471,6 +471,10 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
     }).reverse()
   }, [historyRows])
 
+  const facilityHistoryCount = useMemo(() => {
+    return facilityHistoryGroups.reduce((sum, group) => sum + group.entries.length, 0)
+  }, [facilityHistoryGroups])
+
   const related = useMemo(() => {
     return data.crossMatches?.get(crossTechKey(sector.type, tech)) || null
   }, [data.crossMatches, sector.type, tech])
@@ -539,7 +543,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
             aria-controls="tech-history-panel"
             onClick={toggleTechHistory}
           >
-            {techHistoryOpen ? '연혁 닫기' : '연혁 보기'}
+            {techHistoryOpen ? '연혁 닫기' : `연혁 보기(${historyEntries.length})`}
           </button>
         </div>
         <div className="detail-body">
@@ -572,9 +576,6 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
                     <div className="history-meta">
                       <span className="history-date">{formatMonth(row.apply_date)}</span>
                       <span className={`history-status ${statusClass(row.status)}`}>{statusLabel(row.status)}</span>
-                      {!entry.isFirst && entry.descRewrite && (
-                        <span className="history-status history-status--rewrite">전면개정</span>
-                      )}
                       <span className="history-version">{formatVersion(row.version)}</span>
                     </div>
 
@@ -675,7 +676,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
               aria-controls="facility-history-panel"
               onClick={toggleFacilityHistory}
             >
-              {facilityHistoryOpen ? '연혁 닫기' : '연혁 보기'}
+              {facilityHistoryOpen ? '연혁 닫기' : `연혁 보기(${facilityHistoryCount})`}
             </button>
           )}
         </div>
@@ -724,9 +725,6 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
                             <div className="history-meta">
                               <span className="history-date">{formatMonth(row.apply_date)}</span>
                               <span className={`history-status ${statusClass(row.status)}`}>{statusLabel(row.status)}</span>
-                              {!entry.isFirst && entry.descRewrite && (
-                                <span className="history-status history-status--rewrite">전면개정</span>
-                              )}
                               <span className="history-version">{formatVersion(row.version)}</span>
                             </div>
 

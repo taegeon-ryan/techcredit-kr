@@ -5,7 +5,17 @@ import {
 } from 'recharts'
 import { sectorIcon } from '../utils/sectorIcons'
 
-const COLORS = { growth: '#10b981', strategic: '#3b82f6' }
+const COLORS = { growth: 'var(--growth)', strategic: 'var(--strategic)' }
+const CHART_TEXT = 'var(--text-muted)'
+const CHART_BORDER = 'var(--border)'
+const TOOLTIP_STYLE = {
+  background: 'var(--surface)',
+  border: '1px solid var(--border)',
+  borderRadius: '8px',
+  color: 'var(--text)',
+  boxShadow: 'var(--shadow-sm)',
+}
+const TOOLTIP_LABEL_STYLE = { color: 'var(--text)' }
 
 function CustomYTick({ x, y, payload, sectorData }) {
   const entry = sectorData.find((d) => d.name === payload.value)
@@ -13,7 +23,7 @@ function CustomYTick({ x, y, payload, sectorData }) {
   const label = payload.value?.length > 12 ? payload.value.slice(0, 11) + '…' : payload.value
   return (
     <g transform={`translate(${x},${y})`}>
-      <text x={-4} y={0} textAnchor="end" dominantBaseline="middle" fontSize={12} fill="#64748b">
+      <text x={-4} y={0} textAnchor="end" dominantBaseline="middle" fontSize={12} fill={CHART_TEXT}>
         {icon} {label}
       </text>
     </g>
@@ -108,15 +118,21 @@ export default function StatsView({ data, filter }) {
         <h3 className="chart-title">분야별 기술 수 — {label}</h3>
         <ResponsiveContainer width="100%" height={barHeight}>
           <BarChart data={sectorChart} layout="vertical" margin={{ top: 4, right: 30, left: 8, bottom: 4 }}>
-            <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-            <XAxis type="number" allowDecimals={false} tick={{ fontSize: 12 }} />
+            <CartesianGrid strokeDasharray="3 3" horizontal={false} stroke={CHART_BORDER} />
+            <XAxis type="number" allowDecimals={false} tick={{ fontSize: 12, fill: CHART_TEXT }} />
             <YAxis
               type="category"
               dataKey="name"
               width={180}
               tick={(props) => <CustomYTick {...props} sectorData={sectorChart} />}
             />
-            <Tooltip formatter={(v) => [`${v}개 기술`, '']} separator="" />
+            <Tooltip
+              formatter={(v) => [`${v}개 기술`, '']}
+              separator=""
+              contentStyle={TOOLTIP_STYLE}
+              labelStyle={TOOLTIP_LABEL_STYLE}
+              cursor={{ fill: color, opacity: 0.14 }}
+            />
             <Bar dataKey="count" fill={color} radius={[0, 6, 6, 0]} />
           </BarChart>
         </ResponsiveContainer>
@@ -132,11 +148,11 @@ export default function StatsView({ data, filter }) {
                 <stop offset="100%" stopColor={color} stopOpacity={0.02} />
               </linearGradient>
             </defs>
-            <CartesianGrid strokeDasharray="3 3" vertical={false} />
-            <XAxis dataKey="year" tick={{ fontSize: 12 }} />
+            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={CHART_BORDER} />
+            <XAxis dataKey="year" tick={{ fontSize: 12, fill: CHART_TEXT }} />
             <YAxis
               allowDecimals={false}
-              tick={{ fontSize: 12 }}
+              tick={{ fontSize: 12, fill: CHART_TEXT }}
               domain={yAxisDomain}
               ticks={yAxisTicks}
               tickFormatter={filter === 'growth' ? undefined : (v) => v === timelineMin ? '≈' : String(v)}
@@ -145,9 +161,11 @@ export default function StatsView({ data, filter }) {
               formatter={(v) => [`${v}개 기술`, '']}
               labelFormatter={(l) => `${l}년`}
               separator=""
+              contentStyle={TOOLTIP_STYLE}
+              labelStyle={TOOLTIP_LABEL_STYLE}
             />
             {timelineChart.map((d) => (
-              <ReferenceLine key={d.year} x={d.year} stroke="#cbd5e1" strokeDasharray="3 3" />
+              <ReferenceLine key={d.year} x={d.year} stroke={CHART_BORDER} strokeDasharray="3 3" />
             ))}
             <Area
               type="monotone"

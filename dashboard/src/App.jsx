@@ -6,6 +6,8 @@ import TechList from './components/TechList'
 import TechDetail from './components/TechDetail'
 import StatsView from './components/StatsView'
 import SearchResults from './components/SearchResults'
+import ThemeToggle from './components/ThemeToggle'
+import useTheme from './hooks/useTheme'
 import './App.css'
 
 const DEFAULT_TECH_LIST_CONTROLS = {
@@ -31,6 +33,7 @@ function DatasetToggle({ filter, onChange }) {
 
 export default function App() {
   const { data, loading } = useAllData()
+  const [theme, toggleTheme] = useTheme()
   const [view, setView] = useState('card')          // 'card' | 'stats'
   const [filter, setFilter] = useState('strategic') // 'strategic' | 'growth'
   const [selectedSector, setSelectedSector] = useState(null)
@@ -130,31 +133,37 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <div className="header-inner">
-          <button
-            type="button"
-            className="app-title"
-            onClick={() => goToCardView('strategic')}
-          >조세특례제한법 첨단기술 현황판</button>
-          {statusCounts && (
-            <div className="header-stats">
-              <button
-                type="button"
-                className="hstat"
-                onClick={() => goToCardView('strategic')}
-              >
-                <span className="hstat-num hstat-num--strategic">{statusCounts.strategicTech}</span>
-                <span className="hstat-label">국가전략기술</span>
-              </button>
-              <button
-                type="button"
-                className="hstat"
-                onClick={() => goToCardView('growth')}
-              >
-                <span className="hstat-num hstat-num--growth">{statusCounts.growthTech}</span>
-                <span className="hstat-label">신성장·원천기술</span>
-              </button>
-            </div>
-          )}
+          <div className="header-title-group">
+            <button
+              type="button"
+              className="app-title"
+              onClick={() => goToCardView('strategic')}
+            >조세특례제한법 첨단기술 현황판</button>
+            <ThemeToggle theme={theme} onToggle={toggleTheme} variant="desktop" />
+          </div>
+          <div className="header-actions-group">
+            {statusCounts && (
+              <div className="header-stats">
+                <button
+                  type="button"
+                  className="hstat"
+                  onClick={() => goToCardView('strategic')}
+                >
+                  <span className="hstat-num hstat-num--strategic">{statusCounts.strategicTech}</span>
+                  <span className="hstat-label">국가전략기술</span>
+                </button>
+                <button
+                  type="button"
+                  className="hstat"
+                  onClick={() => goToCardView('growth')}
+                >
+                  <span className="hstat-num hstat-num--growth">{statusCounts.growthTech}</span>
+                  <span className="hstat-label">신성장·원천기술</span>
+                </button>
+              </div>
+            )}
+            <ThemeToggle theme={theme} onToggle={toggleTheme} variant="mobile" />
+          </div>
         </div>
       </header>
 
