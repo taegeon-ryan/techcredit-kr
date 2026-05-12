@@ -8,6 +8,7 @@ import StatsView from './components/StatsView'
 import SearchResults from './components/SearchResults'
 import ThemeToggle from './components/ThemeToggle'
 import useTheme from './hooks/useTheme'
+import { techRowKey } from './utils/techOrdering'
 import './App.css'
 
 const DEFAULT_TECH_LIST_CONTROLS = {
@@ -17,8 +18,17 @@ const DEFAULT_TECH_LIST_CONTROLS = {
 }
 
 function DatasetToggle({ filter, onChange }) {
+  const activeIndex = filter === 'growth' ? 1 : 0
+  const activeColor = filter === 'growth' ? 'var(--growth-dark)' : 'var(--strategic-dark)'
+
   return (
-    <div className="dataset-toggle">
+    <div
+      className="dataset-toggle"
+      style={{
+        '--dataset-index': activeIndex,
+        '--dataset-color': activeColor,
+      }}
+    >
       <button
         className={`toggle-btn toggle-btn--strategic${filter === 'strategic' ? ' active' : ''}`}
         onClick={() => onChange('strategic')}
@@ -233,6 +243,7 @@ export default function App() {
 
         {!loading && !isSearching && view === 'card' && selectedSector && selectedTech && (
           <TechDetail
+            key={`${selectedSector.type}-${techRowKey(selectedTech)}`}
             data={data}
             tech={selectedTech}
             sector={selectedSector}
