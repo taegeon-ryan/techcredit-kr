@@ -1,0 +1,1522 @@
+[
+  {
+    "concept_id": "굴절률",
+    "primary_canonical": "굴절률(nd)",
+    "domain": "소재",
+    "surfaces": [
+      "굴절률(nd)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::6)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "특수 렌즈 소재ㆍ부품ㆍ장비 제조기술",
+        "surface": "굴절률(nd)"
+      }
+    ],
+    "sample_contexts": [
+      "고배율[굴절률(nd) 2.0 이상], 야간 투시[원적외선(파장 8∼12㎛) 투과율 50% 이…"
+    ]
+  },
+  {
+    "concept_id": "균주",
+    "primary_canonical": "균주",
+    "domain": "바이오",
+    "surfaces": [
+      "균주"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::4)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "유용미생물의 스크리닝 기술 및 유용물질 대량생산공정 기술",
+        "surface": "균주"
+      }
+    ],
+    "sample_contexts": [
+      "…균이나 곰팡이를 선발ㆍ분리하여 효용성을 평가하거나 이들 미생물을 활용한 균주개발, 최적활성 연구, 발효공정, 정제공정 등을 거쳐 유용물질을 대량으로…"
+    ]
+  },
+  {
+    "concept_id": "그라우팅",
+    "primary_canonical": "그라우팅(grouting)",
+    "domain": "에너지",
+    "surfaces": [
+      "그라우팅(grouting)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::8)",
+        "sector_name": "탄소중립",
+        "tech_name": "지열 에너지 회수 및 저장 기술",
+        "surface": "그라우팅(grouting)"
+      }
+    ],
+    "sample_contexts": [
+      "지열에너지 이용 효율 및 경제성을 향상시키는 그라우팅(grouting) 재료 제작 기술ㆍ보어홀(borehole) 전열저항 저감기술ㆍ저비용 시추…"
+    ]
+  },
+  {
+    "concept_id": "그래픽-인터페이스",
+    "primary_canonical": "그래픽 인터페이스",
+    "domain": "SW",
+    "surfaces": [
+      "그래픽 인터페이스"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::라::4)",
+        "sector_name": "로봇",
+        "tech_name": "직관적 교시기술",
+        "surface": "그래픽 인터페이스"
+      }
+    ],
+    "sample_contexts": [
+      "코딩(Coding) 없이 그래픽 인터페이스를 활용하거나 직관적인 방식으로 로봇의 동작을 입력하여 임무를 수행할 수…"
+    ]
+  },
+  {
+    "concept_id": "글리세롤",
+    "primary_canonical": "글리세롤",
+    "domain": "바이오",
+    "surfaces": [
+      "글리세롤"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::8)",
+        "sector_name": "탄소중립",
+        "tech_name": "석유계 고분자 대체 바이오 케미칼 원료 생산기술",
+        "surface": "글리세롤"
+      }
+    ],
+    "sample_contexts": [
+      "바이오 매스를 처리하여 활용 가능한 당, 지질, 글리세롤 등을 바이오 고분자의 원료인 케미칼 원료로 전환시키는 화학적, 생물학적…"
+    ]
+  },
+  {
+    "concept_id": "금속-분리판",
+    "primary_canonical": "금속 분리판",
+    "domain": "수소",
+    "surfaces": [
+      "금속 분리판"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::바.",
+        "sector_name": "수소",
+        "tech_name": "연료전지 전용부품 제조기술",
+        "surface": "금속 분리판"
+      }
+    ],
+    "sample_contexts": [
+      "연료전지 핵심부품인 개질기, 막전극 접합체, 금속 분리판 또는 블로어 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "금속괴",
+    "primary_canonical": "금속괴",
+    "domain": "소재",
+    "surfaces": [
+      "금속괴"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::2)",
+        "sector_name": "융복합소재",
+        "tech_name": "고순도 몰리브덴 금속ㆍ탄화물 분말 및 금속괴 제조 기술",
+        "surface": "금속괴"
+      }
+    ],
+    "sample_contexts": [
+      "…9% 이상의 몰리브덴 탄화물 분말 및 순도 99.95% 이상의 몰리브덴 금속괴 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "금속리본",
+    "primary_canonical": "금속리본",
+    "domain": "에너지",
+    "surfaces": [
+      "금속리본"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
+        "surface": "금속리본"
+      }
+    ],
+    "sample_contexts": [
+      "…가진 대면적 웨이퍼, 광활성층, 전자ㆍ정공수송층, 투명전극, 금속전극, 금속리본, 봉지, 경량 전후면 외장 재료 등의 핵심소재 제조기술, 대면적ㆍ고효율…"
+    ]
+  },
+  {
+    "concept_id": "금속분말",
+    "primary_canonical": "금속분말",
+    "domain": "3D프린팅",
+    "surfaces": [
+      "금속분말"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::라::",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "3D프린팅 소재ㆍ장비 개발 및 제조기술",
+        "surface": "금속분말"
+      }
+    ],
+    "sample_contexts": [
+      "3차원 디지털 설계도에 따라 액체수지, 금속분말 등 다양한 형태의 재료를 적층하여 제품을 생산하는 데 사용되는 소재ㆍ장…"
+    ]
+  },
+  {
+    "concept_id": "금속유기",
+    "primary_canonical": "금속유기(Metal-Organic)",
+    "domain": "소재",
+    "surfaces": [
+      "금속유기(Metal-Organic)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::아.",
+        "sector_name": "디스플레이",
+        "tech_name": "마이크로LED 에피(Epi)ㆍ전사ㆍ접합 소재, 부품, 장비 기술",
+        "surface": "금속유기(Metal-Organic)"
+      }
+    ],
+    "sample_contexts": [
+      "고효율, 저결함 에피성장을 위한 고순도(99% 이상) 금속유기(Metal-Organic) 가스와 기판(substrate), 전극 형성을 위한 접합소재, 외부양자…"
+    ]
+  },
+  {
+    "concept_id": "금속전극",
+    "primary_canonical": "금속전극",
+    "domain": "에너지",
+    "surfaces": [
+      "금속전극"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
+        "surface": "금속전극"
+      }
+    ],
+    "sample_contexts": [
+      "…고내구성을 가진 대면적 웨이퍼, 광활성층, 전자ㆍ정공수송층, 투명전극, 금속전극, 금속리본, 봉지, 경량 전후면 외장 재료 등의 핵심소재 제조기술, 대…"
+    ]
+  },
+  {
+    "concept_id": "급전-인버터",
+    "primary_canonical": "급전 인버터",
+    "domain": "에너지",
+    "surfaces": [
+      "급전 인버터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::1::나::3)",
+        "sector_name": "미래형자동차",
+        "tech_name": "전기차 초고속ㆍ고효율 무선충전 기술",
+        "surface": "급전 인버터"
+      }
+    ],
+    "sample_contexts": [
+      "…송효율 90% 이상의 초고속 고효율 무선충전시스템 및 무선충전 핵심모듈(급전 인버터, 집전 픽업구조, 레귤레이터) 기술"
+    ]
+  },
+  {
+    "concept_id": "기계적-물성",
+    "primary_canonical": "기계적 물성",
+    "domain": "바이오",
+    "surfaces": [
+      "기계적 물성"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::나::2)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "신체 내에서 생분해되는 소재 개발 및 제조 기술",
+        "surface": "기계적 물성"
+      }
+    ],
+    "sample_contexts": [
+      "우수한 유연성과 고강도의 기계적 물성을 가지며, 시술에 따른 혈전증 및 재협착률을 최소화하는 생분해성 스텐트…"
+    ]
+  },
+  {
+    "concept_id": "기능화-그래핀",
+    "primary_canonical": "기능화 그래핀",
+    "domain": "소재",
+    "surfaces": [
+      "기능화 그래핀"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::11)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "기능화 그래핀 기반 차세대 전자소자ㆍ에너지시스템용 복합소재 제조ㆍ공정기술",
+        "surface": "기능화 그래핀"
+      }
+    ],
+    "sample_contexts": [
+      "10층 이하 기능화 그래핀을 기반으로 초격차 고용량, 고신뢰성, 장수명 특성을 구현하는 전자소자ㆍ…"
+    ]
+  },
+  {
+    "concept_id": "기밀력",
+    "primary_canonical": "기밀력",
+    "domain": "소재",
+    "surfaces": [
+      "기밀력"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 불소계 실리콘 제조ㆍ가공 기술",
+        "surface": "기밀력"
+      }
+    ],
+    "sample_contexts": [
+      "…0℃, 240시간 내유체적변화율 10%이하) 및 저온성(-66℃이하에서 기밀력 1800psi이상)의 특성을 지닌 불소계 실리콘 고무 합성 및 분자량…"
+    ]
+  },
+  {
+    "concept_id": "기액접촉층",
+    "primary_canonical": "기액접촉층",
+    "domain": "환경",
+    "surfaces": [
+      "기액접촉층"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::라::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "미세먼지 제거 및 고정밀 미세먼지ㆍ온실가스 동시 측정 기술",
+        "surface": "기액접촉층"
+      }
+    ],
+    "sample_contexts": [
+      "…를 동시에 제거하고 세척 후 재사용이 가능한 세라믹필터 및 촉매 기술, 기액접촉층 및 습식 플라즈마(wet plasma)를 통한 무필터 정화 기술, 0.…"
+    ]
+  },
+  {
+    "concept_id": "기어박스",
+    "primary_canonical": "기어박스",
+    "domain": "항공",
+    "surfaces": [
+      "기어박스"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "기어박스"
+      }
+    ],
+    "sample_contexts": [
+      "…진, 터보팬엔진, 왕복엔진의 완제엔진, 부체계(엔진제어, 연료, 윤활, 기어박스 등), 구성품(팬, 압축기, 연소기, 터빈, 배기노즐 등), 소재(내열…"
+    ]
+  },
+  {
+    "concept_id": "기판",
+    "primary_canonical": "기판(substrate)",
+    "domain": "소재",
+    "surfaces": [
+      "기판(substrate)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::아.",
+        "sector_name": "디스플레이",
+        "tech_name": "마이크로LED 에피(Epi)ㆍ전사ㆍ접합 소재, 부품, 장비 기술",
+        "surface": "기판(substrate)"
+      }
+    ],
+    "sample_contexts": [
+      "…위한 고순도(99% 이상) 금속유기(Metal-Organic) 가스와 기판(substrate), 전극 형성을 위한 접합소재, 외부양자효율(External Quantu…"
+    ]
+  },
+  {
+    "concept_id": "나노-실리콘",
+    "primary_canonical": "나노 실리콘",
+    "domain": "소재",
+    "surfaces": [
+      "나노 실리콘"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고효율ㆍ고용량 이차전지 음극재 제조 기술",
+        "surface": "나노 실리콘"
+      }
+    ],
+    "sample_contexts": [
+      "나노 실리콘 결정크기(5nm 이하) 제어 및 카본코팅을 통해 부피팽창 문제 해결과…"
+    ]
+  },
+  {
+    "concept_id": "나트륨계-이차전지",
+    "primary_canonical": "나트륨(Sodium)계 이차전지",
+    "domain": "배터리",
+    "surfaces": [
+      "나트륨(Sodium)계 이차전지"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
+        "surface": "나트륨(Sodium)계 이차전지"
+      }
+    ],
+    "sample_contexts": [
+      "…brane)ㆍ전해질ㆍ저가 분리판ㆍ스택(Stack) 설계 및 제조 기술과 나트륨(Sodium)계 이차전지에 사용되는 소재(양극ㆍ음극ㆍ전해질)ㆍ셀(Cell)ㆍ모듈 설계 및 제조…"
+    ]
+  },
+  {
+    "concept_id": "나프타",
+    "primary_canonical": "나프타",
+    "domain": "소재",
+    "surfaces": [
+      "나프타"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기가열 나프타 분해기술",
+        "surface": "나프타"
+      }
+    ],
+    "sample_contexts": [
+      "전기저항/유도 가열 방식을 활용한 나프타 분해공정을 통해 에틸렌ㆍ프로필렌 등 석유화학 기초원료를 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "난삭재",
+    "primary_canonical": "난삭재",
+    "domain": "소재",
+    "surfaces": [
+      "난삭재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::8)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "방전가공기 장비ㆍ부품의 설계ㆍ제조기술",
+        "surface": "난삭재"
+      }
+    ],
+    "sample_contexts": [
+      "공작물과 전극 사이에 불꽃 방전을 일으켜 티타늄, 초경합금 등 난삭재의 마이크로급 초정밀 가공을 수행하는 방전가공 장비 및 핵심요소부품의 설…"
+    ]
+  },
+  {
+    "concept_id": "내유체적변화율",
+    "primary_canonical": "내유체적변화율",
+    "domain": "소재",
+    "surfaces": [
+      "내유체적변화율"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 불소계 실리콘 제조ㆍ가공 기술",
+        "surface": "내유체적변화율"
+      }
+    ],
+    "sample_contexts": [
+      "…22시간동안 영구압축줄음율 30%이내), 내화학성(150℃, 240시간 내유체적변화율 10%이하) 및 저온성(-66℃이하에서 기밀력 1800psi이상)의 특…"
+    ]
+  },
+  {
+    "concept_id": "냉각재펌프",
+    "primary_canonical": "냉각재펌프",
+    "domain": "원자력",
+    "surfaces": [
+      "냉각재펌프"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::10)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "대형 원자력발전소 제조기술",
+        "surface": "냉각재펌프"
+      }
+    ],
+    "sample_contexts": [
+      "…원자로ㆍ내부구조물, 핵연료 취급ㆍ검사장비, 증기발생기ㆍ가압기, 원자로 냉각재펌프, 증기터빈ㆍ주발전기 및 보조기기를 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "냉동기유",
+    "primary_canonical": "냉동기유",
+    "domain": "에너지",
+    "surfaces": [
+      "냉동기유"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::15)",
+        "sector_name": "탄소중립",
+        "tech_name": "친환경 냉매 개발 기술",
+        "surface": "냉동기유"
+      }
+    ],
+    "sample_contexts": [
+      "냉매의 배합 및 물성 설계, 냉매와 냉동기유 간 호환성 검증, 냉매의 제조ㆍ충전ㆍ저장ㆍ물류 공정 개발, 냉매 원재료…"
+    ]
+  },
+  {
+    "concept_id": "니켈-나노분말",
+    "primary_canonical": "니켈 나노분말",
+    "domain": "소재",
+    "surfaces": [
+      "니켈 나노분말"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::13)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "MLCC용 초미세 니켈 나노분말 및 내부전극용 나노 페이스트 제조 기술",
+        "surface": "니켈 나노분말"
+      }
+    ],
+    "sample_contexts": [
+      "초소형, 초고용량 MLCC용 80nm 이하급 초미세 니켈 나노분말 합성 및 초박층 내부전극용 초미세 니켈 페이스트 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "니켈-페이스트",
+    "primary_canonical": "니켈 페이스트",
+    "domain": "소재",
+    "surfaces": [
+      "니켈 페이스트"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::13)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "MLCC용 초미세 니켈 나노분말 및 내부전극용 나노 페이스트 제조 기술",
+        "surface": "니켈 페이스트"
+      }
+    ],
+    "sample_contexts": [
+      "…80nm 이하급 초미세 니켈 나노분말 합성 및 초박층 내부전극용 초미세 니켈 페이스트 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "다결정-저온-폴리실리콘",
+    "primary_canonical": "다결정 저온 폴리실리콘(LTPS-LCD)",
+    "domain": "디스플레이",
+    "surfaces": [
+      "다결정 저온 폴리실리콘(LTPS-LCD)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::4)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "차세대 차량용 디스플레이 패널ㆍ부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "다결정 저온 폴리실리콘(LTPS-LCD)"
+      }
+    ],
+    "sample_contexts": [
+      "…∼95℃, 시인성 black uniformity 60% 이상을 만족하는 다결정 저온 폴리실리콘(LTPS-LCD) 패널 제조기술(모듈조립공정기술은 제외한다)과 이와 관련한 부품ㆍ소재 및…"
+    ]
+  },
+  {
+    "concept_id": "다관절-로봇",
+    "primary_canonical": "다관절 로봇",
+    "domain": "로봇",
+    "surfaces": [
+      "다관절 로봇"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::가::5)",
+        "sector_name": "로봇",
+        "tech_name": "협동기반 차세대 제조로봇 기술",
+        "surface": "다관절 로봇"
+      }
+    ],
+    "sample_contexts": [
+      "…는 이와 동일한 수준의 안전등급 이상)이 탑재된 로봇 또는 7축 이상의 다관절 로봇을 설계ㆍ제조ㆍ제어하는 기술"
+    ]
+  },
+  {
+    "concept_id": "다이싱",
+    "primary_canonical": "다이싱(dicing)",
+    "domain": "반도체",
+    "surfaces": [
+      "다이싱(dicing)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::11)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "웨이퍼레벨 칩 패키징 공정기술",
+        "surface": "다이싱(dicing)"
+      }
+    ],
+    "sample_contexts": [
+      "…가공된 열전도성이 높은 웨이퍼 위에서 일련의 공정을 통해 패키징한 후 다이싱(dicing)하여 칩 패키지를 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "다이오드-레이저-클래딩",
+    "primary_canonical": "다이오드 레이저 클래딩(DLC)",
+    "domain": "원자력",
+    "surfaces": [
+      "다이오드 레이저 클래딩(DLC)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::11)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "혁신 제조공법 원전 분야 적용 기술",
+        "surface": "다이오드 레이저 클래딩(DLC)"
+      }
+    ],
+    "sample_contexts": [
+      "분말-열간등방압성형(PM-HIP) 기술, 전자빔 용접(EBW) 기술, 다이오드 레이저 클래딩(DLC) 기술 및 원전기자재 적층제조 기술"
+    ]
+  },
+  {
+    "concept_id": "다중-에이전트-추론기법",
+    "primary_canonical": "다중 에이전트 추론기법",
+    "domain": "AI",
+    "surfaces": [
+      "다중 에이전트 추론기법"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::10::::다.",
+        "sector_name": "인공지능",
+        "tech_name": "학습 및 추론 고도화 기술",
+        "surface": "다중 에이전트 추론기법"
+      }
+    ],
+    "sample_contexts": [
+      "…모달 학습), 추론 기술(연쇄사고 추론기법, 분기구조 기반 추론기법 및 다중 에이전트 추론기법)과 인공지능 기초모델의 조합 및 연동을 통해 지능 정확도와 속도를 향상…"
+    ]
+  },
+  {
+    "concept_id": "다중방벽",
+    "primary_canonical": "다중방벽",
+    "domain": "원자력",
+    "surfaces": [
+      "다중방벽"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::6)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
+        "surface": "다중방벽"
+      }
+    ],
+    "sample_contexts": [
+      "…비용 평가기술, 처분부지 조사기술, 처분시설 설계ㆍ시공 기술, 처분시설 다중방벽 장기성능 평가 기술, 피폭선량 평가 기술(처분시설 안전성 평가 기술),…"
+    ]
+  },
+  {
+    "concept_id": "단백질의약품",
+    "primary_canonical": "단백질의약품",
+    "domain": "바이오",
+    "surfaces": [
+      "단백질의약품"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::가.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오 신약[바이오 베터(Bio Better)를 포함한다. 이하 이 호에서 같다] 후보물질 발굴 및 바이오 신약 제조 기술",
+        "surface": "단백질의약품"
+      }
+    ],
+    "sample_contexts": [
+      "…확보하여 작용기전을 증명하고 안전성 및 유효성이 최적화된 바이오 신약(단백질의약품ㆍ유전자치료제ㆍ항체치료제ㆍ세포치료제) 후보물질을 발굴ㆍ이용ㆍ개발하는 기술…"
+    ]
+  },
+  {
+    "concept_id": "대량의-네트워크",
+    "primary_canonical": "대량의 네트워크(Massive IoT)",
+    "domain": "IoT",
+    "surfaces": [
+      "대량의 네트워크(Massive IoT)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::나::1)",
+        "sector_name": "지능정보",
+        "tech_name": "IoT 네트워크 기술",
+        "surface": "대량의 네트워크(Massive IoT)"
+      }
+    ],
+    "sample_contexts": [
+      "사물간의 네트워크(network)를 구성하기 위한 대량의 네트워크(Massive IoT) 구성 기술, 저전력 초경량 네트워크 기술(LPWA: Low Power…"
+    ]
+  },
+  {
+    "concept_id": "대사물질",
+    "primary_canonical": "대사물질",
+    "domain": "바이오",
+    "surfaces": [
+      "대사물질"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::나::3)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "유전자 검사용 진단기기 및 시약의 개발 및 제조 기술",
+        "surface": "대사물질"
+      }
+    ],
+    "sample_contexts": [
+      "…leic acid), RNA(ribonucleic acid), 염색체, 대사물질을 추출하여 분석하는 기기 및 시약의 개발 및 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "대역",
+    "primary_canonical": "대역",
+    "domain": "통신",
+    "surfaces": [
+      "대역"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::가::4)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "6G 이동통신 기술",
+        "surface": "대역"
+      }
+    ],
+    "sample_contexts": [
+      "…을 기반으로 초고속(Tera bps급) 통신 지원을 위해 Tera-Hz 대역 활용을 가능하게 하는 신소자 RFㆍ안테나 및 모뎀 및 부품ㆍ소자에 적…"
+    ]
+  },
+  {
+    "concept_id": "도전재",
+    "primary_canonical": "도전재",
+    "domain": "배터리",
+    "surfaces": [
+      "도전재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::6)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
+        "surface": "도전재"
+      }
+    ],
+    "sample_contexts": [
+      "…기술 및 CNT를 활용하여 열화 현상을 줄이고 용량 및 수명을 개선한 도전재를 제조하는 공정 기술"
+    ]
+  },
+  {
+    "concept_id": "도전재-2",
+    "primary_canonical": "도전재",
+    "domain": "이차전지",
+    "surfaces": [
+      "도전재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::자.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 부품 제조기술",
+        "surface": "도전재"
+      }
+    ],
+    "sample_contexts": [
+      "…부품(파우치, 캔, 리드탭) 및 고성능 배터리를 위한 전극용 소재부품(도전재, 바인더, 집전체) 제조·안전성 향상 기술 및 원료·장비 제조기술"
+    ]
+  },
+  {
+    "concept_id": "도킹스테이션",
+    "primary_canonical": "도킹스테이션",
+    "domain": "드론",
+    "surfaces": [
+      "도킹스테이션"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::7)",
+        "sector_name": "항공ㆍ우주",
+        "tech_name": "물류 배송용 드론 제조기술",
+        "surface": "도킹스테이션"
+      }
+    ],
+    "sample_contexts": [
+      "…이상 처리성능 개선)ㆍ장비(다지점 배달용 물품 적재함, 물품배송 드론용 도킹스테이션 등의 경량화)의 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "동기발전기",
+    "primary_canonical": "동기발전기",
+    "domain": "에너지",
+    "surfaces": [
+      "동기발전기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::6)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
+        "surface": "동기발전기"
+      }
+    ],
+    "sample_contexts": [
+      "…기용 변환기, 가변속 운전 이중여자 유도발전기용 변환기 및 가변속 운전 동기발전기용 변환기의 설계 및 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "동정",
+    "primary_canonical": "동정(identification)",
+    "domain": "바이오",
+    "surfaces": [
+      "동정(identification)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::2)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "식품용 기능성 물질 개발 및 제조 기술",
+        "surface": "동정(identification)"
+      }
+    ],
+    "sample_contexts": [
+      "동ㆍ식물 및 미생물 유래 기능 물질의 탐색ㆍ분석ㆍ동정(identification)과 식품용도로 사용하기 위한 안전성ㆍ기능성 평가 및 원료 가공 또는 대량…"
+    ]
+  },
+  {
+    "concept_id": "드라이버",
+    "primary_canonical": "드라이버",
+    "domain": "로봇",
+    "surfaces": [
+      "드라이버"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::라::2)",
+        "sector_name": "로봇",
+        "tech_name": "모터, 엔코더, 드라이버 일체형의 구동 기술",
+        "surface": "드라이버"
+      }
+    ],
+    "sample_contexts": [
+      "로봇용 관절구성에 필요한 모터, 엔코더, 감속기, 드라이버를 모두 하나의 몸체에 넣어서 만든 관절구동형 액츄에이터(Actuator…"
+    ]
+  },
+  {
+    "concept_id": "드릴링",
+    "primary_canonical": "드릴링",
+    "domain": "장비",
+    "surfaces": [
+      "드릴링"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
+        "surface": "드릴링"
+      }
+    ],
+    "sample_contexts": [
+      "…교환장치(Automatic Tool Changer)를 장착하여, 밀링, 드릴링, 보링가공 등 여러 공정의 작업을 수행할 수 있는 단방향 위치결정 반복…"
+    ]
+  },
+  {
+    "concept_id": "등방블록",
+    "primary_canonical": "등방블록",
+    "domain": "소재",
+    "surfaces": [
+      "등방블록"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::4)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고기능성 인조흑연 제조기술",
+        "surface": "등방블록"
+      }
+    ],
+    "sample_contexts": [
+      "인조흑연 제조용 피치 및 코크스 제조 기술, 전극봉ㆍ등방블록ㆍ흑연분말 성형 및 2,800℃ 이상의 열처리를 통한 흑연화 기술"
+    ]
+  },
+  {
+    "concept_id": "등방압",
+    "primary_canonical": "등방압",
+    "domain": "장비",
+    "surfaces": [
+      "등방압"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::2)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "열간 등방압 정수압 프레스 설계ㆍ제조 기술",
+        "surface": "등방압"
+      }
+    ],
+    "sample_contexts": [
+      "…가능하고, 금속 소재를 모든 방향에서 100MPa 이상의 정수압 또는 등방압 조건으로 가압하는 직경 1,000mm 이상의 프레스 장비 설계ㆍ제조 기…"
+    ]
+  },
+  {
+    "concept_id": "라우터",
+    "primary_canonical": "라우터(router)",
+    "domain": "통신",
+    "surfaces": [
+      "라우터(router)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::가::2)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "5G 이동통신 코어네트워크(Core Network, 기간망) 기술",
+        "surface": "라우터(router)"
+      }
+    ],
+    "sample_contexts": [
+      "…위해 5G 이동통신 기지국 장비와 연동되는 게이트웨이(gateway), 라우터(router), 스위치(switch) 등에 적용되는 기술"
+    ]
+  },
+  {
+    "concept_id": "라이다-센서",
+    "primary_canonical": "라이다 센서(LIDAR sensor)",
+    "domain": "미래차",
+    "surfaces": [
+      "라이다 센서(LIDAR sensor)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::9::::가.",
+        "sector_name": "미래형 운송 및 이동수단",
+        "tech_name": "주행상황 인지 센서 기술",
+        "surface": "라이다 센서(LIDAR sensor)"
+      }
+    ],
+    "sample_contexts": [
+      "…서(vision sensor), 레이더 센서(radar sensor), 라이다 센서(LIDAR sensor) 기술, 주행환경상의 전방위 물체에 대한 정확한 거리와 공간정보를 처리하…"
+    ]
+  },
+  {
+    "concept_id": "라테라이트",
+    "primary_canonical": "라테라이트",
+    "domain": "소재",
+    "surfaces": [
+      "라테라이트"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::8)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "니켈광 대상 니켈 회수공정 기술",
+        "surface": "라테라이트"
+      }
+    ],
+    "sample_contexts": [
+      "니켈광(라테라이트 등)으로부터 니켈을 회수하기 위한 선광ㆍ제련(고압산침출, 질산침출 등)…"
+    ]
+  },
+  {
+    "concept_id": "레귤레이터",
+    "primary_canonical": "레귤레이터",
+    "domain": "에너지",
+    "surfaces": [
+      "레귤레이터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::1::나::3)",
+        "sector_name": "미래형자동차",
+        "tech_name": "전기차 초고속ㆍ고효율 무선충전 기술",
+        "surface": "레귤레이터"
+      }
+    ],
+    "sample_contexts": [
+      "…효율 무선충전시스템 및 무선충전 핵심모듈(급전 인버터, 집전 픽업구조, 레귤레이터) 기술"
+    ]
+  },
+  {
+    "concept_id": "레이더-센서",
+    "primary_canonical": "레이더 센서(radar sensor)",
+    "domain": "미래차",
+    "surfaces": [
+      "레이더 센서(radar sensor)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::9::::가.",
+        "sector_name": "미래형 운송 및 이동수단",
+        "tech_name": "주행상황 인지 센서 기술",
+        "surface": "레이더 센서(radar sensor)"
+      }
+    ],
+    "sample_contexts": [
+      "주행상황을 인지하는 차량탑재용 비전 센서(vision sensor), 레이더 센서(radar sensor), 라이다 센서(LIDAR sensor) 기술, 주행환경상의 전방위 물체…"
+    ]
+  },
+  {
+    "concept_id": "레이저-가공헤드",
+    "primary_canonical": "레이저 가공헤드",
+    "domain": "장비",
+    "surfaces": [
+      "레이저 가공헤드"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::7)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 레이저 가공장비 설계ㆍ제조기술",
+        "surface": "레이저 가공헤드"
+      }
+    ],
+    "sample_contexts": [
+      "절단, 천공, 용접, 정밀가공 등을 위해 고출력 레이저 가공헤드로 공작물을 용융ㆍ증발시켜서 분리하는 5축 이상의 레이저 가공장비를 설계…"
+    ]
+  },
+  {
+    "concept_id": "롤러",
+    "primary_canonical": "롤러",
+    "domain": "부품",
+    "surfaces": [
+      "롤러"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고정밀 롤러베어링 및 볼베어링 설계ㆍ제조 기술",
+        "surface": "롤러"
+      }
+    ],
+    "sample_contexts": [
+      "구름베어링의 일종으로 내외륜 사이에 다수의 볼 또는 롤러를 삽입하여 마찰을 감소시켜 고속운전을 돕거나 큰 하중에 견딜 수 있는…"
+    ]
+  },
+  {
+    "concept_id": "롤러-2",
+    "primary_canonical": "롤러",
+    "domain": "장비",
+    "surfaces": [
+      "롤러"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
+        "surface": "롤러"
+      }
+    ],
+    "sample_contexts": [
+      "다축 정밀 동시제어시스템을 갖추고, 회전하는 주축과 롤러, 맨드릴을 이용하여 최대 성형롤 하중 60kN 이상, 최대 성형품 직경…"
+    ]
+  },
+  {
+    "concept_id": "루타일",
+    "primary_canonical": "루타일",
+    "domain": "소재",
+    "surfaces": [
+      "루타일"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "타이타늄 소재 제조기술과 금속재료 부품화 기술",
+        "surface": "루타일"
+      }
+    ],
+    "sample_contexts": [
+      "사염화타이타늄(TiCl4), 스폰지, 잉곳, 루타일 및 아나타제 이산화타이타늄(TiO2) 등의 소재 개발ㆍ제조기술과 합금설…"
+    ]
+  },
+  {
+    "concept_id": "리그닌",
+    "primary_canonical": "리그닌",
+    "domain": "바이오",
+    "surfaces": [
+      "리그닌"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::라::1)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "바이오매스 유래 바이오플라스틱 생산 기술",
+        "surface": "리그닌"
+      }
+    ],
+    "sample_contexts": [
+      "재생가능한 유기자원을 이용하여 직접 또는 전환공정을 통해 당 또는 리그닌 등 유효성분을 추출ㆍ정제하는 기술 및 바이오플라스틱을 생산하는 기술"
+    ]
+  },
+  {
+    "concept_id": "리드탭",
+    "primary_canonical": "리드탭",
+    "domain": "이차전지",
+    "surfaces": [
+      "리드탭"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::자.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 부품 제조기술",
+        "surface": "리드탭"
+      }
+    ],
+    "sample_contexts": [
+      "배터리 장기 사용을 위한 패키징 부품(파우치, 캔, 리드탭) 및 고성능 배터리를 위한 전극용 소재부품(도전재, 바인더, 집전체)…"
+    ]
+  },
+  {
+    "concept_id": "리튬이차전지",
+    "primary_canonical": "리튬이차전지",
+    "domain": "배터리",
+    "surfaces": [
+      "리튬이차전지"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "고성능 리튬이차전지 기술",
+        "surface": "리튬이차전지"
+      }
+    ],
+    "sample_contexts": [
+      "…이상의 에너지밀도 또는 6C-rate 이상의 방전속도를 충족하는 고성능 리튬이차전지에 사용되는 부품ㆍ소재ㆍ셀(cell) 및 모듈(module) 제조 및 안…"
+    ]
+  },
+  {
+    "concept_id": "리튬화합물",
+    "primary_canonical": "리튬화합물",
+    "domain": "소재",
+    "surfaces": [
+      "리튬화합물"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::7)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고순도 리튬화합물 제조 기술",
+        "surface": "리튬화합물"
+      }
+    ],
+    "sample_contexts": [
+      "리튬 광석 또는 염호 등 천연리튬 자원으로부터 고순도 99.5% 리튬화합물(Li2CO3, LiOH 등)을 제조하기 위한 선광ㆍ제련 공정 기술"
+    ]
+  },
+  {
+    "concept_id": "마스크",
+    "primary_canonical": "마스크",
+    "domain": "디스플레이",
+    "surfaces": [
+      "마스크"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::가::4)",
+        "sector_name": "로봇",
+        "tech_name": "FPD(Flat panel display) 이송로봇 기술",
+        "surface": "마스크"
+      }
+    ],
+    "sample_contexts": [
+      "…반 대기압 또는 진공 환경 하에서 고중량(400kg 이상)의 FPD 및 마스크를 이송하는 로봇 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "막전극-접합체",
+    "primary_canonical": "막전극 접합체",
+    "domain": "수소",
+    "surfaces": [
+      "막전극 접합체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::바.",
+        "sector_name": "수소",
+        "tech_name": "연료전지 전용부품 제조기술",
+        "surface": "막전극 접합체"
+      }
+    ],
+    "sample_contexts": [
+      "연료전지 핵심부품인 개질기, 막전극 접합체, 금속 분리판 또는 블로어 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "막질",
+    "primary_canonical": "막질",
+    "domain": "반도체",
+    "surfaces": [
+      "막질"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::러.",
+        "sector_name": "반도체",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "막질"
+      }
+    ],
+    "sample_contexts": [
+      "SiNx, SiOx 막질의 선택적인 식각이 가능한 고선택비(1,000이상) 인산계 식각액 제조기…"
+    ]
+  },
+  {
+    "concept_id": "매니퓰레이션",
+    "primary_canonical": "매니퓰레이션",
+    "domain": "로봇",
+    "surfaces": [
+      "매니퓰레이션"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::가::1)",
+        "sector_name": "로봇",
+        "tech_name": "고청정 환경 대응 반도체 생산 로봇 기술",
+        "surface": "매니퓰레이션"
+      }
+    ],
+    "sample_contexts": [
+      "…이상)한 청정환경용 반도체 로봇 기술과 10나노급 초정밀 공정용 초정밀 매니퓰레이션 기술, 대형 웨이퍼 핸들링을 위한 진동 억제 기술"
+    ]
+  },
+  {
+    "concept_id": "매니퓰레이터",
+    "primary_canonical": "매니퓰레이터",
+    "domain": "로봇",
+    "surfaces": [
+      "매니퓰레이터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::다::4)",
+        "sector_name": "로봇",
+        "tech_name": "Tele-presence 로봇 기술",
+        "surface": "매니퓰레이터"
+      }
+    ],
+    "sample_contexts": [
+      "자율이동기능, 진단ㆍ지시용 매니퓰레이터 및 얼굴모션 동기화 등의 기술구현을 통한 원격진료ㆍ진료자문 및 교육 등…"
+    ]
+  },
+  {
+    "concept_id": "매쉬업",
+    "primary_canonical": "매쉬업(mashup)",
+    "domain": "클라우드",
+    "surfaces": [
+      "매쉬업(mashup)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::다::1)",
+        "sector_name": "지능정보",
+        "tech_name": "SaaS(Software as a Service) 기술",
+        "surface": "매쉬업(mashup)"
+      }
+    ],
+    "sample_contexts": [
+      "…비스 기술 및 SaaS 응용을 연계하여 새로운 서비스를 제공하는 서비스 매쉬업(mashup) 기술"
+    ]
+  },
+  {
+    "concept_id": "맨드릴",
+    "primary_canonical": "맨드릴",
+    "domain": "장비",
+    "surfaces": [
+      "맨드릴"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
+        "surface": "맨드릴"
+      }
+    ],
+    "sample_contexts": [
+      "다축 정밀 동시제어시스템을 갖추고, 회전하는 주축과 롤러, 맨드릴을 이용하여 최대 성형롤 하중 60kN 이상, 최대 성형품 직경 500m…"
+    ]
+  },
+  {
+    "concept_id": "머시닝센터",
+    "primary_canonical": "머시닝센터",
+    "domain": "장비",
+    "surfaces": [
+      "머시닝센터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
+        "surface": "머시닝센터"
+      }
+    ],
+    "sample_contexts": [
+      "…및 부품의 설계ㆍ제조 기술[가공 회전수, 축 이동, 진동오차 제어 등 머시닝센터의 고정밀 작업을 제어하는 CNC(Computerized Numerica…"
+    ]
+  },
+  {
+    "concept_id": "머신러닝",
+    "primary_canonical": "머신러닝",
+    "domain": "AI",
+    "surfaces": [
+      "머신러닝"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::4::나::3)",
+        "sector_name": "콘텐츠",
+        "tech_name": "애니메이션 콘텐츠 제작기술",
+        "surface": "머신러닝"
+      }
+    ],
+    "sample_contexts": [
+      "…콘텐츠의 기획ㆍ제작을 위한 대용량 디지털 데이터 처리 관리 기술, AI 머신러닝을 통한 애니메이션ㆍ에셋 자동생산 기술, 게임엔진을 활용한 실시간 제작기…"
+    ]
+  },
+  {
+    "concept_id": "멀티모달-학습",
+    "primary_canonical": "멀티모달 학습",
+    "domain": "AI",
+    "surfaces": [
+      "멀티모달 학습"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::10::::다.",
+        "sector_name": "인공지능",
+        "tech_name": "학습 및 추론 고도화 기술",
+        "surface": "멀티모달 학습"
+      }
+    ],
+    "sample_contexts": [
+      "고도의 학습 알고리즘(메타러닝, 딥러닝, 강화학습 및 멀티모달 학습), 추론 기술(연쇄사고 추론기법, 분기구조 기반 추론기법 및 다중 에이…"
+    ]
+  },
+  {
+    "concept_id": "멀티스펙트럼-카메라",
+    "primary_canonical": "멀티스펙트럼(multi-spectrum) 카메라",
+    "domain": "항공",
+    "surfaces": [
+      "멀티스펙트럼(multi-spectrum) 카메라"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::3)",
+        "sector_name": "항공·우주",
+        "tech_name": "무인기 탑재 첨단센서 기술",
+        "surface": "멀티스펙트럼(multi-spectrum) 카메라"
+      }
+    ],
+    "sample_contexts": [
+      "…DAR(Light detection and ranging) 센서 기술, 멀티스펙트럼(multi-spectrum) 카메라 기술, 360°카메라 및 송수신 기술, Non-GNSS(Global N…"
+    ]
+  },
+  {
+    "concept_id": "메타데이터",
+    "primary_canonical": "메타데이터(metadata)",
+    "domain": "방송",
+    "surfaces": [
+      "메타데이터(metadata)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::나::3)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "신규 방송서비스 제공을 위한 시그널링 시스템 기술",
+        "surface": "메타데이터(metadata)"
+      }
+    ],
+    "sample_contexts": [
+      "…이드 서버(signal/service guide server), 서비스 메타데이터(metadata) 관리서버, 통합 모니터링(monitoring) 시스템, 앱 시그널링 인…"
+    ]
+  },
+  {
+    "concept_id": "메타러닝",
+    "primary_canonical": "메타러닝",
+    "domain": "AI",
+    "surfaces": [
+      "메타러닝"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::10::::다.",
+        "sector_name": "인공지능",
+        "tech_name": "학습 및 추론 고도화 기술",
+        "surface": "메타러닝"
+      }
+    ],
+    "sample_contexts": [
+      "고도의 학습 알고리즘(메타러닝, 딥러닝, 강화학습 및 멀티모달 학습), 추론 기술(연쇄사고 추론기법,…"
+    ]
+  },
+  {
+    "concept_id": "멤브레인",
+    "primary_canonical": "멤브레인(Membrane)",
+    "domain": "배터리",
+    "surfaces": [
+      "멤브레인(Membrane)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
+        "surface": "멤브레인(Membrane)"
+      }
+    ],
+    "sample_contexts": [
+      "흐름전지(Flow Battery)에 사용되는 전극ㆍ멤브레인(Membrane)ㆍ전해질ㆍ저가 분리판ㆍ스택(Stack) 설계 및 제조 기술과 나트륨(So…"
+    ]
+  },
+  {
+    "concept_id": "멤브레인-2",
+    "primary_canonical": "멤브레인",
+    "domain": "소재",
+    "surfaces": [
+      "멤브레인"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::6)",
+        "sector_name": "융복합소재",
+        "tech_name": "PTFE(PolyTetraFluoro Ethylene) 멤브레인 기반 고성능 복합필터 제조기술",
+        "surface": "멤브레인"
+      }
+    ],
+    "sample_contexts": [
+      "…um 크기의 입자 99.97% 이상을 균일하게 포집할 수 있는 PTFE 멤브레인 기반의 고성능 복합필터 핵심 소재ㆍ부품 관련 제조ㆍ가공 기술"
+    ]
+  },
+  {
+    "concept_id": "면역-기전",
+    "primary_canonical": "면역 기전",
+    "domain": "바이오",
+    "surfaces": [
+      "면역 기전"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::2)",
+        "sector_name": "바이오·헬스",
+        "tech_name": "방어 항원 스크리닝 및 제조기술",
+        "surface": "면역 기전"
+      }
+    ],
+    "sample_contexts": [
+      "면역 기전을 이용하여 인체질환을 방어하기 위해 항원을 스크리닝하고 이 항원을 제조…"
+    ]
+  },
+  {
+    "concept_id": "면역보조제",
+    "primary_canonical": "면역보조제",
+    "domain": "바이오",
+    "surfaces": [
+      "면역보조제"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::3::::바.",
+        "sector_name": "백신",
+        "tech_name": "원료 및 원부자재 등 개발·제조 기술",
+        "surface": "면역보조제"
+      }
+    ],
+    "sample_contexts": [
+      "…필터, 레진, 버퍼, 배양배지 등) 또는 백신의 효능을 증가시키는 물질(면역보조제)을 개발·제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "모노머",
+    "primary_canonical": "모노머",
+    "domain": "환경",
+    "surfaces": [
+      "모노머"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::라::9)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "폐섬유의 화학 및 생물학적 재활용 기술을 활용한 자원순환 섬유소재 제조기술",
+        "surface": "모노머"
+      }
+    ],
+    "sample_contexts": [
+      "혼합재질 폐섬유의 화학 및 생물학적 해중합, 정제ㆍ분리ㆍ원료(모노머) 회수 및 재중합 및 방사기술"
+    ]
+  },
+  {
+    "concept_id": "모델링",
+    "primary_canonical": "모델링(modeling)",
+    "domain": "AI",
+    "surfaces": [
+      "모델링(modeling)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::가::1)",
+        "sector_name": "지능정보",
+        "tech_name": "학습 및 추론 기술",
+        "surface": "모델링(modeling)"
+      }
+    ],
+    "sample_contexts": [
+      "…베이스(knowledge base) 구축, 지식추론 등 학습 알고리즘과 모델링(modeling) 조합을 통해 지능의 정확도와 속도를 향상시키는 소프트웨어 기술"
+    ]
+  },
+  {
+    "concept_id": "모듈",
+    "primary_canonical": "모듈(module)",
+    "domain": "배터리",
+    "surfaces": [
+      "모듈(module)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "고성능 리튬이차전지 기술",
+        "surface": "모듈(module)"
+      }
+    ],
+    "sample_contexts": [
+      "…를 충족하는 고성능 리튬이차전지에 사용되는 부품ㆍ소재ㆍ셀(cell) 및 모듈(module) 제조 및 안전성 향상 기술"
+    ]
+  },
+  {
+    "concept_id": "모듈-2",
+    "primary_canonical": "모듈",
+    "domain": "에너지",
+    "surfaces": [
+      "모듈"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
+        "surface": "모듈"
+      }
+    ],
+    "sample_contexts": [
+      "…전후면 외장 재료 등의 핵심소재 제조기술, 대면적ㆍ고효율 셀 및 고출력 모듈화 기술(대면적 제조장비, 연속 공정기술 포함)"
+    ]
+  }
+]

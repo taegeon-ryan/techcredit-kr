@@ -1,0 +1,64 @@
+[
+{
+"tech_id": "strategic::3::::가.",
+"surfaces": [
+{ "surface": "치료용 백신", "domain_hint": "바이오" },
+{ "surface": "예방용 백신", "domain_hint": "바이오" },
+{ "surface": "면역기전", "domain_hint": "바이오" },
+{ "surface": "항원", "domain_hint": "바이오" },
+{ "surface": "핵산", "domain_hint": "바이오" },
+{ "surface": "바이러스벡터", "domain_hint": "바이오" },
+{ "surface": "스크리닝", "domain_hint": "바이오" },
+{ "surface": "대량생산 공정설계", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::3::::나.",
+"surfaces": [
+{ "surface": "세포·동물 모델", "domain_hint": "바이오" },
+{ "surface": "백신 후보물질", "domain_hint": "바이오" },
+{ "surface": "비임상 시험", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::3::::다.",
+"surfaces": [
+{ "surface": "초기 안정성", "domain_hint": "바이오" },
+{ "surface": "내약성", "domain_hint": "바이오" },
+{ "surface": "약동학적", "domain_hint": "바이오" },
+{ "surface": "약력학적", "domain_hint": "바이오" },
+{ "surface": "약물대사", "domain_hint": "바이오" },
+{ "surface": "상호작용 평가", "domain_hint": "바이오" },
+{ "surface": "임상 1상 시험", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::3::::라.",
+"surfaces": [
+{ "surface": "치료적 탐색 임상평가", "domain_hint": "바이오" },
+{ "surface": "임상2상 시험", "domain_hint": "바이오" },
+{ "surface": "용량", "domain_hint": "바이오" },
+{ "surface": "투여기간", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::3::::마.",
+"surfaces": [
+{ "surface": "치료적 확증 임상평가", "domain_hint": "바이오" },
+{ "surface": "임상3상 시험", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::3::::바.",
+"surfaces": [
+{ "surface": "원부자재(필터, 레진, 버퍼, 배양배지 등)", "domain_hint": "바이오" },
+{ "surface": "면역보조제", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::3::::사.",
+"surfaces": [
+{ "surface": "원부자재(필터, 레진, 버퍼, 배양배지 등)", "domain_hint": "바이오" }
+]
+}
+]

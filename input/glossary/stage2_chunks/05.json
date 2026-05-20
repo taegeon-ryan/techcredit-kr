@@ -1,0 +1,521 @@
+[
+  {
+    "concept_id": "배양배지",
+    "primary_canonical": "배양배지",
+    "domain": "바이오",
+    "surfaces": [
+      "배양배지"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::3::::바.",
+        "sector_name": "백신",
+        "tech_name": "원료 및 원부자재 등 개발·제조 기술",
+        "surface": "배양배지"
+      },
+      {
+        "tech_id": "strategic::3::::사.",
+        "sector_name": "백신",
+        "tech_name": "생산장비 개발·제조 기술",
+        "surface": "배양배지"
+      }
+    ],
+    "sample_contexts": [
+      "백신 개발·제조에 필요한 원료 및 원부자재(필터, 레진, 버퍼, 배양배지 등) 또는 백신의 효능을 증가시키는 물질(면역보조제)을 개발·제조하는…",
+      "백신 및 백신 원료·원부자재(필터, 레진, 버퍼, 배양배지 등) 생산에 필요한 장비를 개발·제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "백플레인",
+    "primary_canonical": "백플레인",
+    "domain": "디스플레이",
+    "surfaces": [
+      "백플레인"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "백플레인"
+      },
+      {
+        "tech_id": "strategic::4::::아.",
+        "sector_name": "디스플레이",
+        "tech_name": "마이크로LED 에피(Epi)ㆍ전사ㆍ접합 소재, 부품, 장비 기술",
+        "surface": "백플레인"
+      }
+    ],
+    "sample_contexts": [
+      "…LTPO)ㆍ저온폴리실리콘(LTPS)ㆍ산화물(Oxide) TFT를 형성한 백플레인 또는 실리콘(Silicon)에 구동소자를 형성한 웨이퍼에 발광특성을 가…",
+      "…장을 위한 에피 공정, 에피 LED 칩 제조를 위한 분리ㆍ보호막 공정, 백플레인 기판의 화소 영역에 칩을 전사ㆍ접합하는 공정 등에서 사용되는 장비 제조…"
+    ]
+  },
+  {
+    "concept_id": "분리막",
+    "primary_canonical": "분리막",
+    "domain": "에너지",
+    "surfaces": [
+      "분리막"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::가::1)",
+        "sector_name": "탄소중립",
+        "tech_name": "연소 후 이산화탄소 포집 기술",
+        "surface": "분리막"
+      },
+      {
+        "tech_id": "newgrowth::15::가::2)",
+        "sector_name": "탄소중립",
+        "tech_name": "연소 전 이산화탄소 포집기술",
+        "surface": "분리막"
+      }
+    ],
+    "sample_contexts": [
+      "…는 배기가스 중 이산화탄소를 효과적으로 분리하기 위한 흡수제, 흡착제, 분리막 등 분리소재를 제조하는 기술과 이를 이용한 이산화탄소 포집공정기술",
+      "…성된 이산화탄소와 수소 중 이산화탄소를 분리하기 위한 흡수제, 흡착제, 분리막 등 분리소재를 제조하는 기술과 이를 이용한 이산화탄소 포집공정기술"
+    ]
+  },
+  {
+    "concept_id": "불화수소",
+    "primary_canonical": "불화수소",
+    "domain": "반도체",
+    "surfaces": [
+      "불화수소"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::3)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고순도 불화수소 개발 및 제조기술",
+        "surface": "불화수소"
+      },
+      {
+        "tech_id": "strategic::1::::너.",
+        "sector_name": "반도체",
+        "tech_name": "고순도 불화수소 개발 및 제조기술",
+        "surface": "불화수소"
+      }
+    ],
+    "sample_contexts": [
+      "반도체 회로형성에 필요한 순도 99.999%(5N) 이상의 고순도 불화수소를 개발 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "블랭크마스크",
+    "primary_canonical": "블랭크마스크",
+    "domain": "반도체",
+    "surfaces": [
+      "블랭크마스크"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::4)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "블랭크 마스크(Blank Mask) 개발 및 제조기술",
+        "surface": "블랭크마스크"
+      },
+      {
+        "tech_id": "strategic::1::::더.",
+        "sector_name": "반도체",
+        "tech_name": "블랭크 마스크 개발 및 제조기술",
+        "surface": "블랭크마스크"
+      }
+    ],
+    "sample_contexts": [
+      "…EUV(극자외선) 광원을 이용하여 반도체 회로를 형성하는 데 사용되는 블랭크마스크 원판 및 관련 소재[펠리클(Pellicle), 합성 쿼츠, 스터러링용…"
+    ]
+  },
+  {
+    "concept_id": "블레이드-2",
+    "primary_canonical": "블레이드(blade)",
+    "domain": "에너지",
+    "surfaces": [
+      "블레이드(blade)",
+      "블레이드(Blade)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::5)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
+        "surface": "블레이드(blade)"
+      },
+      {
+        "tech_id": "newgrowth::15::다::7)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력발전 블레이드 기술",
+        "surface": "블레이드(Blade)"
+      }
+    ],
+    "sample_contexts": [
+      "블레이드(blade)로부터 전달되는 회전력을 전달받아 증속하여 발전기에 전달하는 장치를 구성…",
+      "8MW급 이상의 풍력발전 블레이드(Blade) 설계 및 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "비탄산염",
+    "primary_canonical": "비탄산염",
+    "domain": "소재",
+    "surfaces": [
+      "비탄산염"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::5)",
+        "sector_name": "탄소중립",
+        "tech_name": "산화칼슘 함유 비탄산염 산업부산물의 시멘트 원료화 기술",
+        "surface": "비탄산염"
+      },
+      {
+        "tech_id": "newgrowth::15::라::6)",
+        "sector_name": "탄소중립",
+        "tech_name": "이산화탄소 저감 시멘트 생산을 위한 연ㆍ원료 대체기술",
+        "surface": "비탄산염"
+      }
+    ],
+    "sample_contexts": [
+      "시멘트 산업에서 클링커 원료인 석회석을 산화칼슘(CaO)를 함유한 비탄산염 산업부산물로 대체하는 공정기술로 비탄산염 원료 전처리 기술, 공정운전…",
+      "시멘트 제조공정 중 석회석 등 탄산염광물을 비탄산염 원료로 대체하는 소재ㆍ공정기술과 수소, 바이오매스, LNG 등 친환경…"
+    ]
+  },
+  {
+    "concept_id": "셀",
+    "primary_canonical": "셀(Cell)",
+    "domain": "배터리",
+    "surfaces": [
+      "셀(Cell)",
+      "셀(cell)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
+        "surface": "셀(Cell)"
+      },
+      {
+        "tech_id": "newgrowth::14::가::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "고성능 리튬이차전지 기술",
+        "surface": "셀(cell)"
+      }
+    ],
+    "sample_contexts": [
+      "…과 나트륨(Sodium)계 이차전지에 사용되는 소재(양극ㆍ음극ㆍ전해질)ㆍ셀(Cell)ㆍ모듈 설계 및 제조 기술",
+      "…e 이상의 방전속도를 충족하는 고성능 리튬이차전지에 사용되는 부품ㆍ소재ㆍ셀(cell) 및 모듈(module) 제조 및 안전성 향상 기술"
+    ]
+  },
+  {
+    "concept_id": "셀-3",
+    "primary_canonical": "셀",
+    "domain": "에너지",
+    "surfaces": [
+      "셀"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::1)",
+        "sector_name": "탄소중립",
+        "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
+        "surface": "셀"
+      },
+      {
+        "tech_id": "newgrowth::15::다::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
+        "surface": "셀"
+      }
+    ],
+    "sample_contexts": [
+      "…이하의 운전온도에서 작동이 가능하고 출력효율이 높은 금속ㆍ연료극 지지형셀, 셀ㆍ분리판 등이 결합되어 전기와 열을 생산하는 스택, 스택을 결합하여…",
+      "…봉지, 경량 전후면 외장 재료 등의 핵심소재 제조기술, 대면적ㆍ고효율 셀 및 고출력 모듈화 기술(대면적 제조장비, 연속 공정기술 포함)"
+    ]
+  },
+  {
+    "concept_id": "셀-4",
+    "primary_canonical": "셀",
+    "domain": "이차전지",
+    "surfaces": [
+      "셀"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::나.",
+        "sector_name": "이차전지",
+        "tech_name": "고성능 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "셀"
+      },
+      {
+        "tech_id": "strategic::2::::마.",
+        "sector_name": "이차전지",
+        "tech_name": "차세대 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "셀"
+      }
+    ],
+    "sample_contexts": [
+      "이차전지 셀을 기준으로 중량당 에너지밀도가 265Wh/kg 이상 또는 1시간 기준…",
+      "…는 고체전해질을 기반으로 하는 차세대 리튬이차전지에 사용되는 부품·소재·셀 및 모듈 제조기술"
+    ]
+  },
+  {
+    "concept_id": "슈퍼프로세서",
+    "primary_canonical": "슈퍼프로세서",
+    "domain": "반도체",
+    "surfaces": [
+      "슈퍼프로세서"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계ㆍ제조 기술",
+        "surface": "슈퍼프로세서"
+      },
+      {
+        "tech_id": "strategic::1::::다.",
+        "sector_name": "반도체",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계 및 제조(7nm이하) 기술",
+        "surface": "슈퍼프로세서"
+      }
+    ],
+    "sample_contexts": [
+      "…수 있는 뉴럴넷(Neural Network)을 구현하는 초고속, 저전력 슈퍼프로세서 기술로서 지능형 자율주행 이동체(드론 등), 지능형 로봇, 게임로봇,…"
+    ]
+  },
+  {
+    "concept_id": "스크리닝",
+    "primary_canonical": "스크리닝",
+    "domain": "바이오",
+    "surfaces": [
+      "스크리닝"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::2)",
+        "sector_name": "바이오·헬스",
+        "tech_name": "방어 항원 스크리닝 및 제조기술",
+        "surface": "스크리닝"
+      },
+      {
+        "tech_id": "strategic::3::::가.",
+        "sector_name": "백신",
+        "tech_name": "방어 항원 등 스크리닝 및 제조기술",
+        "surface": "스크리닝"
+      }
+    ],
+    "sample_contexts": [
+      "면역 기전을 이용하여 인체질환을 방어하기 위해 항원을 스크리닝하고 이 항원을 제조하여 각종 질환을 치료하거나(치료용 백신) 예방하기…",
+      "…을 이용하여 인체질환을 방어하는 물질(항원, 핵산, 바이러스벡터 등)을 스크리닝하고 개발·제조하는 기술 및 이를 적용한 백신을 제조하는 기술(대량생산…"
+    ]
+  },
+  {
+    "concept_id": "스택-3",
+    "primary_canonical": "스택",
+    "domain": "수소",
+    "surfaces": [
+      "스택(stack)",
+      "스택"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::가.",
+        "sector_name": "수소",
+        "tech_name": "수전해 기반 청정수소 생산기술",
+        "surface": "스택(stack)"
+      },
+      {
+        "tech_id": "strategic::5::::마.",
+        "sector_name": "수소",
+        "tech_name": "수소차용 고밀도 고효율 연료전지시스템 기술",
+        "surface": "스택"
+      }
+    ],
+    "sample_contexts": [
+      "…하여 물을 분해하여 청정 수소를 생산ㆍ공급하는 수전해 공정의 소재ㆍ부품ㆍ스택(stack)ㆍ시스템 설계 및 제조기술",
+      "연료전지 스택 출력밀도 3.1kW/L 이상 또는 연료전지 스택 운전효율[저위발열량(L…"
+    ]
+  },
+  {
+    "concept_id": "스터러링용-타겟",
+    "primary_canonical": "스터러링용 타겟",
+    "domain": "반도체",
+    "surfaces": [
+      "스터러링용 타겟"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::4)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "블랭크 마스크(Blank Mask) 개발 및 제조기술",
+        "surface": "스터러링용 타겟"
+      },
+      {
+        "tech_id": "strategic::1::::더.",
+        "sector_name": "반도체",
+        "tech_name": "블랭크 마스크 개발 및 제조기술",
+        "surface": "스터러링용 타겟"
+      }
+    ],
+    "sample_contexts": [
+      "…블랭크마스크 원판 및 관련 소재[펠리클(Pellicle), 합성 쿼츠, 스터러링용 타겟 등을 포함]을 개발 및 제조하는 기술",
+      "…블랭크마스크 원판 및 관련 소재[펠리클(Pellicle), 합성 쿼츠, 스터러링용 타겟 등을 포함]를 개발 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "식각-2",
+    "primary_canonical": "식각",
+    "domain": "디스플레이",
+    "surfaces": [
+      "식각"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "대기압 플라즈마 식각 장비 기술",
+        "surface": "식각"
+      },
+      {
+        "tech_id": "strategic::4::::마.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 TFT 형성 장비 및 부품 기술",
+        "surface": "식각"
+      }
+    ],
+    "sample_contexts": [
+      "…를 제조할 목적으로 대기압에서 플라즈마(plasma)를 발생시켜 박막을 식각하는 장비 제작기술",
+      "…) 형성공정에 사용되는 노광기, 물리 또는 화학적 증착기, 이온주입기, 식각기, 검사장비 및 이와 관련 제조에 사용되는 등 디스플레이 TFT 형성…"
+    ]
+  },
+  {
+    "concept_id": "압연",
+    "primary_canonical": "압연",
+    "domain": "소재",
+    "surfaces": [
+      "압연"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "타이타늄 소재 제조기술과 금속재료 부품화 기술",
+        "surface": "압연"
+      },
+      {
+        "tech_id": "newgrowth::15::라::13)",
+        "sector_name": "탄소중립",
+        "tech_name": "철강 가열공정 탄소연료 대체기술",
+        "surface": "압연"
+      }
+    ],
+    "sample_contexts": [
+      "…아나타제 이산화타이타늄(TiO2) 등의 소재 개발ㆍ제조기술과 합금설계, 압연, 주조, 단조, 용접 등의 금속재료 부품화 기술",
+      "단조, 압연 공정에 사용되는 화석연료를 저탄소 연료(수소, 암모니아)로 전환하는 기…"
+    ]
+  },
+  {
+    "concept_id": "액츄에이터-4",
+    "primary_canonical": "액츄에이터(actuator)",
+    "domain": "반도체",
+    "surfaces": [
+      "액츄에이터(actuator)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::5)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "지능형 마이크로 센서 설계ㆍ제조ㆍ패키지 기술",
+        "surface": "액츄에이터(actuator)"
+      },
+      {
+        "tech_id": "strategic::1::::마.",
+        "sector_name": "반도체",
+        "tech_name": "고성능 마이크로 센서의 설계‧제조‧패키징 기술",
+        "surface": "액츄에이터(actuator)"
+      }
+    ],
+    "sample_contexts": [
+      "…ctro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)] 기술, 바이오 기술, 0.8…"
+    ]
+  },
+  {
+    "concept_id": "양극재",
+    "primary_canonical": "양극재",
+    "domain": "이차전지",
+    "surfaces": [
+      "양극재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::바.",
+        "sector_name": "이차전지",
+        "tech_name": "하이니켈 양극재 제조기술",
+        "surface": "양극재"
+      },
+      {
+        "tech_id": "strategic::2::::차.",
+        "sector_name": "이차전지",
+        "tech_name": "양극재용 고순도 금속 화합물 제조ㆍ가공기술",
+        "surface": "양극재"
+      }
+    ],
+    "sample_contexts": [
+      "니켈 함량이 80% 이상인 고용량 양극재 제조기술, 수명 증가를 위한 안정성 향상 기술, 리튬계 원자재, 금속전…",
+      "…, 정련, 전환 및 정제 기술을 활용하여 중간체 및 순도 99% 이상의 양극재용 금속화합물(수산화리튬, 탄산리튬, 황산니켈, 황산코발트, 황산망간)로…"
+    ]
+  },
+  {
+    "concept_id": "에너지-밀도",
+    "primary_canonical": "에너지 밀도",
+    "domain": "에너지",
+    "surfaces": [
+      "에너지 밀도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::6)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "전기동력 자동차의 에너지저장 시스템 기술",
+        "surface": "에너지 밀도"
+      },
+      {
+        "tech_id": "newgrowth::2::마::3)",
+        "sector_name": "지능정보",
+        "tech_name": "섬유기반 유연전원(fabric based flexible battery) 제조 기술",
+        "surface": "에너지 밀도"
+      }
+    ],
+    "sample_contexts": [
+      "…EV)의 주행거리 연장, 충전시간 단축 등을 위해 차량용 이차전지 팩의 에너지 밀도를 160Wh/kg 이상으로 구현하기 위한 기술",
+      "…유연전원(fabric based flexible battery)으로서, 에너지 밀도가 100Wh/kg 이상으로 고효율ㆍ고수명의 성능을 가진 섬유기반 유연전…"
+    ]
+  },
+  {
+    "concept_id": "에너지밀도-2",
+    "primary_canonical": "에너지밀도",
+    "domain": "이차전지",
+    "surfaces": [
+      "에너지밀도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::가.",
+        "sector_name": "이차전지",
+        "tech_name": "고에너지밀도 이차전지 팩 제조기술",
+        "surface": "에너지밀도"
+      },
+      {
+        "tech_id": "strategic::2::::나.",
+        "sector_name": "이차전지",
+        "tech_name": "고성능 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "에너지밀도"
+      }
+    ],
+    "sample_contexts": [
+      "전기차, 에너지저장장치 등에 사용되는 이차전지 팩의 중량당 에너지밀도를 160Wh/kg 이상으로 구현하기 위한 모듈 및 팩 설계, 제조 기술",
+      "이차전지 셀을 기준으로 중량당 에너지밀도가 265Wh/kg 이상 또는 1시간 기준 방전출력 대비 6배 이상의 고…"
+    ]
+  }
+]

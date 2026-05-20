@@ -1,0 +1,818 @@
+[
+{
+"tech_id": "strategic::1::::가.",
+"surfaces": [
+{
+"surface": "D램",
+"domain_hint": "반도체"
+},
+{
+"surface": "낸드플래시메모리",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::거.",
+"surfaces": [
+{
+"surface": "이산화규소(SiO2)",
+"domain_hint": "반도체"
+},
+{
+"surface": "유전특성",
+"domain_hint": "반도체"
+},
+{
+"surface": "high-k dielectric",
+"domain_hint": "반도체"
+},
+{
+"surface": "박막",
+"domain_hint": "반도체"
+},
+{
+"surface": "증착",
+"domain_hint": "반도체"
+},
+{
+"surface": "원자층증착법(ALD, Atomic Layer Deposition)",
+"domain_hint": "반도체"
+},
+{
+"surface": "화학증착법(CVD, Chemical Vapor Deposition)",
+"domain_hint": "반도체"
+},
+{
+"surface": "전구체",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::나.",
+"surfaces": [
+{
+"surface": "D램(DRAM)",
+"domain_hint": "반도체"
+},
+{
+"surface": "낸드 플래시메모리(Nand Flash Memory)",
+"domain_hint": "반도체"
+},
+{
+"surface": "STT-MRAM(Spin Transfer Torque-Magnetic Random Access Memory)",
+"domain_hint": "반도체"
+},
+{
+"surface": "PRAM(Phase-change Random Access Memory)",
+"domain_hint": "반도체"
+},
+{
+"surface": "ReRAM(Resistive Random Access Memory)",
+"domain_hint": "반도체"
+},
+{
+"surface": "초거대 AI",
+"domain_hint": "AI"
+},
+{
+"surface": "CPU",
+"domain_hint": "반도체"
+},
+{
+"surface": "병목현상",
+"domain_hint": "반도체"
+},
+{
+"surface": "AI 프로세서",
+"domain_hint": "AI"
+},
+{
+"surface": "PIM(Processing In Memory)",
+"domain_hint": "반도체"
+},
+{
+"surface": "HBM(High Bandwidth Memory)",
+"domain_hint": "반도체"
+},
+{
+"surface": "LLC(Last Level Cache)",
+"domain_hint": "반도체"
+},
+{
+"surface": "CXL(Compute eXpress Link)",
+"domain_hint": "반도체"
+},
+{
+"surface": "SOM(Selector Only Memory)",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::너.",
+"surfaces": [
+{
+"surface": "고순도 불화수소",
+"domain_hint": "반도체"
+},
+{
+"surface": "회로형성",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::다.",
+"surfaces": [
+{
+"surface": "뉴럴넷(Neural Network)",
+"domain_hint": "AI"
+},
+{
+"surface": "슈퍼프로세서",
+"domain_hint": "반도체"
+},
+{
+"surface": "지능형 자율주행 이동체",
+"domain_hint": "미래차"
+},
+{
+"surface": "드론",
+"domain_hint": "로봇"
+},
+{
+"surface": "지능형 로봇",
+"domain_hint": "로봇"
+},
+{
+"surface": "AP(Application Processor)",
+"domain_hint": "반도체"
+},
+{
+"surface": "DVR (Digital Video Recoder)",
+"domain_hint": "보안"
+},
+{
+"surface": "화상처리용 지능형 보안시스템",
+"domain_hint": "보안"
+},
+{
+"surface": "복합 교통관제 시스템",
+"domain_hint": "미래차"
+},
+{
+"surface": "매니코어(Many Core)",
+"domain_hint": "반도체"
+},
+{
+"surface": "SoC(System on Chip)",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::더.",
+"surfaces": [
+{
+"surface": "ArF(불화아르곤)",
+"domain_hint": "반도체"
+},
+{
+"surface": "EUV(극자외선)",
+"domain_hint": "반도체"
+},
+{
+"surface": "블랭크마스크",
+"domain_hint": "반도체"
+},
+{
+"surface": "펠리클(Pellicle)",
+"domain_hint": "반도체"
+},
+{
+"surface": "합성 쿼츠",
+"domain_hint": "소재"
+},
+{
+"surface": "스터러링용 타겟",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::라.",
+"surfaces": [
+{
+"surface": "IoT",
+"domain_hint": "통신"
+},
+{
+"surface": "착용형 스마트 단말기기",
+"domain_hint": "AI"
+},
+{
+"surface": "SoC",
+"domain_hint": "반도체"
+},
+{
+"surface": "주파수 조정 기능 반도체",
+"domain_hint": "반도체"
+},
+{
+"surface": "RF switch",
+"domain_hint": "통신"
+},
+{
+"surface": "RF반도체",
+"domain_hint": "통신"
+},
+{
+"surface": "인버터/컨버터",
+"domain_hint": "반도체"
+},
+{
+"surface": "Mixed signal 반도체",
+"domain_hint": "반도체"
+},
+{
+"surface": "UWB(Ultra-wideband)",
+"domain_hint": "통신"
+},
+{
+"surface": "원칩화",
+"domain_hint": "반도체"
+},
+{
+"surface": "컨트롤 IC(eNVM)",
+"domain_hint": "반도체"
+},
+{
+"surface": "IoTㆍ웨어러블 SoC(System on Chip)",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::러.",
+"surfaces": [
+{
+"surface": "SiNx",
+"domain_hint": "반도체"
+},
+{
+"surface": "SiOx",
+"domain_hint": "반도체"
+},
+{
+"surface": "막질",
+"domain_hint": "반도체"
+},
+{
+"surface": "식각",
+"domain_hint": "반도체"
+},
+{
+"surface": "고선택비",
+"domain_hint": "반도체"
+},
+{
+"surface": "인산계 식각액",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::마.",
+"surfaces": [
+{
+"surface": "아날로그(analogue)",
+"domain_hint": "반도체"
+},
+{
+"surface": "감지부",
+"domain_hint": "반도체"
+},
+{
+"surface": "신호처리 집적회로",
+"domain_hint": "반도체"
+},
+{
+"surface": "나노기술",
+"domain_hint": "소재"
+},
+{
+"surface": "MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)]",
+"domain_hint": "반도체"
+},
+{
+"surface": "CMOS(Complementary Metal-Oxide Semiconductor) 이미지센서",
+"domain_hint": "반도체"
+},
+{
+"surface": "HDR(High Dynamic Range) CMOS 이미지센서",
+"domain_hint": "반도체"
+},
+{
+"surface": "SoC(System on Chip)",
+"domain_hint": "반도체"
+},
+{
+"surface": "패키징",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::머.",
+"surfaces": [
+{
+"surface": "웨이퍼",
+"domain_hint": "반도체"
+},
+{
+"surface": "용융 실리콘",
+"domain_hint": "반도체"
+},
+{
+"surface": "도가니",
+"domain_hint": "소재"
+},
+{
+"surface": "고순도 석영",
+"domain_hint": "소재"
+}
+]
+},
+{
+"tech_id": "strategic::1::::바.",
+"surfaces": [
+{
+"surface": "기능안전성",
+"domain_hint": "미래차"
+},
+{
+"surface": "ISO26262",
+"domain_hint": "미래차"
+},
+{
+"surface": "AEC-Q100",
+"domain_hint": "미래차"
+},
+{
+"surface": "MCU(Micro controller unit)",
+"domain_hint": "반도체"
+},
+{
+"surface": "ECU(Electronic control unit)",
+"domain_hint": "미래차"
+},
+{
+"surface": "파워IC",
+"domain_hint": "반도체"
+},
+{
+"surface": "SoC",
+"domain_hint": "반도체"
+},
+{
+"surface": "하이브리드/전기차",
+"domain_hint": "미래차"
+},
+{
+"surface": "자율주행용 IC",
+"domain_hint": "미래차"
+}
+]
+},
+{
+"tech_id": "strategic::1::::버.",
+"surfaces": [
+{
+"surface": "반도체 소자",
+"domain_hint": "반도체"
+},
+{
+"surface": "절연성",
+"domain_hint": "반도체"
+},
+{
+"surface": "감광성 코팅",
+"domain_hint": "반도체"
+},
+{
+"surface": "패키징 재배선",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::사.",
+"surfaces": [
+{
+"surface": "저저항",
+"domain_hint": "반도체"
+},
+{
+"surface": "실리콘",
+"domain_hint": "반도체"
+},
+{
+"surface": "에너지효율향상 반도체",
+"domain_hint": "반도체"
+},
+{
+"surface": "SJ(Super Junction) MOSFET",
+"domain_hint": "반도체"
+},
+{
+"surface": "IGBT",
+"domain_hint": "반도체"
+},
+{
+"surface": "화합물(SiC, GaN, Ga2O3)",
+"domain_hint": "반도체"
+},
+{
+"surface": "MOSFET",
+"domain_hint": "반도체"
+},
+{
+"surface": "패키징",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::서.",
+"surfaces": [
+{
+"surface": "파운드리",
+"domain_hint": "반도체"
+},
+{
+"surface": "Library(Standard Cell, I/O, Memory Compiler)",
+"domain_hint": "반도체"
+},
+{
+"surface": "IP",
+"domain_hint": "반도체"
+},
+{
+"surface": "Derivative Library",
+"domain_hint": "반도체"
+},
+{
+"surface": "Derivative IP",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::아.",
+"surfaces": [
+{
+"surface": "저저항",
+"domain_hint": "반도체"
+},
+{
+"surface": "5G",
+"domain_hint": "통신"
+},
+{
+"surface": "디지털 로직",
+"domain_hint": "반도체"
+},
+{
+"surface": "파워소자",
+"domain_hint": "반도체"
+},
+{
+"surface": "원칩화",
+"domain_hint": "반도체"
+},
+{
+"surface": "초소형ㆍ초절전 전력반도체",
+"domain_hint": "반도체"
+},
+{
+"surface": "BCDMOS",
+"domain_hint": "반도체"
+},
+{
+"surface": "UHV",
+"domain_hint": "반도체"
+},
+{
+"surface": "고전압 아날로그 IC",
+"domain_hint": "반도체"
+},
+{
+"surface": "PMIC",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::어.",
+"surfaces": [
+{
+"surface": "SoC(System on Chip)",
+"domain_hint": "반도체"
+},
+{
+"surface": "RF(Radio Frequency) 반도체",
+"domain_hint": "통신"
+},
+{
+"surface": "AEC-Q100",
+"domain_hint": "미래차"
+},
+{
+"surface": "CMOS 이미지센서",
+"domain_hint": "반도체"
+},
+{
+"surface": "내전압",
+"domain_hint": "반도체"
+},
+{
+"surface": "전력반도체",
+"domain_hint": "반도체"
+},
+{
+"surface": "소스채널",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "OLED용 DDI(Display Driver IC)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "전기적 특성검사",
+"domain_hint": "반도체"
+},
+{
+"surface": "주검사장비",
+"domain_hint": "반도체"
+},
+{
+"surface": "프로브스테이션(Probe Station)",
+"domain_hint": "반도체"
+},
+{
+"surface": "MEMS(Micro Electro Mechanial System)",
+"domain_hint": "반도체"
+},
+{
+"surface": "프로브카드",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::자.",
+"surfaces": [
+{
+"surface": "OLED",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "Flexible",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "퀀텀닷",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "롤러블",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "폴더블",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "마이크로LED",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "Mini LED",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "LCD",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "구동 신호",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "전기신호",
+"domain_hint": "반도체"
+},
+{
+"surface": "반도체(DDI)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "반도체(T-Con)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "전원 전압",
+"domain_hint": "반도체"
+},
+{
+"surface": "반도체(PMIC)",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::저.",
+"surfaces": [
+{
+"surface": "웨이퍼",
+"domain_hint": "반도체"
+},
+{
+"surface": "칩",
+"domain_hint": "반도체"
+},
+{
+"surface": "수직 적층",
+"domain_hint": "반도체"
+},
+{
+"surface": "3D 적층형 반도체",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::차.",
+"surfaces": [
+{
+"surface": "SoC(System on Chip)",
+"domain_hint": "반도체"
+},
+{
+"surface": "파운드리(Foundry)",
+"domain_hint": "반도체"
+},
+{
+"surface": "제조공정",
+"domain_hint": "반도체"
+},
+{
+"surface": "공정 설계기술",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::처.",
+"surfaces": [
+{
+"surface": "AI 가속기",
+"domain_hint": "AI"
+},
+{
+"surface": "CCL(Copper Clad Laminate)",
+"domain_hint": "반도체"
+},
+{
+"surface": "저손실 특성(Ultra Low Loss)",
+"domain_hint": "반도체"
+},
+{
+"surface": "Df",
+"domain_hint": "반도체"
+},
+{
+"surface": "열신뢰성 평가(Thermal Cycling Test)",
+"domain_hint": "반도체"
+},
+{
+"surface": "PCB",
+"domain_hint": "반도체"
+},
+{
+"surface": "실장",
+"domain_hint": "반도체"
+},
+{
+"surface": "열팽창계수(CTE)",
+"domain_hint": "소재"
+}
+]
+},
+{
+"tech_id": "strategic::1::::카.",
+"surfaces": [
+{
+"surface": "패키징 기술(WLP, PLP, SiP, 플립칩 등)",
+"domain_hint": "반도체"
+},
+{
+"surface": "2D/2.5D/3D 패키징 공정기술",
+"domain_hint": "반도체"
+},
+{
+"surface": "패키징‧테스트",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::타.",
+"surfaces": [
+{
+"surface": "D램",
+"domain_hint": "반도체"
+},
+{
+"surface": "낸드플래시메모리",
+"domain_hint": "반도체"
+},
+{
+"surface": "파운드리 SoC",
+"domain_hint": "반도체"
+},
+{
+"surface": "에피텍셜 반도체",
+"domain_hint": "반도체"
+},
+{
+"surface": "실리콘 기판",
+"domain_hint": "반도체"
+},
+{
+"surface": "화합물(SiC, GaN, Ga2O3) 기판",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::파.",
+"surfaces": [
+{
+"surface": "첨단 메모리반도체(15nm급 이하 D램 및 170단 이상 낸드플래시메모리)",
+"domain_hint": "반도체"
+},
+{
+"surface": "차세대 메모리반도체[STT-MRAM(Spin Transfer Torque-Magnetic RAM), PRAM(Phase-change RAM), ReRAM(Resistive RAM), PIM(Processing In Memory), HBM(High Bandwidth Memory), LLC(Last Level Cache), CXL(Compute eXpress Link), SOM(Selector Only Memory)]",
+"domain_hint": "반도체"
+},
+{
+"surface": "SoC",
+"domain_hint": "반도체"
+},
+{
+"surface": "파운드리",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::1::::하.",
+"surfaces": [
+{
+"surface": "리소그래피(lithography)",
+"domain_hint": "반도체"
+},
+{
+"surface": "수지",
+"domain_hint": "소재"
+},
+{
+"surface": "내열성",
+"domain_hint": "소재"
+},
+{
+"surface": "전기적 특성",
+"domain_hint": "반도체"
+},
+{
+"surface": "현상(Developing)",
+"domain_hint": "반도체"
+},
+{
+"surface": "포토레지스트",
+"domain_hint": "반도체"
+},
+{
+"surface": "ArF(불화아르곤)",
+"domain_hint": "반도체"
+},
+{
+"surface": "EUV(극자외선)",
+"domain_hint": "반도체"
+}
+]
+}
+]

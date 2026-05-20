@@ -1,0 +1,630 @@
+[
+  {
+    "concept_id": "구동소자",
+    "primary_canonical": "구동소자",
+    "domain": "디스플레이",
+    "surfaces": [
+      "구동소자"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "구동소자"
+      },
+      {
+        "tech_id": "strategic::4::::나.",
+        "sector_name": "디스플레이",
+        "tech_name": "친환경 QD(Quantum Dot) 소재 적용 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "구동소자"
+      },
+      {
+        "tech_id": "strategic::4::::다.",
+        "sector_name": "디스플레이",
+        "tech_name": "Micro LED 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "구동소자"
+      }
+    ],
+    "sample_contexts": [
+      "…물(Oxide) TFT를 형성한 백플레인 또는 실리콘(Silicon)에 구동소자를 형성한 웨이퍼에 발광특성을 가진 유기물을 진공 증발 증착 또는 프린팅…",
+      "…규제) 충족 QD 소재를 노광 또는 직접 패터닝 방식으로 제조한 패널과 구동소자, 커버윈도우 등을 가공ㆍ조립하는 친환경 QD 소재 적용 디스플레이 패널…",
+      "…한 단축 50㎛ 크기 이하의 RㆍGㆍB 마이크로 LED를 적용한 패널과 구동소자, 커버윈도우 등을 가공ㆍ조립하는 Micro LED 디스플레이 패널 설계…"
+    ]
+  },
+  {
+    "concept_id": "내약성",
+    "primary_canonical": "내약성",
+    "domain": "바이오",
+    "surfaces": [
+      "내약성"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::6)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "내약성"
+      },
+      {
+        "tech_id": "strategic::7::::라.",
+        "sector_name": "바이오의약품",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "내약성"
+      },
+      {
+        "tech_id": "strategic::3::::다.",
+        "sector_name": "백신",
+        "tech_name": "임상약리시험 평가기술(임상 1상 시험)",
+        "surface": "내약성"
+      }
+    ],
+    "sample_contexts": [
+      "혁신형 신약(화합물의약품) 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적…",
+      "…으로 한정한다. 이하 마목 및 바목에서 같다] 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적…",
+      "백신 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적…"
+    ]
+  },
+  {
+    "concept_id": "노심",
+    "primary_canonical": "노심",
+    "domain": "원자력",
+    "surfaces": [
+      "노심"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::4)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
+        "surface": "노심"
+      },
+      {
+        "tech_id": "newgrowth::14::다::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "가압경수형원전(Pressurized Water Reactor) 원전설계 핵심코드 개발 기술",
+        "surface": "노심"
+      },
+      {
+        "tech_id": "newgrowth::14::다::8)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
+        "surface": "노심"
+      }
+    ],
+    "sample_contexts": [
+      "노심 및 핵연료 설계기술, 핵증기공급계통(NSSS, Nuclear Steam…",
+      "원자력발전소 독자개발 및 수출에 필수적인 핵심원천기술인 고유 노심설계코드(원자로 노심의 핵연료 배치 및 장전량을 결정하고 노심의 물리적…",
+      "SMR 노심 설계 및 해석기술, 계통 핵심기기 설계기술, 유체계통 설계기술, MMI…"
+    ]
+  },
+  {
+    "concept_id": "마이크로led",
+    "primary_canonical": "마이크로LED",
+    "domain": "디스플레이",
+    "surfaces": [
+      "마이크로 LED",
+      "마이크로LED"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::5)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "마이크로 LED 디스플레이 패널ㆍ부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "마이크로 LED"
+      },
+      {
+        "tech_id": "strategic::4::::다.",
+        "sector_name": "디스플레이",
+        "tech_name": "Micro LED 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "마이크로 LED"
+      },
+      {
+        "tech_id": "strategic::1::::자.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기ㆍ차량용 디스플레이 반도체 설계ㆍ제조기술",
+        "surface": "마이크로LED"
+      }
+    ],
+    "sample_contexts": [
+      "…) 기판에 저결함 에피공정을 적용하여 100㎛ 이하의 자발광 R/G/B 마이크로 LED 칩을 제조하는 기술과 이를 이용한 픽셀ㆍ패널 제조 기술 및 이와 관련한…",
+      "…3이하) 에피(Epi)공정을 적용한 단축 50㎛ 크기 이하의 RㆍGㆍB 마이크로 LED를 적용한 패널과 구동소자, 커버윈도우 등을 가공ㆍ조립하는 Micro L…",
+      "…량의 디스플레이(OLED, Flexible, 퀀텀닷, 롤러블, 폴더블, 마이크로LED, Mini LED, 4Kㆍ120Hz급 이상 고해상도 LCD 등)에 구동…"
+    ]
+  },
+  {
+    "concept_id": "모듈-3",
+    "primary_canonical": "모듈",
+    "domain": "이차전지",
+    "surfaces": [
+      "모듈"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::가.",
+        "sector_name": "이차전지",
+        "tech_name": "고에너지밀도 이차전지 팩 제조기술",
+        "surface": "모듈"
+      },
+      {
+        "tech_id": "strategic::2::::나.",
+        "sector_name": "이차전지",
+        "tech_name": "고성능 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "모듈"
+      },
+      {
+        "tech_id": "strategic::2::::마.",
+        "sector_name": "이차전지",
+        "tech_name": "차세대 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "모듈"
+      }
+    ],
+    "sample_contexts": [
+      "…차전지 팩의 중량당 에너지밀도를 160Wh/kg 이상으로 구현하기 위한 모듈 및 팩 설계, 제조 기술",
+      "…상의 장수명을 충족하는 고성능 리튬이차전지에 사용되는 부품·소재·셀 및 모듈 제조 및 안전성 향상 기술",
+      "…전해질을 기반으로 하는 차세대 리튬이차전지에 사용되는 부품·소재·셀 및 모듈 제조기술"
+    ]
+  },
+  {
+    "concept_id": "버퍼",
+    "primary_canonical": "버퍼",
+    "domain": "바이오",
+    "surfaces": [
+      "버퍼"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::사.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오의약품 원료ㆍ소재 제조기술",
+        "surface": "버퍼"
+      },
+      {
+        "tech_id": "strategic::3::::바.",
+        "sector_name": "백신",
+        "tech_name": "원료 및 원부자재 등 개발·제조 기술",
+        "surface": "버퍼"
+      },
+      {
+        "tech_id": "strategic::3::::사.",
+        "sector_name": "백신",
+        "tech_name": "생산장비 개발·제조 기술",
+        "surface": "버퍼"
+      }
+    ],
+    "sample_contexts": [
+      "…소재(배지, 첨가물 등), 분리ㆍ정제ㆍ농축을 위해 사용하는 바이오 소재(버퍼, 필터) 및 완제품 생산을 위해 제형화에 필요한 원부자재 등의 제조기술",
+      "백신 개발·제조에 필요한 원료 및 원부자재(필터, 레진, 버퍼, 배양배지 등) 또는 백신의 효능을 증가시키는 물질(면역보조제)을 개발…",
+      "백신 및 백신 원료·원부자재(필터, 레진, 버퍼, 배양배지 등) 생산에 필요한 장비를 개발·제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "베어링",
+    "primary_canonical": "베어링",
+    "domain": "부품",
+    "surfaces": [
+      "베어링",
+      "베어링(bearing)",
+      "베어링(Bearing)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::6)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 밸런싱머신 설계ㆍ제조기술",
+        "surface": "베어링"
+      },
+      {
+        "tech_id": "newgrowth::15::다::5)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
+        "surface": "베어링(bearing)"
+      },
+      {
+        "tech_id": "newgrowth::15::마::6)",
+        "sector_name": "탄소중립",
+        "tech_name": "극저온 액체 저장 및 이송용 펌프 설계ㆍ제조기술",
+        "surface": "베어링(Bearing)"
+      }
+    ],
+    "sample_contexts": [
+      "회전기계의 핵심부품인 회전부의 불균일한 질량분포를 측정한 후, 베어링으로 전달되는 힘이나 진동을 국제규격(ISO 21940-21) 규정 이내…",
+      "…장치를 구성하는 유성기어(planet carrier)ㆍ축(shaft)ㆍ베어링(bearing)ㆍ이음쇠(coupling)ㆍ브레이크(brake) 및 제어기(control…",
+      "…저장 및 이송하기 위해 사용하는 극저온용 펌프로 극저온용 밀봉 소재와 베어링(Bearing), 터미널 헤더(Terminal Heather) 등의 부품을 설계ㆍ제조ㆍ…"
+    ]
+  },
+  {
+    "concept_id": "식각",
+    "primary_canonical": "식각",
+    "domain": "반도체",
+    "surfaces": [
+      "식각"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::8)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "식각"
+      },
+      {
+        "tech_id": "newgrowth::15::라::10)",
+        "sector_name": "탄소중립",
+        "tech_name": "반도체ㆍ디스플레이 식각ㆍ증착공정의 대체소재 제조 및 적용기술",
+        "surface": "식각"
+      },
+      {
+        "tech_id": "strategic::1::::러.",
+        "sector_name": "반도체",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "식각"
+      }
+    ],
+    "sample_contexts": [
+      "SiNx, SiOx 막질의 선택적인 식각이 가능한 고선택비(1,000이상) 인산계 식각액 제조기술",
+      "반도체ㆍ디스플레이 제조공정에서 사용하는 식각 및 증착용 온실가스를 GWP(Global Warming Potentia…"
+    ]
+  },
+  {
+    "concept_id": "약동학",
+    "primary_canonical": "약동학",
+    "domain": "바이오",
+    "surfaces": [
+      "약동학"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::6)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "약동학"
+      },
+      {
+        "tech_id": "strategic::7::::라.",
+        "sector_name": "바이오의약품",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "약동학"
+      },
+      {
+        "tech_id": "strategic::3::::다.",
+        "sector_name": "백신",
+        "tech_name": "임상약리시험 평가기술(임상 1상 시험)",
+        "surface": "약동학"
+      }
+    ],
+    "sample_contexts": [
+      "혁신형 신약(화합물의약품) 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료효과…",
+      "…한다. 이하 마목 및 바목에서 같다] 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료효과…",
+      "백신 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료 효과…"
+    ]
+  },
+  {
+    "concept_id": "약력학",
+    "primary_canonical": "약력학",
+    "domain": "바이오",
+    "surfaces": [
+      "약력학"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::6)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "약력학"
+      },
+      {
+        "tech_id": "strategic::7::::라.",
+        "sector_name": "바이오의약품",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "약력학"
+      },
+      {
+        "tech_id": "strategic::3::::다.",
+        "sector_name": "백신",
+        "tech_name": "임상약리시험 평가기술(임상 1상 시험)",
+        "surface": "약력학"
+      }
+    ],
+    "sample_contexts": [
+      "혁신형 신약(화합물의약품) 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료효과 추정을 위한…",
+      "…마목 및 바목에서 같다] 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료효과 추정을 위한…",
+      "백신 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료 효과 추정을 위…"
+    ]
+  },
+  {
+    "concept_id": "약물대사",
+    "primary_canonical": "약물대사",
+    "domain": "바이오",
+    "surfaces": [
+      "약물대사"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::6)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "약물대사"
+      },
+      {
+        "tech_id": "strategic::7::::라.",
+        "sector_name": "바이오의약품",
+        "tech_name": "임상약리시험 평가기술(임상1상 시험)",
+        "surface": "약물대사"
+      },
+      {
+        "tech_id": "strategic::3::::다.",
+        "sector_name": "백신",
+        "tech_name": "임상약리시험 평가기술(임상 1상 시험)",
+        "surface": "약물대사"
+      }
+    ],
+    "sample_contexts": [
+      "…의약품) 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료효과 추정을 위한 임상약리시험 평가기…",
+      "…같다] 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료효과 추정을 위한 임상약리시험 평가기…",
+      "백신 후보물질의 초기 안정성, 내약성, 약동학적, 약력학적 평가 및 약물대사와 상호작용 평가, 초기 잠재적 치료 효과 추정을 위한 임상약리시험 평가…"
+    ]
+  },
+  {
+    "concept_id": "전구체",
+    "primary_canonical": "전구체",
+    "domain": "반도체",
+    "surfaces": [
+      "전구체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::5)",
+        "sector_name": "융복합소재",
+        "tech_name": "고융점 금속 기반 4N급 염화물 또는 불화물 전환 기술",
+        "surface": "전구체"
+      },
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "전구체"
+      },
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "전구체"
+      }
+    ],
+    "sample_contexts": [
+      "…소 또는 불소계 반응원을 이용해 염화물 또는 불화물로 전환하여 반도체용 전구체 원료 소재를 제조하는 기술",
+      "…dielectric 박막 증착을 위한 ALD 및 CVD 공정에 사용되는 전구체를 개발하는 기술",
+      "…CVD, Chemical Vapor Deposition)공정에 사용되는 전구체를 개발하는 기술"
+    ]
+  },
+  {
+    "concept_id": "전극",
+    "primary_canonical": "전극",
+    "domain": "배터리",
+    "surfaces": [
+      "전극"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
+        "surface": "전극"
+      },
+      {
+        "tech_id": "newgrowth::2::마::2)",
+        "sector_name": "지능정보",
+        "tech_name": "유연한 양ㆍ음극 소재 및 전극 설계ㆍ제조기술",
+        "surface": "전극"
+      },
+      {
+        "tech_id": "newgrowth::13::가::6)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
+        "surface": "전극"
+      }
+    ],
+    "sample_contexts": [
+      "흐름전지(Flow Battery)에 사용되는 전극ㆍ멤브레인(Membrane)ㆍ전해질ㆍ저가 분리판ㆍ스택(Stack) 설계…",
+      "…용되는 유연한(flexible) 양ㆍ음극 소재 설계ㆍ제조 기술 및 해당 전극의 조성(composition)ㆍ형상(forming)의 설계ㆍ제조 기술",
+      "비철계 촉매를 사용하여 전도성이 우수한 전극용 탄소나노튜브(CNT, Carbon Nanotube)를 제조하는 기술…"
+    ]
+  },
+  {
+    "concept_id": "증착",
+    "primary_canonical": "증착",
+    "domain": "반도체",
+    "surfaces": [
+      "증착"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "증착"
+      },
+      {
+        "tech_id": "newgrowth::15::라::10)",
+        "sector_name": "탄소중립",
+        "tech_name": "반도체ㆍ디스플레이 식각ㆍ증착공정의 대체소재 제조 및 적용기술",
+        "surface": "증착"
+      },
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "증착"
+      }
+    ],
+    "sample_contexts": [
+      "…O2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 ALD 및 CVD 공정에 사용되는 전구체를 개발하는 기술",
+      "반도체ㆍ디스플레이 제조공정에서 사용하는 식각 및 증착용 온실가스를 GWP(Global Warming Potential)가 낮…",
+      "…O2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 원자층증착법(ALD, Atomic Layer Deposition…"
+    ]
+  },
+  {
+    "concept_id": "필터",
+    "primary_canonical": "필터",
+    "domain": "바이오",
+    "surfaces": [
+      "필터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::사.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오의약품 원료ㆍ소재 제조기술",
+        "surface": "필터"
+      },
+      {
+        "tech_id": "strategic::3::::바.",
+        "sector_name": "백신",
+        "tech_name": "원료 및 원부자재 등 개발·제조 기술",
+        "surface": "필터"
+      },
+      {
+        "tech_id": "strategic::3::::사.",
+        "sector_name": "백신",
+        "tech_name": "생산장비 개발·제조 기술",
+        "surface": "필터"
+      }
+    ],
+    "sample_contexts": [
+      "…지, 첨가물 등), 분리ㆍ정제ㆍ농축을 위해 사용하는 바이오 소재(버퍼, 필터) 및 완제품 생산을 위해 제형화에 필요한 원부자재 등의 제조기술",
+      "백신 개발·제조에 필요한 원료 및 원부자재(필터, 레진, 버퍼, 배양배지 등) 또는 백신의 효능을 증가시키는 물질(면역…",
+      "백신 및 백신 원료·원부자재(필터, 레진, 버퍼, 배양배지 등) 생산에 필요한 장비를 개발·제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "2d-2-5d-3d-패키징",
+    "primary_canonical": "2D/2.5D/3D 패키징",
+    "domain": "반도체",
+    "surfaces": [
+      "2D/2.5D/3D 패키징"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::3)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "SoC 파운드리 제조, 후공정 및 장비 설계ㆍ제조 기술",
+        "surface": "2D/2.5D/3D 패키징"
+      },
+      {
+        "tech_id": "strategic::1::::카.",
+        "sector_name": "반도체",
+        "tech_name": "WLP, PLP, SiP, 플립칩 기술 등을 활용한 2D/2.5D/3D 패키징 공정기술 및 패키징 관련 소재ㆍ부품ㆍ장비설계ㆍ제조기술",
+        "surface": "2D/2.5D/3D 패키징"
+      }
+    ],
+    "sample_contexts": [
+      "…드리(Foundry) 분야의 7nm 이하급 제조공정 및 공정 설계기술, 2D/2.5D/3D 패키징 등 파운드리(Foundry) 후공정 기술 및 파운드리 소재ㆍ장비 설계ㆍ…",
+      "반도체 패키징 기술(WLP, PLP, SiP, 플립칩 등)을 활용한 2D/2.5D/3D 패키징 공정기술‧테스트 및 패키징‧테스트 관련 소재, 부품, 장비의 설계‧제조…"
+    ]
+  },
+  {
+    "concept_id": "aec-q100",
+    "primary_canonical": "AEC-Q100",
+    "domain": "미래차",
+    "surfaces": [
+      "AEC-Q100"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::바.",
+        "sector_name": "반도체",
+        "tech_name": "차량용 반도체 설계·제조기술",
+        "surface": "AEC-Q100"
+      },
+      {
+        "tech_id": "strategic::1::::어.",
+        "sector_name": "반도체",
+        "tech_name": "고성능ㆍ고효율 시스템 반도체의 테스트 기술 및 테스트 관련 장비, 부품 설계ㆍ제조기술",
+        "surface": "AEC-Q100"
+      }
+    ],
+    "sample_contexts": [
+      "…기능안전성 국제표준 ISO26262, 자동차용 반도체 신뢰성 시험규격 AEC-Q100을 만족하는 MCU(Micro controller unit), ECU(E…",
+      "…z 이상 주파수를 지원하는 RF(Radio Frequency) 반도체, AEC-Q100을 만족하는 차량용 반도체, 4,800만화소 이상 모바일용 CMOS 이미…"
+    ]
+  },
+  {
+    "concept_id": "ald",
+    "primary_canonical": "ALD",
+    "domain": "반도체",
+    "surfaces": [
+      "ALD",
+      "원자층증착법(ALD, Atomic Layer Deposition)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "ALD"
+      },
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "원자층증착법(ALD, Atomic Layer Deposition)"
+      }
+    ],
+    "sample_contexts": [
+      "…수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 ALD 및 CVD 공정에 사용되는 전구체를 개발하는 기술",
+      "…수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)…"
+    ]
+  },
+  {
+    "concept_id": "amoled",
+    "primary_canonical": "AMOLED",
+    "domain": "디스플레이",
+    "surfaces": [
+      "AMOLED"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "9인치 이상 능동형 유기발광 다이오드(AMOLED: Active Matrix Organic Light Emitting Diode) 패널 기능개선 및 부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "AMOLED"
+      },
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "AMOLED"
+      }
+    ],
+    "sample_contexts": [
+      "…(고해상도, 고색재현, 고균일, HRD)을 구현한 대화면(9인치 이상) AMOLED 패널을 제조하기 위해 공정별로 사용되는 기술(모듈조립공정기술은 제외한다…",
+      "…(고휘도, 저소비전력) 패널과 구동소자, 커버윈도우 등을 가공ㆍ조립하는 AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술"
+    ]
+  },
+  {
+    "concept_id": "bcdmos",
+    "primary_canonical": "BCDMOS",
+    "domain": "반도체",
+    "surfaces": [
+      "BCDMOS(Bipolar /Complementary/Double-diffused metal-oxide-semiconductor)",
+      "BCDMOS"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::9)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "에너지효율향상 전력 반도체 BCDMOS(Bipolar /Complementary/Double-diffused metal-oxide-semiconductor) 설계ㆍ제조 기술",
+        "surface": "BCDMOS(Bipolar /Complementary/Double-diffused metal-oxide-semiconductor)"
+      },
+      {
+        "tech_id": "strategic::1::::아.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 전력 및 전력관리 반도체[BCDMOS(Bipolar-CMOS-DMOS), UHV(Ultra High Voltage), 고전압 아날로그 IC(Integrated Circuit), PMIC(Power Management IC)] 설계ㆍ제조기술(0.35㎛이하)",
+        "surface": "BCDMOS"
+      }
+    ],
+    "sample_contexts": [
+      "…지털 로직, 파워소자를 원칩화한 초소형ㆍ초절전 전력반도체(0.35㎛이하 BCDMOS, 800V 이상 UHV, 12V 이상 고전압 아날로그 IC, PMIC)…"
+    ]
+  }
+]

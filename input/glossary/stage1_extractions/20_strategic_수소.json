@@ -1,0 +1,280 @@
+[
+{
+"tech_id": "strategic::5::::가.",
+"surfaces": [
+{
+"surface": "재생에너지",
+"domain_hint": "에너지"
+},
+{
+"surface": "원자력에너지",
+"domain_hint": "원자력"
+},
+{
+"surface": "무탄소 전원",
+"domain_hint": "에너지"
+},
+{
+"surface": "계통제약 전력(미활용전력)",
+"domain_hint": "에너지"
+},
+{
+"surface": "수전해",
+"domain_hint": "수소"
+},
+{
+"surface": "스택(stack)",
+"domain_hint": "수소"
+}
+]
+},
+{
+"tech_id": "strategic::5::::나.",
+"surfaces": [
+{
+"surface": "천연가스",
+"domain_hint": "에너지"
+},
+{
+"surface": "액화석유가스",
+"domain_hint": "에너지"
+},
+{
+"surface": "바이오가스",
+"domain_hint": "바이오"
+},
+{
+"surface": "바이오매스",
+"domain_hint": "바이오"
+},
+{
+"surface": "폐플라스틱",
+"domain_hint": "소재"
+},
+{
+"surface": "탄화수소 원료",
+"domain_hint": "수소"
+},
+{
+"surface": "추출수소",
+"domain_hint": "수소"
+},
+{
+"surface": "이산화탄소",
+"domain_hint": "탄소중립"
+},
+{
+"surface": "일산화탄소",
+"domain_hint": "탄소중립"
+},
+{
+"surface": "고체탄소",
+"domain_hint": "탄소중립"
+},
+{
+"surface": "탄소화합물",
+"domain_hint": "탄소중립"
+},
+{
+"surface": "포집ㆍ전환",
+"domain_hint": "탄소중립"
+}
+]
+},
+{
+"tech_id": "strategic::5::::다.",
+"surfaces": [
+{
+"surface": "수소연료",
+"domain_hint": "수소"
+}
+]
+},
+{
+"tech_id": "strategic::5::::라.",
+"surfaces": [
+{
+"surface": "수소충전소",
+"domain_hint": "수소"
+},
+{
+"surface": "수소 생산설비",
+"domain_hint": "수소"
+},
+{
+"surface": "압축설비",
+"domain_hint": "수소"
+},
+{
+"surface": "저장설비",
+"domain_hint": "수소"
+},
+{
+"surface": "충전설비",
+"domain_hint": "수소"
+}
+]
+},
+{
+"tech_id": "strategic::5::::마.",
+"surfaces": [
+{
+"surface": "연료전지 스택",
+"domain_hint": "수소"
+},
+{
+"surface": "출력밀도",
+"domain_hint": "수소"
+},
+{
+"surface": "저위발열량(LHV, Lower Heating Value)",
+"domain_hint": "수소"
+},
+{
+"surface": "운전효율",
+"domain_hint": "수소"
+},
+{
+"surface": "수소전기차",
+"domain_hint": "미래차"
+},
+{
+"surface": "연료전지시스템",
+"domain_hint": "수소"
+}
+]
+},
+{
+"tech_id": "strategic::5::::바.",
+"surfaces": [
+{
+"surface": "연료전지",
+"domain_hint": "수소"
+},
+{
+"surface": "개질기",
+"domain_hint": "수소"
+},
+{
+"surface": "막전극 접합체",
+"domain_hint": "수소"
+},
+{
+"surface": "금속 분리판",
+"domain_hint": "수소"
+},
+{
+"surface": "블로어",
+"domain_hint": "수소"
+}
+]
+},
+{
+"tech_id": "strategic::5::::사.",
+"surfaces": [
+{
+"surface": "가스터빈",
+"domain_hint": "에너지"
+},
+{
+"surface": "고온ㆍ고압",
+"domain_hint": "에너지"
+},
+{
+"surface": "발전기",
+"domain_hint": "에너지"
+},
+{
+"surface": "시험 평가",
+"domain_hint": "에너지"
+}
+]
+},
+{
+"tech_id": "strategic::5::::아.",
+"surfaces": [
+{
+"surface": "수소(H2)",
+"domain_hint": "수소"
+},
+{
+"surface": "철광석",
+"domain_hint": "소재"
+},
+{
+"surface": "환원",
+"domain_hint": "소재"
+},
+{
+"surface": "전기용융로",
+"domain_hint": "소재"
+},
+{
+"surface": "쇳물(용선)",
+"domain_hint": "소재"
+}
+]
+},
+{
+"tech_id": "strategic::5::::자.",
+"surfaces": [
+{
+"surface": "고압기체",
+"domain_hint": "수소"
+},
+{
+"surface": "액체",
+"domain_hint": "수소"
+},
+{
+"surface": "암모니아",
+"domain_hint": "에너지"
+},
+{
+"surface": "액상 유기물 수소 저장체(LOHC)",
+"domain_hint": "수소"
+},
+{
+"surface": "흡장",
+"domain_hint": "수소"
+},
+{
+"surface": "흡착",
+"domain_hint": "수소"
+}
+]
+},
+{
+"tech_id": "strategic::5::::차.",
+"surfaces": [
+{
+"surface": "수소(H2)",
+"domain_hint": "수소"
+},
+{
+"surface": "생물유기체",
+"domain_hint": "바이오"
+},
+{
+"surface": "전환공정",
+"domain_hint": "바이오"
+},
+{
+"surface": "디젤",
+"domain_hint": "에너지"
+},
+{
+"surface": "항공유",
+"domain_hint": "에너지"
+},
+{
+"surface": "액화석유가스",
+"domain_hint": "에너지"
+},
+{
+"surface": "나프타",
+"domain_hint": "소재"
+}
+]
+}
+]

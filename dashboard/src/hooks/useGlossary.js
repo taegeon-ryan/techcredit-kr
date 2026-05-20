@@ -1,28 +1,42 @@
 import { useEffect, useMemo, useState } from 'react'
-import { buildMatcher } from '../utils/glossaryMatcher'
 
-const EMPTY = { asciiRe: null, koreanRe: null, byKey: new Map() }
+// glossary.json: [{concept_id, en_abbrev, en_full, korean, domain, short, related?}]
+// term_spans.json: { [tech_id]: [{surface, concept_id}, ...] }
+
+const EMPTY = { byConceptId: new Map(), spans: {}, loaded: false }
 
 export function useGlossary() {
-  const [entries, setEntries] = useState(null)
+  const [data, setData] = useState(null)
 
   useEffect(() => {
     let cancelled = false
-    fetch(`${import.meta.env.BASE_URL}data/glossary.json`)
-      .then(res => (res.ok ? res.json() : []))
-      .then(data => {
-        if (!cancelled) setEntries(Array.isArray(data) ? data : [])
+    Promise.all([
+      fetch(`${import.meta.env.BASE_URL}data/glossary.json`).then(r => (r.ok ? r.json() : [])).catch(() => []),
+      fetch(`${import.meta.env.BASE_URL}data/term_spans.json`).then(r => (r.ok ? r.json() : {})).catch(() => ({})),
+    ]).then(([entries, spans]) => {
+      if (cancelled) return
+      setData({
+        entries: Array.isArray(entries) ? entries : [],
+        spans: spans && typeof spans === 'object' ? spans : {},
       })
-      .catch(() => {
-        if (!cancelled) setEntries([])
-      })
+    })
     return () => { cancelled = true }
   }, [])
 
-  const matcher = useMemo(() => {
-    if (!entries || entries.length === 0) return EMPTY
-    return buildMatcher(entries)
-  }, [entries])
+  return useMemo(() => {
+    if (!data) return EMPTY
+    const byConceptId = new Map()
+    for (const e of data.entries) {
+      if (e && e.concept_id) byConceptId.set(e.concept_id, e)
+    }
+    return { byConceptId, spans: data.spans, loaded: true }
+  }, [data])
+}
 
-  return { matcher, loaded: entries != null }
+// 주어진 tech_id 의 spans 를 가져온다. 글로서리에 정의된 concept 만 남김.
+export function spansForTech(glossary, tech_id) {
+  if (!glossary || !glossary.spans) return []
+  const list = glossary.spans[tech_id]
+  if (!Array.isArray(list)) return []
+  return list.filter(s => s && s.surface && glossary.byConceptId.has(s.concept_id))
 }

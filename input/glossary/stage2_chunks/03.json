@@ -1,0 +1,528 @@
+[
+  {
+    "concept_id": "bop",
+    "primary_canonical": "BOP(Balance Of Plant)",
+    "domain": "원자력",
+    "surfaces": [
+      "플랜트종합(BOP, Balance of Plant)",
+      "BOP(Balance Of Plant)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::4)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
+        "surface": "플랜트종합(BOP, Balance of Plant)"
+      },
+      {
+        "tech_id": "newgrowth::14::다::8)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
+        "surface": "BOP(Balance Of Plant)"
+      }
+    ],
+    "sample_contexts": [
+      "…m Supply System) 설계기술, 주기기 설계기술, 보조기기 및 플랜트종합(BOP, Balance of Plant) 설계기술, 원전제어계통(MMIS, Man-Machine Interfac…",
+      "…m)용 계측제어계통 표준설계 기술, 주요기기 배치 및 구조 설계 기술, BOP(Balance Of Plant) 계통 설계 기술, 확률론적 안전성 분석(PSA; Probabilisti…"
+    ]
+  },
+  {
+    "concept_id": "cnc",
+    "primary_canonical": "CNC(Computerized Numerical Controller)",
+    "domain": "장비",
+    "surfaces": [
+      "컴퓨터 수치제어기(CNC, Computerized Numerical Controller)",
+      "CNC(Computerized Numerical Controller)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "탄소섬유복합재의 가공장비 및 검사장비 설계ㆍ제조기술",
+        "surface": "컴퓨터 수치제어기(CNC, Computerized Numerical Controller)"
+      },
+      {
+        "tech_id": "newgrowth::13::다::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
+        "surface": "CNC(Computerized Numerical Controller)"
+      }
+    ],
+    "sample_contexts": [
+      "…관련되는 공구, 부품 고정을 위한 유연지그, 공정 모니터링 센서모듈 및 컴퓨터 수치제어기(CNC, Computerized Numerical Controller) 등을 포함한다] 설계ㆍ제조기술 및 탄소섬유복합재 가공 품질 검사를 위한…",
+      "…전수, 축 이동, 진동오차 제어 등 머시닝센터의 고정밀 작업을 제어하는 CNC(Computerized Numerical Controller) 모듈 관련 기술 포함]"
+    ]
+  },
+  {
+    "concept_id": "cpu",
+    "primary_canonical": "CPU",
+    "domain": "반도체",
+    "surfaces": [
+      "중앙연산장치(CPU)",
+      "CPU"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::12::가::2)",
+        "sector_name": "차세대소프트웨어(SW) 및 보안",
+        "tech_name": "이기종(異機種) 멀티코아 소프트웨어 기술",
+        "surface": "중앙연산장치(CPU)"
+      },
+      {
+        "tech_id": "strategic::1::::나.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 메모리반도체(STT-MRAM, PRAM, ReRAM, PIM, HBM, LLC, CXL, SOM) 설계ㆍ제조기술",
+        "surface": "CPU"
+      }
+    ],
+    "sample_contexts": [
+      "중앙연산장치(CPU)에 보조연산장치ㆍ연산가속장치 등의 여러 컴퓨팅 장치를 결합하여 고효율ㆍ고…",
+      "…ve Random Access Memory), 초거대 AI 응용을 위해 CPU와 메모리 간의 병목현상 해결을 목적으로 메모리반도체에 전용 AI 프로세…"
+    ]
+  },
+  {
+    "concept_id": "cvd",
+    "primary_canonical": "CVD",
+    "domain": "반도체",
+    "surfaces": [
+      "CVD",
+      "화학증착법(CVD, Chemical Vapor Deposition)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "CVD"
+      },
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "화학증착법(CVD, Chemical Vapor Deposition)"
+      }
+    ],
+    "sample_contexts": [
+      "…성을 갖는 high-k dielectric 박막 증착을 위한 ALD 및 CVD 공정에 사용되는 전구체를 개발하는 기술",
+      "…원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)공정에 사용되는 전구체를 개발하는 기술"
+    ]
+  },
+  {
+    "concept_id": "cxl",
+    "primary_canonical": "CXL(Compute eXpress Link)",
+    "domain": "반도체",
+    "surfaces": [
+      "CXL(Compute eXpress Link)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::나.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 메모리반도체(STT-MRAM, PRAM, ReRAM, PIM, HBM, LLC, CXL, SOM) 설계ㆍ제조기술",
+        "surface": "CXL(Compute eXpress Link)"
+      },
+      {
+        "tech_id": "strategic::1::::파.",
+        "sector_name": "반도체",
+        "tech_name": "첨단 메모리반도체 및 차세대 메모리반도체, SoC 반도체 파운드리 소재ㆍ장비ㆍ장비부품 설계ㆍ제조기술",
+        "surface": "CXL(Compute eXpress Link)"
+      }
+    ],
+    "sample_contexts": [
+      "…ndwidth Memory), LLC(Last Level Cache), CXL(Compute eXpress Link), SOM(Selector Only Memory) 등 차세대 메모리반도체…",
+      "…ndwidth Memory), LLC(Last Level Cache), CXL(Compute eXpress Link), SOM(Selector Only Memory)] 및 SoC 반도체 파…"
+    ]
+  },
+  {
+    "concept_id": "ddi",
+    "primary_canonical": "DDI",
+    "domain": "디스플레이",
+    "surfaces": [
+      "DDI(Display Driver IC)",
+      "DDI"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::어.",
+        "sector_name": "반도체",
+        "tech_name": "고성능ㆍ고효율 시스템 반도체의 테스트 기술 및 테스트 관련 장비, 부품 설계ㆍ제조기술",
+        "surface": "DDI(Display Driver IC)"
+      },
+      {
+        "tech_id": "strategic::1::::자.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기ㆍ차량용 디스플레이 반도체 설계ㆍ제조기술",
+        "surface": "DDI"
+      }
+    ],
+    "sample_contexts": [
+      "…압 1,000V 이상의 전력반도체, 소스채널 900개 이상의 OLED용 DDI(Display Driver IC)의 양ㆍ불량 여부를 전기적 특성검사를 통해 판단할 수 있는 테스트 기술…",
+      "…해상도 LCD 등)에 구동 신호 및 데이터를 전기신호로 제공하는 반도체(DDI), 디스플레이 패널의 영상 정보를 변환ㆍ조정하는 것을 주기능으로 하는…"
+    ]
+  },
+  {
+    "concept_id": "ga2o3",
+    "primary_canonical": "Ga2O3",
+    "domain": "반도체",
+    "surfaces": [
+      "Ga2O3"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::사.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술",
+        "surface": "Ga2O3"
+      },
+      {
+        "tech_id": "strategic::1::::타.",
+        "sector_name": "반도체",
+        "tech_name": "반도체용 실리콘 기판 및 화합물 기판 개발 및 제조기술",
+        "surface": "Ga2O3"
+      }
+    ],
+    "sample_contexts": [
+      "…r Junction) MOSFET, IGBT, 화합물(SiC, GaN, Ga2O3) 기반의 에너지효율향상 반도체( MOSFET, IGBT) 및 모듈의 설…",
+      "…SoC, 에피텍셜 반도체용의 실리콘 기판 및 화합물(SiC, GaN, Ga2O3) 기판을 개발 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "gan",
+    "primary_canonical": "GaN",
+    "domain": "반도체",
+    "surfaces": [
+      "GaN"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::사.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술",
+        "surface": "GaN"
+      },
+      {
+        "tech_id": "strategic::1::::타.",
+        "sector_name": "반도체",
+        "tech_name": "반도체용 실리콘 기판 및 화합물 기판 개발 및 제조기술",
+        "surface": "GaN"
+      }
+    ],
+    "sample_contexts": [
+      "…(Super Junction) MOSFET, IGBT, 화합물(SiC, GaN, Ga2O3) 기반의 에너지효율향상 반도체( MOSFET, IGBT)…",
+      "…파운드리 SoC, 에피텍셜 반도체용의 실리콘 기판 및 화합물(SiC, GaN, Ga2O3) 기판을 개발 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "hbm",
+    "primary_canonical": "HBM(High Bandwidth Memory)",
+    "domain": "반도체",
+    "surfaces": [
+      "HBM(High Bandwidth Memory)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::나.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 메모리반도체(STT-MRAM, PRAM, ReRAM, PIM, HBM, LLC, CXL, SOM) 설계ㆍ제조기술",
+        "surface": "HBM(High Bandwidth Memory)"
+      },
+      {
+        "tech_id": "strategic::1::::파.",
+        "sector_name": "반도체",
+        "tech_name": "첨단 메모리반도체 및 차세대 메모리반도체, SoC 반도체 파운드리 소재ㆍ장비ㆍ장비부품 설계ㆍ제조기술",
+        "surface": "HBM(High Bandwidth Memory)"
+      }
+    ],
+    "sample_contexts": [
+      "…추가한 메모리시스템인 PIM(Processing In Memory), HBM(High Bandwidth Memory), LLC(Last Level Cache), CXL(Compute eXp…",
+      "…istive RAM), PIM(Processing In Memory), HBM(High Bandwidth Memory), LLC(Last Level Cache), CXL(Compute eXp…"
+    ]
+  },
+  {
+    "concept_id": "high-k-dielectric",
+    "primary_canonical": "high-k dielectric",
+    "domain": "반도체",
+    "surfaces": [
+      "high-k dielectric"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "high-k dielectric"
+      },
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "high-k dielectric"
+      }
+    ],
+    "sample_contexts": [
+      "기존의 이산화규소(SiO2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 ALD 및 CVD 공정에 사용되는 전구체를 개발하는…",
+      "기존의 이산화규소(SiO2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 원자층증착법(ALD, Atomic Layer Depo…"
+    ]
+  },
+  {
+    "concept_id": "igbt",
+    "primary_canonical": "IGBT",
+    "domain": "반도체",
+    "surfaces": [
+      "IGBT"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::7)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조기술",
+        "surface": "IGBT"
+      },
+      {
+        "tech_id": "strategic::1::::사.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술",
+        "surface": "IGBT"
+      }
+    ],
+    "sample_contexts": [
+      "…인버터 등에 탑재되는 SJ(Super Junction) MOSFET, IGBT, SiC MOSFET의 설계ㆍ제조 기술",
+      "…에너지효율향상 반도체(SJ(Super Junction) MOSFET, IGBT, 화합물(SiC, GaN, Ga2O3) 기반의 에너지효율향상 반도체(…"
+    ]
+  },
+  {
+    "concept_id": "llc",
+    "primary_canonical": "LLC(Last Level Cache)",
+    "domain": "반도체",
+    "surfaces": [
+      "LLC(Last Level Cache)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::나.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 메모리반도체(STT-MRAM, PRAM, ReRAM, PIM, HBM, LLC, CXL, SOM) 설계ㆍ제조기술",
+        "surface": "LLC(Last Level Cache)"
+      },
+      {
+        "tech_id": "strategic::1::::파.",
+        "sector_name": "반도체",
+        "tech_name": "첨단 메모리반도체 및 차세대 메모리반도체, SoC 반도체 파운드리 소재ㆍ장비ㆍ장비부품 설계ㆍ제조기술",
+        "surface": "LLC(Last Level Cache)"
+      }
+    ],
+    "sample_contexts": [
+      "…In Memory), HBM(High Bandwidth Memory), LLC(Last Level Cache), CXL(Compute eXpress Link), SOM(Selecto…"
+    ]
+  },
+  {
+    "concept_id": "micro-led",
+    "primary_canonical": "Micro LED",
+    "domain": "디스플레이",
+    "surfaces": [
+      "Micro LED"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::다.",
+        "sector_name": "디스플레이",
+        "tech_name": "Micro LED 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "Micro LED"
+      },
+      {
+        "tech_id": "strategic::4::::아.",
+        "sector_name": "디스플레이",
+        "tech_name": "마이크로LED 에피(Epi)ㆍ전사ㆍ접합 소재, 부품, 장비 기술",
+        "surface": "Micro LED"
+      }
+    ],
+    "sample_contexts": [
+      "…이크로 LED를 적용한 패널과 구동소자, 커버윈도우 등을 가공ㆍ조립하는 Micro LED 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+      "…5% 이상의 에피기판ㆍ칩 등 화소 형성을 위한 소재ㆍ부품 제조 기술 및 Micro LED 성장을 위한 에피 공정, 에피 LED 칩 제조를 위한 분리ㆍ보호막 공정…"
+    ]
+  },
+  {
+    "concept_id": "mmis",
+    "primary_canonical": "MMIS(Man-Machine Interface System)",
+    "domain": "원자력",
+    "surfaces": [
+      "원전제어계통(MMIS, Man-Machine Interface System)",
+      "MMIS(Man-Machine Interface System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::4)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
+        "surface": "원전제어계통(MMIS, Man-Machine Interface System)"
+      },
+      {
+        "tech_id": "newgrowth::14::다::8)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
+        "surface": "MMIS(Man-Machine Interface System)"
+      }
+    ],
+    "sample_contexts": [
+      "…기기 및 플랜트종합(BOP, Balance of Plant) 설계기술, 원전제어계통(MMIS, Man-Machine Interface System) 설계기술, 안전성분석기술 등 APR+(Advanced Power Rea…",
+      "…노심 설계 및 해석기술, 계통 핵심기기 설계기술, 유체계통 설계기술, MMIS(Man-Machine Interface System)용 계측제어계통 표준설계 기술, 주요기기 배치 및 구조 설계 기술, BO…"
+    ]
+  },
+  {
+    "concept_id": "mosfet",
+    "primary_canonical": "MOSFET",
+    "domain": "반도체",
+    "surfaces": [
+      "MOSFET(MOS field-effect transistor)",
+      "MOSFET"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::7)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조기술",
+        "surface": "MOSFET(MOS field-effect transistor)"
+      },
+      {
+        "tech_id": "strategic::1::::사.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술",
+        "surface": "MOSFET"
+      }
+    ],
+    "sample_contexts": [
+      "실리콘 기반의 MOSFET(MOS field-effect transistor)에 비해 저저항ㆍ고효율 특성을 지니며 차세대 응용 분야(전기차, 하이브리…",
+      "…실리콘 기반의 에너지효율향상 반도체(SJ(Super Junction) MOSFET, IGBT, 화합물(SiC, GaN, Ga2O3) 기반의 에너지효율향상…"
+    ]
+  },
+  {
+    "concept_id": "mpa",
+    "primary_canonical": "Mpa",
+    "domain": "소재",
+    "surfaces": [
+      "Mpa",
+      "MPa"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::라::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "고강도 구리합금 설계ㆍ제조기술",
+        "surface": "Mpa"
+      },
+      {
+        "tech_id": "newgrowth::9::바::5)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 에폭시 수지 접착소재 제조 기술",
+        "surface": "MPa"
+      }
+    ],
+    "sample_contexts": [
+      "인장강도 900Mpa 이상의 고강도 특성을 갖춘 주석함유 구리합금(Cu-Ni-Sn계) 설계ㆍ…",
+      "…주성분으로 하여 경량 수송기기 부품의 구조접착에 사용되는 전단강도 25MPa 이상, 저온 충격강도 20N/mm 이상, T-박리강도 250N/25m…"
+    ]
+  },
+  {
+    "concept_id": "pim",
+    "primary_canonical": "PIM(Processing In Memory)",
+    "domain": "반도체",
+    "surfaces": [
+      "PIM(Processing In Memory)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::나.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 메모리반도체(STT-MRAM, PRAM, ReRAM, PIM, HBM, LLC, CXL, SOM) 설계ㆍ제조기술",
+        "surface": "PIM(Processing In Memory)"
+      },
+      {
+        "tech_id": "strategic::1::::파.",
+        "sector_name": "반도체",
+        "tech_name": "첨단 메모리반도체 및 차세대 메모리반도체, SoC 반도체 파운드리 소재ㆍ장비ㆍ장비부품 설계ㆍ제조기술",
+        "surface": "PIM(Processing In Memory)"
+      }
+    ],
+    "sample_contexts": [
+      "…결을 목적으로 메모리반도체에 전용 AI 프로세서를 추가한 메모리시스템인 PIM(Processing In Memory), HBM(High Bandwidth Memory), LLC(Last L…",
+      "…hase-change RAM), ReRAM(Resistive RAM), PIM(Processing In Memory), HBM(High Bandwidth Memory), LLC(Last L…"
+    ]
+  },
+  {
+    "concept_id": "pmic",
+    "primary_canonical": "PMIC",
+    "domain": "반도체",
+    "surfaces": [
+      "PMIC"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::아.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 전력 및 전력관리 반도체[BCDMOS(Bipolar-CMOS-DMOS), UHV(Ultra High Voltage), 고전압 아날로그 IC(Integrated Circuit), PMIC(Power Management IC)] 설계ㆍ제조기술(0.35㎛이하)",
+        "surface": "PMIC"
+      },
+      {
+        "tech_id": "strategic::1::::자.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기ㆍ차량용 디스플레이 반도체 설계ㆍ제조기술",
+        "surface": "PMIC"
+      }
+    ],
+    "sample_contexts": [
+      "…CDMOS, 800V 이상 UHV, 12V 이상 고전압 아날로그 IC, PMIC) 설계ㆍ제조 기술",
+      "…디스플레이용 반도체와 패널에 필요한 전원 전압을 생성ㆍ제어하는 반도체(PMIC)를 설계 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "sic",
+    "primary_canonical": "SiC",
+    "domain": "반도체",
+    "surfaces": [
+      "SiC"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::사.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술",
+        "surface": "SiC"
+      },
+      {
+        "tech_id": "strategic::1::::타.",
+        "sector_name": "반도체",
+        "tech_name": "반도체용 실리콘 기판 및 화합물 기판 개발 및 제조기술",
+        "surface": "SiC"
+      }
+    ],
+    "sample_contexts": [
+      "…도체(SJ(Super Junction) MOSFET, IGBT, 화합물(SiC, GaN, Ga2O3) 기반의 에너지효율향상 반도체( MOSFET, I…",
+      "…m 이하급 파운드리 SoC, 에피텍셜 반도체용의 실리콘 기판 및 화합물(SiC, GaN, Ga2O3) 기판을 개발 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "sinx",
+    "primary_canonical": "SiNx",
+    "domain": "반도체",
+    "surfaces": [
+      "SiNx"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::8)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "SiNx"
+      },
+      {
+        "tech_id": "strategic::1::::러.",
+        "sector_name": "반도체",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "SiNx"
+      }
+    ],
+    "sample_contexts": [
+      "SiNx, SiOx 막질의 선택적인 식각이 가능한 고선택비(1,000이상) 인산…"
+    ]
+  }
+]

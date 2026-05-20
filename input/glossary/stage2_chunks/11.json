@@ -1,0 +1,762 @@
+[
+  {
+    "concept_id": "영구압축줄음율",
+    "primary_canonical": "영구압축줄음율",
+    "domain": "소재",
+    "surfaces": [
+      "영구압축줄음율"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 불소계 실리콘 제조ㆍ가공 기술",
+        "surface": "영구압축줄음율"
+      }
+    ],
+    "sample_contexts": [
+      "내열성(온도 175℃에서 22시간동안 영구압축줄음율 30%이내), 내화학성(150℃, 240시간 내유체적변화율 10%이하)…"
+    ]
+  },
+  {
+    "concept_id": "영구자석",
+    "primary_canonical": "영구자석",
+    "domain": "소재",
+    "surfaces": [
+      "영구자석"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::3)",
+        "sector_name": "융복합소재",
+        "tech_name": "중희토 저감 고기능 영구자석 생산 기술",
+        "surface": "영구자석"
+      }
+    ],
+    "sample_contexts": [
+      "…등을 통해 기존 자석 대비 중희토 함유량을 50% 이상 절감하여 고기능 영구자석을 생산하는 기술"
+    ]
+  },
+  {
+    "concept_id": "영상유도",
+    "primary_canonical": "영상유도",
+    "domain": "바이오",
+    "surfaces": [
+      "영상유도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::나::1)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "기능 융합형 초음파 영상기술",
+        "surface": "영상유도"
+      }
+    ],
+    "sample_contexts": [
+      "…(X-ray - 초음파, 광음향 － 초음파) 및 정밀치료를 위한 초음파 영상유도 기반의 체외충격파 치료 기술"
+    ]
+  },
+  {
+    "concept_id": "예냉사이클",
+    "primary_canonical": "예냉사이클",
+    "domain": "에너지",
+    "surfaces": [
+      "예냉사이클"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::나::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "액화수소 제조를 위한 수소액화플랜트 핵심부품 설계 및 제조기술",
+        "surface": "예냉사이클"
+      }
+    ],
+    "sample_contexts": [
+      "액화수소 제조를 위한 수소액화플랜트의 LNG냉열 이용 예냉사이클 설계기술, 수소액화공정에 필요한 부품(압축기ㆍ팽창기 등) 설계 및 제작…"
+    ]
+  },
+  {
+    "concept_id": "와전류",
+    "primary_canonical": "와전류",
+    "domain": "원자력",
+    "surfaces": [
+      "와전류"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::3)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "방사선이용 대형 공정 시스템 검사기술",
+        "surface": "와전류"
+      }
+    ],
+    "sample_contexts": [
+      "철강 배관의 손상 진단 및 미세 결함 검출을 위한 와전류 자동 검사시스템 기술, X선 발생장치와 이리듐(Ir)-192 감마선 조…"
+    ]
+  },
+  {
+    "concept_id": "완제엔진",
+    "primary_canonical": "완제엔진",
+    "domain": "항공",
+    "surfaces": [
+      "완제엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "완제엔진"
+      }
+    ],
+    "sample_contexts": [
+      "…는 터보제트엔진, 터보샤프트엔진, 터보프롭엔진, 터보팬엔진, 왕복엔진의 완제엔진, 부체계(엔진제어, 연료, 윤활, 기어박스 등), 구성품(팬, 압축기,…"
+    ]
+  },
+  {
+    "concept_id": "왕복엔진",
+    "primary_canonical": "왕복엔진",
+    "domain": "항공",
+    "surfaces": [
+      "왕복엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "왕복엔진"
+      }
+    ],
+    "sample_contexts": [
+      "…등에 장착하는 터보제트엔진, 터보샤프트엔진, 터보프롭엔진, 터보팬엔진, 왕복엔진의 완제엔진, 부체계(엔진제어, 연료, 윤활, 기어박스 등), 구성품(팬…"
+    ]
+  },
+  {
+    "concept_id": "외부양자효율",
+    "primary_canonical": "외부양자효율(External Quantum Efficiency, EQE)",
+    "domain": "디스플레이",
+    "surfaces": [
+      "외부양자효율(External Quantum Efficiency, EQE)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::아.",
+        "sector_name": "디스플레이",
+        "tech_name": "마이크로LED 에피(Epi)ㆍ전사ㆍ접합 소재, 부품, 장비 기술",
+        "surface": "외부양자효율(External Quantum Efficiency, EQE)"
+      }
+    ],
+    "sample_contexts": [
+      "…nic) 가스와 기판(substrate), 전극 형성을 위한 접합소재, 외부양자효율(External Quantum Efficiency, EQE) 청색 20%, 녹색 10%, 적색 5% 이상의 에피기판ㆍ칩 등 화소 형…"
+    ]
+  },
+  {
+    "concept_id": "용융",
+    "primary_canonical": "용융",
+    "domain": "환경",
+    "surfaces": [
+      "용융"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::라::4)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "폐플라스틱 등의 물리적 재활용 기술",
+        "surface": "용융"
+      }
+    ],
+    "sample_contexts": [
+      "폐플라스틱ㆍ폐타이어ㆍ폐섬유의 선별ㆍ세척, 파쇄ㆍ용융ㆍ배합 등 물리적 가공 과정을 거쳐 플라스틱 제품 등을 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "용융-2",
+    "primary_canonical": "용융",
+    "domain": "반도체",
+    "surfaces": [
+      "용융"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::9)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고순도 석영(쿼츠) 도가니 제조 기술",
+        "surface": "용융"
+      }
+    ],
+    "sample_contexts": [
+      "반도체 웨이퍼 제조용 용융 실리콘의 오염을 막기 위한 도가니 형태의 순도 99.999%(5N) 이…"
+    ]
+  },
+  {
+    "concept_id": "용융-3",
+    "primary_canonical": "용융",
+    "domain": "장비",
+    "surfaces": [
+      "용융"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::7)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 레이저 가공장비 설계ㆍ제조기술",
+        "surface": "용융"
+      }
+    ],
+    "sample_contexts": [
+      "…, 천공, 용접, 정밀가공 등을 위해 고출력 레이저 가공헤드로 공작물을 용융ㆍ증발시켜서 분리하는 5축 이상의 레이저 가공장비를 설계ㆍ제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "용융-실리콘",
+    "primary_canonical": "용융 실리콘",
+    "domain": "반도체",
+    "surfaces": [
+      "용융 실리콘"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::머.",
+        "sector_name": "반도체",
+        "tech_name": "고순도 석영(쿼츠) 도가니 제조 기술",
+        "surface": "용융 실리콘"
+      }
+    ],
+    "sample_contexts": [
+      "반도체 웨이퍼 제조용 용융 실리콘의 오염을 막기 위한 도가니 형태의 순도 99.999%(5N) 이상의 고…"
+    ]
+  },
+  {
+    "concept_id": "용접이음매",
+    "primary_canonical": "용접이음매",
+    "domain": "기계",
+    "surfaces": [
+      "용접이음매"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::마::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "고청정 스테인레스계 무계목강관ㆍ봉강 제조기술",
+        "surface": "용접이음매"
+      }
+    ],
+    "sample_contexts": [
+      "…황 함유량 0.005%이하로 제어된 고청정 스테인리스계 합금을 활용하여 용접이음매를 갖지 않는 강관 및 봉 형태의 철강재를 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "용탕",
+    "primary_canonical": "용탕",
+    "domain": "소재",
+    "surfaces": [
+      "용탕"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::15)",
+        "sector_name": "탄소중립",
+        "tech_name": "고로 용선 및 전기로 용강 합탕기술",
+        "surface": "용탕"
+      }
+    ],
+    "sample_contexts": [
+      "전기로 용탕과 고로 용선을 혼합하는 합탕기술을 통해 기존 고로공정 대비 20% 이상…"
+    ]
+  },
+  {
+    "concept_id": "용해공정",
+    "primary_canonical": "용해공정",
+    "domain": "소재",
+    "surfaces": [
+      "용해공정"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::14)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
+        "surface": "용해공정"
+      }
+    ],
+    "sample_contexts": [
+      "전기로 용해공정에서 저탄소 원료인 직접환원철 또는 수소환원철로 철강을 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "원물코팅",
+    "primary_canonical": "원물코팅",
+    "domain": "바이오",
+    "surfaces": [
+      "원물코팅"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::7)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "식품 냉ㆍ해동 안정화 기술",
+        "surface": "원물코팅"
+      }
+    ],
+    "sample_contexts": [
+      "수분전이제어, 원물코팅, 라디오 주파수ㆍ저온 Steam 해동 등을 활용하여 냉동원료 및 제품의…"
+    ]
+  },
+  {
+    "concept_id": "원적외선",
+    "primary_canonical": "원적외선",
+    "domain": "소재",
+    "surfaces": [
+      "원적외선"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::6)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "특수 렌즈 소재ㆍ부품ㆍ장비 제조기술",
+        "surface": "원적외선"
+      }
+    ],
+    "sample_contexts": [
+      "고배율[굴절률(nd) 2.0 이상], 야간 투시[원적외선(파장 8∼12㎛) 투과율 50% 이상], 자외선투과[자외광(193nm)…"
+    ]
+  },
+  {
+    "concept_id": "웨이퍼-2",
+    "primary_canonical": "웨이퍼",
+    "domain": "디스플레이",
+    "surfaces": [
+      "웨이퍼"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "웨이퍼"
+      }
+    ],
+    "sample_contexts": [
+      "…FT를 형성한 백플레인 또는 실리콘(Silicon)에 구동소자를 형성한 웨이퍼에 발광특성을 가진 유기물을 진공 증발 증착 또는 프린팅 방식으로 형성하…"
+    ]
+  },
+  {
+    "concept_id": "유가금속",
+    "primary_canonical": "유가금속",
+    "domain": "소재",
+    "surfaces": [
+      "유가금속"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::라.",
+        "sector_name": "이차전지",
+        "tech_name": "사용후배터리 재활용 기술",
+        "surface": "유가금속"
+      }
+    ],
+    "sample_contexts": [
+      "…환경적으로 처리하고, 리튬, 니켈, 코발트, 구리 등 재자원화가 가능한 유가금속을 회수하는 기술 (리튬 35% 이상, 니켈/코발트 90% 이상 회수)"
+    ]
+  },
+  {
+    "concept_id": "유기냉매",
+    "primary_canonical": "유기냉매",
+    "domain": "에너지",
+    "surfaces": [
+      "유기냉매"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::12)",
+        "sector_name": "탄소중립",
+        "tech_name": "미활용 폐열 회수ㆍ활용을 통한 발전 기술",
+        "surface": "유기냉매"
+      }
+    ],
+    "sample_contexts": [
+      "…않고 버려지는 중저온(900℃ 이하) 미활용 폐열을 초임계 이산화탄소ㆍ유기냉매ㆍ열전소자 등을 통해 회수한 후 친환경 전기에너지 생산에 활용하는 발전설…"
+    ]
+  },
+  {
+    "concept_id": "유기증착기",
+    "primary_canonical": "유기증착기(Evaporation)",
+    "domain": "디스플레이",
+    "surfaces": [
+      "유기증착기(Evaporation)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::바.",
+        "sector_name": "디스플레이",
+        "tech_name": "OLED 화소 형성ㆍ봉지 공정 장비 및 부품 기술",
+        "surface": "유기증착기(Evaporation)"
+      }
+    ],
+    "sample_contexts": [
+      "유기증착기(Evaporation), 잉크젯장비(Inkjet), 봉지장비(Encapsulation), FM…"
+    ]
+  },
+  {
+    "concept_id": "유기합성기술",
+    "primary_canonical": "유기합성기술",
+    "domain": "바이오",
+    "surfaces": [
+      "유기합성기술"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::4)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "혁신형 신약(화합물의약품) 후보물질 발굴 및 제조기술",
+        "surface": "유기합성기술"
+      }
+    ],
+    "sample_contexts": [
+      "…ing) 기술을 이용하여 후보물질 라이브러리로부터 후보물질을 도출한 후 유기합성기술을 통해 안전성 및 유효성이 최적화된 신약 후보물질로 개발하는 기술 및…"
+    ]
+  },
+  {
+    "concept_id": "유도",
+    "primary_canonical": "유도",
+    "domain": "통신",
+    "surfaces": [
+      "유도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::10)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "전자제품 무선충전 기술",
+        "surface": "유도"
+      }
+    ],
+    "sample_contexts": [
+      "기존 유도방식 무선충전 대비 충전 자유도가 높은 고출력 공진방식 무선ㆍ급속 충전…"
+    ]
+  },
+  {
+    "concept_id": "유도-가열",
+    "primary_canonical": "유도 가열",
+    "domain": "에너지",
+    "surfaces": [
+      "유도 가열"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기가열 나프타 분해기술",
+        "surface": "유도 가열"
+      }
+    ],
+    "sample_contexts": [
+      "전기저항/유도 가열 방식을 활용한 나프타 분해공정을 통해 에틸렌ㆍ프로필렌 등 석유화학 기초…"
+    ]
+  },
+  {
+    "concept_id": "유도발전기",
+    "primary_canonical": "유도발전기",
+    "domain": "에너지",
+    "surfaces": [
+      "유도발전기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::6)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
+        "surface": "유도발전기"
+      }
+    ],
+    "sample_contexts": [
+      "…tor)를 통해 전기를 발생시키는 발전기(generator)와 정속운전 유도발전기용 변환기, 가변속 운전 이중여자 유도발전기용 변환기 및 가변속 운전 동…"
+    ]
+  },
+  {
+    "concept_id": "유도제어",
+    "primary_canonical": "유도제어",
+    "domain": "항공",
+    "surfaces": [
+      "유도제어"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::1)",
+        "sector_name": "항공·우주",
+        "tech_name": "무인기 지능형 자율비행 제어 시스템 기술",
+        "surface": "유도제어"
+      }
+    ],
+    "sample_contexts": [
+      "…충돌회피 기술, 고장진단 및 고장허용 제어기술, 인공지능 기반 비행체 유도제어 성능향상 기술, 무인이동체 실시간 운영체제 및 소프트웨어 아키텍쳐 설계…"
+    ]
+  },
+  {
+    "concept_id": "유동층-보일러",
+    "primary_canonical": "유동층 보일러",
+    "domain": "에너지",
+    "surfaces": [
+      "유동층 보일러"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::나::10)",
+        "sector_name": "탄소중립",
+        "tech_name": "암모니아 발전 기술",
+        "surface": "유동층 보일러"
+      }
+    ],
+    "sample_contexts": [
+      "…혼합하여 전력을 생산하는 기술로 연료전지, 가스터빈, 미분탄 보일러 및 유동층 보일러에 적용 가능한 발전 시스템을 설계ㆍ제작하는 기술"
+    ]
+  },
+  {
+    "concept_id": "유무인복합체계",
+    "primary_canonical": "유무인복합체계",
+    "domain": "방산",
+    "surfaces": [
+      "유무인복합체계"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::나::1)",
+        "sector_name": "방위산업",
+        "tech_name": "유무인복합체계 기술",
+        "surface": "유무인복합체계"
+      }
+    ],
+    "sample_contexts": [
+      "유무인복합체계에 필요한 환경인식기술, 위치추정기술, 자율임무 수행기술, 유무인협업기술…"
+    ]
+  },
+  {
+    "concept_id": "유성기어",
+    "primary_canonical": "유성기어(planet carrier)",
+    "domain": "부품",
+    "surfaces": [
+      "유성기어(planet carrier)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::5)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
+        "surface": "유성기어(planet carrier)"
+      }
+    ],
+    "sample_contexts": [
+      "…전달되는 회전력을 전달받아 증속하여 발전기에 전달하는 장치를 구성하는 유성기어(planet carrier)ㆍ축(shaft)ㆍ베어링(bearing)ㆍ이음쇠(coupling)ㆍ브레이…"
+    ]
+  },
+  {
+    "concept_id": "유압-액추에이터",
+    "primary_canonical": "유압 액추에이터",
+    "domain": "부품",
+    "surfaces": [
+      "유압 액추에이터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::2)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
+        "surface": "유압 액추에이터"
+      }
+    ],
+    "sample_contexts": [
+      "…한 330 Bar 이상 고압의 유체에너지를 작업자의 작업의도에 따라 각 유압 액추에이터, 선회 및 주행의 유압모터 등에 공급하며, B5 10,000시간 이상의…"
+    ]
+  },
+  {
+    "concept_id": "유압모터",
+    "primary_canonical": "유압모터",
+    "domain": "부품",
+    "surfaces": [
+      "유압모터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::2)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
+        "surface": "유압모터"
+      }
+    ],
+    "sample_contexts": [
+      "…에너지를 작업자의 작업의도에 따라 각 유압 액추에이터, 선회 및 주행의 유압모터 등에 공급하며, B5 10,000시간 이상의 높은 내구 신뢰성을 가지는…"
+    ]
+  },
+  {
+    "concept_id": "유연지그",
+    "primary_canonical": "유연지그",
+    "domain": "장비",
+    "surfaces": [
+      "유연지그"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "탄소섬유복합재의 가공장비 및 검사장비 설계ㆍ제조기술",
+        "surface": "유연지그"
+      }
+    ],
+    "sample_contexts": [
+      "…복합재 부품가공을 위한 복합 가공장비[관련되는 공구, 부품 고정을 위한 유연지그, 공정 모니터링 센서모듈 및 컴퓨터 수치제어기(CNC, Computer…"
+    ]
+  },
+  {
+    "concept_id": "유연탄",
+    "primary_canonical": "유연탄",
+    "domain": "에너지",
+    "surfaces": [
+      "유연탄"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::7)",
+        "sector_name": "탄소중립",
+        "tech_name": "시멘트 소성공정 유연탄 대체 기술",
+        "surface": "유연탄"
+      }
+    ],
+    "sample_contexts": [
+      "시멘트 소성공정의 열원인 유연탄을 대체하기 위한 대체연료(가연성 폐기물, 바이오매스) 전처리 및 연료…"
+    ]
+  },
+  {
+    "concept_id": "유전자-편집",
+    "primary_canonical": "유전자 편집",
+    "domain": "바이오",
+    "surfaces": [
+      "유전자 편집"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::라::3)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "신규 또는 대량 생산이 가능한 바이오화학 소재 개발 및 미생물 발굴 바이오 파운드리 기술",
+        "surface": "유전자 편집"
+      }
+    ],
+    "sample_contexts": [
+      "…이오화장품 소재, 바이오생리활성 소재 등을 생산하는 미생물 확보를 위한 유전자 편집 등의 합성생물학 기술과 이를 활용한 디자인, 제작, 시험, 학습 등의…"
+    ]
+  },
+  {
+    "concept_id": "유전특성",
+    "primary_canonical": "유전특성",
+    "domain": "반도체",
+    "surfaces": [
+      "유전특성"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "유전특성"
+      }
+    ],
+    "sample_contexts": [
+      "기존의 이산화규소(SiO2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 원자층증착법(…"
+    ]
+  },
+  {
+    "concept_id": "음극",
+    "primary_canonical": "음극",
+    "domain": "배터리",
+    "surfaces": [
+      "음극"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
+        "surface": "음극"
+      }
+    ],
+    "sample_contexts": [
+      "…및 제조 기술과 나트륨(Sodium)계 이차전지에 사용되는 소재(양극ㆍ음극ㆍ전해질)ㆍ셀(Cell)ㆍ모듈 설계 및 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "음극재",
+    "primary_canonical": "음극재",
+    "domain": "배터리",
+    "surfaces": [
+      "음극재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고효율ㆍ고용량 이차전지 음극재 제조 기술",
+        "surface": "음극재"
+      }
+    ],
+    "sample_contexts": [
+      "…창 문제 해결과 고효율(88% 이상), 고용량(1800mAh/g 이상) 음극재를 구현하는 소재 기술"
+    ]
+  },
+  {
+    "concept_id": "음극재-2",
+    "primary_canonical": "음극재",
+    "domain": "이차전지",
+    "surfaces": [
+      "음극재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::사.",
+        "sector_name": "이차전지",
+        "tech_name": "장수명 음극재 제조기술",
+        "surface": "음극재"
+      }
+    ],
+    "sample_contexts": [
+      "충방전 1,000회 이상이 가능한 장수명 음극재 제조기술, 이차전지의 고온특성 향상을 위한 안정성 향상기술, 음극재 제…"
+    ]
+  },
+  {
+    "concept_id": "이리듐-192",
+    "primary_canonical": "이리듐(Ir)-192",
+    "domain": "원자력",
+    "surfaces": [
+      "이리듐(Ir)-192"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::3)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "방사선이용 대형 공정 시스템 검사기술",
+        "surface": "이리듐(Ir)-192"
+      }
+    ],
+    "sample_contexts": [
+      "…미세 결함 검출을 위한 와전류 자동 검사시스템 기술, X선 발생장치와 이리듐(Ir)-192 감마선 조사장치에 적합한 이동용 방사선투시 기술"
+    ]
+  },
+  {
+    "concept_id": "이산화규소",
+    "primary_canonical": "이산화규소(SiO2)",
+    "domain": "소재",
+    "surfaces": [
+      "이산화규소(SiO2)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "이산화규소(SiO2)"
+      }
+    ],
+    "sample_contexts": [
+      "기존의 이산화규소(SiO2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을…"
+    ]
+  }
+]

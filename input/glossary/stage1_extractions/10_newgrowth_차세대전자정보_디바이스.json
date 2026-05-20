@@ -1,0 +1,260 @@
+[
+{
+"tech_id": "newgrowth::5::가::1)",
+"surfaces": [
+{ "surface": "뉴럴넷(Neural Network)", "domain_hint": "AI" },
+{ "surface": "슈퍼프로세서", "domain_hint": "반도체" },
+{ "surface": "자율주행 이동체", "domain_hint": "미래차" },
+{ "surface": "매니코어(Many Core)", "domain_hint": "반도체" },
+{ "surface": "SoC(System on Chip)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::10)",
+"surfaces": [
+{ "surface": "유도방식", "domain_hint": "에너지" },
+{ "surface": "공진방식", "domain_hint": "에너지" },
+{ "surface": "RF(Radio Frequency)", "domain_hint": "통신" },
+{ "surface": "전력전송", "domain_hint": "에너지" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::11)",
+"surfaces": [
+{ "surface": "웨이퍼레벨 칩 패키징", "domain_hint": "반도체" },
+{ "surface": "미세 패턴", "domain_hint": "반도체" },
+{ "surface": "열전도성", "domain_hint": "소재" },
+{ "surface": "다이싱(dicing)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::2)",
+"surfaces": [
+{ "surface": "웨어러블 센서(wearable sensor)", "domain_hint": "반도체" },
+{ "surface": "지능정보", "domain_hint": "AI" },
+{ "surface": "SoC(System on Chip)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::3)",
+"surfaces": [
+{ "surface": "파운드리(Foundry)", "domain_hint": "반도체" },
+{ "surface": "2D/2.5D/3D 패키징", "domain_hint": "반도체" },
+{ "surface": "SoC(System on Chip)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::4)",
+"surfaces": [
+{ "surface": "D램(DRAM)", "domain_hint": "반도체" },
+{ "surface": "낸드 플래시메모리(Nand Flash Memory)", "domain_hint": "반도체" },
+{ "surface": "STT-MRAM(Spin Transfer Torque-Magnetic Random Access Memory)", "domain_hint": "반도체" },
+{ "surface": "PRAM(Phase-change Random Access Memory)", "domain_hint": "반도체" },
+{ "surface": "ReRAM(Resistive Random Access Memory)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::5)",
+"surfaces": [
+{ "surface": "마이크로 센서", "domain_hint": "반도체" },
+{ "surface": "MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)]", "domain_hint": "반도체" },
+{ "surface": "CMOS 이미지센서", "domain_hint": "반도체" },
+{ "surface": "SoC(System on Chip)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::6)",
+"surfaces": [
+{ "surface": "ISO26262", "domain_hint": "미래차" },
+{ "surface": "ACE-Q100", "domain_hint": "반도체" },
+{ "surface": "MCU(Micro controller unit)", "domain_hint": "반도체" },
+{ "surface": "ECU(Electronic control unit)", "domain_hint": "미래차" },
+{ "surface": "파워IC", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::7)",
+"surfaces": [
+{ "surface": "MOSFET(MOS field-effect transistor)", "domain_hint": "반도체" },
+{ "surface": "저저항", "domain_hint": "소재" },
+{ "surface": "SJ(Super Junction) MOSFET", "domain_hint": "반도체" },
+{ "surface": "IGBT", "domain_hint": "반도체" },
+{ "surface": "SiC MOSFET", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::8)",
+"surfaces": [
+{ "surface": "D램", "domain_hint": "반도체" },
+{ "surface": "낸드플래시메모리", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::가::9)",
+"surfaces": [
+{ "surface": "BCDMOS(Bipolar /Complementary/Double-diffused metal-oxide-semiconductor)", "domain_hint": "반도체" },
+{ "surface": "디지털 로직", "domain_hint": "반도체" },
+{ "surface": "파워소자", "domain_hint": "반도체" },
+{ "surface": "원칩화", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::2)",
+"surfaces": [
+{ "surface": "원자층증착법(ALD, Atomic Layer Deposition)", "domain_hint": "반도체" },
+{ "surface": "화학증착법(CVD, Chemical Vapor Deposition)", "domain_hint": "반도체" },
+{ "surface": "고유전체(High-k dielectric)", "domain_hint": "반도체" },
+{ "surface": "이산화규소(SiO2)", "domain_hint": "소재" },
+{ "surface": "유전특성", "domain_hint": "반도체" },
+{ "surface": "박막", "domain_hint": "반도체" },
+{ "surface": "전구체", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::1)",
+"surfaces": [
+{ "surface": "포토레지스트(Photoresist)", "domain_hint": "반도체" },
+{ "surface": "리소그래피(lithography)", "domain_hint": "반도체" },
+{ "surface": "현상(Developing)", "domain_hint": "반도체" },
+{ "surface": "ArF(불화아르곤)", "domain_hint": "반도체" },
+{ "surface": "EUV(극자외선)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::10)",
+"surfaces": [
+{ "surface": "코트막형성재", "domain_hint": "반도체" },
+{ "surface": "감광성 코팅", "domain_hint": "반도체" },
+{ "surface": "패키징 재배선", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::3)",
+"surfaces": [
+{ "surface": "고순도 불화수소", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::4)",
+"surfaces": [
+{ "surface": "블랭크 마스크(Blank Mask)", "domain_hint": "반도체" },
+{ "surface": "펠리클(Pellicle)", "domain_hint": "반도체" },
+{ "surface": "합성 쿼츠", "domain_hint": "반도체" },
+{ "surface": "스터러링용 타겟", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::5)",
+"surfaces": [
+{ "surface": "에피텍셜", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::6)",
+"surfaces": [
+{ "surface": "D램(DRAM)", "domain_hint": "반도체" },
+{ "surface": "낸드 플래시메모리(Nand Flash Memory)", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::7)",
+"surfaces": [
+{ "surface": "플렉서블 디스플레이", "domain_hint": "디스플레이" },
+{ "surface": "DDI 칩(Display Driver IC)", "domain_hint": "반도체" },
+{ "surface": "구동 신호", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::8)",
+"surfaces": [
+{ "surface": "SiNx", "domain_hint": "반도체" },
+{ "surface": "SiOx", "domain_hint": "반도체" },
+{ "surface": "식각", "domain_hint": "반도체" },
+{ "surface": "고선택비", "domain_hint": "반도체" },
+{ "surface": "인산계 식각액", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::나::9)",
+"surfaces": [
+{ "surface": "석영(쿼츠) 도가니", "domain_hint": "반도체" },
+{ "surface": "용융 실리콘", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::2)",
+"surfaces": [
+{ "surface": "플라즈마(plasma)", "domain_hint": "디스플레이" },
+{ "surface": "박막", "domain_hint": "디스플레이" },
+{ "surface": "식각", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::1)",
+"surfaces": [
+{ "surface": "능동형 유기발광 다이오드(AMOLED: Active Matrix Organic Light Emitting Diode)", "domain_hint": "디스플레이" },
+{ "surface": "저온폴리실리콘(LTPS, Low Temperature Poly Silicon)", "domain_hint": "디스플레이" },
+{ "surface": "산화물(Oxide) TFT(Thin Film Transistor, 전자이동도 8㎠/Vs 이상)", "domain_hint": "디스플레이" },
+{ "surface": "진공 증발 증착", "domain_hint": "디스플레이" },
+{ "surface": "고색재현", "domain_hint": "디스플레이" },
+{ "surface": "고균일", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::3)",
+"surfaces": [
+{ "surface": "플렉서블 디스플레이", "domain_hint": "디스플레이" },
+{ "surface": "유연필름", "domain_hint": "디스플레이" },
+{ "surface": "이형", "domain_hint": "디스플레이" },
+{ "surface": "접합", "domain_hint": "디스플레이" },
+{ "surface": "봉지", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::4)",
+"surfaces": [
+{ "surface": "다결정 저온 폴리실리콘(LTPS-LCD)", "domain_hint": "디스플레이" },
+{ "surface": "시인성", "domain_hint": "디스플레이" },
+{ "surface": "black uniformity", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::5)",
+"surfaces": [
+{ "surface": "마이크로 LED", "domain_hint": "디스플레이" },
+{ "surface": "에피공정", "domain_hint": "디스플레이" },
+{ "surface": "자발광 R/G/B", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::6)",
+"surfaces": [
+{ "surface": "초고해상도", "domain_hint": "디스플레이" }
+]
+},
+{
+"tech_id": "newgrowth::5::다::7)",
+"surfaces": [
+{ "surface": "친환경 QD(Quantum Dot) 나노 소재", "domain_hint": "디스플레이" },
+{ "surface": "고색재현", "domain_hint": "디스플레이" },
+{ "surface": "열적 안정성", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::5::라::",
+"surfaces": [
+{ "surface": "3D프린팅", "domain_hint": "소재" },
+{ "surface": "액체수지", "domain_hint": "소재" },
+{ "surface": "금속분말", "domain_hint": "소재" },
+{ "surface": "적층", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::5::마::",
+"surfaces": [
+{ "surface": "AR 디바이스", "domain_hint": "AI" },
+{ "surface": "가상정보", "domain_hint": "AI" },
+{ "surface": "현실세계와 동기화", "domain_hint": "AI" }
+]
+}
+]

@@ -1,0 +1,519 @@
+[
+  {
+    "concept_id": "siox",
+    "primary_canonical": "SiOx",
+    "domain": "반도체",
+    "surfaces": [
+      "SiOx"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::8)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "SiOx"
+      },
+      {
+        "tech_id": "strategic::1::::러.",
+        "sector_name": "반도체",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "SiOx"
+      }
+    ],
+    "sample_contexts": [
+      "SiNx, SiOx 막질의 선택적인 식각이 가능한 고선택비(1,000이상) 인산계 식각액…"
+    ]
+  },
+  {
+    "concept_id": "sj-mosfet",
+    "primary_canonical": "SJ(Super Junction) MOSFET",
+    "domain": "반도체",
+    "surfaces": [
+      "SJ(Super Junction) MOSFET"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::7)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조기술",
+        "surface": "SJ(Super Junction) MOSFET"
+      },
+      {
+        "tech_id": "strategic::1::::사.",
+        "sector_name": "반도체",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조ㆍ패키징 기술",
+        "surface": "SJ(Super Junction) MOSFET"
+      }
+    ],
+    "sample_contexts": [
+      "…광, 풍력발전 등 신재생에너지, 스마트그리드 등) 인버터 등에 탑재되는 SJ(Super Junction) MOSFET, IGBT, SiC MOSFET의 설계ㆍ제조 기술",
+      "…지, 스마트그리드 등) 에 탑재되는 실리콘 기반의 에너지효율향상 반도체(SJ(Super Junction) MOSFET, IGBT, 화합물(SiC, GaN, Ga2O3) 기반의 에너지효율향상…"
+    ]
+  },
+  {
+    "concept_id": "som",
+    "primary_canonical": "SOM(Selector Only Memory)",
+    "domain": "반도체",
+    "surfaces": [
+      "SOM(Selector Only Memory)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::나.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 메모리반도체(STT-MRAM, PRAM, ReRAM, PIM, HBM, LLC, CXL, SOM) 설계ㆍ제조기술",
+        "surface": "SOM(Selector Only Memory)"
+      },
+      {
+        "tech_id": "strategic::1::::파.",
+        "sector_name": "반도체",
+        "tech_name": "첨단 메모리반도체 및 차세대 메모리반도체, SoC 반도체 파운드리 소재ㆍ장비ㆍ장비부품 설계ㆍ제조기술",
+        "surface": "SOM(Selector Only Memory)"
+      }
+    ],
+    "sample_contexts": [
+      "…evel Cache), CXL(Compute eXpress Link), SOM(Selector Only Memory) 등 차세대 메모리반도체 설계ㆍ제조기술",
+      "…evel Cache), CXL(Compute eXpress Link), SOM(Selector Only Memory)] 및 SoC 반도체 파운드리의 소재, 장비 및 부품 설계‧제조기술"
+    ]
+  },
+  {
+    "concept_id": "uhd",
+    "primary_canonical": "UHD",
+    "domain": "방송",
+    "surfaces": [
+      "UHD"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::나::2)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "UHD 방송 통합 다중화기 기술",
+        "surface": "UHD"
+      },
+      {
+        "tech_id": "newgrowth::6::나::3)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "신규 방송서비스 제공을 위한 시그널링 시스템 기술",
+        "surface": "UHD"
+      }
+    ],
+    "sample_contexts": [
+      "…S(Transport System)]로 생성된 신호를 입력받아, 국내외 UHD 방송 표준에 따른 전송 프로토콜로 출력하는 통합형 다중화기 기술",
+      "다양한 신규 방송서비스 제공을 위해 UHD방송 표준에 따른 시그널링(signaling) 시스템[시그널 인코더(si…"
+    ]
+  },
+  {
+    "concept_id": "utg",
+    "primary_canonical": "UTG",
+    "domain": "디스플레이",
+    "surfaces": [
+      "UTG",
+      "초박형유리(Ultra Thin Glass, UTG)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::사.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 하이브리드 커버 윈도우 소재 기술",
+        "surface": "UTG"
+      },
+      {
+        "tech_id": "strategic::4::::사.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 하이브리드 커버 윈도우 소재 기술",
+        "surface": "초박형유리(Ultra Thin Glass, UTG)"
+      }
+    ],
+    "sample_contexts": [
+      "…위한 두께 100μm 이하 초박형유리(Ultra Thin Glass, UTG) 및 UTG 광학증착ㆍ코팅 소재, 투과율 80% 이상인 초박형 유ㆍ무기…",
+      "디스플레이 패널을 외부로부터 보호하기 위한 두께 100μm 이하 초박형유리(Ultra Thin Glass, UTG) 및 UTG 광학증착ㆍ코팅 소재, 투과율 80% 이상인 초박형 유ㆍ무기…"
+    ]
+  },
+  {
+    "concept_id": "감광성-코팅",
+    "primary_canonical": "감광성 코팅",
+    "domain": "반도체",
+    "surfaces": [
+      "감광성 코팅"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::10)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "코트막형성재 개발 및 제조 기술",
+        "surface": "감광성 코팅"
+      },
+      {
+        "tech_id": "strategic::1::::버.",
+        "sector_name": "반도체",
+        "tech_name": "코트막형성재 개발 및 제조기술",
+        "surface": "감광성 코팅"
+      }
+    ],
+    "sample_contexts": [
+      "…로부터 보호하기 위해 사용하는 절연성을 가진 고감도(80mJ/㎠ 이하) 감광성 코팅 기술 또는 패키징 재배선(배선폭 7㎛ 이하) 형성 재료 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "게임엔진",
+    "primary_canonical": "게임엔진",
+    "domain": "콘텐츠",
+    "surfaces": [
+      "게임엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::4::나::1)",
+        "sector_name": "콘텐츠",
+        "tech_name": "게임 콘텐츠 제작기술",
+        "surface": "게임엔진"
+      },
+      {
+        "tech_id": "newgrowth::4::나::3)",
+        "sector_name": "콘텐츠",
+        "tech_name": "애니메이션 콘텐츠 제작기술",
+        "surface": "게임엔진"
+      }
+    ],
+    "sample_contexts": [
+      "게임엔진·게임저작도구·게임 UI(User Interface)·게임 운영환경 등의…",
+      "…처리 관리 기술, AI 머신러닝을 통한 애니메이션ㆍ에셋 자동생산 기술, 게임엔진을 활용한 실시간 제작기술, 버추얼 프로덕션(virtual product…"
+    ]
+  },
+  {
+    "concept_id": "계측제어",
+    "primary_canonical": "계측제어",
+    "domain": "원자력",
+    "surfaces": [
+      "계측제어"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::7)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "가동원전 계측제어설비 디지털 업그레이드 기술",
+        "surface": "계측제어"
+      },
+      {
+        "tech_id": "newgrowth::14::다::8)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
+        "surface": "계측제어"
+      }
+    ],
+    "sample_contexts": [
+      "가동원전 계측제어 설비의 안전성 및 신뢰성 강화를 위해 최신기술기준과 운전경험을 반영한…",
+      "…기술, MMIS(Man-Machine Interface System)용 계측제어계통 표준설계 기술, 주요기기 배치 및 구조 설계 기술, BOP(Bala…"
+    ]
+  },
+  {
+    "concept_id": "고로",
+    "primary_canonical": "고로",
+    "domain": "소재",
+    "surfaces": [
+      "고로"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::15)",
+        "sector_name": "탄소중립",
+        "tech_name": "고로 용선 및 전기로 용강 합탕기술",
+        "surface": "고로"
+      },
+      {
+        "tech_id": "newgrowth::15::라::2)",
+        "sector_name": "탄소중립",
+        "tech_name": "함수소가스 활용 고로취입기술",
+        "surface": "고로"
+      }
+    ],
+    "sample_contexts": [
+      "전기로 용탕과 고로 용선을 혼합하는 합탕기술을 통해 기존 고로공정 대비 20% 이상 탄소배…",
+      "제철소 발생 함수소가스 또는 수소가스를 고로 공정의 연료로 활용하여 철강을 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "나노섬유",
+    "primary_canonical": "나노섬유",
+    "domain": "소재",
+    "surfaces": [
+      "나노섬유"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::4)",
+        "sector_name": "융복합소재",
+        "tech_name": "의료용 섬유 제조 기술",
+        "surface": "나노섬유"
+      },
+      {
+        "tech_id": "newgrowth::9::가::5)",
+        "sector_name": "융복합소재",
+        "tech_name": "친환경섬유 제조 기술",
+        "surface": "나노섬유"
+      }
+    ],
+    "sample_contexts": [
+      "…완전히 수행 가능한 특성)을 갖춘 의료용 섬유 제조기술로서, 약물전달용 나노섬유 소재, 바이러스ㆍ세균 감응섬유구조체, 혈액의 투석ㆍ정화용 섬유구조체,…",
+      "…및 분해성 제어 기술, 열가소성 셀룰로오스 섬유 제조 기술, 바이오매스 나노섬유 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "노광",
+    "primary_canonical": "노광",
+    "domain": "디스플레이",
+    "surfaces": [
+      "노광"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::나.",
+        "sector_name": "디스플레이",
+        "tech_name": "친환경 QD(Quantum Dot) 소재 적용 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "노광"
+      },
+      {
+        "tech_id": "strategic::4::::마.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 TFT 형성 장비 및 부품 기술",
+        "surface": "노광"
+      }
+    ],
+    "sample_contexts": [
+      "…nm) 이하인 RoHS(유럽 6대 제한물질 환경규제) 충족 QD 소재를 노광 또는 직접 패터닝 방식으로 제조한 패널과 구동소자, 커버윈도우 등을 가…",
+      "…상의 TFT(Thin Film Transistor) 형성공정에 사용되는 노광기, 물리 또는 화학적 증착기, 이온주입기, 식각기, 검사장비 및 이와…"
+    ]
+  },
+  {
+    "concept_id": "뉴럴넷",
+    "primary_canonical": "뉴럴넷(Neural Network)",
+    "domain": "AI",
+    "surfaces": [
+      "뉴럴넷(Neural Network)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계ㆍ제조 기술",
+        "surface": "뉴럴넷(Neural Network)"
+      },
+      {
+        "tech_id": "strategic::1::::다.",
+        "sector_name": "반도체",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계 및 제조(7nm이하) 기술",
+        "surface": "뉴럴넷(Neural Network)"
+      }
+    ],
+    "sample_contexts": [
+      "인간형 인식, 판단, 논리를 수행할 수 있는 뉴럴넷(Neural Network)을 구현하는 초고속, 저전력 슈퍼프로세서 기술로서 지능형 자율주행 이동체…"
+    ]
+  },
+  {
+    "concept_id": "단조",
+    "primary_canonical": "단조",
+    "domain": "소재",
+    "surfaces": [
+      "단조"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "타이타늄 소재 제조기술과 금속재료 부품화 기술",
+        "surface": "단조"
+      },
+      {
+        "tech_id": "newgrowth::15::라::13)",
+        "sector_name": "탄소중립",
+        "tech_name": "철강 가열공정 탄소연료 대체기술",
+        "surface": "단조"
+      }
+    ],
+    "sample_contexts": [
+      "…타이타늄(TiO2) 등의 소재 개발ㆍ제조기술과 합금설계, 압연, 주조, 단조, 용접 등의 금속재료 부품화 기술",
+      "단조, 압연 공정에 사용되는 화석연료를 저탄소 연료(수소, 암모니아)로 전환…"
+    ]
+  },
+  {
+    "concept_id": "딥러닝",
+    "primary_canonical": "딥러닝",
+    "domain": "AI",
+    "surfaces": [
+      "딥러닝(deep learning)",
+      "딥러닝"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::가::1)",
+        "sector_name": "지능정보",
+        "tech_name": "학습 및 추론 기술",
+        "surface": "딥러닝(deep learning)"
+      },
+      {
+        "tech_id": "strategic::10::::다.",
+        "sector_name": "인공지능",
+        "tech_name": "학습 및 추론 고도화 기술",
+        "surface": "딥러닝"
+      }
+    ],
+    "sample_contexts": [
+      "다양한 기계학습 알고리즘(algorithm), 딥러닝(deep learning), 지식베이스(knowledge base) 구축, 지식추론 등 학습 알고…",
+      "고도의 학습 알고리즘(메타러닝, 딥러닝, 강화학습 및 멀티모달 학습), 추론 기술(연쇄사고 추론기법, 분기구조…"
+    ]
+  },
+  {
+    "concept_id": "레진",
+    "primary_canonical": "레진",
+    "domain": "바이오",
+    "surfaces": [
+      "레진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::3::::바.",
+        "sector_name": "백신",
+        "tech_name": "원료 및 원부자재 등 개발·제조 기술",
+        "surface": "레진"
+      },
+      {
+        "tech_id": "strategic::3::::사.",
+        "sector_name": "백신",
+        "tech_name": "생산장비 개발·제조 기술",
+        "surface": "레진"
+      }
+    ],
+    "sample_contexts": [
+      "백신 개발·제조에 필요한 원료 및 원부자재(필터, 레진, 버퍼, 배양배지 등) 또는 백신의 효능을 증가시키는 물질(면역보조제)…",
+      "백신 및 백신 원료·원부자재(필터, 레진, 버퍼, 배양배지 등) 생산에 필요한 장비를 개발·제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "리소그래피",
+    "primary_canonical": "리소그래피(lithography)",
+    "domain": "반도체",
+    "surfaces": [
+      "리소그래피(lithography)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "포토레지스트(Photoresist) 개발 및 제조기술",
+        "surface": "리소그래피(lithography)"
+      },
+      {
+        "tech_id": "strategic::1::::하.",
+        "sector_name": "반도체",
+        "tech_name": "포토레지스트(Photoresist) 개발 및 제조기술",
+        "surface": "리소그래피(lithography)"
+      }
+    ],
+    "sample_contexts": [
+      "반도체 및 디스플레이용 회로형성에 필요한 리소그래피(lithography)용 수지로서 회로의 내열성, 전기적 특성, 현상(Developing) 특…"
+    ]
+  },
+  {
+    "concept_id": "리튬이차전지-2",
+    "primary_canonical": "리튬이차전지",
+    "domain": "이차전지",
+    "surfaces": [
+      "리튬이차전지"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::나.",
+        "sector_name": "이차전지",
+        "tech_name": "고성능 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "리튬이차전지"
+      },
+      {
+        "tech_id": "strategic::2::::마.",
+        "sector_name": "이차전지",
+        "tech_name": "차세대 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "리튬이차전지"
+      }
+    ],
+    "sample_contexts": [
+      "…ate 이상) 또는 충방전 1,000회 이상의 장수명을 충족하는 고성능 리튬이차전지에 사용되는 부품·소재·셀 및 모듈 제조 및 안전성 향상 기술",
+      "…0mAh/g 이상인 고성능 전극 또는 고체전해질을 기반으로 하는 차세대 리튬이차전지에 사용되는 부품·소재·셀 및 모듈 제조기술"
+    ]
+  },
+  {
+    "concept_id": "매니코어",
+    "primary_canonical": "매니코어(Many Core)",
+    "domain": "반도체",
+    "surfaces": [
+      "매니코어(Many Core)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계ㆍ제조 기술",
+        "surface": "매니코어(Many Core)"
+      },
+      {
+        "tech_id": "strategic::1::::다.",
+        "sector_name": "반도체",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계 및 제조(7nm이하) 기술",
+        "surface": "매니코어(Many Core)"
+      }
+    ],
+    "sample_contexts": [
+      "…화상처리용 지능형 보안시스템, 복합 교통관제 시스템 등의 제작을 위해 매니코어(Many Core)를 단일 반도체에 통합한 SoC(System on Chip) 설계 및 제…"
+    ]
+  },
+  {
+    "concept_id": "바이오플라스틱",
+    "primary_canonical": "바이오플라스틱",
+    "domain": "바이오",
+    "surfaces": [
+      "바이오플라스틱"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::라::1)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "바이오매스 유래 바이오플라스틱 생산 기술",
+        "surface": "바이오플라스틱"
+      },
+      {
+        "tech_id": "newgrowth::7::라::3)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "신규 또는 대량 생산이 가능한 바이오화학 소재 개발 및 미생물 발굴 바이오 파운드리 기술",
+        "surface": "바이오플라스틱"
+      }
+    ],
+    "sample_contexts": [
+      "…전환공정을 통해 당 또는 리그닌 등 유효성분을 추출ㆍ정제하는 기술 및 바이오플라스틱을 생산하는 기술",
+      "바이오플라스틱, 바이오화장품 소재, 바이오생리활성 소재 등을 생산하는 미생물 확보를…"
+    ]
+  },
+  {
+    "concept_id": "박막",
+    "primary_canonical": "박막",
+    "domain": "반도체",
+    "surfaces": [
+      "박막"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::2)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "원자층증착법(ALD, Atomic Layer Deposition) 및 화학증착법(CVD, Chemical Vapor Deposition)을 위한 고유전체(High-k dielectric)용 전구체 개발 기술",
+        "surface": "박막"
+      },
+      {
+        "tech_id": "strategic::1::::거.",
+        "sector_name": "반도체",
+        "tech_name": "원자층증착법 및 화학증착법을 위한 고유전체용 전구체 개발 기술",
+        "surface": "박막"
+      }
+    ],
+    "sample_contexts": [
+      "…(SiO2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 ALD 및 CVD 공정에 사용되는 전구체를 개발하는 기술",
+      "…(SiO2)보다 우수한 유전특성을 갖는 high-k dielectric 박막 증착을 위한 원자층증착법(ALD, Atomic Layer Deposit…"
+    ]
+  }
+]

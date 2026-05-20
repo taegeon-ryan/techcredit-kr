@@ -1,0 +1,1712 @@
+[
+  {
+    "concept_id": "에틸렌",
+    "primary_canonical": "에틸렌",
+    "domain": "소재",
+    "surfaces": [
+      "에틸렌"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::4)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 비극성계 접착소재 제조기술",
+        "surface": "에틸렌"
+      },
+      {
+        "tech_id": "newgrowth::15::라::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기가열 나프타 분해기술",
+        "surface": "에틸렌"
+      }
+    ],
+    "sample_contexts": [
+      "…가능한 아크릴레이트 함량 5∼35% 또는 관능기의 함량 1.2∼8%의 에틸렌계 점착ㆍ접착 소재 제조 기술",
+      "전기저항/유도 가열 방식을 활용한 나프타 분해공정을 통해 에틸렌ㆍ프로필렌 등 석유화학 기초원료를 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "에피공정",
+    "primary_canonical": "에피공정",
+    "domain": "디스플레이",
+    "surfaces": [
+      "에피공정",
+      "에피(Epi)공정"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::5)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "마이크로 LED 디스플레이 패널ㆍ부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "에피공정"
+      },
+      {
+        "tech_id": "strategic::4::::다.",
+        "sector_name": "디스플레이",
+        "tech_name": "Micro LED 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "에피(Epi)공정"
+      }
+    ],
+    "sample_contexts": [
+      "실리콘(Silicon) 또는 사파이어(Sapphire) 기판에 저결함 에피공정을 적용하여 100㎛ 이하의 자발광 R/G/B 마이크로 LED 칩을 제조…",
+      "…또는 사파이어(Sapphire) 기판에 저결함(1x1015/cm3이하) 에피(Epi)공정을 적용한 단축 50㎛ 크기 이하의 RㆍGㆍB 마이크로 LED를 적용한…"
+    ]
+  },
+  {
+    "concept_id": "에피텍셜-반도체",
+    "primary_canonical": "에피텍셜 반도체",
+    "domain": "반도체",
+    "surfaces": [
+      "에피텍셜 반도체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::5)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "반도체용 기판 개발 및 제조기술",
+        "surface": "에피텍셜 반도체"
+      },
+      {
+        "tech_id": "strategic::1::::타.",
+        "sector_name": "반도체",
+        "tech_name": "반도체용 실리콘 기판 및 화합물 기판 개발 및 제조기술",
+        "surface": "에피텍셜 반도체"
+      }
+    ],
+    "sample_contexts": [
+      "14nm 이하급 D램과 170단 이상 낸드플래시메모리 및 에피텍셜 반도체용 기판을 개발 및 제조하는 기술",
+      "…D램과 170단 이상 낸드플래시메모리, 7nm 이하급 파운드리 SoC, 에피텍셜 반도체용의 실리콘 기판 및 화합물(SiC, GaN, Ga2O3) 기판을 개발…"
+    ]
+  },
+  {
+    "concept_id": "연료전지-2",
+    "primary_canonical": "연료전지",
+    "domain": "수소",
+    "surfaces": [
+      "연료전지"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::마.",
+        "sector_name": "수소",
+        "tech_name": "수소차용 고밀도 고효율 연료전지시스템 기술",
+        "surface": "연료전지"
+      },
+      {
+        "tech_id": "strategic::5::::바.",
+        "sector_name": "수소",
+        "tech_name": "연료전지 전용부품 제조기술",
+        "surface": "연료전지"
+      }
+    ],
+    "sample_contexts": [
+      "연료전지 스택 출력밀도 3.1kW/L 이상 또는 연료전지 스택 운전효율[저위발열…",
+      "연료전지 핵심부품인 개질기, 막전극 접합체, 금속 분리판 또는 블로어 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "열수력",
+    "primary_canonical": "열수력",
+    "domain": "원자력",
+    "surfaces": [
+      "열수력"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "가압경수형원전(Pressurized Water Reactor) 원전설계 핵심코드 개발 기술",
+        "surface": "열수력"
+      },
+      {
+        "tech_id": "newgrowth::14::다::8)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
+        "surface": "열수력"
+      }
+    ],
+    "sample_contexts": [
+      "…전량을 결정하고 노심의 물리적 특성을 분석하는 데 사용되는 핵설계코드, 열수력설계코드, 핵연료설계코드 등의 전산프로그램)와 고유 안전해석코드(원전에서…",
+      "…ment) 기술, 중대사고 분석 및 대처 기술, SMR 노심 검증기술, 열수력 검증기술, 계통기기 검증기술, 모듈 통합 검증기술, 열수력 통합 해석기…"
+    ]
+  },
+  {
+    "concept_id": "원자로",
+    "primary_canonical": "원자로",
+    "domain": "원자력",
+    "surfaces": [
+      "원자로"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::10)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "대형 원자력발전소 제조기술",
+        "surface": "원자로"
+      },
+      {
+        "tech_id": "newgrowth::14::다::9)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 제조 기술",
+        "surface": "원자로"
+      }
+    ],
+    "sample_contexts": [
+      "대형 원자력발전소를 구성하는 원자로ㆍ내부구조물, 핵연료 취급ㆍ검사장비, 증기발생기ㆍ가압기, 원자로 냉각재펌…",
+      "…연성흡수봉 설계ㆍ제조기술, 증기발생기 전열관 3D 벤딩 및 검사 기술, 원자로ㆍ증기발생기ㆍ가압기 등 주요 기기가 일체화된 원자로모듈을 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "인버터",
+    "primary_canonical": "인버터",
+    "domain": "반도체",
+    "surfaces": [
+      "인버터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::7)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "에너지효율향상 반도체 설계ㆍ제조기술",
+        "surface": "인버터"
+      },
+      {
+        "tech_id": "strategic::1::::라.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기 SoC 설계ㆍ제조기술",
+        "surface": "인버터"
+      }
+    ],
+    "sample_contexts": [
+      "…하이브리드자동차, 태양광, 풍력발전 등 신재생에너지, 스마트그리드 등) 인버터 등에 탑재되는 SJ(Super Junction) MOSFET, IGBT…",
+      "…witch 등 RF반도체), 디지털·아날로그 신호의 데이터 변환 반도체(인버터/컨버터, Mixed signal 반도체 등), UWB(Ultra-wid…"
+    ]
+  },
+  {
+    "concept_id": "인산계-식각액",
+    "primary_canonical": "인산계 식각액",
+    "domain": "반도체",
+    "surfaces": [
+      "인산계 식각액"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::8)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "인산계 식각액"
+      },
+      {
+        "tech_id": "strategic::1::::러.",
+        "sector_name": "반도체",
+        "tech_name": "고기능성 인산 제조 기술",
+        "surface": "인산계 식각액"
+      }
+    ],
+    "sample_contexts": [
+      "…Nx, SiOx 막질의 선택적인 식각이 가능한 고선택비(1,000이상) 인산계 식각액 제조기술"
+    ]
+  },
+  {
+    "concept_id": "인장강도",
+    "primary_canonical": "인장강도",
+    "domain": "소재",
+    "surfaces": [
+      "인장강도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::다::",
+        "sector_name": "융복합소재",
+        "tech_name": "인성특성이 향상된 고강성 하이퍼플라스틱(High Performance Plastics) 복합체 제조 및 가공 기술",
+        "surface": "인장강도"
+      },
+      {
+        "tech_id": "newgrowth::9::라::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "고강도 구리합금 설계ㆍ제조기술",
+        "surface": "인장강도"
+      }
+    ],
+    "sample_contexts": [
+      "…상), 내화학성(온도 23℃의 염화칼슘 5% 용액에 600시간 담근 후 인장강도 유지율 90% 이상), 내마모성(50rpm, 150N, 측정거리 3Km…",
+      "인장강도 900Mpa 이상의 고강도 특성을 갖춘 주석함유 구리합금(Cu-Ni-S…"
+    ]
+  },
+  {
+    "concept_id": "저온폴리실리콘",
+    "primary_canonical": "저온폴리실리콘(LTPS)",
+    "domain": "디스플레이",
+    "surfaces": [
+      "저온폴리실리콘(LTPS, Low Temperature Poly Silicon)",
+      "저온폴리실리콘(LTPS)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "9인치 이상 능동형 유기발광 다이오드(AMOLED: Active Matrix Organic Light Emitting Diode) 패널 기능개선 및 부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "저온폴리실리콘(LTPS, Low Temperature Poly Silicon)"
+      },
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "저온폴리실리콘(LTPS)"
+      }
+    ],
+    "sample_contexts": [
+      "저온폴리실리콘(LTPS, Low Temperature Poly Silicon) 또는 산화물(Oxide) TFT(Thin Film Transistor,…",
+      "기판(유리, 플렉시블, 스트레처블) 위에 저온폴리실리콘산화물(LTPO)ㆍ저온폴리실리콘(LTPS)ㆍ산화물(Oxide) TFT를 형성한 백플레인 또는 실리콘(Silicon…"
+    ]
+  },
+  {
+    "concept_id": "전기로",
+    "primary_canonical": "전기로",
+    "domain": "소재",
+    "surfaces": [
+      "전기로"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::14)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
+        "surface": "전기로"
+      },
+      {
+        "tech_id": "newgrowth::15::라::16)",
+        "sector_name": "탄소중립",
+        "tech_name": "디지털 영상분석 기반 철스크랩 판정ㆍ선별기술",
+        "surface": "전기로"
+      }
+    ],
+    "sample_contexts": [
+      "전기로 용해공정에서 저탄소 원료인 직접환원철 또는 수소환원철로 철강을 제조하는…",
+      "철스크랩을 전기로공정에 투입할 때 데이터화된 영상이미지를 기반으로 인공지능을 활용하여 철…"
+    ]
+  },
+  {
+    "concept_id": "전자이동도",
+    "primary_canonical": "전자이동도",
+    "domain": "디스플레이",
+    "surfaces": [
+      "전자이동도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::라.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 패널 제조용 증착ㆍ코팅 소재 기술",
+        "surface": "전자이동도"
+      },
+      {
+        "tech_id": "strategic::4::::마.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 TFT 형성 장비 및 부품 기술",
+        "surface": "전자이동도"
+      }
+    ],
+    "sample_contexts": [
+      "전자이동도 9㎠/Vs 이상의 산화물 TFT(Thin Film Transistor)…",
+      "전자이동도 9㎠/Vs 이상의 TFT(Thin Film Transistor) 형성공…"
+    ]
+  },
+  {
+    "concept_id": "증착-2",
+    "primary_canonical": "증착",
+    "domain": "디스플레이",
+    "surfaces": [
+      "증착"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::라.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 패널 제조용 증착ㆍ코팅 소재 기술",
+        "surface": "증착"
+      },
+      {
+        "tech_id": "strategic::4::::마.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 TFT 형성 장비 및 부품 기술",
+        "surface": "증착"
+      }
+    ],
+    "sample_contexts": [
+      "…(QD)ㆍ화소격벽ㆍ폴리이미드(PI) 코팅소재 등 디스플레이 패널 제조용 증착ㆍ코팅 소재 기술",
+      "…m Transistor) 형성공정에 사용되는 노광기, 물리 또는 화학적 증착기, 이온주입기, 식각기, 검사장비 및 이와 관련 제조에 사용되는 등 디…"
+    ]
+  },
+  {
+    "concept_id": "진공-증발-증착",
+    "primary_canonical": "진공 증발 증착",
+    "domain": "디스플레이",
+    "surfaces": [
+      "진공 증발 증착"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "9인치 이상 능동형 유기발광 다이오드(AMOLED: Active Matrix Organic Light Emitting Diode) 패널 기능개선 및 부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "진공 증발 증착"
+      },
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "진공 증발 증착"
+      }
+    ],
+    "sample_contexts": [
+      "…Film Transistor, 전자이동도 8㎠/Vs 이상) 기판 상에 진공 증발 증착 또는 프린팅 방식으로 고화질(고해상도, 고색재현, 고균일, HRD)을…",
+      "…(Silicon)에 구동소자를 형성한 웨이퍼에 발광특성을 가진 유기물을 진공 증발 증착 또는 프린팅 방식으로 형성하는 FHD 이상의 고화질 또는 고성능(고휘도…"
+    ]
+  },
+  {
+    "concept_id": "질소산화물",
+    "primary_canonical": "질소산화물",
+    "domain": "환경",
+    "surfaces": [
+      "질소산화물"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::라::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "차세대 배기가스 규제 대응을 위한 운송ㆍ저장시스템 기술",
+        "surface": "질소산화물"
+      },
+      {
+        "tech_id": "newgrowth::9::사::4)",
+        "sector_name": "융복합소재",
+        "tech_name": "차세대 배기가스 규제 대응을 위한 핵심소재 생산 기술",
+        "surface": "질소산화물"
+      }
+    ],
+    "sample_contexts": [
+      "운송ㆍ발전용 기관을 운전할 때 배출되는 배기가스내의 질소산화물 및 배기배출물을 과급기 하류측에서 선택적촉매환원법(SCR) 등을 사용하…",
+      "…탄소를 활용하여 운송·발전·산업용 기관을 운전할 때 배출되는 배기가스내 질소산화물, 황산화물 등 배기배출물을 저감시키기 위해 필요한 핵심소재 제조기술"
+    ]
+  },
+  {
+    "concept_id": "카고핸들링",
+    "primary_canonical": "카고핸들링",
+    "domain": "조선",
+    "surfaces": [
+      "카고핸들링"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::나::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "액화수소 운반선의 액화수소 저장ㆍ적하역 및 증발가스 처리기술",
+        "surface": "카고핸들링"
+      },
+      {
+        "tech_id": "strategic::9::::아.",
+        "sector_name": "미래형 운송 및 이동수단",
+        "tech_name": "환경친화적 첨단 선박의 운송ㆍ추진 기술",
+        "surface": "카고핸들링"
+      }
+    ],
+    "sample_contexts": [
+      "…내에 액화수소를 저장ㆍ적하역하기 위한 극저온 화물창 설계ㆍ제조 기술, 카고핸들링 기술 및 증발가스 처리를 위한 장치 제조 기술",
+      "…ㆍ이산화탄소를 포함한다)의 저장ㆍ운송ㆍ적하역시스템(화물창, 연료탱크 및 카고핸들링 시스템 등을 포함한다) 2) 환경친화적 에너지(LNGㆍLPGㆍ암모니아…"
+    ]
+  },
+  {
+    "concept_id": "코팅-2",
+    "primary_canonical": "코팅",
+    "domain": "디스플레이",
+    "surfaces": [
+      "코팅"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::라.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 패널 제조용 증착ㆍ코팅 소재 기술",
+        "surface": "코팅"
+      },
+      {
+        "tech_id": "strategic::4::::사.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 하이브리드 커버 윈도우 소재 기술",
+        "surface": "코팅"
+      }
+    ],
+    "sample_contexts": [
+      "…유기물(발광ㆍ공통층) 소재 및 양자점(QD)ㆍ화소격벽ㆍ폴리이미드(PI) 코팅소재 등 디스플레이 패널 제조용 증착ㆍ코팅 소재 기술",
+      "…초박형유리(Ultra Thin Glass, UTG) 및 UTG 광학증착ㆍ코팅 소재, 투과율 80% 이상인 초박형 유ㆍ무기 하이브리드 필름 등 커버…"
+    ]
+  },
+  {
+    "concept_id": "파워ic",
+    "primary_canonical": "파워IC",
+    "domain": "반도체",
+    "surfaces": [
+      "파워IC"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::6)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "차량용 반도체 설계ㆍ제조기술",
+        "surface": "파워IC"
+      },
+      {
+        "tech_id": "strategic::1::::바.",
+        "sector_name": "반도체",
+        "tech_name": "차량용 반도체 설계·제조기술",
+        "surface": "파워IC"
+      }
+    ],
+    "sample_contexts": [
+      "…er unit), ECU(Electronic control unit), 파워IC, SOC, 전기차, 하이브리드자동차 및 자율주행용 IC 반도체의 설계ㆍ…",
+      "…er unit), ECU(Electronic control unit), 파워IC, SoC, 하이브리드/전기차 및 자율주행용 IC 반도체의 설계ㆍ제조 기…"
+    ]
+  },
+  {
+    "concept_id": "펠리클",
+    "primary_canonical": "펠리클(Pellicle)",
+    "domain": "반도체",
+    "surfaces": [
+      "펠리클(Pellicle)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::4)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "블랭크 마스크(Blank Mask) 개발 및 제조기술",
+        "surface": "펠리클(Pellicle)"
+      },
+      {
+        "tech_id": "strategic::1::::더.",
+        "sector_name": "반도체",
+        "tech_name": "블랭크 마스크 개발 및 제조기술",
+        "surface": "펠리클(Pellicle)"
+      }
+    ],
+    "sample_contexts": [
+      "…여 반도체 회로를 형성하는 데 사용되는 블랭크마스크 원판 및 관련 소재[펠리클(Pellicle), 합성 쿼츠, 스터러링용 타겟 등을 포함]을 개발 및 제조하는 기술",
+      "…여 반도체 회로를 형성하는 데 사용되는 블랭크마스크 원판 및 관련 소재[펠리클(Pellicle), 합성 쿼츠, 스터러링용 타겟 등을 포함]를 개발 및 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "항원",
+    "primary_canonical": "항원",
+    "domain": "바이오",
+    "surfaces": [
+      "항원"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::2)",
+        "sector_name": "바이오·헬스",
+        "tech_name": "방어 항원 스크리닝 및 제조기술",
+        "surface": "항원"
+      },
+      {
+        "tech_id": "strategic::3::::가.",
+        "sector_name": "백신",
+        "tech_name": "방어 항원 등 스크리닝 및 제조기술",
+        "surface": "항원"
+      }
+    ],
+    "sample_contexts": [
+      "면역 기전을 이용하여 인체질환을 방어하기 위해 항원을 스크리닝하고 이 항원을 제조하여 각종 질환을 치료하거나(치료용 백신)…",
+      "…하기 위해 (예방용 백신) 면역기전을 이용하여 인체질환을 방어하는 물질(항원, 핵산, 바이러스벡터 등)을 스크리닝하고 개발·제조하는 기술 및 이를…"
+    ]
+  },
+  {
+    "concept_id": "해중합",
+    "primary_canonical": "해중합",
+    "domain": "환경",
+    "surfaces": [
+      "해중합"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::라::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "폐플라스틱 등의 화학적 재활용을 통한 산업원료화 기술",
+        "surface": "해중합"
+      },
+      {
+        "tech_id": "newgrowth::14::라::9)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "폐섬유의 화학 및 생물학적 재활용 기술을 활용한 자원순환 섬유소재 제조기술",
+        "surface": "해중합"
+      }
+    ],
+    "sample_contexts": [
+      "폐플라스틱ㆍ폐타이어ㆍ폐섬유의 해중합, 열분해 또는 가스화 공정을 거쳐 화학원료ㆍ고부가가치 탄소화합물 제품…",
+      "혼합재질 폐섬유의 화학 및 생물학적 해중합, 정제ㆍ분리ㆍ원료(모노머) 회수 및 재중합 및 방사기술"
+    ]
+  },
+  {
+    "concept_id": "핵산",
+    "primary_canonical": "핵산",
+    "domain": "바이오",
+    "surfaces": [
+      "핵산"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::가.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오 신약[바이오 베터(Bio Better)를 포함한다. 이하 이 호에서 같다] 후보물질 발굴 및 바이오 신약 제조 기술",
+        "surface": "핵산"
+      },
+      {
+        "tech_id": "strategic::3::::가.",
+        "sector_name": "백신",
+        "tech_name": "방어 항원 등 스크리닝 및 제조기술",
+        "surface": "핵산"
+      }
+    ],
+    "sample_contexts": [
+      "…로운 생명공학 기술을 이용하여 생명체에서 유래된 단백질ㆍ호르몬ㆍ펩타이드ㆍ핵산ㆍ핵산유도체 등의 원료 및 재료를 확보하여 작용기전을 증명하고 안전성 및…",
+      "…해 (예방용 백신) 면역기전을 이용하여 인체질환을 방어하는 물질(항원, 핵산, 바이러스벡터 등)을 스크리닝하고 개발·제조하는 기술 및 이를 적용한…"
+    ]
+  },
+  {
+    "concept_id": "현상",
+    "primary_canonical": "현상(Developing)",
+    "domain": "반도체",
+    "surfaces": [
+      "현상(Developing)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::나::1)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "포토레지스트(Photoresist) 개발 및 제조기술",
+        "surface": "현상(Developing)"
+      },
+      {
+        "tech_id": "strategic::1::::하.",
+        "sector_name": "반도체",
+        "tech_name": "포토레지스트(Photoresist) 개발 및 제조기술",
+        "surface": "현상(Developing)"
+      }
+    ],
+    "sample_contexts": [
+      "…그래피(lithography)용 수지로서 회로의 내열성, 전기적 특성, 현상(Developing) 특성을 좌우하는 Photoresist 및 관련 소재를 개발 및 제조하는…",
+      "…그래피(lithography)용 수지로서 회로의 내열성, 전기적 특성, 현상(Developing) 특성을 좌우하는 포토레지스트 및 관련 소재를 개발 및 제조하는 기술 […"
+    ]
+  },
+  {
+    "concept_id": "화물창",
+    "primary_canonical": "화물창",
+    "domain": "조선",
+    "surfaces": [
+      "화물창"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::나::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "액화수소 운반선의 액화수소 저장ㆍ적하역 및 증발가스 처리기술",
+        "surface": "화물창"
+      },
+      {
+        "tech_id": "strategic::9::::아.",
+        "sector_name": "미래형 운송 및 이동수단",
+        "tech_name": "환경친화적 첨단 선박의 운송ㆍ추진 기술",
+        "surface": "화물창"
+      }
+    ],
+    "sample_contexts": [
+      "액화수소 운반선 내에 액화수소를 저장ㆍ적하역하기 위한 극저온 화물창 설계ㆍ제조 기술, 카고핸들링 기술 및 증발가스 처리를 위한 장치 제조…",
+      "…Gㆍ에탄ㆍ암모니아ㆍ수소ㆍ이산화탄소를 포함한다)의 저장ㆍ운송ㆍ적하역시스템(화물창, 연료탱크 및 카고핸들링 시스템 등을 포함한다) 2) 환경친화적 에너…"
+    ]
+  },
+  {
+    "concept_id": "화소",
+    "primary_canonical": "화소",
+    "domain": "디스플레이",
+    "surfaces": [
+      "화소"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::바.",
+        "sector_name": "디스플레이",
+        "tech_name": "OLED 화소 형성ㆍ봉지 공정 장비 및 부품 기술",
+        "surface": "화소"
+      },
+      {
+        "tech_id": "strategic::4::::아.",
+        "sector_name": "디스플레이",
+        "tech_name": "마이크로LED 에피(Epi)ㆍ전사ㆍ접합 소재, 부품, 장비 기술",
+        "surface": "화소"
+      }
+    ],
+    "sample_contexts": [
+      "…psulation), FMM(Fine Metal Mask) 등 OLED 화소 형성 및 봉지 공정에 사용되는 장비와 부품 제조 기술",
+      "…EQE) 청색 20%, 녹색 10%, 적색 5% 이상의 에피기판ㆍ칩 등 화소 형성을 위한 소재ㆍ부품 제조 기술 및 Micro LED 성장을 위한 에…"
+    ]
+  },
+  {
+    "concept_id": "흡수제",
+    "primary_canonical": "흡수제",
+    "domain": "에너지",
+    "surfaces": [
+      "흡수제"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::가::1)",
+        "sector_name": "탄소중립",
+        "tech_name": "연소 후 이산화탄소 포집 기술",
+        "surface": "흡수제"
+      },
+      {
+        "tech_id": "newgrowth::15::가::2)",
+        "sector_name": "탄소중립",
+        "tech_name": "연소 전 이산화탄소 포집기술",
+        "surface": "흡수제"
+      }
+    ],
+    "sample_contexts": [
+      "…료 연소 후 발생되는 배기가스 중 이산화탄소를 효과적으로 분리하기 위한 흡수제, 흡착제, 분리막 등 분리소재를 제조하는 기술과 이를 이용한 이산화탄소…",
+      "석탄가스화 후 생성된 이산화탄소와 수소 중 이산화탄소를 분리하기 위한 흡수제, 흡착제, 분리막 등 분리소재를 제조하는 기술과 이를 이용한 이산화탄소…"
+    ]
+  },
+  {
+    "concept_id": "흡착제",
+    "primary_canonical": "흡착제",
+    "domain": "에너지",
+    "surfaces": [
+      "흡착제"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::가::1)",
+        "sector_name": "탄소중립",
+        "tech_name": "연소 후 이산화탄소 포집 기술",
+        "surface": "흡착제"
+      },
+      {
+        "tech_id": "newgrowth::15::가::2)",
+        "sector_name": "탄소중립",
+        "tech_name": "연소 전 이산화탄소 포집기술",
+        "surface": "흡착제"
+      }
+    ],
+    "sample_contexts": [
+      "…후 발생되는 배기가스 중 이산화탄소를 효과적으로 분리하기 위한 흡수제, 흡착제, 분리막 등 분리소재를 제조하는 기술과 이를 이용한 이산화탄소 포집공정…",
+      "…화 후 생성된 이산화탄소와 수소 중 이산화탄소를 분리하기 위한 흡수제, 흡착제, 분리막 등 분리소재를 제조하는 기술과 이를 이용한 이산화탄소 포집공정…"
+    ]
+  },
+  {
+    "concept_id": "3d-적층형-반도체",
+    "primary_canonical": "3D 적층형 반도체",
+    "domain": "반도체",
+    "surfaces": [
+      "3D 적층형 반도체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::저.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 3D 적층형 반도체 설계ㆍ제조 및 관련 신소재 개발 기술",
+        "surface": "3D 적층형 반도체"
+      }
+    ],
+    "sample_contexts": [
+      "메모리, 시스템 반도체 웨이퍼 및 칩을 수직 적층하는 3D 적층형 반도체 및 관련 소재, 장비 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "802-11ac",
+    "primary_canonical": "802.11ac",
+    "domain": "통신",
+    "surfaces": [
+      "802.11ac"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::가::5)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "차세대 근거리 무선통신 기술",
+        "surface": "802.11ac"
+      }
+    ],
+    "sample_contexts": [
+      "…l & Electronics Engineers, 국제전기전자기술자협회) 802.11ac 규격보다 높은 주파수 효율과 전송속도를 제공하는 근거리 무선통신(무선랜…"
+    ]
+  },
+  {
+    "concept_id": "ai-가속기",
+    "primary_canonical": "AI 가속기",
+    "domain": "AI",
+    "surfaces": [
+      "AI 가속기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::처.",
+        "sector_name": "반도체",
+        "tech_name": "AI 컴퓨팅을 위한 차세대 MCM(Multi-Chip Module)의 설계ㆍ제조 및 관련 신소재ㆍ부품 개발 기술",
+        "surface": "AI 가속기"
+      }
+    ],
+    "sample_contexts": [
+      "다음의 요건을 모두 충족하는 고성능 AI 가속기용 CCL(Copper Clad Laminate) 개발 및 제조기술 1…"
+    ]
+  },
+  {
+    "concept_id": "ap",
+    "primary_canonical": "AP(Application Processor)",
+    "domain": "반도체",
+    "surfaces": [
+      "AP(Application Processor)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::다.",
+        "sector_name": "반도체",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계 및 제조(7nm이하) 기술",
+        "surface": "AP(Application Processor)"
+      }
+    ],
+    "sample_contexts": [
+      "…론 등), 지능형 로봇, 게임로봇, 고속 정보 저장ㆍ처리 및 통신기기, AP(Application Processor), 위성체 및 군사용 무기 체계, 보안카메라, DVR (Digital V…"
+    ]
+  },
+  {
+    "concept_id": "apr",
+    "primary_canonical": "APR+(Advanced Power Reactor Plus)",
+    "domain": "원자력",
+    "surfaces": [
+      "APR+(Advanced Power Reactor Plus)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::4)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
+        "surface": "APR+(Advanced Power Reactor Plus)"
+      }
+    ],
+    "sample_contexts": [
+      "…chine Interface System) 설계기술, 안전성분석기술 등 APR+(Advanced Power Reactor Plus) 및 SMART(System-integrated Modular Advan…"
+    ]
+  },
+  {
+    "concept_id": "b5",
+    "primary_canonical": "B5",
+    "domain": "부품",
+    "surfaces": [
+      "B5"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::2)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
+        "surface": "B5"
+      }
+    ],
+    "sample_contexts": [
+      "…에 따라 각 유압 액추에이터, 선회 및 주행의 유압모터 등에 공급하며, B5 10,000시간 이상의 높은 내구 신뢰성을 가지는 메인 컨트롤 벨브 부…"
+    ]
+  },
+  {
+    "concept_id": "black-uniformity",
+    "primary_canonical": "black uniformity",
+    "domain": "디스플레이",
+    "surfaces": [
+      "black uniformity"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::다::4)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "차세대 차량용 디스플레이 패널ㆍ부품ㆍ소재ㆍ장비 제조 기술",
+        "surface": "black uniformity"
+      }
+    ],
+    "sample_contexts": [
+      "굴곡된 형상으로 제조 가능하고, 동작온도 -30℃∼95℃, 시인성 black uniformity 60% 이상을 만족하는 다결정 저온 폴리실리콘(LTPS-LCD) 패널…"
+    ]
+  },
+  {
+    "concept_id": "bps",
+    "primary_canonical": "bps",
+    "domain": "통신",
+    "surfaces": [
+      "bps"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::가::4)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "6G 이동통신 기술",
+        "surface": "bps"
+      }
+    ],
+    "sample_contexts": [
+      "초저지연(µsec급) 기술을 기반으로 초고속(Tera bps급) 통신 지원을 위해 Tera-Hz 대역 활용을 가능하게 하는 신소자…"
+    ]
+  },
+  {
+    "concept_id": "c-rate",
+    "primary_canonical": "C-rate",
+    "domain": "배터리",
+    "surfaces": [
+      "C-rate"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::5)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "고성능 리튬이차전지 기술",
+        "surface": "C-rate"
+      }
+    ],
+    "sample_contexts": [
+      "265wh/kg 이상의 에너지밀도 또는 6C-rate 이상의 방전속도를 충족하는 고성능 리튬이차전지에 사용되는 부품ㆍ소재ㆍ셀…"
+    ]
+  },
+  {
+    "concept_id": "c-rate-2",
+    "primary_canonical": "C-rate",
+    "domain": "이차전지",
+    "surfaces": [
+      "C-rate"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::나.",
+        "sector_name": "이차전지",
+        "tech_name": "고성능 리튬이차전지 부품·소재·셀 및 모듈 제조 기술",
+        "surface": "C-rate"
+      }
+    ],
+    "sample_contexts": [
+      "…5Wh/kg 이상 또는 1시간 기준 방전출력 대비 6배 이상의 고출력(6C-rate 이상) 또는 충방전 1,000회 이상의 장수명을 충족하는 고성능 리튬이…"
+    ]
+  },
+  {
+    "concept_id": "cat-4",
+    "primary_canonical": "Cat 4",
+    "domain": "로봇",
+    "surfaces": [
+      "Cat 4"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::가::5)",
+        "sector_name": "로봇",
+        "tech_name": "협동기반 차세대 제조로봇 기술",
+        "surface": "Cat 4"
+      }
+    ],
+    "sample_contexts": [
+      "…) 및 중대형(가반하중 25kg 이상) 로봇, 첨단 안전기술(PL e, Cat 4 또는 이와 동일한 수준의 안전등급 이상)이 탑재된 로봇 또는 7축 이상…"
+    ]
+  },
+  {
+    "concept_id": "ccl",
+    "primary_canonical": "CCL(Copper Clad Laminate)",
+    "domain": "반도체",
+    "surfaces": [
+      "CCL(Copper Clad Laminate)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::처.",
+        "sector_name": "반도체",
+        "tech_name": "AI 컴퓨팅을 위한 차세대 MCM(Multi-Chip Module)의 설계ㆍ제조 및 관련 신소재ㆍ부품 개발 기술",
+        "surface": "CCL(Copper Clad Laminate)"
+      }
+    ],
+    "sample_contexts": [
+      "다음의 요건을 모두 충족하는 고성능 AI 가속기용 CCL(Copper Clad Laminate) 개발 및 제조기술 1) 고속 신호전송을 위한 저손실 특성(Ultra…"
+    ]
+  },
+  {
+    "concept_id": "cis-content",
+    "primary_canonical": "Cis content",
+    "domain": "소재",
+    "surfaces": [
+      "Cis content"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::3)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 부타디엔 고무 제조ㆍ가공 기술",
+        "surface": "Cis content"
+      }
+    ],
+    "sample_contexts": [
+      "고상 및 액상 기능성(Cis content 90% 이상, 무니점도(ML1+4, 100℃) 40 이상) 부타디엔류…"
+    ]
+  },
+  {
+    "concept_id": "clc",
+    "primary_canonical": "CLC(Chemical Looping Cycle)",
+    "domain": "에너지",
+    "surfaces": [
+      "CLC(Chemical Looping Cycle)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::가::3)",
+        "sector_name": "탄소중립",
+        "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
+        "surface": "CLC(Chemical Looping Cycle)"
+      }
+    ],
+    "sample_contexts": [
+      "…eramic-metal composite membrane), 흡착제 및 CLC(Chemical Looping Cycle) 등과 같이 산소를 저가로 대량생산 할 수 있는 기술과 이를 이용한 미분…"
+    ]
+  },
+  {
+    "concept_id": "dds",
+    "primary_canonical": "DDS(Drug Delivery System, 약물전달시스템)",
+    "domain": "바이오",
+    "surfaces": [
+      "DDS(Drug Delivery System, 약물전달시스템)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::5)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "혁신형 개량신약(화합물의약품) 개발 및 제조 기술",
+        "surface": "DDS(Drug Delivery System, 약물전달시스템)"
+      }
+    ],
+    "sample_contexts": [
+      "DDS(Drug Delivery System, 약물전달시스템), 염변경, 이성체 제조, 복합제 제조 및 바이오ㆍ나노기술과의 융합 등의…"
+    ]
+  },
+  {
+    "concept_id": "derivative-ip",
+    "primary_canonical": "Derivative IP",
+    "domain": "반도체",
+    "surfaces": [
+      "Derivative IP"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::서.",
+        "sector_name": "반도체",
+        "tech_name": "파운드리향 IP 설계 및 검증 기술",
+        "surface": "Derivative IP"
+      }
+    ],
+    "sample_contexts": [
+      "…AI 등 응용 분야별로 최적화 시킨 Derivative Library, Derivative IP의 설계 및 검증 기술"
+    ]
+  },
+  {
+    "concept_id": "derivative-library",
+    "primary_canonical": "Derivative Library",
+    "domain": "반도체",
+    "surfaces": [
+      "Derivative Library"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::서.",
+        "sector_name": "반도체",
+        "tech_name": "파운드리향 IP 설계 및 검증 기술",
+        "surface": "Derivative Library"
+      }
+    ],
+    "sample_contexts": [
+      "…, IP를 모바일, 자동차, 서버, AI 등 응용 분야별로 최적화 시킨 Derivative Library, Derivative IP의 설계 및 검증 기술"
+    ]
+  },
+  {
+    "concept_id": "df",
+    "primary_canonical": "Df",
+    "domain": "반도체",
+    "surfaces": [
+      "Df"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::처.",
+        "sector_name": "반도체",
+        "tech_name": "AI 컴퓨팅을 위한 차세대 MCM(Multi-Chip Module)의 설계ㆍ제조 및 관련 신소재ㆍ부품 개발 기술",
+        "surface": "Df"
+      }
+    ],
+    "sample_contexts": [
+      "…1) 고속 신호전송을 위한 저손실 특성(Ultra Low Loss) Df 0.002 미만 2) 고밀도 전력 처리 및 효과적 열분산을 위한 열신…"
+    ]
+  },
+  {
+    "concept_id": "dna",
+    "primary_canonical": "DNA(deoxyribonucleic acid)",
+    "domain": "바이오",
+    "surfaces": [
+      "DNA(deoxyribonucleic acid)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::나::3)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "유전자 검사용 진단기기 및 시약의 개발 및 제조 기술",
+        "surface": "DNA(deoxyribonucleic acid)"
+      }
+    ],
+    "sample_contexts": [
+      "질병의 진단이나 건강상태 평가를 목적으로 인체에서 채취한 검체로부터 DNA(deoxyribonucleic acid), RNA(ribonucleic acid), 염색체, 대사물질을 추출하여…"
+    ]
+  },
+  {
+    "concept_id": "dvr",
+    "primary_canonical": "DVR (Digital Video Recoder)",
+    "domain": "보안",
+    "surfaces": [
+      "DVR (Digital Video Recoder)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::다.",
+        "sector_name": "반도체",
+        "tech_name": "고속 컴퓨팅을 위한 SoC 설계 및 제조(7nm이하) 기술",
+        "surface": "DVR (Digital Video Recoder)"
+      }
+    ],
+    "sample_contexts": [
+      "…ion Processor), 위성체 및 군사용 무기 체계, 보안카메라, DVR (Digital Video Recoder)등의 화상처리용 지능형 보안시스템, 복합 교통관제 시스템 등의 제작을 위…"
+    ]
+  },
+  {
+    "concept_id": "ecu",
+    "primary_canonical": "ECU(Electronic control unit)",
+    "domain": "자동차",
+    "surfaces": [
+      "ECU(Electronic control unit)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::6)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "차량용 반도체 설계ㆍ제조기술",
+        "surface": "ECU(Electronic control unit)"
+      }
+    ],
+    "sample_contexts": [
+      "…-Q100을 만족하는 MCU(Micro controller unit), ECU(Electronic control unit), 파워IC, SOC, 전기차, 하이브리드자동차 및 자율주행용 IC 반도…"
+    ]
+  },
+  {
+    "concept_id": "ecu-2",
+    "primary_canonical": "ECU(Electronic control unit)",
+    "domain": "미래차",
+    "surfaces": [
+      "ECU(Electronic control unit)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::바.",
+        "sector_name": "반도체",
+        "tech_name": "차량용 반도체 설계·제조기술",
+        "surface": "ECU(Electronic control unit)"
+      }
+    ],
+    "sample_contexts": [
+      "…-Q100을 만족하는 MCU(Micro controller unit), ECU(Electronic control unit), 파워IC, SoC, 하이브리드/전기차 및 자율주행용 IC 반도체의 설…"
+    ]
+  },
+  {
+    "concept_id": "fhd",
+    "primary_canonical": "FHD",
+    "domain": "디스플레이",
+    "surfaces": [
+      "FHD"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::가.",
+        "sector_name": "디스플레이",
+        "tech_name": "AMOLED 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "FHD"
+      }
+    ],
+    "sample_contexts": [
+      "…발광특성을 가진 유기물을 진공 증발 증착 또는 프린팅 방식으로 형성하는 FHD 이상의 고화질 또는 고성능(고휘도, 저소비전력) 패널과 구동소자, 커버…"
+    ]
+  },
+  {
+    "concept_id": "fmm",
+    "primary_canonical": "FMM(Fine Metal Mask)",
+    "domain": "디스플레이",
+    "surfaces": [
+      "FMM(Fine Metal Mask)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::바.",
+        "sector_name": "디스플레이",
+        "tech_name": "OLED 화소 형성ㆍ봉지 공정 장비 및 부품 기술",
+        "surface": "FMM(Fine Metal Mask)"
+      }
+    ],
+    "sample_contexts": [
+      "…n), 잉크젯장비(Inkjet), 봉지장비(Encapsulation), FMM(Fine Metal Mask) 등 OLED 화소 형성 및 봉지 공정에 사용되는 장비와 부품 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "fpd",
+    "primary_canonical": "FPD",
+    "domain": "디스플레이",
+    "surfaces": [
+      "FPD"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::가::4)",
+        "sector_name": "로봇",
+        "tech_name": "FPD(Flat panel display) 이송로봇 기술",
+        "surface": "FPD"
+      }
+    ],
+    "sample_contexts": [
+      "일반 대기압 또는 진공 환경 하에서 고중량(400kg 이상)의 FPD 및 마스크를 이송하는 로봇 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "fuel-c",
+    "primary_canonical": "Fuel-C",
+    "domain": "소재",
+    "surfaces": [
+      "Fuel-C"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::2)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 불소계 고무 제조ㆍ가공 기술",
+        "surface": "Fuel-C"
+      }
+    ],
+    "sample_contexts": [
+      "…는점 －15℃ 이하), 내열성(200℃ 이상) 및 내화학성(온도 25℃ Fuel-C에서 체적변화율 4% 이내)을 갖춘 불소계 고무 제조ㆍ가공기술"
+    ]
+  },
+  {
+    "concept_id": "gnss",
+    "primary_canonical": "GNSS(Global Navigation Satellite System)",
+    "domain": "항공",
+    "surfaces": [
+      "GNSS(Global Navigation Satellite System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::3)",
+        "sector_name": "항공·우주",
+        "tech_name": "무인기 탑재 첨단센서 기술",
+        "surface": "GNSS(Global Navigation Satellite System)"
+      }
+    ],
+    "sample_contexts": [
+      "…spectrum) 카메라 기술, 360°카메라 및 송수신 기술, Non-GNSS(Global Navigation Satellite System) 융합센서기술을 포함하는 기술"
+    ]
+  },
+  {
+    "concept_id": "gwp",
+    "primary_canonical": "GWP(Global Warming Potential)",
+    "domain": "탄소중립",
+    "surfaces": [
+      "GWP(Global Warming Potential)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::10)",
+        "sector_name": "탄소중립",
+        "tech_name": "반도체ㆍ디스플레이 식각ㆍ증착공정의 대체소재 제조 및 적용기술",
+        "surface": "GWP(Global Warming Potential)"
+      }
+    ],
+    "sample_contexts": [
+      "반도체ㆍ디스플레이 제조공정에서 사용하는 식각 및 증착용 온실가스를 GWP(Global Warming Potential)가 낮은 가스로 대체하기 위한 소재를 제조하는 기술 및 이를 적용하기 위…"
+    ]
+  },
+  {
+    "concept_id": "haze",
+    "primary_canonical": "Haze",
+    "domain": "소재",
+    "surfaces": [
+      "Haze"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::4)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 비극성계 접착소재 제조기술",
+        "surface": "Haze"
+      }
+    ],
+    "sample_contexts": [
+      "Haze 1% 이하의 광학특성과 연속사용온도 100℃의 열안정성을 갖는 실리콘계…"
+    ]
+  },
+  {
+    "concept_id": "hdr-cmos-이미지센서",
+    "primary_canonical": "HDR(High Dynamic Range) CMOS 이미지센서",
+    "domain": "반도체",
+    "surfaces": [
+      "HDR(High Dynamic Range) CMOS 이미지센서"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::마.",
+        "sector_name": "반도체",
+        "tech_name": "고성능 마이크로 센서의 설계‧제조‧패키징 기술",
+        "surface": "HDR(High Dynamic Range) CMOS 이미지센서"
+      }
+    ],
+    "sample_contexts": [
+      "…ry Metal-Oxide Semiconductor) 이미지센서 기술, HDR(High Dynamic Range) CMOS 이미지센서 기술 또는 SoC(System on Chip) 기술이 결합된 고성능 센…"
+    ]
+  },
+  {
+    "concept_id": "hepa",
+    "primary_canonical": "HEPA(High Efficiency Particulate Air)",
+    "domain": "소재",
+    "surfaces": [
+      "HEPA(High Efficiency Particulate Air)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::8)",
+        "sector_name": "융복합소재",
+        "tech_name": "극세 장섬유 부직포 및 복합필터 제조기술",
+        "surface": "HEPA(High Efficiency Particulate Air)"
+      }
+    ],
+    "sample_contexts": [
+      "유해물질을 여과ㆍ분리ㆍ차단하는 1㎛이하 극세 장섬유 부직포 제조기술과 HEPA(High Efficiency Particulate Air)급 이상의 고성능 정밀여과 복합필터 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "h형강",
+    "primary_canonical": "H형강",
+    "domain": "소재",
+    "surfaces": [
+      "H형강"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::마::2)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능성 H형강 제품 제조기술",
+        "surface": "H형강"
+      }
+    ],
+    "sample_contexts": [
+      "…성(-40℃이하에서 충격값 50 Joule 이상) 특성을 갖는 고기능성 H형강 제품 제조기술"
+    ]
+  },
+  {
+    "concept_id": "ins",
+    "primary_canonical": "INS(Inertial Navigation System)",
+    "domain": "항공",
+    "surfaces": [
+      "INS(Inertial Navigation System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::3)",
+        "sector_name": "항공·우주",
+        "tech_name": "무인기 탑재 첨단센서 기술",
+        "surface": "INS(Inertial Navigation System)"
+      }
+    ],
+    "sample_contexts": [
+      "…임무 달성 지원을 위해 첨단 센서 및 장비를 적용하는 기술로, GPS, INS(Inertial Navigation System) 등의 항법센서기술, 소형 경량레이더 기술, 충돌회피용 소형 LIDAR(…"
+    ]
+  },
+  {
+    "concept_id": "ip",
+    "primary_canonical": "IP",
+    "domain": "반도체",
+    "surfaces": [
+      "IP"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::서.",
+        "sector_name": "반도체",
+        "tech_name": "파운드리향 IP 설계 및 검증 기술",
+        "surface": "IP"
+      }
+    ],
+    "sample_contexts": [
+      "…y(Standard Cell, I/O, Memory Compiler), IP와 해당 Library, IP를 모바일, 자동차, 서버, AI 등 응용…"
+    ]
+  },
+  {
+    "concept_id": "iso26262",
+    "primary_canonical": "ISO26262",
+    "domain": "미래차",
+    "surfaces": [
+      "ISO26262"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::바.",
+        "sector_name": "반도체",
+        "tech_name": "차량용 반도체 설계·제조기술",
+        "surface": "ISO26262"
+      }
+    ],
+    "sample_contexts": [
+      "자동차 기능안전성 국제표준 ISO26262, 자동차용 반도체 신뢰성 시험규격 AEC-Q100을 만족하는 MCU(M…"
+    ]
+  },
+  {
+    "concept_id": "ksd9502",
+    "primary_canonical": "KSD9502",
+    "domain": "소재",
+    "surfaces": [
+      "KSD9502"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고기능성 알루미늄 도금강판 제조 기술",
+        "surface": "KSD9502"
+      }
+    ],
+    "sample_contexts": [
+      "550℃에서 200시간 유지 가능한 내열성과 SST 2400(KSD9502)시간 보증 가능한 내식성이 우수한 고성능 알루미늄 도금강판 개발을 위한…"
+    ]
+  },
+  {
+    "concept_id": "lcd",
+    "primary_canonical": "LCD",
+    "domain": "디스플레이",
+    "surfaces": [
+      "LCD"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::자.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기ㆍ차량용 디스플레이 반도체 설계ㆍ제조기술",
+        "surface": "LCD"
+      }
+    ],
+    "sample_contexts": [
+      "…블, 마이크로LED, Mini LED, 4Kㆍ120Hz급 이상 고해상도 LCD 등)에 구동 신호 및 데이터를 전기신호로 제공하는 반도체(DDI), 디…"
+    ]
+  },
+  {
+    "concept_id": "library",
+    "primary_canonical": "Library(Standard Cell, I/O, Memory Compiler)",
+    "domain": "반도체",
+    "surfaces": [
+      "Library(Standard Cell, I/O, Memory Compiler)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::서.",
+        "sector_name": "반도체",
+        "tech_name": "파운드리향 IP 설계 및 검증 기술",
+        "surface": "Library(Standard Cell, I/O, Memory Compiler)"
+      }
+    ],
+    "sample_contexts": [
+      "7nm이하 파운드리 공정을 위한 Library(Standard Cell, I/O, Memory Compiler), IP와 해당 Library, IP를 모바일, 자동차, 서버, AI 등…"
+    ]
+  },
+  {
+    "concept_id": "lidar",
+    "primary_canonical": "LIDAR(Light detection and ranging)",
+    "domain": "항공",
+    "surfaces": [
+      "LIDAR(Light detection and ranging)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::3)",
+        "sector_name": "항공·우주",
+        "tech_name": "무인기 탑재 첨단센서 기술",
+        "surface": "LIDAR(Light detection and ranging)"
+      }
+    ],
+    "sample_contexts": [
+      "…ystem) 등의 항법센서기술, 소형 경량레이더 기술, 충돌회피용 소형 LIDAR(Light detection and ranging) 센서 기술, 멀티스펙트럼(multi-spectrum) 카메라 기술, 3…"
+    ]
+  },
+  {
+    "concept_id": "lng냉열",
+    "primary_canonical": "LNG냉열",
+    "domain": "에너지",
+    "surfaces": [
+      "LNG냉열"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::나::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "액화수소 제조를 위한 수소액화플랜트 핵심부품 설계 및 제조기술",
+        "surface": "LNG냉열"
+      }
+    ],
+    "sample_contexts": [
+      "액화수소 제조를 위한 수소액화플랜트의 LNG냉열 이용 예냉사이클 설계기술, 수소액화공정에 필요한 부품(압축기ㆍ팽창기 등…"
+    ]
+  },
+  {
+    "concept_id": "mcu",
+    "primary_canonical": "MCU(Micro controller unit)",
+    "domain": "자동차",
+    "surfaces": [
+      "MCU(Micro controller unit)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::6)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "차량용 반도체 설계ㆍ제조기술",
+        "surface": "MCU(Micro controller unit)"
+      }
+    ],
+    "sample_contexts": [
+      "…26262, 자동차용 반도체 신뢰성 시험규격 ACE-Q100을 만족하는 MCU(Micro controller unit), ECU(Electronic control unit), 파워IC, SO…"
+    ]
+  },
+  {
+    "concept_id": "mcu-2",
+    "primary_canonical": "MCU(Micro controller unit)",
+    "domain": "반도체",
+    "surfaces": [
+      "MCU(Micro controller unit)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::바.",
+        "sector_name": "반도체",
+        "tech_name": "차량용 반도체 설계·제조기술",
+        "surface": "MCU(Micro controller unit)"
+      }
+    ],
+    "sample_contexts": [
+      "…26262, 자동차용 반도체 신뢰성 시험규격 AEC-Q100을 만족하는 MCU(Micro controller unit), ECU(Electronic control unit), 파워IC, So…"
+    ]
+  },
+  {
+    "concept_id": "mems",
+    "primary_canonical": "MEMS(Micro Electro Mechanial System)",
+    "domain": "반도체",
+    "surfaces": [
+      "MEMS(Micro Electro Mechanial System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::어.",
+        "sector_name": "반도체",
+        "tech_name": "고성능ㆍ고효율 시스템 반도체의 테스트 기술 및 테스트 관련 장비, 부품 설계ㆍ제조기술",
+        "surface": "MEMS(Micro Electro Mechanial System)"
+      }
+    ],
+    "sample_contexts": [
+      "…사장비, 접촉정확도 1㎛이하 프로브스테이션(Probe Station), MEMS(Micro Electro Mechanial System) 기술 기반 프로브카드의 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "mems-micro-electro-mechanical-system",
+    "primary_canonical": "MEMS[Micro Electro Mechanical System",
+    "domain": "반도체",
+    "surfaces": [
+      "MEMS[Micro Electro Mechanical System"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::마.",
+        "sector_name": "반도체",
+        "tech_name": "고성능 마이크로 센서의 설계‧제조‧패키징 기술",
+        "surface": "MEMS[Micro Electro Mechanical System"
+      }
+    ],
+    "sample_contexts": [
+      "…통신기능을 갖춘 지능화된 신호처리 집적회로가 결합된 소자로서 나노기술, MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로…"
+    ]
+  },
+  {
+    "concept_id": "mems-micro-electro-mechanical-system-기계부품-센서-액츄에이터-및-전자회로를-하",
+    "primary_canonical": "MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)]",
+    "domain": "반도체",
+    "surfaces": [
+      "MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)]"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::5::가::5)",
+        "sector_name": "차세대전자정보 디바이스",
+        "tech_name": "지능형 마이크로 센서 설계ㆍ제조ㆍ패키지 기술",
+        "surface": "MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)]"
+      }
+    ],
+    "sample_contexts": [
+      "…통신기능을 갖춘 지능화된 신호처리 집적회로가 결합된 소자로서 나노기술, MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)] 기술, 바이오 기술, 0.8㎛이하 CMOS 이미지센서 기술 또는 SoC…"
+    ]
+  },
+  {
+    "concept_id": "mini-led",
+    "primary_canonical": "Mini LED",
+    "domain": "디스플레이",
+    "surfaces": [
+      "Mini LED"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::자.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기ㆍ차량용 디스플레이 반도체 설계ㆍ제조기술",
+        "surface": "Mini LED"
+      }
+    ],
+    "sample_contexts": [
+      "…OLED, Flexible, 퀀텀닷, 롤러블, 폴더블, 마이크로LED, Mini LED, 4Kㆍ120Hz급 이상 고해상도 LCD 등)에 구동 신호 및 데이터를…"
+    ]
+  },
+  {
+    "concept_id": "mixed-signal-반도체",
+    "primary_canonical": "Mixed signal 반도체",
+    "domain": "반도체",
+    "surfaces": [
+      "Mixed signal 반도체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::라.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기 SoC 설계ㆍ제조기술",
+        "surface": "Mixed signal 반도체"
+      }
+    ],
+    "sample_contexts": [
+      "…F반도체), 디지털·아날로그 신호의 데이터 변환 반도체(인버터/컨버터, Mixed signal 반도체 등), UWB(Ultra-wideband), 메모리반도체와의 원칩화를…"
+    ]
+  },
+  {
+    "concept_id": "mlcc",
+    "primary_canonical": "MLCC",
+    "domain": "전자",
+    "surfaces": [
+      "MLCC"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::13)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "MLCC용 초미세 니켈 나노분말 및 내부전극용 나노 페이스트 제조 기술",
+        "surface": "MLCC"
+      }
+    ],
+    "sample_contexts": [
+      "초소형, 초고용량 MLCC용 80nm 이하급 초미세 니켈 나노분말 합성 및 초박층 내부전극용 초미…"
+    ]
+  },
+  {
+    "concept_id": "mmscfd",
+    "primary_canonical": "MMSCFD(Million Metric Standard Cubic Feet per Day)",
+    "domain": "탄소중립",
+    "surfaces": [
+      "MMSCFD(Million Metric Standard Cubic Feet per Day)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::12)",
+        "sector_name": "탄소중립",
+        "tech_name": "해상(FSRU) 및 육상 LNG터미널에서의 LNG 냉열발전 결합형 재기화 기술",
+        "surface": "MMSCFD(Million Metric Standard Cubic Feet per Day)"
+      }
+    ],
+    "sample_contexts": [
+      "LNG 냉열의 회수 공정을 이용하여 재기화 송출 용량이 750 MMSCFD(Million Metric Standard Cubic Feet per Day) 이상이고, 소요전력 20퍼센트 이상 절감 및 온실가스 20퍼센트 이상…"
+    ]
+  },
+  {
+    "concept_id": "mmt",
+    "primary_canonical": "MMT(MPEG Media Transport)",
+    "domain": "방송",
+    "surfaces": [
+      "MMT(MPEG Media Transport)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::나::2)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "UHD 방송 통합 다중화기 기술",
+        "surface": "MMT(MPEG Media Transport)"
+      }
+    ],
+    "sample_contexts": [
+      "신규 전송 프로토콜[ROUTE, MMT(MPEG Media Transport) 등 포함]과 기존 전송 프로토콜[MPEG-2 TS(Transport S…"
+    ]
+  },
+  {
+    "concept_id": "mpeg-2-ts",
+    "primary_canonical": "MPEG-2 TS(Transport System)",
+    "domain": "방송",
+    "surfaces": [
+      "MPEG-2 TS(Transport System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::나::2)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "UHD 방송 통합 다중화기 기술",
+        "surface": "MPEG-2 TS(Transport System)"
+      }
+    ],
+    "sample_contexts": [
+      "…MPEG Media Transport) 등 포함]과 기존 전송 프로토콜[MPEG-2 TS(Transport System)]로 생성된 신호를 입력받아, 국내외 UHD 방송 표준에 따른 전송 프로…"
+    ]
+  },
+  {
+    "concept_id": "n형-대면적",
+    "primary_canonical": "n형 대면적",
+    "domain": "에너지",
+    "surfaces": [
+      "n형 대면적"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::14)",
+        "sector_name": "탄소중립",
+        "tech_name": "고효율 n형 대면적 태양전지와 이를 집적한 모듈화 기술",
+        "surface": "n형 대면적"
+      }
+    ],
+    "sample_contexts": [
+      "효율 24% 이상의 n형 대면적(M10 이상) 결정질 실리콘 태양전지 공정기술 및 고출력(출력밀도 21…"
+    ]
+  },
+  {
+    "concept_id": "pcb",
+    "primary_canonical": "PCB",
+    "domain": "반도체",
+    "surfaces": [
+      "PCB"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::처.",
+        "sector_name": "반도체",
+        "tech_name": "AI 컴퓨팅을 위한 차세대 MCM(Multi-Chip Module)의 설계ㆍ제조 및 관련 신소재ㆍ부품 개발 기술",
+        "surface": "PCB"
+      }
+    ],
+    "sample_contexts": [
+      "…s 이상 3) 대규모 데이터 전송 및 전력 분배를 위한 18층 이상의 PCB 구조 4) 반도체 및 부품 실장 안정성 확보를 위한 열팽창계수(CTE…"
+    ]
+  }
+]

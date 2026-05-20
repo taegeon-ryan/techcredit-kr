@@ -1,0 +1,109 @@
+[
+{
+"tech_id": "strategic::2::::가.",
+"surfaces": [
+{ "surface": "에너지저장장치", "domain_hint": "에너지" },
+{ "surface": "중량당 에너지밀도", "domain_hint": "이차전지" },
+{ "surface": "모듈", "domain_hint": "이차전지" },
+{ "surface": "팩", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::나.",
+"surfaces": [
+{ "surface": "리튬이차전지", "domain_hint": "이차전지" },
+{ "surface": "셀", "domain_hint": "이차전지" },
+{ "surface": "중량당 에너지밀도", "domain_hint": "이차전지" },
+{ "surface": "방전출력", "domain_hint": "이차전지" },
+{ "surface": "6C-rate", "domain_hint": "이차전지" },
+{ "surface": "충방전", "domain_hint": "이차전지" },
+{ "surface": "장수명", "domain_hint": "이차전지" },
+{ "surface": "모듈", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::다.",
+"surfaces": [
+{ "surface": "초기용량", "domain_hint": "이차전지" },
+{ "surface": "잔존용량", "domain_hint": "이차전지" },
+{ "surface": "출력특성", "domain_hint": "이차전지" },
+{ "surface": "잔존가치", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::라.",
+"surfaces": [
+{ "surface": "재자원화", "domain_hint": "이차전지" },
+{ "surface": "유가금속", "domain_hint": "소재" },
+{ "surface": "회수", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::마.",
+"surfaces": [
+{ "surface": "중량당 방전용량", "domain_hint": "이차전지" },
+{ "surface": "전극", "domain_hint": "이차전지" },
+{ "surface": "고체전해질", "domain_hint": "이차전지" },
+{ "surface": "리튬이차전지", "domain_hint": "이차전지" },
+{ "surface": "셀", "domain_hint": "이차전지" },
+{ "surface": "모듈", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::바.",
+"surfaces": [
+{ "surface": "하이니켈", "domain_hint": "이차전지" },
+{ "surface": "양극재", "domain_hint": "이차전지" },
+{ "surface": "리튬계 원자재", "domain_hint": "소재" },
+{ "surface": "금속전구체", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "strategic::2::::사.",
+"surfaces": [
+{ "surface": "충방전", "domain_hint": "이차전지" },
+{ "surface": "장수명", "domain_hint": "이차전지" },
+{ "surface": "음극재", "domain_hint": "이차전지" },
+{ "surface": "고온특성", "domain_hint": "이차전지" },
+{ "surface": "카본계", "domain_hint": "소재" },
+{ "surface": "금속계", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "strategic::2::::아.",
+"surfaces": [
+{ "surface": "분리막", "domain_hint": "이차전지" },
+{ "surface": "저온특성", "domain_hint": "이차전지" },
+{ "surface": "장수명", "domain_hint": "이차전지" },
+{ "surface": "전해액", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::자.",
+"surfaces": [
+{ "surface": "패키징", "domain_hint": "이차전지" },
+{ "surface": "파우치", "domain_hint": "이차전지" },
+{ "surface": "캔", "domain_hint": "이차전지" },
+{ "surface": "리드탭", "domain_hint": "이차전지" },
+{ "surface": "도전재", "domain_hint": "이차전지" },
+{ "surface": "바인더", "domain_hint": "이차전지" },
+{ "surface": "집전체", "domain_hint": "이차전지" }
+]
+},
+{
+"tech_id": "strategic::2::::차.",
+"surfaces": [
+{ "surface": "양극재", "domain_hint": "이차전지" },
+{ "surface": "결정화", "domain_hint": "소재" },
+{ "surface": "정련", "domain_hint": "소재" },
+{ "surface": "전환", "domain_hint": "소재" },
+{ "surface": "정제", "domain_hint": "소재" },
+{ "surface": "중간체", "domain_hint": "소재" },
+{ "surface": "수산화리튬", "domain_hint": "소재" },
+{ "surface": "탄산리튬", "domain_hint": "소재" },
+{ "surface": "황산니켈", "domain_hint": "소재" },
+{ "surface": "황산코발트", "domain_hint": "소재" },
+{ "surface": "황산망간", "domain_hint": "소재" }
+]
+}
+]

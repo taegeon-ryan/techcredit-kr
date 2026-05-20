@@ -1,0 +1,210 @@
+[
+{
+"tech_id": "newgrowth::2::가::1)",
+"surfaces": [
+{ "surface": "지식베이스(knowledge base)", "domain_hint": "AI" },
+{ "surface": "지식추론", "domain_hint": "AI" },
+{ "surface": "모델링(modeling)", "domain_hint": "AI" }
+]
+},
+{
+"tech_id": "newgrowth::2::가::2)",
+"surfaces": [
+{ "surface": "자연어 처리", "domain_hint": "AI" },
+{ "surface": "질의응답", "domain_hint": "AI" },
+{ "surface": "언어의미 이해", "domain_hint": "AI" },
+{ "surface": "형태소ㆍ구문 분석", "domain_hint": "AI" }
+]
+},
+{
+"tech_id": "newgrowth::2::가::3)",
+"surfaces": [
+{ "surface": "컴퓨터 비전(computer vision)", "domain_hint": "AI" },
+{ "surface": "행동 인식", "domain_hint": "AI" },
+{ "surface": "내용기반 영상검색", "domain_hint": "AI" }
+]
+},
+{
+"tech_id": "newgrowth::2::가::4)",
+"surfaces": [
+{ "surface": "환경정보", "domain_hint": "AI" },
+{ "surface": "감정 이해", "domain_hint": "AI" }
+]
+},
+{
+"tech_id": "newgrowth::2::가::5)",
+"surfaces": [
+{ "surface": "인지컴퓨팅", "domain_hint": "AI" },
+{ "surface": "컴퓨터 시스템 구조", "domain_hint": "AI" },
+{ "surface": "연산 플랫폼(Platform)", "domain_hint": "AI" }
+]
+},
+{
+"tech_id": "newgrowth::2::나::1)",
+"surfaces": [
+{ "surface": "대량의 네트워크(Massive IoT)", "domain_hint": "IoT" },
+{ "surface": "저전력 초경량 네트워크 기술(LPWA: Low Power Wide Area)", "domain_hint": "IoT" },
+{ "surface": "품질 보장형 협업 네트워크", "domain_hint": "IoT" },
+{ "surface": "사물인터넷 전용망", "domain_hint": "IoT" }
+]
+},
+{
+"tech_id": "newgrowth::2::나::2)",
+"surfaces": [
+{ "surface": "식별ㆍ통신ㆍ검색ㆍ접근", "domain_hint": "IoT" },
+{ "surface": "지능형 소프트웨어 플랫폼(Software Platform)", "domain_hint": "IoT" }
+]
+},
+{
+"tech_id": "newgrowth::2::나::3)",
+"surfaces": [
+{ "surface": "사이버물리시스템", "domain_hint": "IoT" },
+{ "surface": "액츄에이터(Actuator)", "domain_hint": "로봇" },
+{ "surface": "정보통신 인프라(infra)", "domain_hint": "IoT" },
+{ "surface": "모니터링(monitoring)", "domain_hint": "IoT" },
+{ "surface": "분산제어 시스템", "domain_hint": "IoT" },
+{ "surface": "임베디드(embedded)", "domain_hint": "IoT" }
+]
+},
+{
+"tech_id": "newgrowth::2::다::1)",
+"surfaces": [
+{ "surface": "SaaS(Software as a Service)", "domain_hint": "클라우드" },
+{ "surface": "상호운용성", "domain_hint": "클라우드" },
+{ "surface": "서비스 매쉬업(mashup)", "domain_hint": "클라우드" }
+]
+},
+{
+"tech_id": "newgrowth::2::다::2)",
+"surfaces": [
+{ "surface": "PaaS(Platform as a Service)", "domain_hint": "클라우드" },
+{ "surface": "실행환경 제공 기술", "domain_hint": "클라우드" }
+]
+},
+{
+"tech_id": "newgrowth::2::다::3)",
+"surfaces": [
+{ "surface": "IaaS(Infrastructure as a Service)", "domain_hint": "클라우드" },
+{ "surface": "가상머신(Virtual Machine)", "domain_hint": "클라우드" },
+{ "surface": "컨테이너(container)", "domain_hint": "클라우드" },
+{ "surface": "클라우드 서비스 브로커리지(Cloud Service Brokerage)", "domain_hint": "클라우드" }
+]
+},
+{
+"tech_id": "newgrowth::2::라::1)",
+"surfaces": [
+{ "surface": "입력 소스(source)", "domain_hint": "빅데이터" },
+{ "surface": "수집ㆍ정제", "domain_hint": "빅데이터" },
+{ "surface": "고속의 저장소", "domain_hint": "빅데이터" }
+]
+},
+{
+"tech_id": "newgrowth::2::라::2)",
+"surfaces": [
+{ "surface": "통계기법", "domain_hint": "빅데이터" },
+{ "surface": "시뮬레이션(simulation)", "domain_hint": "빅데이터" },
+{ "surface": "미래 동향 예측", "domain_hint": "빅데이터" }
+]
+},
+{
+"tech_id": "newgrowth::2::라::3)",
+"surfaces": [
+{ "surface": "데이터 비식별화", "domain_hint": "빅데이터" },
+{ "surface": "비정형데이터", "domain_hint": "빅데이터" }
+]
+},
+{
+"tech_id": "newgrowth::2::마::2)",
+"surfaces": [
+{ "surface": "전기화학적 신뢰성", "domain_hint": "소재" },
+{ "surface": "후박급", "domain_hint": "소재" },
+{ "surface": "조성(composition)", "domain_hint": "소재" },
+{ "surface": "형상(forming)", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::2::마::3)",
+"surfaces": [
+{ "surface": "섬유기반 유연전원(fabric based flexible battery)", "domain_hint": "에너지" },
+{ "surface": "에너지 밀도", "domain_hint": "에너지" },
+{ "surface": "형태 안정성", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::2::마::4)",
+"surfaces": [
+{ "surface": "신호전송기능", "domain_hint": "통신" },
+{ "surface": "신체보호기능", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::2::마::5)",
+"surfaces": [
+{ "surface": "생체신호 측정 및 전달", "domain_hint": "바이오" },
+{ "surface": "컴퓨터 시뮬레이션(모사)", "domain_hint": "바이오" },
+{ "surface": "내장형 심장 박동", "domain_hint": "바이오" },
+{ "surface": "인슐린 자동 분비", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::2::마::1)",
+"surfaces": [
+{ "surface": "유연기판 제작기술", "domain_hint": "디스플레이" },
+{ "surface": "유연회로 인쇄기술", "domain_hint": "전자" }
+]
+},
+{
+"tech_id": "newgrowth::2::바::1)",
+"surfaces": [
+{ "surface": "IMO(International Maritime Organization, 국제해사기구)", "domain_hint": "조선" },
+{ "surface": "e-Navigation", "domain_hint": "조선" },
+{ "surface": "4S(ship to ship, ship to shore, shore to ship, shore to shore)", "domain_hint": "통신" },
+{ "surface": "증강현실", "domain_hint": "AI" },
+{ "surface": "3차원 전자해도", "domain_hint": "조선" },
+{ "surface": "충돌ㆍ좌초 회피지원기능", "domain_hint": "조선" }
+]
+},
+{
+"tech_id": "newgrowth::2::바::2)",
+"surfaces": [
+{ "surface": "에너지 수확기능", "domain_hint": "에너지" },
+{ "surface": "계측ㆍ평가", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::2::바::3)",
+"surfaces": [
+{ "surface": "붙박이 형태(built-in)", "domain_hint": "기계" },
+{ "surface": "엔코더(Encoder)", "domain_hint": "로봇" },
+{ "surface": "진단ㆍ처방정보", "domain_hint": "AI" },
+{ "surface": "개방형 제어기(controller)", "domain_hint": "로봇" },
+{ "surface": "M2M(Machine to Machine, Machine to Man)", "domain_hint": "통신" }
+]
+},
+{
+"tech_id": "newgrowth::2::사::",
+"surfaces": [
+{ "surface": "분산형 네트워크(P2P Network)", "domain_hint": "블록체인" },
+{ "surface": "합의기술", "domain_hint": "블록체인" },
+{ "surface": "스마트계약 검증기술", "domain_hint": "블록체인" },
+{ "surface": "분산저장기술", "domain_hint": "블록체인" },
+{ "surface": "적합성검증", "domain_hint": "블록체인" }
+]
+},
+{
+"tech_id": "newgrowth::2::아::",
+"surfaces": [
+{ "surface": "메모리(큐비트, Qubit)", "domain_hint": "양자컴퓨터" },
+{ "surface": "양자 정보", "domain_hint": "양자컴퓨터" },
+{ "surface": "연산처리", "domain_hint": "양자컴퓨터" }
+]
+},
+{
+"tech_id": "newgrowth::2::자::",
+"surfaces": [
+{ "surface": "지능형 콜드체인 모니터링", "domain_hint": "물류" },
+{ "surface": "ISO 27017", "domain_hint": "보안" },
+{ "surface": "단위 화물 정보", "domain_hint": "물류" }
+]
+}
+]

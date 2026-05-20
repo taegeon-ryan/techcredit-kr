@@ -1,0 +1,762 @@
+[
+  {
+    "concept_id": "증기발생기",
+    "primary_canonical": "증기발생기",
+    "domain": "원자력",
+    "surfaces": [
+      "증기발생기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::9)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 제조 기술",
+        "surface": "증기발생기"
+      }
+    ],
+    "sample_contexts": [
+      "…조 기술, 무붕산 노심설계가 가능한 일체형 가연성흡수봉 설계ㆍ제조기술, 증기발생기 전열관 3D 벤딩 및 검사 기술, 원자로ㆍ증기발생기ㆍ가압기 등 주요 기…"
+    ]
+  },
+  {
+    "concept_id": "증기발생기-세관",
+    "primary_canonical": "증기발생기 세관",
+    "domain": "원자력",
+    "surfaces": [
+      "증기발생기 세관"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "내열 내식성 원자력 소재 기술",
+        "surface": "증기발생기 세관"
+      }
+    ],
+    "sample_contexts": [
+      "…속에서 내부식성을 극대화시킬 수 있는 내열ㆍ내식성 소재(핵연료 피복관, 증기발생기 세관(340℃ㆍ150기압의 1차 냉각수 및 300℃ㆍ50기압의 2차 냉각수…"
+    ]
+  },
+  {
+    "concept_id": "증기직접주입법",
+    "primary_canonical": "증기직접주입법(DSI, Direct steam injection)",
+    "domain": "바이오",
+    "surfaces": [
+      "증기직접주입법(DSI, Direct steam injection)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::1)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "비가열 및 고온ㆍ고압 전처리 기술",
+        "surface": "증기직접주입법(DSI, Direct steam injection)"
+      }
+    ],
+    "sample_contexts": [
+      "…나, 가압ㆍ진공ㆍ과열증기(SHS, Superheated steam) 및 증기직접주입법(DSI, Direct steam injection) 등을 이용한 고온ㆍ고압 처리기술을 사용하여 미생물 수를 감소시키거나 사…"
+    ]
+  },
+  {
+    "concept_id": "지능형전력장치",
+    "primary_canonical": "지능형전력장치(IED, Intelligent Electric Device)",
+    "domain": "에너지",
+    "surfaces": [
+      "지능형전력장치(IED, Intelligent Electric Device)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::2)",
+        "sector_name": "탄소중립",
+        "tech_name": "지능형 배전계통 고도화 및 운용기술",
+        "surface": "지능형전력장치(IED, Intelligent Electric Device)"
+      }
+    ],
+    "sample_contexts": [
+      "…공급 및 지능형 배전계통을 보호ㆍ제어하기 위한 기술로서 보호 및 제어용 지능형전력장치(IED, Intelligent Electric Device) 기술, IED가 탑재된 배전용 개폐기 및 차단기 제조 기술, 지능형 배…"
+    ]
+  },
+  {
+    "concept_id": "지식베이스",
+    "primary_canonical": "지식베이스(knowledge base)",
+    "domain": "AI",
+    "surfaces": [
+      "지식베이스(knowledge base)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::가::1)",
+        "sector_name": "지능정보",
+        "tech_name": "학습 및 추론 기술",
+        "surface": "지식베이스(knowledge base)"
+      }
+    ],
+    "sample_contexts": [
+      "…학습 알고리즘(algorithm), 딥러닝(deep learning), 지식베이스(knowledge base) 구축, 지식추론 등 학습 알고리즘과 모델링(modeling) 조합을 통…"
+    ]
+  },
+  {
+    "concept_id": "지식추론",
+    "primary_canonical": "지식추론",
+    "domain": "AI",
+    "surfaces": [
+      "지식추론"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::가::1)",
+        "sector_name": "지능정보",
+        "tech_name": "학습 및 추론 기술",
+        "surface": "지식추론"
+      }
+    ],
+    "sample_contexts": [
+      "…ep learning), 지식베이스(knowledge base) 구축, 지식추론 등 학습 알고리즘과 모델링(modeling) 조합을 통해 지능의 정확도…"
+    ]
+  },
+  {
+    "concept_id": "지열수",
+    "primary_canonical": "지열수",
+    "domain": "에너지",
+    "surfaces": [
+      "지열수"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "지열발전기술",
+        "surface": "지열수"
+      }
+    ],
+    "sample_contexts": [
+      "…지열저류층 생성기술(enhanced geothermal system), 지열수 순환시스템 구축기술과 지열유체를 이용하여 전기를 생산하고 열에너지를 활…"
+    ]
+  },
+  {
+    "concept_id": "지열유체",
+    "primary_canonical": "지열유체",
+    "domain": "에너지",
+    "surfaces": [
+      "지열유체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "지열발전기술",
+        "surface": "지열유체"
+      }
+    ],
+    "sample_contexts": [
+      "…ced geothermal system), 지열수 순환시스템 구축기술과 지열유체를 이용하여 전기를 생산하고 열에너지를 활용하는 기술"
+    ]
+  },
+  {
+    "concept_id": "지중-축열",
+    "primary_canonical": "지중 축열",
+    "domain": "에너지",
+    "surfaces": [
+      "지중 축열"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::8)",
+        "sector_name": "탄소중립",
+        "tech_name": "지열 에너지 회수 및 저장 기술",
+        "surface": "지중 축열"
+      }
+    ],
+    "sample_contexts": [
+      "…작 기술ㆍ보어홀(borehole) 전열저항 저감기술ㆍ저비용 시추기술 및 지중 축열 기술"
+    ]
+  },
+  {
+    "concept_id": "지지체",
+    "primary_canonical": "지지체",
+    "domain": "바이오",
+    "surfaces": [
+      "지지체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::6)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "단백질 분리ㆍ분획ㆍ정제 및 구조화 기술",
+        "surface": "지지체"
+      }
+    ],
+    "sample_contexts": [
+      "…분화하는 기술 및 단백질 또는 세포를 3D 프린터, 압출식 성형방식, 지지체 등을 통해 구조화하고 이를 대량으로 생산하는 기술"
+    ]
+  },
+  {
+    "concept_id": "지지형셀",
+    "primary_canonical": "지지형셀",
+    "domain": "에너지",
+    "surfaces": [
+      "지지형셀"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::1)",
+        "sector_name": "탄소중립",
+        "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
+        "surface": "지지형셀"
+      }
+    ],
+    "sample_contexts": [
+      "…00℃ 이하의 운전온도에서 작동이 가능하고 출력효율이 높은 금속ㆍ연료극 지지형셀, 셀ㆍ분리판 등이 결합되어 전기와 열을 생산하는 스택, 스택을 결합하여…"
+    ]
+  },
+  {
+    "concept_id": "지질",
+    "primary_canonical": "지질",
+    "domain": "바이오",
+    "surfaces": [
+      "지질"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::8)",
+        "sector_name": "탄소중립",
+        "tech_name": "석유계 고분자 대체 바이오 케미칼 원료 생산기술",
+        "surface": "지질"
+      }
+    ],
+    "sample_contexts": [
+      "바이오 매스를 처리하여 활용 가능한 당, 지질, 글리세롤 등을 바이오 고분자의 원료인 케미칼 원료로 전환시키는 화학적…"
+    ]
+  },
+  {
+    "concept_id": "직류배전",
+    "primary_canonical": "직류배전",
+    "domain": "에너지",
+    "surfaces": [
+      "직류배전"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::2)",
+        "sector_name": "탄소중립",
+        "tech_name": "지능형 배전계통 고도화 및 운용기술",
+        "surface": "직류배전"
+      }
+    ],
+    "sample_contexts": [
+      "…) 통합 관리 기술, 지능형 배전계통의 자산관리 및 운용 기술, 지능형 직류배전 공급용 기기 제조 기술, 지능형 분산전원 연계기기 제조 기술, 지능형…"
+    ]
+  },
+  {
+    "concept_id": "직접환원철",
+    "primary_canonical": "직접환원철",
+    "domain": "소재",
+    "surfaces": [
+      "직접환원철"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::14)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
+        "surface": "직접환원철"
+      }
+    ],
+    "sample_contexts": [
+      "전기로 용해공정에서 저탄소 원료인 직접환원철 또는 수소환원철로 철강을 제조하는 기술"
+    ]
+  },
+  {
+    "concept_id": "질산침출",
+    "primary_canonical": "질산침출",
+    "domain": "소재",
+    "surfaces": [
+      "질산침출"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::8)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "니켈광 대상 니켈 회수공정 기술",
+        "surface": "질산침출"
+      }
+    ],
+    "sample_contexts": [
+      "…광(라테라이트 등)으로부터 니켈을 회수하기 위한 선광ㆍ제련(고압산침출, 질산침출 등)ㆍ추출ㆍ정제 기술"
+    ]
+  },
+  {
+    "concept_id": "집전-픽업구조",
+    "primary_canonical": "집전 픽업구조",
+    "domain": "에너지",
+    "surfaces": [
+      "집전 픽업구조"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::1::나::3)",
+        "sector_name": "미래형자동차",
+        "tech_name": "전기차 초고속ㆍ고효율 무선충전 기술",
+        "surface": "집전 픽업구조"
+      }
+    ],
+    "sample_contexts": [
+      "…이상의 초고속 고효율 무선충전시스템 및 무선충전 핵심모듈(급전 인버터, 집전 픽업구조, 레귤레이터) 기술"
+    ]
+  },
+  {
+    "concept_id": "집전체",
+    "primary_canonical": "집전체",
+    "domain": "이차전지",
+    "surfaces": [
+      "집전체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::자.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 부품 제조기술",
+        "surface": "집전체"
+      }
+    ],
+    "sample_contexts": [
+      "…, 리드탭) 및 고성능 배터리를 위한 전극용 소재부품(도전재, 바인더, 집전체) 제조·안전성 향상 기술 및 원료·장비 제조기술"
+    ]
+  },
+  {
+    "concept_id": "철스크랩",
+    "primary_canonical": "철스크랩",
+    "domain": "소재",
+    "surfaces": [
+      "철스크랩"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::16)",
+        "sector_name": "탄소중립",
+        "tech_name": "디지털 영상분석 기반 철스크랩 판정ㆍ선별기술",
+        "surface": "철스크랩"
+      }
+    ],
+    "sample_contexts": [
+      "철스크랩을 전기로공정에 투입할 때 데이터화된 영상이미지를 기반으로 인공지능을 활…"
+    ]
+  },
+  {
+    "concept_id": "체외충격파",
+    "primary_canonical": "체외충격파",
+    "domain": "바이오",
+    "surfaces": [
+      "체외충격파"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::나::1)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "기능 융합형 초음파 영상기술",
+        "surface": "체외충격파"
+      }
+    ],
+    "sample_contexts": [
+      "…초음파, 광음향 － 초음파) 및 정밀치료를 위한 초음파 영상유도 기반의 체외충격파 치료 기술"
+    ]
+  },
+  {
+    "concept_id": "초경합금",
+    "primary_canonical": "초경합금",
+    "domain": "소재",
+    "surfaces": [
+      "초경합금"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::8)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "방전가공기 장비ㆍ부품의 설계ㆍ제조기술",
+        "surface": "초경합금"
+      }
+    ],
+    "sample_contexts": [
+      "공작물과 전극 사이에 불꽃 방전을 일으켜 티타늄, 초경합금 등 난삭재의 마이크로급 초정밀 가공을 수행하는 방전가공 장비 및 핵심요…"
+    ]
+  },
+  {
+    "concept_id": "초고분자량폴리에틸렌",
+    "primary_canonical": "초고분자량폴리에틸렌(UHMWPE)",
+    "domain": "소재",
+    "surfaces": [
+      "초고분자량폴리에틸렌(UHMWPE)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::2)",
+        "sector_name": "융복합소재",
+        "tech_name": "극한성능 섬유 제조 기술",
+        "surface": "초고분자량폴리에틸렌(UHMWPE)"
+      }
+    ],
+    "sample_contexts": [
+      "…250℃ 이상)ㆍ고내한성(-153℃∼-273℃) 아라미드(Aramid)ㆍ초고분자량폴리에틸렌(UHMWPE)ㆍ액정섬유의 제조 기술 및 이들의 복합화 설계를 통한 초경량ㆍ고탄성ㆍ고강…"
+    ]
+  },
+  {
+    "concept_id": "초박형-유-무기-하이브리드-필름",
+    "primary_canonical": "초박형 유ㆍ무기 하이브리드 필름",
+    "domain": "디스플레이",
+    "surfaces": [
+      "초박형 유ㆍ무기 하이브리드 필름"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::사.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 하이브리드 커버 윈도우 소재 기술",
+        "surface": "초박형 유ㆍ무기 하이브리드 필름"
+      }
+    ],
+    "sample_contexts": [
+      "…ass, UTG) 및 UTG 광학증착ㆍ코팅 소재, 투과율 80% 이상인 초박형 유ㆍ무기 하이브리드 필름 등 커버 윈도우 소재 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "초임계-이산화탄소",
+    "primary_canonical": "초임계 이산화탄소",
+    "domain": "에너지",
+    "surfaces": [
+      "초임계 이산화탄소"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::12)",
+        "sector_name": "탄소중립",
+        "tech_name": "미활용 폐열 회수ㆍ활용을 통한 발전 기술",
+        "surface": "초임계 이산화탄소"
+      }
+    ],
+    "sample_contexts": [
+      "…업현장에서 사용되지 않고 버려지는 중저온(900℃ 이하) 미활용 폐열을 초임계 이산화탄소ㆍ유기냉매ㆍ열전소자 등을 통해 회수한 후 친환경 전기에너지 생산에 활용하…"
+    ]
+  },
+  {
+    "concept_id": "초임계상태의-이산화탄소",
+    "primary_canonical": "초임계상태의 이산화탄소(supercritical CO2)",
+    "domain": "에너지",
+    "surfaces": [
+      "초임계상태의 이산화탄소(supercritical CO2)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::나::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "초임계 이산화탄소 터빈구동 시스템 설계ㆍ제조기술",
+        "surface": "초임계상태의 이산화탄소(supercritical CO2)"
+      }
+    ],
+    "sample_contexts": [
+      "열원을 활용하여 생성된 초임계상태의 이산화탄소(supercritical CO2)를 작동 유체로 터빈을 구동하는 고효율 터빈ㆍ압축기ㆍ열교환기 등 발전설비…"
+    ]
+  },
+  {
+    "concept_id": "최적활성",
+    "primary_canonical": "최적활성",
+    "domain": "바이오",
+    "surfaces": [
+      "최적활성"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::4)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "유용미생물의 스크리닝 기술 및 유용물질 대량생산공정 기술",
+        "surface": "최적활성"
+      }
+    ],
+    "sample_contexts": [
+      "…이를 선발ㆍ분리하여 효용성을 평가하거나 이들 미생물을 활용한 균주개발, 최적활성 연구, 발효공정, 정제공정 등을 거쳐 유용물질을 대량으로 생산하는 기술"
+    ]
+  },
+  {
+    "concept_id": "추력기",
+    "primary_canonical": "추력기",
+    "domain": "우주",
+    "surfaces": [
+      "추력기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::나::1)",
+        "sector_name": "항공·우주",
+        "tech_name": "위성본체 부분품 개발기술",
+        "surface": "추력기"
+      }
+    ],
+    "sample_contexts": [
+      "…을 위한 송수신시스템, 위성 구조체 시스템(태양전지 포함), 추진시스템(추력기, 추진제 저장탱크, 밸브 및 제어기 등), 열제어시스템 등에 대한 기술"
+    ]
+  },
+  {
+    "concept_id": "추종제어",
+    "primary_canonical": "추종제어",
+    "domain": "로봇",
+    "surfaces": [
+      "추종제어"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::라::3)",
+        "sector_name": "로봇",
+        "tech_name": "웨어러블 로봇 기술",
+        "surface": "추종제어"
+      }
+    ],
+    "sample_contexts": [
+      "인체에 착용하여 인체 동작의도를 인식하고 추종제어 알고리즘을 통해 착용자의 신체능력 증강 및 운동을 지원하는 착용형 로봇…"
+    ]
+  },
+  {
+    "concept_id": "추진제",
+    "primary_canonical": "추진제",
+    "domain": "우주",
+    "surfaces": [
+      "추진제"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::나::1)",
+        "sector_name": "항공·우주",
+        "tech_name": "위성본체 부분품 개발기술",
+        "surface": "추진제"
+      }
+    ],
+    "sample_contexts": [
+      "…송수신시스템, 위성 구조체 시스템(태양전지 포함), 추진시스템(추력기, 추진제 저장탱크, 밸브 및 제어기 등), 열제어시스템 등에 대한 기술"
+    ]
+  },
+  {
+    "concept_id": "축",
+    "primary_canonical": "축(shaft)",
+    "domain": "부품",
+    "surfaces": [
+      "축(shaft)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::5)",
+        "sector_name": "탄소중립",
+        "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
+        "surface": "축(shaft)"
+      }
+    ],
+    "sample_contexts": [
+      "…발전기에 전달하는 장치를 구성하는 유성기어(planet carrier)ㆍ축(shaft)ㆍ베어링(bearing)ㆍ이음쇠(coupling)ㆍ브레이크(brake)…"
+    ]
+  },
+  {
+    "concept_id": "축발전기",
+    "primary_canonical": "축발전기",
+    "domain": "에너지",
+    "surfaces": [
+      "축발전기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::12)",
+        "sector_name": "탄소중립",
+        "tech_name": "연료전지, 배터리 및 축발전기 모터를 적용한 선박 발전시스템",
+        "surface": "축발전기"
+      }
+    ],
+    "sample_contexts": [
+      "연료전지, 배터리 및 축발전기 모터 하이브리드 전력시스템을 선박의 발전원으로 활용하는 기술"
+    ]
+  },
+  {
+    "concept_id": "출력밀도",
+    "primary_canonical": "출력밀도",
+    "domain": "에너지",
+    "surfaces": [
+      "출력밀도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::14)",
+        "sector_name": "탄소중립",
+        "tech_name": "고효율 n형 대면적 태양전지와 이를 집적한 모듈화 기술",
+        "surface": "출력밀도"
+      }
+    ],
+    "sample_contexts": [
+      "…n형 대면적(M10 이상) 결정질 실리콘 태양전지 공정기술 및 고출력(출력밀도 210W/m2이상) 모듈화 집적기술(고효율 셀 기술, 고집적 모듈 기술…"
+    ]
+  },
+  {
+    "concept_id": "출력밀도-2",
+    "primary_canonical": "출력밀도",
+    "domain": "수소",
+    "surfaces": [
+      "출력밀도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::마.",
+        "sector_name": "수소",
+        "tech_name": "수소차용 고밀도 고효율 연료전지시스템 기술",
+        "surface": "출력밀도"
+      }
+    ],
+    "sample_contexts": [
+      "연료전지 스택 출력밀도 3.1kW/L 이상 또는 연료전지 스택 운전효율[저위발열량(LHV, L…"
+    ]
+  },
+  {
+    "concept_id": "카본코팅",
+    "primary_canonical": "카본코팅",
+    "domain": "소재",
+    "surfaces": [
+      "카본코팅"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고효율ㆍ고용량 이차전지 음극재 제조 기술",
+        "surface": "카본코팅"
+      }
+    ],
+    "sample_contexts": [
+      "나노 실리콘 결정크기(5nm 이하) 제어 및 카본코팅을 통해 부피팽창 문제 해결과 고효율(88% 이상), 고용량(1800mA…"
+    ]
+  },
+  {
+    "concept_id": "캔",
+    "primary_canonical": "캔",
+    "domain": "이차전지",
+    "surfaces": [
+      "캔"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::자.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 부품 제조기술",
+        "surface": "캔"
+      }
+    ],
+    "sample_contexts": [
+      "배터리 장기 사용을 위한 패키징 부품(파우치, 캔, 리드탭) 및 고성능 배터리를 위한 전극용 소재부품(도전재, 바인더,…"
+    ]
+  },
+  {
+    "concept_id": "컨버터",
+    "primary_canonical": "컨버터",
+    "domain": "반도체",
+    "surfaces": [
+      "컨버터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::라.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기 SoC 설계ㆍ제조기술",
+        "surface": "컨버터"
+      }
+    ],
+    "sample_contexts": [
+      "…h 등 RF반도체), 디지털·아날로그 신호의 데이터 변환 반도체(인버터/컨버터, Mixed signal 반도체 등), UWB(Ultra-wideban…"
+    ]
+  },
+  {
+    "concept_id": "컨테이너-container",
+    "primary_canonical": "컨테이너(container",
+    "domain": "클라우드",
+    "surfaces": [
+      "컨테이너(container"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::다::3)",
+        "sector_name": "지능정보",
+        "tech_name": "IaaS(Infrastructure as a Service) 기술",
+        "surface": "컨테이너(container"
+      }
+    ],
+    "sample_contexts": [
+      "가상머신(Virtual Machine) 혹은 컨테이너(container, 경량화된 가상화기술) 기반으로 자원을 가상화하고, 다중 클라우드 연동…"
+    ]
+  },
+  {
+    "concept_id": "컨트롤-ic",
+    "primary_canonical": "컨트롤 IC(eNVM)",
+    "domain": "반도체",
+    "surfaces": [
+      "컨트롤 IC(eNVM)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::라.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기 SoC 설계ㆍ제조기술",
+        "surface": "컨트롤 IC(eNVM)"
+      }
+    ],
+    "sample_contexts": [
+      "…, UWB(Ultra-wideband), 메모리반도체와의 원칩화를 통한 컨트롤 IC(eNVM) 및 IoT 지능형 서비스를 적용하기 위한 지능정보 및 데이터의 처리가…"
+    ]
+  },
+  {
+    "concept_id": "컨트롤-벨브",
+    "primary_canonical": "컨트롤 벨브",
+    "domain": "부품",
+    "surfaces": [
+      "컨트롤 벨브"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::2)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
+        "surface": "컨트롤 벨브"
+      }
+    ],
+    "sample_contexts": [
+      "…공급하며, B5 10,000시간 이상의 높은 내구 신뢰성을 가지는 메인 컨트롤 벨브 부품 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "컴퓨터-비전",
+    "primary_canonical": "컴퓨터 비전(computer vision)",
+    "domain": "AI",
+    "surfaces": [
+      "컴퓨터 비전(computer vision)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::가::3)",
+        "sector_name": "지능정보",
+        "tech_name": "시각이해 기술",
+        "surface": "컴퓨터 비전(computer vision)"
+      }
+    ],
+    "sample_contexts": [
+      "…미지(image) 등에서 객체를 구분하고 움직임의 의미를 파악하기 위한 컴퓨터 비전(computer vision), 행동 인식, 내용기반 영상검색, 영상 이해, 영상 생성 등 사람의 시…"
+    ]
+  },
+  {
+    "concept_id": "코크스",
+    "primary_canonical": "코크스",
+    "domain": "소재",
+    "surfaces": [
+      "코크스"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::4)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고기능성 인조흑연 제조기술",
+        "surface": "코크스"
+      }
+    ],
+    "sample_contexts": [
+      "인조흑연 제조용 피치 및 코크스 제조 기술, 전극봉ㆍ등방블록ㆍ흑연분말 성형 및 2,800℃ 이상의 열처…"
+    ]
+  }
+]

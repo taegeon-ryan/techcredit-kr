@@ -5,6 +5,7 @@ import { crossTechKey, normalizeTechName } from '../utils/crossCategoryMap'
 import { sectorIcon } from '../utils/sectorIcons'
 import { compareTechs, getOrderedTechs, techRowKey } from '../utils/techOrdering'
 import { GlossarizedText } from './GlossarizedText'
+import { techId as makeTechId, datasetFromSectorType } from '../utils/techId'
 
 function formatElapsed(months) {
   if (months == null) return ''
@@ -77,6 +78,17 @@ function sameNormalized(a, b) {
   return normalizeSector(a || '') === normalizeSector(b || '')
 }
 
+function subsectorCode(subsector) {
+  const match = String(subsector || '').match(/^\s*([가-힣])\s*[.)]/)
+  return match?.[1] || ''
+}
+
+function sameSubsectorCode(a, b) {
+  const left = subsectorCode(a)
+  const right = subsectorCode(b)
+  return Boolean(left && right && left === right)
+}
+
 function comparableFacilityTechName(name) {
   return normalizeTechName(name || '')
     .replace(/기능개선/g, '')
@@ -100,13 +112,19 @@ function isCommonFacility(row) {
 function matchesFacility(row, tech) {
   const sameSector = row.sector_key === tech.sector_key
   const sameSubsector = sameNormalized(row.subsector, tech.subsector)
+  const compatibleNamedSubsector = sameSubsector || sameSubsectorCode(row.subsector, tech.subsector)
   const hasSubsectorScope = Boolean(row.subsector || tech.subsector)
   const sameItemNo = Boolean(row.item_no && row.item_no === tech.item_no)
-  const sameNamedTech = sameNormalized(row.tech_name, tech.tech_name) && sameSector && sameSubsector
+  const exactNamedScope = sameSubsector || (sameItemNo && compatibleNamedSubsector)
+  const sameNamedTech = (
+    sameSector
+    && exactNamedScope
+    && sameNormalized(row.tech_name, tech.tech_name)
+  )
   const sameLooselyNamedTech = (
     sameSector
-    && sameSubsector
     && sameItemNo
+    && compatibleNamedSubsector
     && looselySameFacilityTechName(row.tech_name, tech.tech_name)
   )
   const sameNumberedItem = (
@@ -356,6 +374,11 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
   const facilityHistoryOpen = currentHistoryPanelState.facilityOpen
   const techApplyDate = tech.first_apply_date || tech.apply_date
   const techElapsedMonths = tech.introduced_elapsed_months ?? tech.elapsed_months
+  // 빌드 산출물(term_spans.json) 의 tech_id 키로 매핑하기 위해 동일 규칙으로 재구성한다.
+  // 사업화시설 본문도 같은 techId 를 넘기면 부모 기술의 spans 가 facility 텍스트에 적용되어
+  // "기술과 동일한 단어가 있는 경우에만" highlight 되는 규칙이 자동 구현된다.
+  const dataset = datasetFromSectorType(sector.type)
+  const techIdForGlossary = makeTechId(dataset, tech)
 
   function toggleTechHistory() {
     setHistoryPanelState((previous) => {
@@ -548,7 +571,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
           </button>
         </div>
         <div className="detail-body">
-          <GlossarizedText as="p" className="detail-body-text" text={tech.tech_description} />
+          <GlossarizedText as="p" className="detail-body-text" text={tech.tech_description} techId={techIdForGlossary} />
           <span className="detail-body-meta">
             적용시기 {techApplyDate?.slice(0, 7)}
             {techElapsedMonths != null && (
@@ -687,7 +710,7 @@ export default function TechDetail({ data, tech, sector, controls, onBack, onRel
           <ul className="facility-list">
             {facilities.map((f, i) => (
               <li key={i} className="facility-item">
-                <GlossarizedText as="p" className="facility-desc" text={f.facility_description} />
+                <GlossarizedText as="p" className="facility-desc" text={f.facility_description} techId={techIdForGlossary} />
                 <span className="facility-meta">
                   적용시기 {f.apply_date?.slice(0, 7)}
                   {f.elapsed_months != null && (
