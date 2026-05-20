@@ -2,7 +2,7 @@
 
 조세특례제한법 시행령 **[별표 7] 신성장·원천기술**과 **[별표 7의2] 국가전략기술** 목록을 시각적으로 탐색할 수 있는 대시보드입니다. 법령 HWPX 원문을 파싱해 CSV로 만들고, 분야·소분야·세부기술·사업화시설을 연결해 변경 연혁과 연관 기술까지 한눈에 볼 수 있도록 정리했습니다.
 
-🔗 **데모(Beta)**: [https://tax-credit-tech-dashboard.vercel.app](https://tax-credit-tech-dashboard.vercel.app)
+🔗 **데모(Beta)**: [https://techcredit-kr.vercel.app](https://techcredit-kr.vercel.app)
 
 ---
 
