@@ -192,6 +192,12 @@ GitHub 푸시 및 Vercel 배포. Root Directory를 `dashboard`로 지정, Framew
 
 ---
 
+## 2026-05-20
+
+**프로젝트 영문명 단축**: `tax-credit-tech-dashboard` → `techcredit-kr`. GitHub 레포·Vercel 프로젝트·로컬 git remote 모두 갱신, `README.md` 데모 링크를 `https://techcredit-kr.vercel.app` 으로 교체. 국문 사이트 제목(`조세특례제한법 첨단기술 현황판`)과 `package.json` name 필드는 변경 없음. 로컬 디렉토리 rename 은 사용자가 세션 종료 후 수동 처리 예정.
+
+---
+
 ## 향후 개발 계획
 
 - [x] 다크모드 구현
