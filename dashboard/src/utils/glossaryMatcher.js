@@ -1,85 +1,34 @@
-const KOREAN_PARTICLES = '(?:을|를|의|에|은|는|이|가|도|만|과|와|로|으로|에서|에게|부터|까지|보다|라고|라는|이라|이라는|이며|이고|이다)?'
+// 본문을 spans 기준으로 토큰화한다.
+// spans: [{surface, concept_id}, ...] — 같은 surface 가 본문에 여러 번 등장하면 모두 매칭한다.
+// 토큰 결과: 문자열 또는 { surface, concept_id, entry } 객체의 배열.
 
-function escapeRegex(s) {
-  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-}
-
-function isAscii(s) {
-  // 한글이 섞이지 않은 문자열은 ASCII 경로(대소문자 무시 + 단어 경계)로 처리한다.
-  return !/[가-힣]/.test(s)
-}
-
-export function buildMatcher(entries) {
-  if (!Array.isArray(entries) || entries.length === 0) {
-    return { asciiRe: null, koreanRe: null, byKey: new Map() }
-  }
-
-  const byKey = new Map()
-  const asciiTerms = []
-  const koreanTerms = []
-  for (const entry of entries) {
-    if (!entry || !entry.term) continue
-    if (isAscii(entry.term)) {
-      byKey.set(entry.term.toUpperCase(), entry)
-      asciiTerms.push(entry.term)
-    } else {
-      byKey.set(entry.term, entry)
-      koreanTerms.push(entry.term)
-    }
-    if (Array.isArray(entry.aliases)) {
-      for (const alias of entry.aliases) {
-        if (typeof alias !== 'string' || !alias.trim()) continue
-        const a = alias.trim()
-        if (isAscii(a)) {
-          if (!byKey.has(a.toUpperCase())) byKey.set(a.toUpperCase(), entry)
-          asciiTerms.push(a)
-        } else {
-          if (!byKey.has(a)) byKey.set(a, entry)
-          koreanTerms.push(a)
-        }
-      }
-    }
-  }
-
-  const asciiSorted = [...new Set(asciiTerms)].sort((a, b) => b.length - a.length)
-  const koreanSorted = [...new Set(koreanTerms)].sort((a, b) => b.length - a.length)
-
-  const asciiRe = asciiSorted.length
-    ? new RegExp('\\b(' + asciiSorted.map(escapeRegex).join('|') + ')\\b', 'gi')
-    : null
-  const koreanRe = koreanSorted.length
-    ? new RegExp('(' + koreanSorted.map(escapeRegex).join('|') + ')' + KOREAN_PARTICLES, 'g')
-    : null
-
-  return { asciiRe, koreanRe, byKey }
-}
-
-export function tokenize(text, matcher) {
+export function tokenizeBySpans(text, spans, byConceptId, allowedConcepts = null) {
   if (!text) return []
-  if (!matcher || (!matcher.asciiRe && !matcher.koreanRe)) return [text]
+  if (!Array.isArray(spans) || !spans.length || !byConceptId) return [text]
+
+  // surface 가 긴 것부터 매칭(겹침 방지). 같은 surface 가 두 spans 항목으로 와도 합쳐 처리.
+  const surfaceMap = new Map()
+  for (const s of spans) {
+    if (!s.surface) continue
+    if (allowedConcepts && !allowedConcepts.has(s.concept_id)) continue
+    if (!byConceptId.has(s.concept_id)) continue
+    if (!surfaceMap.has(s.surface)) surfaceMap.set(s.surface, s.concept_id)
+  }
+  const surfaces = [...surfaceMap.keys()].sort((a, b) => b.length - a.length)
+  if (!surfaces.length) return [text]
 
   const matches = []
-  if (matcher.asciiRe) {
-    matcher.asciiRe.lastIndex = 0
-    let m
-    while ((m = matcher.asciiRe.exec(text)) !== null) {
-      const matched = m[1]
-      const term = matcher.byKey.get(matched.toUpperCase())
-      if (term) matches.push({ start: m.index, end: m.index + matched.length, matched, term })
+  for (const surface of surfaces) {
+    let idx = 0
+    while (idx <= text.length - surface.length) {
+      const found = text.indexOf(surface, idx)
+      if (found === -1) break
+      matches.push({ start: found, end: found + surface.length, surface })
+      idx = found + surface.length
     }
   }
-  if (matcher.koreanRe) {
-    matcher.koreanRe.lastIndex = 0
-    let m
-    while ((m = matcher.koreanRe.exec(text)) !== null) {
-      const matched = m[1]
-      const term = matcher.byKey.get(matched)
-      if (term) matches.push({ start: m.index, end: m.index + matched.length, matched, term })
-    }
-  }
-
+  // 겹치는 매칭 제거 — 시작 위치 오름차순, 길이 내림차순 우선
   matches.sort((a, b) => a.start - b.start || (b.end - b.start) - (a.end - a.start))
-
   const accepted = []
   let cursor = 0
   for (const m of matches) {
@@ -93,7 +42,9 @@ export function tokenize(text, matcher) {
   let i = 0
   for (const m of accepted) {
     if (m.start > i) tokens.push(text.slice(i, m.start))
-    tokens.push({ term: m.term, matched: m.matched })
+    const concept_id = surfaceMap.get(m.surface)
+    const entry = byConceptId.get(concept_id)
+    tokens.push({ surface: m.surface, concept_id, entry })
     i = m.end
   }
   if (i < text.length) tokens.push(text.slice(i))

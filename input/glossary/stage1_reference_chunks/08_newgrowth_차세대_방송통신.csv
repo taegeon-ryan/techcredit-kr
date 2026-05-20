@@ -1,0 +1,9 @@
+tech_id,dataset,sector_name,subsector,item_no,tech_name,tech_description
+newgrowth::6::가::1),newgrowth,차세대 방송통신,"가. 5G(5generation, 5세대)이동통신",1),5G 이동통신 기지국 장비 기술,가입자와 연결을 위해 이동통신사업자가 구축하는 5G 이동통신 광역 및 소형 셀(cell) 기지국 장비에 적용되는 기술
+newgrowth::6::가::4),newgrowth,차세대 방송통신,가. 5세대(5G: 5generation) 및 6세대 (6G: 6generation)이동통신,4),6G 이동통신 기술,초저지연(µsec급) 기술을 기반으로 초고속(Tera bps급) 통신 지원을 위해 Tera-Hz 대역 활용을 가능하게 하는 신소자 RFㆍ안테나 및 모뎀 및 부품ㆍ소자에  적용되는 기술
+newgrowth::6::가::5),newgrowth,차세대 방송통신,가. 5세대(5G: 5generation) 및 6세대 (6G: 6generation)이동통신,5),차세대 근거리 무선통신 기술,"IEEE(Institute of Electrical & Electronics Engineers, 국제전기전자기술자협회) 802.11ac 규격보다 높은 주파수 효율과 전송속도를 제공하는 근거리 무선통신(무선랜: wireless LAN) 기술"
+newgrowth::6::가::2),newgrowth,차세대 방송통신,가. 5세대(5G: 5generation)이동통신,2),"5G 이동통신 코어네트워크(Core Network, 기간망) 기술","트래픽(traffic) 전송ㆍ제어, 네트워크(network) 간 연결 등을 위해 5G 이동통신 기지국 장비와 연동되는 게이트웨이(gateway), 라우터(router), 스위치(switch) 등에 적용되는 기술"
+newgrowth::6::가::3),newgrowth,차세대 방송통신,가. 5세대(5G: 5generation)이동통신,3),5G 이동통신 단말 특화 부품 기술,"5G 이동통신 단말을 구현하기 위해 새롭게 개발ㆍ적용될 통신모듈[베이스밴드(baseband, 기저대역) 모뎀, RF(radio frequency) 칩셋(chipset) 등]의 부품ㆍ소자에 적용되는 기술"
+newgrowth::6::나::3),newgrowth,차세대 방송통신,나. UHD (Ultra-High Definition),3),신규 방송서비스 제공을 위한 시그널링 시스템 기술,"다양한 신규 방송서비스 제공을 위해 UHD방송 표준에 따른 시그널링(signaling) 시스템[시그널 인코더(signal encoder), 서비스가이드 인코더(service guide encoder), 시그널/서비스가이드 서버(signal/service guide server), 서비스 메타데이터(metadata) 관리서버, 통합 모니터링(monitoring) 시스템, 앱 시그널링 인코더(app signaling encoder), 콘텐츠 푸시 서버(push server, 자동제공서버) 등을 포함한다] 기술"
+newgrowth::6::나::1),newgrowth,차세대 방송통신,나. UHD(Ultra-High Definition),1),지상파 UHD방송 송신기 성능 향상기술,"냉각 기술(공냉, 수냉, 질소냉각 등 포함)의 개선, 회로 설계 방식 개선 등을 통한 고효율 지상파 UHD방송용 송신기 설계ㆍ제조 기술"
+newgrowth::6::나::2),newgrowth,차세대 방송통신,나. UHD(Ultra-High Definition),2),UHD 방송 통합 다중화기 기술,"신규 전송 프로토콜[ROUTE, MMT(MPEG Media Transport) 등 포함]과 기존 전송 프로토콜[MPEG-2 TS(Transport System)]로 생성된 신호를 입력받아, 국내외 UHD 방송 표준에 따른 전송 프로토콜로 출력하는 통합형 다중화기 기술"

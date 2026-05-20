@@ -1,0 +1,151 @@
+[
+{
+"tech_id": "strategic::10::::가.",
+"surfaces": [
+{
+"surface": "거대 인공지능 기초 모델(Foundation Model)",
+"domain_hint": "AI"
+},
+{
+"surface": "사용자 프롬프트",
+"domain_hint": "AI"
+},
+{
+"surface": "미디어",
+"domain_hint": "AI"
+},
+{
+"surface": "콘텐츠",
+"domain_hint": "AI"
+}
+]
+},
+{
+"tech_id": "strategic::10::::나.",
+"surfaces": [
+{
+"surface": "목표 설정",
+"domain_hint": "AI"
+},
+{
+"surface": "피드백",
+"domain_hint": "AI"
+},
+{
+"surface": "의사결정",
+"domain_hint": "AI"
+},
+{
+"surface": "기계장치(Hardware)",
+"domain_hint": "AI"
+},
+{
+"surface": "피지컬 인공지능(Physical AI)",
+"domain_hint": "AI"
+},
+{
+"surface": "자율성",
+"domain_hint": "AI"
+},
+{
+"surface": "제어",
+"domain_hint": "AI"
+}
+]
+},
+{
+"tech_id": "strategic::10::::다.",
+"surfaces": [
+{
+"surface": "학습 알고리즘",
+"domain_hint": "AI"
+},
+{
+"surface": "메타러닝",
+"domain_hint": "AI"
+},
+{
+"surface": "딥러닝",
+"domain_hint": "AI"
+},
+{
+"surface": "강화학습",
+"domain_hint": "AI"
+},
+{
+"surface": "멀티모달 학습",
+"domain_hint": "AI"
+},
+{
+"surface": "추론 기술",
+"domain_hint": "AI"
+},
+{
+"surface": "연쇄사고 추론기법",
+"domain_hint": "AI"
+},
+{
+"surface": "분기구조 기반 추론기법",
+"domain_hint": "AI"
+},
+{
+"surface": "다중 에이전트 추론기법",
+"domain_hint": "AI"
+},
+{
+"surface": "인공지능 기초모델",
+"domain_hint": "AI"
+}
+]
+},
+{
+"tech_id": "strategic::10::::라.",
+"surfaces": [
+{
+"surface": "저전력ㆍ고효율",
+"domain_hint": "AI"
+},
+{
+"surface": "학습",
+"domain_hint": "AI"
+},
+{
+"surface": "추론",
+"domain_hint": "AI"
+},
+{
+"surface": "모델 경량화",
+"domain_hint": "AI"
+},
+{
+"surface": "최적화 알고리즘",
+"domain_hint": "AI"
+}
+]
+},
+{
+"tech_id": "strategic::10::::마.",
+"surfaces": [
+{
+"surface": "인공지능 모델",
+"domain_hint": "AI"
+},
+{
+"surface": "의사결정 과정",
+"domain_hint": "AI"
+},
+{
+"surface": "내부 표현구조",
+"domain_hint": "AI"
+},
+{
+"surface": "신뢰성",
+"domain_hint": "AI"
+},
+{
+"surface": "안전성",
+"domain_hint": "AI"
+}
+]
+}
+]

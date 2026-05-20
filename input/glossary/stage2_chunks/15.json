@@ -1,0 +1,762 @@
+[
+  {
+    "concept_id": "코팅",
+    "primary_canonical": "코팅(coating)",
+    "domain": "바이오",
+    "surfaces": [
+      "코팅(coating)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::3)",
+        "sector_name": "바이오·헬스",
+        "tech_name": "신품종 종자개발기술 및 종자가공처리 기술",
+        "surface": "코팅(coating)"
+      }
+    ],
+    "sample_contexts": [
+      "…개발하는 기술과 종자의 품질을 높이기 위한 프라이밍(priming), 코팅(coating), 펠렛팅(pelleting) 등 종자 가공처리 기술"
+    ]
+  },
+  {
+    "concept_id": "콘덴서",
+    "primary_canonical": "콘덴서",
+    "domain": "전자",
+    "surfaces": [
+      "콘덴서"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::3)",
+        "sector_name": "융복합소재",
+        "tech_name": "섬유기반 전기전자 소재ㆍ부품 및 제품 제조 기술",
+        "surface": "콘덴서"
+      }
+    ],
+    "sample_contexts": [
+      "…장 또는 전달이 가능한 전도성 섬유를 가공ㆍ변형하여 트랜지스터, 저항, 콘덴서, 안테나 등의 전자회로 소자를 직물 형태로 구현하는 기술"
+    ]
+  },
+  {
+    "concept_id": "퀀텀닷",
+    "primary_canonical": "퀀텀닷",
+    "domain": "디스플레이",
+    "surfaces": [
+      "퀀텀닷"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::자.",
+        "sector_name": "반도체",
+        "tech_name": "차세대 디지털기기ㆍ차량용 디스플레이 반도체 설계ㆍ제조기술",
+        "surface": "퀀텀닷"
+      }
+    ],
+    "sample_contexts": [
+      "…록 차세대 디지털기기 및 차량의 디스플레이(OLED, Flexible, 퀀텀닷, 롤러블, 폴더블, 마이크로LED, Mini LED, 4Kㆍ120Hz급…"
+    ]
+  },
+  {
+    "concept_id": "큐비트-qubit",
+    "primary_canonical": "큐비트, Qubit",
+    "domain": "양자",
+    "surfaces": [
+      "큐비트, Qubit"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::아::",
+        "sector_name": "지능정보",
+        "tech_name": "양자컴퓨터 제작 및 활용 기술",
+        "surface": "큐비트, Qubit"
+      }
+    ],
+    "sample_contexts": [
+      "양자 정보를 처리할 수 있는 메모리(큐비트, Qubit)를 구현하고, 큐비트간 연산처리가 가능한 장치의 제작 기술 및 양자컴퓨…"
+    ]
+  },
+  {
+    "concept_id": "크랭크-샤프트",
+    "primary_canonical": "크랭크 샤프트(Crankshaft)",
+    "domain": "부품",
+    "surfaces": [
+      "크랭크 샤프트(Crankshaft)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::8)",
+        "sector_name": "탄소중립",
+        "tech_name": "선박용 디젤엔진 제조 기술",
+        "surface": "크랭크 샤프트(Crankshaft)"
+      }
+    ],
+    "sample_contexts": [
+      "…PG) 등의 가스연료 포함] 사용이 가능한 디젤엔진을 제조하는 기술로, 크랭크 샤프트(Crankshaft), 피스톤(Piston), 피스톤링(Piston Ring), 실린더헤드(…"
+    ]
+  },
+  {
+    "concept_id": "크레인",
+    "primary_canonical": "크레인(Crane)",
+    "domain": "조선",
+    "surfaces": [
+      "크레인(Crane)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::8)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "선박용 모터(Motor) 설계ㆍ제조기술",
+        "surface": "크레인(Crane)"
+      }
+    ],
+    "sample_contexts": [
+      "각종 펌프(Pump), 압축기, 엔진(Engine) 시동장치, 크레인(Crane), 팬(Pan) 등 일반선박용 모터의 소재ㆍ부품 및 액화천연가스(LNG,…"
+    ]
+  },
+  {
+    "concept_id": "클라우드-서비스-브로커리지",
+    "primary_canonical": "클라우드 서비스 브로커리지(Cloud Service Brokerage)",
+    "domain": "클라우드",
+    "surfaces": [
+      "클라우드 서비스 브로커리지(Cloud Service Brokerage)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::다::3)",
+        "sector_name": "지능정보",
+        "tech_name": "IaaS(Infrastructure as a Service) 기술",
+        "surface": "클라우드 서비스 브로커리지(Cloud Service Brokerage)"
+      }
+    ],
+    "sample_contexts": [
+      "…자원을 확장하는 기술 및 다양한 클라우드 인프라 서비스의 중개를 위한 클라우드 서비스 브로커리지(Cloud Service Brokerage) 기술"
+    ]
+  },
+  {
+    "concept_id": "클링커",
+    "primary_canonical": "클링커",
+    "domain": "소재",
+    "surfaces": [
+      "클링커"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::5)",
+        "sector_name": "탄소중립",
+        "tech_name": "산화칼슘 함유 비탄산염 산업부산물의 시멘트 원료화 기술",
+        "surface": "클링커"
+      }
+    ],
+    "sample_contexts": [
+      "시멘트 산업에서 클링커 원료인 석회석을 산화칼슘(CaO)를 함유한 비탄산염 산업부산물로 대체하…"
+    ]
+  },
+  {
+    "concept_id": "탄산염광물",
+    "primary_canonical": "탄산염광물",
+    "domain": "소재",
+    "surfaces": [
+      "탄산염광물"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::6)",
+        "sector_name": "탄소중립",
+        "tech_name": "이산화탄소 저감 시멘트 생산을 위한 연ㆍ원료 대체기술",
+        "surface": "탄산염광물"
+      }
+    ],
+    "sample_contexts": [
+      "시멘트 제조공정 중 석회석 등 탄산염광물을 비탄산염 원료로 대체하는 소재ㆍ공정기술과 수소, 바이오매스, LNG…"
+    ]
+  },
+  {
+    "concept_id": "탄소섬유",
+    "primary_canonical": "탄소섬유",
+    "domain": "소재",
+    "surfaces": [
+      "탄소섬유"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::2)",
+        "sector_name": "융복합소재",
+        "tech_name": "극한성능 섬유 제조 기술",
+        "surface": "탄소섬유"
+      }
+    ],
+    "sample_contexts": [
+      "고탄성ㆍ고강도 탄소섬유 또는 섬유용 CNT(Carbon Nano Tube, 탄소나노튜브)의 제…"
+    ]
+  },
+  {
+    "concept_id": "탄소섬유복합재",
+    "primary_canonical": "탄소섬유복합재",
+    "domain": "소재",
+    "surfaces": [
+      "탄소섬유복합재"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::1)",
+        "sector_name": "융복합소재",
+        "tech_name": "탄소섬유복합재의 가공장비 및 검사장비 설계ㆍ제조기술",
+        "surface": "탄소섬유복합재"
+      }
+    ],
+    "sample_contexts": [
+      "탄소섬유복합재 부품가공을 위한 복합 가공장비[관련되는 공구, 부품 고정을 위한 유연지…"
+    ]
+  },
+  {
+    "concept_id": "태양전지",
+    "primary_canonical": "태양전지",
+    "domain": "에너지",
+    "surfaces": [
+      "태양전지"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::10::가::2)",
+        "sector_name": "로봇",
+        "tech_name": "차세대 태양전지(Solar cell) 제조 로봇 기술",
+        "surface": "태양전지"
+      }
+    ],
+    "sample_contexts": [
+      "고진공/고청정 환경의 태양전지 생산 현장에서 대면적ㆍ고중량 기판을 핸들링할 수 있는 로봇의 설계ㆍ제조…"
+    ]
+  },
+  {
+    "concept_id": "터미널-헤더",
+    "primary_canonical": "터미널 헤더(Terminal Heather)",
+    "domain": "에너지",
+    "surfaces": [
+      "터미널 헤더(Terminal Heather)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::6)",
+        "sector_name": "탄소중립",
+        "tech_name": "극저온 액체 저장 및 이송용 펌프 설계ㆍ제조기술",
+        "surface": "터미널 헤더(Terminal Heather)"
+      }
+    ],
+    "sample_contexts": [
+      "…사용하는 극저온용 펌프로 극저온용 밀봉 소재와 베어링(Bearing), 터미널 헤더(Terminal Heather) 등의 부품을 설계ㆍ제조ㆍ시험ㆍ평가 기술"
+    ]
+  },
+  {
+    "concept_id": "터보샤프트엔진",
+    "primary_canonical": "터보샤프트엔진",
+    "domain": "항공",
+    "surfaces": [
+      "터보샤프트엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "터보샤프트엔진"
+      }
+    ],
+    "sample_contexts": [
+      "유무인 항공기, 기동장비, 유도무기, 함정 등에 장착하는 터보제트엔진, 터보샤프트엔진, 터보프롭엔진, 터보팬엔진, 왕복엔진의 완제엔진, 부체계(엔진제어, 연…"
+    ]
+  },
+  {
+    "concept_id": "터보식-펌프",
+    "primary_canonical": "터보식 펌프",
+    "domain": "부품",
+    "surfaces": [
+      "터보식 펌프"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고성능 터보식 펌프 설계ㆍ제조기술",
+        "surface": "터보식 펌프"
+      }
+    ],
+    "sample_contexts": [
+      "…상의 배기속도 및 1.3x10-9 mbar 이상의 최고 진공도를 만드는 터보식 펌프의 설계ㆍ제조기술"
+    ]
+  },
+  {
+    "concept_id": "터보제트엔진",
+    "primary_canonical": "터보제트엔진",
+    "domain": "항공",
+    "surfaces": [
+      "터보제트엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "터보제트엔진"
+      }
+    ],
+    "sample_contexts": [
+      "유무인 항공기, 기동장비, 유도무기, 함정 등에 장착하는 터보제트엔진, 터보샤프트엔진, 터보프롭엔진, 터보팬엔진, 왕복엔진의 완제엔진, 부체…"
+    ]
+  },
+  {
+    "concept_id": "터보팬엔진",
+    "primary_canonical": "터보팬엔진",
+    "domain": "항공",
+    "surfaces": [
+      "터보팬엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "터보팬엔진"
+      }
+    ],
+    "sample_contexts": [
+      "…무기, 함정 등에 장착하는 터보제트엔진, 터보샤프트엔진, 터보프롭엔진, 터보팬엔진, 왕복엔진의 완제엔진, 부체계(엔진제어, 연료, 윤활, 기어박스 등),…"
+    ]
+  },
+  {
+    "concept_id": "터보프롭엔진",
+    "primary_canonical": "터보프롭엔진",
+    "domain": "항공",
+    "surfaces": [
+      "터보프롭엔진"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::17::가::1)",
+        "sector_name": "방위산업",
+        "tech_name": "추진체계 기술",
+        "surface": "터보프롭엔진"
+      }
+    ],
+    "sample_contexts": [
+      "…기동장비, 유도무기, 함정 등에 장착하는 터보제트엔진, 터보샤프트엔진, 터보프롭엔진, 터보팬엔진, 왕복엔진의 완제엔진, 부체계(엔진제어, 연료, 윤활, 기…"
+    ]
+  },
+  {
+    "concept_id": "텔레메트리",
+    "primary_canonical": "텔레메트리(telemetry)",
+    "domain": "항공",
+    "surfaces": [
+      "텔레메트리(telemetry)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::11::가::6)",
+        "sector_name": "항공·우주",
+        "tech_name": "무인기 지상통제 핵심기술",
+        "surface": "텔레메트리(telemetry)"
+      }
+    ],
+    "sample_contexts": [
+      "…지상에서 원격으로 조종하고 상황을 모니터링하기 위한 조종기, 지상국, 텔레메트리(telemetry) 장비와 관련 운영 소프트웨어 프로그램 기술로 소형무인기 조종기 개발기술…"
+    ]
+  },
+  {
+    "concept_id": "투명전극",
+    "primary_canonical": "투명전극",
+    "domain": "에너지",
+    "surfaces": [
+      "투명전극"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
+        "surface": "투명전극"
+      }
+    ],
+    "sample_contexts": [
+      "…효율성 및 고내구성을 가진 대면적 웨이퍼, 광활성층, 전자ㆍ정공수송층, 투명전극, 금속전극, 금속리본, 봉지, 경량 전후면 외장 재료 등의 핵심소재 제…"
+    ]
+  },
+  {
+    "concept_id": "트래픽",
+    "primary_canonical": "트래픽(traffic)",
+    "domain": "통신",
+    "surfaces": [
+      "트래픽(traffic)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::6::가::2)",
+        "sector_name": "차세대 방송통신",
+        "tech_name": "5G 이동통신 코어네트워크(Core Network, 기간망) 기술",
+        "surface": "트래픽(traffic)"
+      }
+    ],
+    "sample_contexts": [
+      "트래픽(traffic) 전송ㆍ제어, 네트워크(network) 간 연결 등을 위해 5G 이동통신…"
+    ]
+  },
+  {
+    "concept_id": "트랜스듀서",
+    "primary_canonical": "트랜스듀서",
+    "domain": "소재",
+    "surfaces": [
+      "트랜스듀서"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::3)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "거리감지센서용 압전결정소자 및 초음파 트랜스듀서 기술",
+        "surface": "트랜스듀서"
+      }
+    ],
+    "sample_contexts": [
+      "거리감지센서 등에 사용되는 압전결정소자 및 초음파 트랜스듀서 설계ㆍ제조기술"
+    ]
+  },
+  {
+    "concept_id": "트랜지스터",
+    "primary_canonical": "트랜지스터",
+    "domain": "전자",
+    "surfaces": [
+      "트랜지스터"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::3)",
+        "sector_name": "융복합소재",
+        "tech_name": "섬유기반 전기전자 소재ㆍ부품 및 제품 제조 기술",
+        "surface": "트랜지스터"
+      }
+    ],
+    "sample_contexts": [
+      "…광 신호의 생산, 저장 또는 전달이 가능한 전도성 섬유를 가공ㆍ변형하여 트랜지스터, 저항, 콘덴서, 안테나 등의 전자회로 소자를 직물 형태로 구현하는 기…"
+    ]
+  },
+  {
+    "concept_id": "특수강",
+    "primary_canonical": "특수강",
+    "domain": "소재",
+    "surfaces": [
+      "특수강"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::마::3)",
+        "sector_name": "융복합소재",
+        "tech_name": "장수명 프리미엄급 금형소재 제조기술",
+        "surface": "특수강"
+      }
+    ],
+    "sample_contexts": [
+      "…교체주기 5만회의 금형대비 30%이상 수명이 향상된 합금설계, 고청정 특수강 제조 및 소성가공 기술"
+    ]
+  },
+  {
+    "concept_id": "파우치",
+    "primary_canonical": "파우치",
+    "domain": "이차전지",
+    "surfaces": [
+      "파우치"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::자.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 부품 제조기술",
+        "surface": "파우치"
+      }
+    ],
+    "sample_contexts": [
+      "배터리 장기 사용을 위한 패키징 부품(파우치, 캔, 리드탭) 및 고성능 배터리를 위한 전극용 소재부품(도전재, 바인…"
+    ]
+  },
+  {
+    "concept_id": "파운드리-soc",
+    "primary_canonical": "파운드리 SoC",
+    "domain": "반도체",
+    "surfaces": [
+      "파운드리 SoC"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::타.",
+        "sector_name": "반도체",
+        "tech_name": "반도체용 실리콘 기판 및 화합물 기판 개발 및 제조기술",
+        "surface": "파운드리 SoC"
+      }
+    ],
+    "sample_contexts": [
+      "15nm 이하급 D램과 170단 이상 낸드플래시메모리, 7nm 이하급 파운드리 SoC, 에피텍셜 반도체용의 실리콘 기판 및 화합물(SiC, GaN, Ga2O…"
+    ]
+  },
+  {
+    "concept_id": "패키징-2",
+    "primary_canonical": "패키징",
+    "domain": "이차전지",
+    "surfaces": [
+      "패키징"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::자.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 부품 제조기술",
+        "surface": "패키징"
+      }
+    ],
+    "sample_contexts": [
+      "배터리 장기 사용을 위한 패키징 부품(파우치, 캔, 리드탭) 및 고성능 배터리를 위한 전극용 소재부품(…"
+    ]
+  },
+  {
+    "concept_id": "패키징-재배선",
+    "primary_canonical": "패키징 재배선",
+    "domain": "반도체",
+    "surfaces": [
+      "패키징 재배선"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::버.",
+        "sector_name": "반도체",
+        "tech_name": "코트막형성재 개발 및 제조기술",
+        "surface": "패키징 재배선"
+      }
+    ],
+    "sample_contexts": [
+      "…용하는 절연성을 가진 고감도(80mJ/㎠ 이하) 감광성 코팅 기술 또는 패키징 재배선(배선폭 7㎛ 이하) 형성 재료 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "패터닝",
+    "primary_canonical": "패터닝",
+    "domain": "디스플레이",
+    "surfaces": [
+      "패터닝"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::나.",
+        "sector_name": "디스플레이",
+        "tech_name": "친환경 QD(Quantum Dot) 소재 적용 디스플레이 패널 설계ㆍ제조ㆍ공정ㆍ모듈ㆍ구동 기술",
+        "surface": "패터닝"
+      }
+    ],
+    "sample_contexts": [
+      "…oHS(유럽 6대 제한물질 환경규제) 충족 QD 소재를 노광 또는 직접 패터닝 방식으로 제조한 패널과 구동소자, 커버윈도우 등을 가공ㆍ조립하는 친환경…"
+    ]
+  },
+  {
+    "concept_id": "팩",
+    "primary_canonical": "팩",
+    "domain": "이차전지",
+    "surfaces": [
+      "팩"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::가.",
+        "sector_name": "이차전지",
+        "tech_name": "고에너지밀도 이차전지 팩 제조기술",
+        "surface": "팩"
+      }
+    ],
+    "sample_contexts": [
+      "전기차, 에너지저장장치 등에 사용되는 이차전지 팩의 중량당 에너지밀도를 160Wh/kg 이상으로 구현하기 위한 모듈 및…"
+    ]
+  },
+  {
+    "concept_id": "팬",
+    "primary_canonical": "팬(Pan)",
+    "domain": "조선",
+    "surfaces": [
+      "팬(Pan)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::8)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "선박용 모터(Motor) 설계ㆍ제조기술",
+        "surface": "팬(Pan)"
+      }
+    ],
+    "sample_contexts": [
+      "…ump), 압축기, 엔진(Engine) 시동장치, 크레인(Crane), 팬(Pan) 등 일반선박용 모터의 소재ㆍ부품 및 액화천연가스(LNG, Liquefi…"
+    ]
+  },
+  {
+    "concept_id": "펠렛팅",
+    "primary_canonical": "펠렛팅(pelleting)",
+    "domain": "바이오",
+    "surfaces": [
+      "펠렛팅(pelleting)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::3)",
+        "sector_name": "바이오·헬스",
+        "tech_name": "신품종 종자개발기술 및 종자가공처리 기술",
+        "surface": "펠렛팅(pelleting)"
+      }
+    ],
+    "sample_contexts": [
+      "…품질을 높이기 위한 프라이밍(priming), 코팅(coating), 펠렛팅(pelleting) 등 종자 가공처리 기술"
+    ]
+  },
+  {
+    "concept_id": "펩타이드",
+    "primary_canonical": "펩타이드",
+    "domain": "바이오",
+    "surfaces": [
+      "펩타이드"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::가.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오 신약[바이오 베터(Bio Better)를 포함한다. 이하 이 호에서 같다] 후보물질 발굴 및 바이오 신약 제조 기술",
+        "surface": "펩타이드"
+      }
+    ],
+    "sample_contexts": [
+      "…술 등 새로운 생명공학 기술을 이용하여 생명체에서 유래된 단백질ㆍ호르몬ㆍ펩타이드ㆍ핵산ㆍ핵산유도체 등의 원료 및 재료를 확보하여 작용기전을 증명하고 안전…"
+    ]
+  },
+  {
+    "concept_id": "포소화제",
+    "primary_canonical": "포소화제",
+    "domain": "소재",
+    "surfaces": [
+      "포소화제"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::가::7)",
+        "sector_name": "융복합소재",
+        "tech_name": "특수계면활성제 제조 기술",
+        "surface": "포소화제"
+      }
+    ],
+    "sample_contexts": [
+      "…속함유량(100ppb 이하) 특성을 지닌 불소계 계면활성제 및 도료 및 포소화제의 기능향상을 위한 첨가제 등으로 사용되는 저표면에너지(15∼18 mN/…"
+    ]
+  },
+  {
+    "concept_id": "포집",
+    "primary_canonical": "포집",
+    "domain": "탄소중립",
+    "surfaces": [
+      "포집"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::나.",
+        "sector_name": "수소",
+        "tech_name": "탄소포집 청정수소 생산기술",
+        "surface": "포집"
+      }
+    ],
+    "sample_contexts": [
+      "…는 과정에서 배출되는 이산화탄소, 일산화탄소, 고체탄소 등 탄소화합물을 포집ㆍ전환하여 청정수소를 생산하는 기술"
+    ]
+  },
+  {
+    "concept_id": "포토레지스트",
+    "primary_canonical": "포토레지스트",
+    "domain": "반도체",
+    "surfaces": [
+      "포토레지스트"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::하.",
+        "sector_name": "반도체",
+        "tech_name": "포토레지스트(Photoresist) 개발 및 제조기술",
+        "surface": "포토레지스트"
+      }
+    ],
+    "sample_contexts": [
+      "…로의 내열성, 전기적 특성, 현상(Developing) 특성을 좌우하는 포토레지스트 및 관련 소재를 개발 및 제조하는 기술 [ArF(불화아르곤) 광원용 및…"
+    ]
+  },
+  {
+    "concept_id": "폴리이미드",
+    "primary_canonical": "폴리이미드(PI)",
+    "domain": "디스플레이",
+    "surfaces": [
+      "폴리이미드(PI)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::4::::라.",
+        "sector_name": "디스플레이",
+        "tech_name": "디스플레이 패널 제조용 증착ㆍ코팅 소재 기술",
+        "surface": "폴리이미드(PI)"
+      }
+    ],
+    "sample_contexts": [
+      "…nsistor)와 유기물(발광ㆍ공통층) 소재 및 양자점(QD)ㆍ화소격벽ㆍ폴리이미드(PI) 코팅소재 등 디스플레이 패널 제조용 증착ㆍ코팅 소재 기술"
+    ]
+  },
+  {
+    "concept_id": "표적-수용체",
+    "primary_canonical": "표적 수용체(Receptor)",
+    "domain": "바이오",
+    "surfaces": [
+      "표적 수용체(Receptor)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::4)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "혁신형 신약(화합물의약품) 후보물질 발굴 및 제조기술",
+        "surface": "표적 수용체(Receptor)"
+      }
+    ],
+    "sample_contexts": [
+      "인체내 질병의 원인이 되는 표적 수용체(Receptor) 또는 효소(Enzyme) 등의 반응 기전(Mechanism)을 규명하고…"
+    ]
+  },
+  {
+    "concept_id": "표적체",
+    "primary_canonical": "표적체(Target)",
+    "domain": "바이오",
+    "surfaces": [
+      "표적체(Target)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::가::4)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "혁신형 신약(화합물의약품) 후보물질 발굴 및 제조기술",
+        "surface": "표적체(Target)"
+      }
+    ],
+    "sample_contexts": [
+      "…yme) 등의 반응 기전(Mechanism)을 규명하고 분자설계를 통해 표적체(Target)와 선택적으로 작용할 수 있는 구조의 화합물 후보물질 라이브러리(Libr…"
+    ]
+  },
+  {
+    "concept_id": "프라이밍",
+    "primary_canonical": "프라이밍(priming)",
+    "domain": "바이오",
+    "surfaces": [
+      "프라이밍(priming)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::3)",
+        "sector_name": "바이오·헬스",
+        "tech_name": "신품종 종자개발기술 및 종자가공처리 기술",
+        "surface": "프라이밍(priming)"
+      }
+    ],
+    "sample_contexts": [
+      "…등이 개선된 신품종 종자를 개발하는 기술과 종자의 품질을 높이기 위한 프라이밍(priming), 코팅(coating), 펠렛팅(pelleting) 등 종자 가공처리…"
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+[
+{
+"tech_id": "newgrowth::4::가::1)",
+"surfaces": [
+{ "surface": "오감", "domain_hint": "콘텐츠" },
+{ "surface": "가상공간", "domain_hint": "콘텐츠" },
+{ "surface": "가상현실(Virtual Reality)", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::가::2)",
+"surfaces": [
+{ "surface": "디지털 콘텐츠", "domain_hint": "콘텐츠" },
+{ "surface": "증강현실(Augmented Reality)", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::가::3)",
+"surfaces": [
+{ "surface": "3D 입체영상", "domain_hint": "콘텐츠" },
+{ "surface": "증강현실(Augmented Reality)", "domain_hint": "콘텐츠" },
+{ "surface": "양방향성", "domain_hint": "콘텐츠" },
+{ "surface": "상호작용", "domain_hint": "콘텐츠" },
+{ "surface": "4D 콘텐츠", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::가::4)",
+"surfaces": [
+{ "surface": "홀로그램(Hologram)", "domain_hint": "콘텐츠" },
+{ "surface": "조명광 파면(wavefront)", "domain_hint": "콘텐츠" },
+{ "surface": "간섭무늬", "domain_hint": "콘텐츠" },
+{ "surface": "홀로그램 프린지(fringe) 패턴", "domain_hint": "콘텐츠" },
+{ "surface": "정합", "domain_hint": "콘텐츠" },
+{ "surface": "공간인식", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::가::5)",
+"surfaces": [
+{ "surface": "홀로그램(Hologram)", "domain_hint": "콘텐츠" },
+{ "surface": "조명광 파면(wavefront)", "domain_hint": "콘텐츠" },
+{ "surface": "간섭무늬", "domain_hint": "콘텐츠" },
+{ "surface": "홀로그램 프린지(fringe) 패턴", "domain_hint": "콘텐츠" },
+{ "surface": "정합", "domain_hint": "콘텐츠" },
+{ "surface": "공간인식", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::가::6)",
+"surfaces": [
+{ "surface": "소셜 클라우드 협업", "domain_hint": "콘텐츠" },
+{ "surface": "고해상도 공간정보", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::나::1)",
+"surfaces": [
+{ "surface": "게임엔진", "domain_hint": "콘텐츠" },
+{ "surface": "게임저작도구", "domain_hint": "콘텐츠" },
+{ "surface": "게임 UI(User Interface)", "domain_hint": "콘텐츠" },
+{ "surface": "상호작용", "domain_hint": "콘텐츠" },
+{ "surface": "시나리오 구현", "domain_hint": "콘텐츠" },
+{ "surface": "기능성 게임", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::나::2)",
+"surfaces": [
+{ "surface": "사전시각화(pre-visualization)", "domain_hint": "콘텐츠" },
+{ "surface": "그래픽 품질", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::나::3)",
+"surfaces": [
+{ "surface": "AI 머신러닝", "domain_hint": "AI" },
+{ "surface": "에셋 자동생산", "domain_hint": "콘텐츠" },
+{ "surface": "게임엔진", "domain_hint": "콘텐츠" },
+{ "surface": "버추얼 프로덕션(virtual production)", "domain_hint": "콘텐츠" }
+]
+},
+{
+"tech_id": "newgrowth::4::나::4)",
+"surfaces": [
+{ "surface": "디지털 만화 저작도구", "domain_hint": "콘텐츠" },
+{ "surface": "멀티미디어 콘텐츠", "domain_hint": "콘텐츠" },
+{ "surface": "저작권 보호", "domain_hint": "보안" }
+]
+}
+]

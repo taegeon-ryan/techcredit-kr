@@ -1,0 +1,762 @@
+[
+  {
+    "concept_id": "전기동력-자동차",
+    "primary_canonical": "전기동력 자동차(xEV)",
+    "domain": "미래차",
+    "surfaces": [
+      "전기동력 자동차(xEV)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::6)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "전기동력 자동차의 에너지저장 시스템 기술",
+        "surface": "전기동력 자동차(xEV)"
+      }
+    ],
+    "sample_contexts": [
+      "전기동력 자동차(xEV)의 주행거리 연장, 충전시간 단축 등을 위해 차량용 이차전지 팩의 에너지…"
+    ]
+  },
+  {
+    "concept_id": "전기용융로",
+    "primary_canonical": "전기용융로",
+    "domain": "소재",
+    "surfaces": [
+      "전기용융로"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::5::::아.",
+        "sector_name": "수소",
+        "tech_name": "수소환원제철 기술",
+        "surface": "전기용융로"
+      }
+    ],
+    "sample_contexts": [
+      "철강 제조공정에서 수소(H2)를 사용하여 철광석을 환원하고, 전기용융로에서 쇳물(용선)을 생산하는 기술"
+    ]
+  },
+  {
+    "concept_id": "전기저항",
+    "primary_canonical": "전기저항",
+    "domain": "에너지",
+    "surfaces": [
+      "전기저항"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::9)",
+        "sector_name": "탄소중립",
+        "tech_name": "전기가열 나프타 분해기술",
+        "surface": "전기저항"
+      }
+    ],
+    "sample_contexts": [
+      "전기저항/유도 가열 방식을 활용한 나프타 분해공정을 통해 에틸렌ㆍ프로필렌 등 석…"
+    ]
+  },
+  {
+    "concept_id": "전기저항가열",
+    "primary_canonical": "전기저항가열(Ohmic Heating)",
+    "domain": "바이오",
+    "surfaces": [
+      "전기저항가열(Ohmic Heating)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::다::1)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "비가열 및 고온ㆍ고압 전처리 기술",
+        "surface": "전기저항가열(Ohmic Heating)"
+      }
+    ],
+    "sample_contexts": [
+      "…자기장[PET(Pulsed Electric Field) 1kV 이상], 전기저항가열(Ohmic Heating), 방사선 조사(irradiation)와 같은 대체 열에너지를 사용하거나…"
+    ]
+  },
+  {
+    "concept_id": "전단강도",
+    "primary_canonical": "전단강도",
+    "domain": "소재",
+    "surfaces": [
+      "전단강도"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::바::5)",
+        "sector_name": "융복합소재",
+        "tech_name": "고기능 에폭시 수지 접착소재 제조 기술",
+        "surface": "전단강도"
+      }
+    ],
+    "sample_contexts": [
+      "에폭시 수지를 주성분으로 하여 경량 수송기기 부품의 구조접착에 사용되는 전단강도 25MPa 이상, 저온 충격강도 20N/mm 이상, T-박리강도 25…"
+    ]
+  },
+  {
+    "concept_id": "전도-세라믹",
+    "primary_canonical": "전도 세라믹(Conducting Ceramic)",
+    "domain": "소재",
+    "surfaces": [
+      "전도 세라믹(Conducting Ceramic)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::3)",
+        "sector_name": "탄소중립",
+        "tech_name": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell) 소재 기술",
+        "surface": "전도 세라믹(Conducting Ceramic)"
+      }
+    ],
+    "sample_contexts": [
+      "…, 액화석유가스(LPG), 액화천연가스(LNG) 등]의 사용이 가능하고 전도 세라믹(Conducting Ceramic)을 이용하며 복합발전시스템이 가능한 전력변환장치로서 발전용 연료전지로 사…"
+    ]
+  },
+  {
+    "concept_id": "전력계통",
+    "primary_canonical": "전력계통",
+    "domain": "에너지",
+    "surfaces": [
+      "전력계통"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "전력관리시스템 설계 및 전력변환장치 설계 및 제조 기술",
+        "surface": "전력계통"
+      }
+    ],
+    "sample_contexts": [
+      "…ower Management System) 설계 기술과 저장장치 전력과 전력계통 간의 특성을 맞춰주는 전력변환장치(PCS, Power Conversio…"
+    ]
+  },
+  {
+    "concept_id": "전력관리시스템",
+    "primary_canonical": "전력관리시스템(PMS, Power Management System)",
+    "domain": "에너지",
+    "surfaces": [
+      "전력관리시스템(PMS, Power Management System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "전력관리시스템 설계 및 전력변환장치 설계 및 제조 기술",
+        "surface": "전력관리시스템(PMS, Power Management System)"
+      }
+    ],
+    "sample_contexts": [
+      "전력을 제어하기 위한 전력관리시스템(PMS, Power Management System) 설계 기술과 저장장치 전력과 전력계통 간의 특성을 맞춰주는 전력변환장치…"
+    ]
+  },
+  {
+    "concept_id": "전력반도체",
+    "primary_canonical": "전력반도체",
+    "domain": "반도체",
+    "surfaces": [
+      "전력반도체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::1::::어.",
+        "sector_name": "반도체",
+        "tech_name": "고성능ㆍ고효율 시스템 반도체의 테스트 기술 및 테스트 관련 장비, 부품 설계ㆍ제조기술",
+        "surface": "전력반도체"
+      }
+    ],
+    "sample_contexts": [
+      "…0만화소 이상 모바일용 CMOS 이미지센서, 내전압 1,000V 이상의 전력반도체, 소스채널 900개 이상의 OLED용 DDI(Display Driver…"
+    ]
+  },
+  {
+    "concept_id": "전력변환장치",
+    "primary_canonical": "전력변환장치(PCS, Power Conversion System)",
+    "domain": "에너지",
+    "surfaces": [
+      "전력변환장치(PCS, Power Conversion System)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "전력관리시스템 설계 및 전력변환장치 설계 및 제조 기술",
+        "surface": "전력변환장치(PCS, Power Conversion System)"
+      }
+    ],
+    "sample_contexts": [
+      "…ystem) 설계 기술과 저장장치 전력과 전력계통 간의 특성을 맞춰주는 전력변환장치(PCS, Power Conversion System) 설계 및 제조 기술"
+    ]
+  },
+  {
+    "concept_id": "전로-공정",
+    "primary_canonical": "전로 공정",
+    "domain": "소재",
+    "surfaces": [
+      "전로 공정"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::라::3)",
+        "sector_name": "탄소중립",
+        "tech_name": "복합취련전로 활용 스크랩 다량 사용기술",
+        "surface": "전로 공정"
+      }
+    ],
+    "sample_contexts": [
+      "전로 공정에서 스크랩의 사용량을 높이기 위한 상저취전로 및 노내 2차 연소기술(복…"
+    ]
+  },
+  {
+    "concept_id": "전소",
+    "primary_canonical": "전소",
+    "domain": "에너지",
+    "surfaces": [
+      "전소"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::나::11)",
+        "sector_name": "탄소중립",
+        "tech_name": "산업용 수소 보일러 및 연소기 설계ㆍ제작 기술",
+        "surface": "전소"
+      }
+    ],
+    "sample_contexts": [
+      "수소 연료를 연소(혼소ㆍ전소)하여 발생하는 열에너지를 직접 사용하거나 증기ㆍ온수를 생산하는 산업용…"
+    ]
+  },
+  {
+    "concept_id": "전열관",
+    "primary_canonical": "전열관",
+    "domain": "원자력",
+    "surfaces": [
+      "전열관"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::9)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 제조 기술",
+        "surface": "전열관"
+      }
+    ],
+    "sample_contexts": [
+      "…무붕산 노심설계가 가능한 일체형 가연성흡수봉 설계ㆍ제조기술, 증기발생기 전열관 3D 벤딩 및 검사 기술, 원자로ㆍ증기발생기ㆍ가압기 등 주요 기기가 일…"
+    ]
+  },
+  {
+    "concept_id": "전열저항",
+    "primary_canonical": "전열저항",
+    "domain": "에너지",
+    "surfaces": [
+      "전열저항"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::8)",
+        "sector_name": "탄소중립",
+        "tech_name": "지열 에너지 회수 및 저장 기술",
+        "surface": "전열저항"
+      }
+    ],
+    "sample_contexts": [
+      "…는 그라우팅(grouting) 재료 제작 기술ㆍ보어홀(borehole) 전열저항 저감기술ㆍ저비용 시추기술 및 지중 축열 기술"
+    ]
+  },
+  {
+    "concept_id": "전자-정공수송층",
+    "primary_canonical": "전자ㆍ정공수송층",
+    "domain": "에너지",
+    "surfaces": [
+      "전자ㆍ정공수송층"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::다::4)",
+        "sector_name": "탄소중립",
+        "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
+        "surface": "전자ㆍ정공수송층"
+      }
+    ],
+    "sample_contexts": [
+      "고효율성 및 고내구성을 가진 대면적 웨이퍼, 광활성층, 전자ㆍ정공수송층, 투명전극, 금속전극, 금속리본, 봉지, 경량 전후면 외장 재료 등의…"
+    ]
+  },
+  {
+    "concept_id": "전자기파",
+    "primary_canonical": "전자기파",
+    "domain": "에너지",
+    "surfaces": [
+      "전자기파"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::1::나::3)",
+        "sector_name": "미래형자동차",
+        "tech_name": "전기차 초고속ㆍ고효율 무선충전 기술",
+        "surface": "전자기파"
+      }
+    ],
+    "sample_contexts": [
+      "…련하여 감전위험이 없는 비접촉 무선 전력전송 방식(자기유도, 자기공명, 전자기파)으로 배터리를 충전하기 위한 전력 전송효율 90% 이상의 초고속 고효율…"
+    ]
+  },
+  {
+    "concept_id": "전자빔-용접",
+    "primary_canonical": "전자빔 용접(EBW)",
+    "domain": "원자력",
+    "surfaces": [
+      "전자빔 용접(EBW)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::11)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "혁신 제조공법 원전 분야 적용 기술",
+        "surface": "전자빔 용접(EBW)"
+      }
+    ],
+    "sample_contexts": [
+      "분말-열간등방압성형(PM-HIP) 기술, 전자빔 용접(EBW) 기술, 다이오드 레이저 클래딩(DLC) 기술 및 원전기자재 적층제조 기…"
+    ]
+  },
+  {
+    "concept_id": "전해액",
+    "primary_canonical": "전해액",
+    "domain": "이차전지",
+    "surfaces": [
+      "전해액"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::아.",
+        "sector_name": "이차전지",
+        "tech_name": "이차전지 분리막 및 전해액 제조기술",
+        "surface": "전해액"
+      }
+    ],
+    "sample_contexts": [
+      "…안전성을 향상시키는 분리막 및 저온특성, 장수명, 안전성을 향상시키는 전해액 제조기술과 안정성 향상기술 및 관련 원료·장비 제조기술"
+    ]
+  },
+  {
+    "concept_id": "전해조",
+    "primary_canonical": "전해조",
+    "domain": "환경",
+    "surfaces": [
+      "전해조"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::라::10)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "이차전지 제조공정 염폐수 자원순환을 위한 전해조 시스템 및 전ㆍ후처리 통합 기술",
+        "surface": "전해조"
+      }
+    ],
+    "sample_contexts": [
+      "…제조공정에서 발생한 염폐수를 원료로 하여 전기분해를 통해 재자원화하는 전해조 시스템 및 전해조 구동ㆍ제품화에 적합하도록 염폐수의 농도ㆍ순도 등을 조…"
+    ]
+  },
+  {
+    "concept_id": "전해질",
+    "primary_canonical": "전해질",
+    "domain": "배터리",
+    "surfaces": [
+      "전해질"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::1)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
+        "surface": "전해질"
+      }
+    ],
+    "sample_contexts": [
+      "…지(Flow Battery)에 사용되는 전극ㆍ멤브레인(Membrane)ㆍ전해질ㆍ저가 분리판ㆍ스택(Stack) 설계 및 제조 기술과 나트륨(Sodium…"
+    ]
+  },
+  {
+    "concept_id": "전환",
+    "primary_canonical": "전환",
+    "domain": "소재",
+    "surfaces": [
+      "전환"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::차.",
+        "sector_name": "이차전지",
+        "tech_name": "양극재용 고순도 금속 화합물 제조ㆍ가공기술",
+        "surface": "전환"
+      }
+    ],
+    "sample_contexts": [
+      "금속이온 원료로부터 결정화, 정련, 전환 및 정제 기술을 활용하여 중간체 및 순도 99% 이상의 양극재용 금속화…"
+    ]
+  },
+  {
+    "concept_id": "정련",
+    "primary_canonical": "정련",
+    "domain": "소재",
+    "surfaces": [
+      "정련"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::2::::차.",
+        "sector_name": "이차전지",
+        "tech_name": "양극재용 고순도 금속 화합물 제조ㆍ가공기술",
+        "surface": "정련"
+      }
+    ],
+    "sample_contexts": [
+      "금속이온 원료로부터 결정화, 정련, 전환 및 정제 기술을 활용하여 중간체 및 순도 99% 이상의 양극재용…"
+    ]
+  },
+  {
+    "concept_id": "정밀도-c3",
+    "primary_canonical": "정밀도 C3",
+    "domain": "부품",
+    "surfaces": [
+      "정밀도 C3"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::3)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고정밀 볼스크류 설계ㆍ제조기술",
+        "surface": "정밀도 C3"
+      }
+    ],
+    "sample_contexts": [
+      "회전운동을 직선운동으로 변환하는 정밀도 C3급 이상, 축방향 공차 5μm 이내의 동력전달부품 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "정밀도-p5",
+    "primary_canonical": "정밀도 P5",
+    "domain": "부품",
+    "surfaces": [
+      "정밀도 P5"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::나::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고정밀 롤러베어링 및 볼베어링 설계ㆍ제조 기술",
+        "surface": "정밀도 P5"
+      }
+    ],
+    "sample_contexts": [
+      "…를 삽입하여 마찰을 감소시켜 고속운전을 돕거나 큰 하중에 견딜 수 있는 정밀도 P5급 이상의 기계부품 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "정수압",
+    "primary_canonical": "정수압",
+    "domain": "장비",
+    "surfaces": [
+      "정수압"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::2)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "열간 등방압 정수압 프레스 설계ㆍ제조 기술",
+        "surface": "정수압"
+      }
+    ],
+    "sample_contexts": [
+      "…속도로 냉각이 가능하고, 금속 소재를 모든 방향에서 100MPa 이상의 정수압 또는 등방압 조건으로 가압하는 직경 1,000mm 이상의 프레스 장비…"
+    ]
+  },
+  {
+    "concept_id": "제어봉집합체",
+    "primary_canonical": "제어봉집합체",
+    "domain": "원자력",
+    "surfaces": [
+      "제어봉집합체"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::9)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "SMR(Small Modular Reactor) 제조 기술",
+        "surface": "제어봉집합체"
+      }
+    ],
+    "sample_contexts": [
+      "탄력운전 대응 열적성능강화 핵연료집합체 개발ㆍ제조기술, 혁신형 제어봉집합체 개발ㆍ제조 기술, 무붕산 노심설계가 가능한 일체형 가연성흡수봉 설계ㆍ제…"
+    ]
+  },
+  {
+    "concept_id": "제염",
+    "primary_canonical": "제염",
+    "domain": "원자력",
+    "surfaces": [
+      "제염"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::6)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
+        "surface": "제염"
+      }
+    ],
+    "sample_contexts": [
+      "해체 엔지니어링, 해체 원전 계통ㆍ기기ㆍ구조물 제염기술, 금속ㆍ콘크리트구조물 절단기술, 해체 폐기물 처리ㆍ감용기술, 해체현…"
+    ]
+  },
+  {
+    "concept_id": "제제변형",
+    "primary_canonical": "제제변형",
+    "domain": "바이오",
+    "surfaces": [
+      "제제변형"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::나.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오시밀러 제조 및 개량 기술",
+        "surface": "제제변형"
+      }
+    ],
+    "sample_contexts": [
+      "…고수율(배양단계 1g/L이상) 제조공정 기술과 서열변경, 중합체 부과, 제제변형 등의 방법으로 바이오시밀러의 활성, 안정성, 지속성을 개량하여 새로운…"
+    ]
+  },
+  {
+    "concept_id": "조명광-파면",
+    "primary_canonical": "조명광 파면(wavefront)",
+    "domain": "콘텐츠",
+    "surfaces": [
+      "조명광 파면(wavefront)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::4::가::4)",
+        "sector_name": "콘텐츠",
+        "tech_name": "디지털 홀로그램(Hologram) 콘텐츠 제작기술",
+        "surface": "조명광 파면(wavefront)"
+      }
+    ],
+    "sample_contexts": [
+      "물체 형태에 대한 완벽한 3차원 정보를 조명광 파면(wavefront)의 간섭무늬 형태로 담고 있는 홀로그램 프린지(fringe) 패턴을 생성…"
+    ]
+  },
+  {
+    "concept_id": "조성",
+    "primary_canonical": "조성(composition)",
+    "domain": "배터리",
+    "surfaces": [
+      "조성(composition)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::2::마::2)",
+        "sector_name": "지능정보",
+        "tech_name": "유연한 양ㆍ음극 소재 및 전극 설계ㆍ제조기술",
+        "surface": "조성(composition)"
+      }
+    ],
+    "sample_contexts": [
+      "…유연한(flexible) 양ㆍ음극 소재 설계ㆍ제조 기술 및 해당 전극의 조성(composition)ㆍ형상(forming)의 설계ㆍ제조 기술"
+    ]
+  },
+  {
+    "concept_id": "조성-2",
+    "primary_canonical": "조성",
+    "domain": "소재",
+    "surfaces": [
+      "조성"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::1)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "고기능성 알루미늄 도금강판 제조 기술",
+        "surface": "조성"
+      }
+    ],
+    "sample_contexts": [
+      "…시간 보증 가능한 내식성이 우수한 고성능 알루미늄 도금강판 개발을 위한 조성개발, 고온성형성 향상 기술, 특수 용접기술 등의 제조기술"
+    ]
+  },
+  {
+    "concept_id": "종양-표지자",
+    "primary_canonical": "종양 표지자",
+    "domain": "바이오",
+    "surfaces": [
+      "종양 표지자"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::7::나::4)",
+        "sector_name": "바이오ㆍ헬스",
+        "tech_name": "암진단용 혈액 검사기기 및 시약의 개발 및 제조 기술",
+        "surface": "종양 표지자"
+      }
+    ],
+    "sample_contexts": [
+      "채취한 혈액으로부터 종양 표지자의 농도를 측정하여 암발생 유무를 판단하는 데 활용되는 검사기기 및 시약…"
+    ]
+  },
+  {
+    "concept_id": "주기기",
+    "primary_canonical": "주기기",
+    "domain": "원자력",
+    "surfaces": [
+      "주기기"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::4)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
+        "surface": "주기기"
+      }
+    ],
+    "sample_contexts": [
+      "…SSS, Nuclear Steam Supply System) 설계기술, 주기기 설계기술, 보조기기 및 플랜트종합(BOP, Balance of Plan…"
+    ]
+  },
+  {
+    "concept_id": "주축",
+    "primary_canonical": "주축",
+    "domain": "장비",
+    "surfaces": [
+      "주축"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::다::5)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
+        "surface": "주축"
+      }
+    ],
+    "sample_contexts": [
+      "다축 정밀 동시제어시스템을 갖추고, 회전하는 주축과 롤러, 맨드릴을 이용하여 최대 성형롤 하중 60kN 이상, 최대 성형…"
+    ]
+  },
+  {
+    "concept_id": "주파수조정",
+    "primary_canonical": "주파수조정",
+    "domain": "에너지",
+    "surfaces": [
+      "주파수조정"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::가::3)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "에너지관리시스템 기술",
+        "surface": "주파수조정"
+      }
+    ],
+    "sample_contexts": [
+      "주파수조정, 신재생연계, 수요반응 등의 응용 분야별 제어 소프트웨어 기술을 핵심으…"
+    ]
+  },
+  {
+    "concept_id": "준위",
+    "primary_canonical": "준위",
+    "domain": "원자력",
+    "surfaces": [
+      "준위"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::6)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
+        "surface": "준위"
+      }
+    ],
+    "sample_contexts": [
+      "…해체 폐기물 처리ㆍ감용기술, 해체현장 방사능 측정 및 부지복원 기술, 준위별 방폐물 관리비용 평가기술, 처분부지 조사기술, 처분시설 설계ㆍ시공 기…"
+    ]
+  },
+  {
+    "concept_id": "중성자-조사",
+    "primary_canonical": "중성자 조사",
+    "domain": "원자력",
+    "surfaces": [
+      "중성자 조사"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::14::다::2)",
+        "sector_name": "에너지ㆍ환경",
+        "tech_name": "내열 내식성 원자력 소재 기술",
+        "surface": "중성자 조사"
+      }
+    ],
+    "sample_contexts": [
+      "…및 300℃ㆍ50기압의 2차 냉각수 노출 가능), 원자로 내부 구조물(중성자 조사 및 340℃ㆍ150기압의 1차 냉각수 노출 가능) 등)을 개발하는 기술"
+    ]
+  },
+  {
+    "concept_id": "중합체-부과",
+    "primary_canonical": "중합체 부과",
+    "domain": "바이오",
+    "surfaces": [
+      "중합체 부과"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "strategic::7::::나.",
+        "sector_name": "바이오의약품",
+        "tech_name": "바이오시밀러 제조 및 개량 기술",
+        "surface": "중합체 부과"
+      }
+    ],
+    "sample_contexts": [
+      "바이오시밀러의 고수율(배양단계 1g/L이상) 제조공정 기술과 서열변경, 중합체 부과, 제제변형 등의 방법으로 바이오시밀러의 활성, 안정성, 지속성을 개량하…"
+    ]
+  },
+  {
+    "concept_id": "중희토",
+    "primary_canonical": "중희토",
+    "domain": "소재",
+    "surfaces": [
+      "중희토"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::9::사::3)",
+        "sector_name": "융복합소재",
+        "tech_name": "중희토 저감 고기능 영구자석 생산 기술",
+        "surface": "중희토"
+      }
+    ],
+    "sample_contexts": [
+      "결정립도 5μm이하 소결체 제조 및 결정립 주변 나노단위 두께의 중희토 확산층 형성 등을 통해 기존 자석 대비 중희토 함유량을 50% 이상 절…"
+    ]
+  },
+  {
+    "concept_id": "증강현실",
+    "primary_canonical": "증강현실(Augmented Reality)",
+    "domain": "콘텐츠",
+    "surfaces": [
+      "증강현실(Augmented Reality)"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::4::가::3)",
+        "sector_name": "콘텐츠",
+        "tech_name": "오감체험형 4D 콘텐츠 제작기술",
+        "surface": "증강현실(Augmented Reality)"
+      }
+    ],
+    "sample_contexts": [
+      "기존의 3D 입체영상 콘텐츠에 증강현실(Augmented Reality) 영상기술과 시각ㆍ후각ㆍ청각ㆍ미각ㆍ촉각 등의 오감체험을 통한 양방향성의…"
+    ]
+  }
+]

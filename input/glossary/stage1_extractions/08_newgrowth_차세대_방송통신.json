@@ -1,0 +1,77 @@
+[
+{
+"tech_id": "newgrowth::6::가::1)",
+"surfaces": [
+{ "surface": "소형 셀(cell)", "domain_hint": "통신" }
+]
+},
+{
+"tech_id": "newgrowth::6::가::4)",
+"surfaces": [
+{ "surface": "초저지연", "domain_hint": "통신" },
+{ "surface": "Tera-Hz", "domain_hint": "통신" },
+{ "surface": "RF", "domain_hint": "통신" },
+{ "surface": "모뎀", "domain_hint": "통신" }
+]
+},
+{
+"tech_id": "newgrowth::6::가::5)",
+"surfaces": [
+{ "surface": "IEEE(Institute of Electrical & Electronics Engineers, 국제전기전자기술자협회)", "domain_hint": "통신" },
+{ "surface": "802.11ac", "domain_hint": "통신" },
+{ "surface": "무선랜: wireless LAN", "domain_hint": "통신" }
+]
+},
+{
+"tech_id": "newgrowth::6::가::2)",
+"surfaces": [
+{ "surface": "코어네트워크(Core Network, 기간망)", "domain_hint": "통신" },
+{ "surface": "트래픽(traffic)", "domain_hint": "통신" },
+{ "surface": "네트워크(network)", "domain_hint": "통신" },
+{ "surface": "게이트웨이(gateway)", "domain_hint": "통신" },
+{ "surface": "라우터(router)", "domain_hint": "통신" },
+{ "surface": "스위치(switch)", "domain_hint": "통신" }
+]
+},
+{
+"tech_id": "newgrowth::6::가::3)",
+"surfaces": [
+{ "surface": "통신모듈", "domain_hint": "통신" },
+{ "surface": "베이스밴드(baseband, 기저대역)", "domain_hint": "통신" },
+{ "surface": "RF(radio frequency)", "domain_hint": "통신" },
+{ "surface": "칩셋(chipset)", "domain_hint": "통신" }
+]
+},
+{
+"tech_id": "newgrowth::6::나::3)",
+"surfaces": [
+{ "surface": "시그널링(signaling)", "domain_hint": "방송" },
+{ "surface": "시그널 인코더(signal encoder)", "domain_hint": "방송" },
+{ "surface": "서비스가이드 인코더(service guide encoder)", "domain_hint": "방송" },
+{ "surface": "시그널/서비스가이드 서버(signal/service guide server)", "domain_hint": "방송" },
+{ "surface": "메타데이터(metadata)", "domain_hint": "방송" },
+{ "surface": "모니터링(monitoring)", "domain_hint": "방송" },
+{ "surface": "앱 시그널링 인코더(app signaling encoder)", "domain_hint": "방송" },
+{ "surface": "푸시 서버(push server, 자동제공서버)", "domain_hint": "방송" }
+]
+},
+{
+"tech_id": "newgrowth::6::나::1)",
+"surfaces": [
+{ "surface": "공냉", "domain_hint": "방송" },
+{ "surface": "수냉", "domain_hint": "방송" },
+{ "surface": "질소냉각", "domain_hint": "방송" },
+{ "surface": "송신기", "domain_hint": "방송" }
+]
+},
+{
+"tech_id": "newgrowth::6::나::2)",
+"surfaces": [
+{ "surface": "전송 프로토콜", "domain_hint": "통신" },
+{ "surface": "ROUTE", "domain_hint": "방송" },
+{ "surface": "MMT(MPEG Media Transport)", "domain_hint": "방송" },
+{ "surface": "MPEG-2 TS(Transport System)", "domain_hint": "방송" },
+{ "surface": "다중화기", "domain_hint": "방송" }
+]
+}
+]

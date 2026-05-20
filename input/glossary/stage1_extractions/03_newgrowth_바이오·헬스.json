@@ -1,0 +1,285 @@
+[
+{
+"tech_id": "newgrowth::7::가::2)",
+"surfaces": [
+{ "surface": "항원", "domain_hint": "바이오" },
+{ "surface": "스크리닝", "domain_hint": "바이오" },
+{ "surface": "면역 기전", "domain_hint": "바이오" },
+{ "surface": "치료용 백신", "domain_hint": "바이오" },
+{ "surface": "예방용 백신", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::3)",
+"surfaces": [
+{ "surface": "유전자원", "domain_hint": "바이오" },
+{ "surface": "부본", "domain_hint": "바이오" },
+{ "surface": "모본", "domain_hint": "바이오" },
+{ "surface": "교배", "domain_hint": "바이오" },
+{ "surface": "육종기술", "domain_hint": "바이오" },
+{ "surface": "유전공학", "domain_hint": "바이오" },
+{ "surface": "프라이밍(priming)", "domain_hint": "바이오" },
+{ "surface": "코팅(coating)", "domain_hint": "바이오" },
+{ "surface": "펠렛팅(pelleting)", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::라::",
+"surfaces": [
+{ "surface": "세포활성 제어기술", "domain_hint": "바이오" },
+{ "surface": "미생물 발효", "domain_hint": "바이오" },
+{ "surface": "생물전환기술", "domain_hint": "바이오" },
+{ "surface": "활성성분", "domain_hint": "바이오" },
+{ "surface": "바이오 기술(bio technology)", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::1)",
+"surfaces": [
+{ "surface": "바이오 베터(Bio Better)", "domain_hint": "바이오" },
+{ "surface": "후보물질", "domain_hint": "바이오" },
+{ "surface": "유전자재조합기술", "domain_hint": "바이오" },
+{ "surface": "세포배양", "domain_hint": "바이오" },
+{ "surface": "펩타이드", "domain_hint": "바이오" },
+{ "surface": "핵산", "domain_hint": "바이오" },
+{ "surface": "핵산유도체", "domain_hint": "바이오" },
+{ "surface": "작용기전", "domain_hint": "바이오" },
+{ "surface": "단백질의약품", "domain_hint": "바이오" },
+{ "surface": "유전자치료제", "domain_hint": "바이오" },
+{ "surface": "항체치료제", "domain_hint": "바이오" },
+{ "surface": "세포치료제", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::10)",
+"surfaces": [
+{ "surface": "바이오의약품", "domain_hint": "바이오" },
+{ "surface": "품질 분석", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::11)",
+"surfaces": [
+{ "surface": "식물세포", "domain_hint": "바이오" },
+{ "surface": "후보물질", "domain_hint": "바이오" },
+{ "surface": "식물배양", "domain_hint": "바이오" },
+{ "surface": "정제", "domain_hint": "바이오" },
+{ "surface": "진단제", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::3)",
+"surfaces": [
+{ "surface": "바이오시밀러", "domain_hint": "바이오" },
+{ "surface": "고수율", "domain_hint": "바이오" },
+{ "surface": "서열변경", "domain_hint": "바이오" },
+{ "surface": "중합체 부과", "domain_hint": "바이오" },
+{ "surface": "제제변형", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::4)",
+"surfaces": [
+{ "surface": "화합물의약품", "domain_hint": "바이오" },
+{ "surface": "표적 수용체(Receptor)", "domain_hint": "바이오" },
+{ "surface": "효소(Enzyme)", "domain_hint": "바이오" },
+{ "surface": "반응 기전(Mechanism)", "domain_hint": "바이오" },
+{ "surface": "분자설계", "domain_hint": "바이오" },
+{ "surface": "표적체(Target)", "domain_hint": "바이오" },
+{ "surface": "라이브러리(Library)", "domain_hint": "바이오" },
+{ "surface": "고속탐색법(HTS, High Throughput Screening)", "domain_hint": "바이오" },
+{ "surface": "유기합성기술", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::5)",
+"surfaces": [
+{ "surface": "DDS(Drug Delivery System, 약물전달시스템)", "domain_hint": "바이오" },
+{ "surface": "염변경", "domain_hint": "바이오" },
+{ "surface": "이성체 제조", "domain_hint": "바이오" },
+{ "surface": "복합제 제조", "domain_hint": "바이오" },
+{ "surface": "바이오ㆍ나노기술", "domain_hint": "바이오" },
+{ "surface": "복약순응도", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::6)",
+"surfaces": [
+{ "surface": "임상약리시험", "domain_hint": "바이오" },
+{ "surface": "내약성", "domain_hint": "바이오" },
+{ "surface": "약동학적", "domain_hint": "바이오" },
+{ "surface": "약력학적", "domain_hint": "바이오" },
+{ "surface": "약물대사", "domain_hint": "바이오" },
+{ "surface": "임상1상 시험", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::7)",
+"surfaces": [
+{ "surface": "임상2상 시험", "domain_hint": "바이오" },
+{ "surface": "용량", "domain_hint": "바이오" },
+{ "surface": "투여기간", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::8)",
+"surfaces": [
+{ "surface": "임상3상 시험", "domain_hint": "바이오" },
+{ "surface": "바이오시밀러", "domain_hint": "바이오" },
+{ "surface": "임상비용", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::가::9)",
+"surfaces": [
+{ "surface": "배지", "domain_hint": "바이오" },
+{ "surface": "바이오 필터 소재", "domain_hint": "바이오" },
+{ "surface": "제형화", "domain_hint": "바이오" },
+{ "surface": "원부자재", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::1)",
+"surfaces": [
+{ "surface": "X-ray - 초음파", "domain_hint": "바이오" },
+{ "surface": "광음향 － 초음파", "domain_hint": "바이오" },
+{ "surface": "영상유도", "domain_hint": "바이오" },
+{ "surface": "체외충격파", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::2)",
+"surfaces": [
+{ "surface": "기계적 물성", "domain_hint": "바이오" },
+{ "surface": "혈전증", "domain_hint": "바이오" },
+{ "surface": "재협착률", "domain_hint": "바이오" },
+{ "surface": "생분해성 스텐트", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::3)",
+"surfaces": [
+{ "surface": "DNA(deoxyribonucleic acid)", "domain_hint": "바이오" },
+{ "surface": "RNA(ribonucleic acid)", "domain_hint": "바이오" },
+{ "surface": "염색체", "domain_hint": "바이오" },
+{ "surface": "대사물질", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::4)",
+"surfaces": [
+{ "surface": "종양 표지자", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::5)",
+"surfaces": [
+{ "surface": "객담", "domain_hint": "바이오" },
+{ "surface": "분변", "domain_hint": "바이오" },
+{ "surface": "병원체", "domain_hint": "바이오" },
+{ "surface": "검체", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::6)",
+"surfaces": [
+{ "surface": "정밀의료", "domain_hint": "바이오" },
+{ "surface": "개인건강정보", "domain_hint": "바이오" },
+{ "surface": "유전자 분석 데이터", "domain_hint": "바이오" },
+{ "surface": "정보 변환기술", "domain_hint": "바이오" },
+{ "surface": "발병도", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::나::7)",
+"surfaces": [
+{ "surface": "생체역학", "domain_hint": "바이오" },
+{ "surface": "바이오닉스", "domain_hint": "바이오" },
+{ "surface": "의공학", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::1)",
+"surfaces": [
+{ "surface": "초고압", "domain_hint": "바이오" },
+{ "surface": "고압전자기장", "domain_hint": "바이오" },
+{ "surface": "PET(Pulsed Electric Field)", "domain_hint": "바이오" },
+{ "surface": "전기저항가열(Ohmic Heating)", "domain_hint": "바이오" },
+{ "surface": "방사선 조사(irradiation)", "domain_hint": "바이오" },
+{ "surface": "과열증기(SHS, Superheated steam)", "domain_hint": "바이오" },
+{ "surface": "증기직접주입법(DSI, Direct steam injection)", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::2)",
+"surfaces": [
+{ "surface": "동정(identification)", "domain_hint": "바이오" },
+{ "surface": "안전성ㆍ기능성 평가", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::4)",
+"surfaces": [
+{ "surface": "유용미생물", "domain_hint": "바이오" },
+{ "surface": "균주개발", "domain_hint": "바이오" },
+{ "surface": "최적활성", "domain_hint": "바이오" },
+{ "surface": "발효공정", "domain_hint": "바이오" },
+{ "surface": "정제공정", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::5)",
+"surfaces": [
+{ "surface": "스마트팜", "domain_hint": "바이오" },
+{ "surface": "액츄에이터(actuator)", "domain_hint": "로봇" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::6)",
+"surfaces": [
+{ "surface": "분획ㆍ정제", "domain_hint": "바이오" },
+{ "surface": "배양ㆍ분화", "domain_hint": "바이오" },
+{ "surface": "3D 프린터", "domain_hint": "바이오" },
+{ "surface": "압출식 성형방식", "domain_hint": "바이오" },
+{ "surface": "지지체", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::다::7)",
+"surfaces": [
+{ "surface": "수분전이제어", "domain_hint": "바이오" },
+{ "surface": "원물코팅", "domain_hint": "바이오" },
+{ "surface": "라디오 주파수", "domain_hint": "바이오" },
+{ "surface": "저온 Steam 해동", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::라::1)",
+"surfaces": [
+{ "surface": "바이오매스", "domain_hint": "바이오" },
+{ "surface": "바이오플라스틱", "domain_hint": "바이오" },
+{ "surface": "유기자원", "domain_hint": "바이오" },
+{ "surface": "전환공정", "domain_hint": "바이오" },
+{ "surface": "리그닌", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::라::2)",
+"surfaces": [
+{ "surface": "세포활성 제어기술", "domain_hint": "바이오" },
+{ "surface": "미생물 발효", "domain_hint": "바이오" },
+{ "surface": "생물전환기술", "domain_hint": "바이오" },
+{ "surface": "활성성분", "domain_hint": "바이오" },
+{ "surface": "바이오 기술(bio technology)", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::7::라::3)",
+"surfaces": [
+{ "surface": "바이오 파운드리", "domain_hint": "바이오" },
+{ "surface": "유전자 편집", "domain_hint": "바이오" },
+{ "surface": "합성생물학", "domain_hint": "바이오" },
+{ "surface": "바이오파운드리", "domain_hint": "바이오" }
+]
+}
+]

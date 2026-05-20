@@ -1,0 +1,346 @@
+[
+{
+"tech_id": "strategic::4::::가.",
+"surfaces": [
+{
+"surface": "저온폴리실리콘산화물(LTPO)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "저온폴리실리콘(LTPS)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "산화물(Oxide) TFT",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "백플레인",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "실리콘(Silicon)",
+"domain_hint": "반도체"
+},
+{
+"surface": "구동소자",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "웨이퍼",
+"domain_hint": "반도체"
+},
+{
+"surface": "발광특성",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "유기물",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "진공 증발 증착",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "프린팅",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "FHD",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "고휘도",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "커버윈도우",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "AMOLED",
+"domain_hint": "디스플레이"
+}
+]
+},
+{
+"tech_id": "strategic::4::::나.",
+"surfaces": [
+{
+"surface": "반치폭(FWHM, full width at half maximum)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "RoHS(유럽 6대 제한물질 환경규제)",
+"domain_hint": "환경"
+},
+{
+"surface": "QD",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "노광",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "패터닝",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "구동소자",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "커버윈도우",
+"domain_hint": "디스플레이"
+}
+]
+},
+{
+"tech_id": "strategic::4::::다.",
+"surfaces": [
+{
+"surface": "실리콘(Silicon)",
+"domain_hint": "반도체"
+},
+{
+"surface": "사파이어(Sapphire)",
+"domain_hint": "소재"
+},
+{
+"surface": "저결함",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "에피(Epi)공정",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "RㆍGㆍB",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "마이크로 LED",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "구동소자",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "커버윈도우",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "Micro LED",
+"domain_hint": "디스플레이"
+}
+]
+},
+{
+"tech_id": "strategic::4::::라.",
+"surfaces": [
+{
+"surface": "전자이동도",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "산화물 TFT(Thin Film Transistor)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "유기물(발광ㆍ공통층)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "양자점(QD)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "화소격벽",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "폴리이미드(PI)",
+"domain_hint": "소재"
+},
+{
+"surface": "증착",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "코팅",
+"domain_hint": "소재"
+}
+]
+},
+{
+"tech_id": "strategic::4::::마.",
+"surfaces": [
+{
+"surface": "전자이동도",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "TFT(Thin Film Transistor)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "형성공정",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "노광기",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "화학적 증착기",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "이온주입기",
+"domain_hint": "반도체"
+},
+{
+"surface": "식각기",
+"domain_hint": "반도체"
+}
+]
+},
+{
+"tech_id": "strategic::4::::바.",
+"surfaces": [
+{
+"surface": "유기증착기(Evaporation)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "잉크젯장비(Inkjet)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "봉지장비(Encapsulation)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "FMM(Fine Metal Mask)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "OLED",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "화소",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "봉지 공정",
+"domain_hint": "디스플레이"
+}
+]
+},
+{
+"tech_id": "strategic::4::::사.",
+"surfaces": [
+{
+"surface": "초박형유리(Ultra Thin Glass, UTG)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "UTG",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "광학증착",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "코팅",
+"domain_hint": "소재"
+},
+{
+"surface": "투과율",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "초박형 유ㆍ무기 하이브리드 필름",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "커버 윈도우",
+"domain_hint": "디스플레이"
+}
+]
+},
+{
+"tech_id": "strategic::4::::아.",
+"surfaces": [
+{
+"surface": "에피성장",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "고순도",
+"domain_hint": "소재"
+},
+{
+"surface": "금속유기(Metal-Organic)",
+"domain_hint": "소재"
+},
+{
+"surface": "기판(substrate)",
+"domain_hint": "소재"
+},
+{
+"surface": "전극",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "접합소재",
+"domain_hint": "소재"
+},
+{
+"surface": "외부양자효율(External Quantum Efficiency, EQE)",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "에피기판",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "칩",
+"domain_hint": "반도체"
+},
+{
+"surface": "화소",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "Micro LED",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "에피 공정",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "에피 LED 칩",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "분리ㆍ보호막 공정",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "백플레인 기판",
+"domain_hint": "디스플레이"
+},
+{
+"surface": "전사ㆍ접합",
+"domain_hint": "디스플레이"
+}
+]
+}
+]

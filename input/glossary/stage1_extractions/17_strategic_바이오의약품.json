@@ -1,0 +1,77 @@
+[
+{
+"tech_id": "strategic::7::::가.",
+"surfaces": [
+{ "surface": "바이오 베터(Bio Better)", "domain_hint": "바이오" },
+{ "surface": "유전자재조합기술", "domain_hint": "바이오" },
+{ "surface": "세포배양ㆍ정제ㆍ충전", "domain_hint": "바이오" },
+{ "surface": "펩타이드", "domain_hint": "바이오" },
+{ "surface": "핵산", "domain_hint": "바이오" },
+{ "surface": "핵산유도체", "domain_hint": "바이오" },
+{ "surface": "작용기전", "domain_hint": "바이오" },
+{ "surface": "단백질의약품", "domain_hint": "바이오" },
+{ "surface": "유전자치료제", "domain_hint": "바이오" },
+{ "surface": "항체치료제", "domain_hint": "바이오" },
+{ "surface": "세포치료제", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::나.",
+"surfaces": [
+{ "surface": "바이오시밀러", "domain_hint": "바이오" },
+{ "surface": "고수율", "domain_hint": "바이오" },
+{ "surface": "서열변경", "domain_hint": "바이오" },
+{ "surface": "중합체 부과", "domain_hint": "바이오" },
+{ "surface": "제제변형", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::다.",
+"surfaces": [
+{ "surface": "비임상 시험", "domain_hint": "바이오" },
+{ "surface": "세포ㆍ동물 모델", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::라.",
+"surfaces": [
+{ "surface": "임상1상 시험", "domain_hint": "바이오" },
+{ "surface": "내약성", "domain_hint": "바이오" },
+{ "surface": "약동학적", "domain_hint": "바이오" },
+{ "surface": "약력학적", "domain_hint": "바이오" },
+{ "surface": "약물대사", "domain_hint": "바이오" },
+{ "surface": "상호작용 평가", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::마.",
+"surfaces": [
+{ "surface": "임상2상 시험", "domain_hint": "바이오" },
+{ "surface": "용량", "domain_hint": "바이오" },
+{ "surface": "투여기간", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::바.",
+"surfaces": [
+{ "surface": "임상3상 시험", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::사.",
+"surfaces": [
+{ "surface": "배지", "domain_hint": "바이오" },
+{ "surface": "분리ㆍ정제ㆍ농축", "domain_hint": "바이오" },
+{ "surface": "바이오 소재(버퍼, 필터)", "domain_hint": "바이오" },
+{ "surface": "제형화", "domain_hint": "바이오" },
+{ "surface": "원부자재", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "strategic::7::::아.",
+"surfaces": [
+{ "surface": "품질 분석", "domain_hint": "바이오" },
+{ "surface": "환경관리", "domain_hint": "바이오" }
+]
+}
+]

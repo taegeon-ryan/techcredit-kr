@@ -1,0 +1,40 @@
+[
+  {
+    "concept_id": "희토류",
+    "primary_canonical": "희토류",
+    "domain": "소재",
+    "surfaces": [
+      "희토류"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::13::가::9)",
+        "sector_name": "첨단 소재ㆍ부품ㆍ장비",
+        "tech_name": "희토류 원료 제조공정 기술",
+        "surface": "희토류"
+      }
+    ],
+    "sample_contexts": [
+      "희토류 원광으로부터 순도 95% 이상 희토류 원료를 제조하는 기술 또는 순환자…"
+    ]
+  },
+  {
+    "concept_id": "히트펌프",
+    "primary_canonical": "히트펌프",
+    "domain": "에너지",
+    "surfaces": [
+      "히트펌프"
+    ],
+    "sample_techs": [
+      {
+        "tech_id": "newgrowth::15::마::7)",
+        "sector_name": "탄소중립",
+        "tech_name": "히트펌프 적용 온도 범위 확대 및 효율 향상 기술",
+        "surface": "히트펌프"
+      }
+    ],
+    "sample_contexts": [
+      "…성능 향상과 사용 열원 확대를 통해 고온ㆍ저온의 열에너지 공급이 가능한 히트펌프 시스템 기술"
+    ]
+  }
+]

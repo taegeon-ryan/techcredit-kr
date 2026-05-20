@@ -1,0 +1,90 @@
+[
+{
+"tech_id": "strategic::9::::가.",
+"surfaces": [
+{ "surface": "비전 센서(vision sensor)", "domain_hint": "미래차" },
+{ "surface": "레이더 센서(radar sensor)", "domain_hint": "미래차" },
+{ "surface": "라이다 센서(LIDAR sensor)", "domain_hint": "미래차" },
+{ "surface": "공간정보", "domain_hint": "미래차" }
+]
+},
+{
+"tech_id": "strategic::9::::나.",
+"surfaces": [
+{ "surface": "인지 센서", "domain_hint": "미래차" },
+{ "surface": "컴퓨팅모듈", "domain_hint": "미래차" }
+]
+},
+{
+"tech_id": "strategic::9::::다.",
+"surfaces": [
+{ "surface": "주행경로 생성", "domain_hint": "미래차" },
+{ "surface": "고장예지", "domain_hint": "미래차" },
+{ "surface": "고장제어", "domain_hint": "미래차" },
+{ "surface": "다중안전설계기술", "domain_hint": "미래차" },
+{ "surface": "구동ㆍ조향ㆍ제동ㆍ제어", "domain_hint": "미래차" },
+{ "surface": "통합제어", "domain_hint": "미래차" }
+]
+},
+{
+"tech_id": "strategic::9::::라.",
+"surfaces": [
+{ "surface": "감속기ㆍ변속기", "domain_hint": "미래차" },
+{ "surface": "구동시스템", "domain_hint": "미래차" }
+]
+},
+{
+"tech_id": "strategic::9::::마.",
+"surfaces": [
+{ "surface": "전력변환장치", "domain_hint": "에너지" },
+{ "surface": "충전 인터페이스장치", "domain_hint": "미래차" }
+]
+},
+{
+"tech_id": "strategic::9::::바.",
+"surfaces": [
+{ "surface": "안면인식", "domain_hint": "AI" },
+{ "surface": "감정적 변화 감지", "domain_hint": "AI" },
+{ "surface": "모션", "domain_hint": "미래차" },
+{ "surface": "상호작용", "domain_hint": "미래차" }
+]
+},
+{
+"tech_id": "strategic::9::::사.",
+"surfaces": [
+{ "surface": "자율항해", "domain_hint": "조선" },
+{ "surface": "최적 경로", "domain_hint": "조선" },
+{ "surface": "자율항해 알고리즘", "domain_hint": "조선" },
+{ "surface": "모니터링ㆍ시뮬레이션", "domain_hint": "조선" },
+{ "surface": "기관제어", "domain_hint": "조선" },
+{ "surface": "고장예지", "domain_hint": "조선" },
+{ "surface": "원격진단", "domain_hint": "조선" },
+{ "surface": "원격정비", "domain_hint": "조선" },
+{ "surface": "네트워크 보안", "domain_hint": "보안" },
+{ "surface": "ROC(Remote Operation Center)", "domain_hint": "조선" }
+]
+},
+{
+"tech_id": "strategic::9::::아.",
+"surfaces": [
+{ "surface": "가스화물", "domain_hint": "조선" },
+{ "surface": "적하역", "domain_hint": "조선" },
+{ "surface": "화물창", "domain_hint": "조선" },
+{ "surface": "카고핸들링 시스템", "domain_hint": "조선" },
+{ "surface": "추진동력원", "domain_hint": "조선" },
+{ "surface": "연료공급시스템", "domain_hint": "조선" },
+{ "surface": "동력발생장치", "domain_hint": "조선" },
+{ "surface": "에너지저장ㆍ전력변환ㆍ배전ㆍ전력관리 시스템", "domain_hint": "에너지" },
+{ "surface": "추진장치", "domain_hint": "조선" }
+]
+},
+{
+"tech_id": "strategic::9::::자.",
+"surfaces": [
+{ "surface": "설계 자동화", "domain_hint": "조선" },
+{ "surface": "건조 공정", "domain_hint": "조선" },
+{ "surface": "데이터 취득ㆍ분석ㆍ검증", "domain_hint": "조선" },
+{ "surface": "생산운영", "domain_hint": "조선" }
+]
+}
+]

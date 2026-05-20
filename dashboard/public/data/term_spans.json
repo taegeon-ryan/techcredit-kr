@@ -1,0 +1,4276 @@
+{
+  "newgrowth::10::가::1)": [
+    {
+      "surface": "웨이퍼",
+      "concept_id": "웨이퍼"
+    },
+    {
+      "surface": "매니퓰레이션",
+      "concept_id": "매니퓰레이션"
+    }
+  ],
+  "newgrowth::10::가::2)": [
+    {
+      "surface": "태양전지",
+      "concept_id": "태양전지"
+    }
+  ],
+  "newgrowth::10::가::4)": [
+    {
+      "surface": "FPD",
+      "concept_id": "fpd"
+    },
+    {
+      "surface": "마스크",
+      "concept_id": "마스크"
+    }
+  ],
+  "newgrowth::10::가::5)": [
+    {
+      "surface": "Cat 4",
+      "concept_id": "cat-4"
+    },
+    {
+      "surface": "PL e",
+      "concept_id": "pl-e"
+    },
+    {
+      "surface": "가반하중",
+      "concept_id": "가반하중"
+    },
+    {
+      "surface": "다관절 로봇",
+      "concept_id": "다관절-로봇"
+    }
+  ],
+  "newgrowth::10::가::6)": [
+    {
+      "surface": "수직다관절로봇",
+      "concept_id": "수직다관절로봇"
+    }
+  ],
+  "newgrowth::10::다::4)": [
+    {
+      "surface": "Tele-presence",
+      "concept_id": "tele-presence"
+    },
+    {
+      "surface": "매니퓰레이터",
+      "concept_id": "매니퓰레이터"
+    }
+  ],
+  "newgrowth::10::라::2)": [
+    {
+      "surface": "모터",
+      "concept_id": "모터"
+    },
+    {
+      "surface": "드라이버",
+      "concept_id": "드라이버"
+    },
+    {
+      "surface": "감속기",
+      "concept_id": "감속기"
+    },
+    {
+      "surface": "액츄에이터(Actuator)",
+      "concept_id": "액츄에이터"
+    },
+    {
+      "surface": "엔코더",
+      "concept_id": "엔코더"
+    }
+  ],
+  "newgrowth::10::라::3)": [
+    {
+      "surface": "추종제어",
+      "concept_id": "추종제어"
+    }
+  ],
+  "newgrowth::10::라::4)": [
+    {
+      "surface": "그래픽 인터페이스",
+      "concept_id": "그래픽-인터페이스"
+    }
+  ],
+  "newgrowth::1::나::3)": [
+    {
+      "surface": "급전 인버터",
+      "concept_id": "급전-인버터"
+    },
+    {
+      "surface": "레귤레이터",
+      "concept_id": "레귤레이터"
+    },
+    {
+      "surface": "자기공명",
+      "concept_id": "자기공명"
+    },
+    {
+      "surface": "자기유도",
+      "concept_id": "자기유도"
+    },
+    {
+      "surface": "전자기파",
+      "concept_id": "전자기파"
+    },
+    {
+      "surface": "집전 픽업구조",
+      "concept_id": "집전-픽업구조"
+    }
+  ],
+  "newgrowth::7::가::2)": [
+    {
+      "surface": "면역 기전",
+      "concept_id": "면역-기전"
+    },
+    {
+      "surface": "스크리닝",
+      "concept_id": "스크리닝"
+    },
+    {
+      "surface": "항원",
+      "concept_id": "항원"
+    }
+  ],
+  "newgrowth::7::다::3)": [
+    {
+      "surface": "코팅(coating)",
+      "concept_id": "코팅"
+    },
+    {
+      "surface": "펠렛팅(pelleting)",
+      "concept_id": "펠렛팅"
+    },
+    {
+      "surface": "프라이밍(priming)",
+      "concept_id": "프라이밍"
+    }
+  ],
+  "newgrowth::7::가::4)": [
+    {
+      "surface": "고속탐색법(HTS, High Throughput Screening)",
+      "concept_id": "고속탐색법"
+    },
+    {
+      "surface": "반응 기전(Mechanism)",
+      "concept_id": "반응-기전"
+    },
+    {
+      "surface": "분자설계",
+      "concept_id": "분자설계"
+    },
+    {
+      "surface": "유기합성기술",
+      "concept_id": "유기합성기술"
+    },
+    {
+      "surface": "표적 수용체(Receptor)",
+      "concept_id": "표적-수용체"
+    },
+    {
+      "surface": "표적체(Target)",
+      "concept_id": "표적체"
+    },
+    {
+      "surface": "효소(Enzyme)",
+      "concept_id": "효소"
+    }
+  ],
+  "newgrowth::7::가::5)": [
+    {
+      "surface": "DDS(Drug Delivery System, 약물전달시스템)",
+      "concept_id": "dds"
+    },
+    {
+      "surface": "복약순응도",
+      "concept_id": "복약순응도"
+    },
+    {
+      "surface": "복합제",
+      "concept_id": "복합제"
+    },
+    {
+      "surface": "염변경",
+      "concept_id": "염변경"
+    },
+    {
+      "surface": "이성체",
+      "concept_id": "이성체"
+    }
+  ],
+  "newgrowth::7::가::6)": [
+    {
+      "surface": "내약성",
+      "concept_id": "내약성"
+    },
+    {
+      "surface": "약동학",
+      "concept_id": "약동학"
+    },
+    {
+      "surface": "약력학",
+      "concept_id": "약력학"
+    },
+    {
+      "surface": "약물대사",
+      "concept_id": "약물대사"
+    }
+  ],
+  "newgrowth::7::가::8)": [
+    {
+      "surface": "바이오시밀러",
+      "concept_id": "바이오시밀러"
+    }
+  ],
+  "newgrowth::7::나::1)": [
+    {
+      "surface": "광음향",
+      "concept_id": "광음향"
+    },
+    {
+      "surface": "영상유도",
+      "concept_id": "영상유도"
+    },
+    {
+      "surface": "체외충격파",
+      "concept_id": "체외충격파"
+    }
+  ],
+  "newgrowth::7::나::2)": [
+    {
+      "surface": "기계적 물성",
+      "concept_id": "기계적-물성"
+    },
+    {
+      "surface": "스텐트",
+      "concept_id": "스텐트"
+    },
+    {
+      "surface": "재협착률",
+      "concept_id": "재협착률"
+    },
+    {
+      "surface": "혈전증",
+      "concept_id": "혈전증"
+    }
+  ],
+  "newgrowth::7::나::3)": [
+    {
+      "surface": "DNA(deoxyribonucleic acid)",
+      "concept_id": "dna"
+    },
+    {
+      "surface": "RNA(ribonucleic acid)",
+      "concept_id": "rna"
+    },
+    {
+      "surface": "대사물질",
+      "concept_id": "대사물질"
+    },
+    {
+      "surface": "염색체",
+      "concept_id": "염색체"
+    }
+  ],
+  "newgrowth::7::나::4)": [
+    {
+      "surface": "종양 표지자",
+      "concept_id": "종양-표지자"
+    }
+  ],
+  "newgrowth::7::나::5)": [
+    {
+      "surface": "객담",
+      "concept_id": "객담"
+    },
+    {
+      "surface": "병원체",
+      "concept_id": "병원체"
+    }
+  ],
+  "newgrowth::7::나::7)": [
+    {
+      "surface": "바이오닉스",
+      "concept_id": "바이오닉스"
+    },
+    {
+      "surface": "생체역학",
+      "concept_id": "생체역학"
+    }
+  ],
+  "newgrowth::7::다::1)": [
+    {
+      "surface": "고압전자기장[PET(Pulsed Electric Field)",
+      "concept_id": "고압전자기장-pet"
+    },
+    {
+      "surface": "과열증기(SHS, Superheated steam)",
+      "concept_id": "과열증기"
+    },
+    {
+      "surface": "방사선 조사(irradiation)",
+      "concept_id": "방사선-조사"
+    },
+    {
+      "surface": "전기저항가열(Ohmic Heating)",
+      "concept_id": "전기저항가열"
+    },
+    {
+      "surface": "증기직접주입법(DSI, Direct steam injection)",
+      "concept_id": "증기직접주입법"
+    }
+  ],
+  "newgrowth::7::다::2)": [
+    {
+      "surface": "동정(identification)",
+      "concept_id": "동정"
+    }
+  ],
+  "newgrowth::7::다::4)": [
+    {
+      "surface": "균주",
+      "concept_id": "균주"
+    }
+  ],
+  "newgrowth::7::다::5)": [
+    {
+      "surface": "액츄에이터(actuator)",
+      "concept_id": "액츄에이터-2"
+    }
+  ],
+  "newgrowth::7::다::6)": [
+    {
+      "surface": "분화",
+      "concept_id": "분화"
+    },
+    {
+      "surface": "분획",
+      "concept_id": "분획"
+    },
+    {
+      "surface": "압출식 성형",
+      "concept_id": "압출식-성형"
+    },
+    {
+      "surface": "지지체",
+      "concept_id": "지지체"
+    }
+  ],
+  "newgrowth::7::다::7)": [
+    {
+      "surface": "수분전이제어",
+      "concept_id": "수분전이제어"
+    },
+    {
+      "surface": "원물코팅",
+      "concept_id": "원물코팅"
+    }
+  ],
+  "newgrowth::7::라::1)": [
+    {
+      "surface": "리그닌",
+      "concept_id": "리그닌"
+    },
+    {
+      "surface": "바이오플라스틱",
+      "concept_id": "바이오플라스틱"
+    }
+  ],
+  "newgrowth::7::라::2)": [
+    {
+      "surface": "생물전환기술",
+      "concept_id": "생물전환기술"
+    },
+    {
+      "surface": "세포활성 제어기술",
+      "concept_id": "세포활성-제어기술"
+    },
+    {
+      "surface": "활성성분",
+      "concept_id": "활성성분"
+    }
+  ],
+  "newgrowth::7::라::3)": [
+    {
+      "surface": "바이오플라스틱",
+      "concept_id": "바이오플라스틱"
+    },
+    {
+      "surface": "바이오화장품",
+      "concept_id": "바이오화장품"
+    },
+    {
+      "surface": "바이오생리활성",
+      "concept_id": "바이오생리활성"
+    },
+    {
+      "surface": "바이오파운드리",
+      "concept_id": "바이오파운드리"
+    },
+    {
+      "surface": "유전자 편집",
+      "concept_id": "유전자-편집"
+    },
+    {
+      "surface": "합성생물학",
+      "concept_id": "합성생물학"
+    }
+  ],
+  "newgrowth::17::가::1)": [
+    {
+      "surface": "기어박스",
+      "concept_id": "기어박스"
+    },
+    {
+      "surface": "완제엔진",
+      "concept_id": "완제엔진"
+    },
+    {
+      "surface": "왕복엔진",
+      "concept_id": "왕복엔진"
+    },
+    {
+      "surface": "터보샤프트엔진",
+      "concept_id": "터보샤프트엔진"
+    },
+    {
+      "surface": "터보제트엔진",
+      "concept_id": "터보제트엔진"
+    },
+    {
+      "surface": "터보팬엔진",
+      "concept_id": "터보팬엔진"
+    },
+    {
+      "surface": "터보프롭엔진",
+      "concept_id": "터보프롭엔진"
+    }
+  ],
+  "newgrowth::17::가::2)": [
+    {
+      "surface": "구조체",
+      "concept_id": "구조체"
+    },
+    {
+      "surface": "고체연료",
+      "concept_id": "고체연료"
+    },
+    {
+      "surface": "자세제어체계",
+      "concept_id": "자세제어체계"
+    },
+    {
+      "surface": "항법체계",
+      "concept_id": "항법체계"
+    }
+  ],
+  "newgrowth::17::나::1)": [
+    {
+      "surface": "유무인복합체계",
+      "concept_id": "유무인복합체계"
+    }
+  ],
+  "newgrowth::14::가::1)": [
+    {
+      "surface": "나트륨(Sodium)계 이차전지",
+      "concept_id": "나트륨계-이차전지"
+    },
+    {
+      "surface": "멤브레인(Membrane)",
+      "concept_id": "멤브레인"
+    },
+    {
+      "surface": "저가 분리판",
+      "concept_id": "저가-분리판"
+    },
+    {
+      "surface": "셀(Cell)",
+      "concept_id": "셀"
+    },
+    {
+      "surface": "스택(Stack)",
+      "concept_id": "스택"
+    },
+    {
+      "surface": "양극",
+      "concept_id": "양극"
+    },
+    {
+      "surface": "음극",
+      "concept_id": "음극"
+    },
+    {
+      "surface": "전극",
+      "concept_id": "전극"
+    },
+    {
+      "surface": "전해질",
+      "concept_id": "전해질"
+    },
+    {
+      "surface": "흐름전지(Flow Battery)",
+      "concept_id": "흐름전지"
+    }
+  ],
+  "newgrowth::14::가::2)": [
+    {
+      "surface": "전력계통",
+      "concept_id": "전력계통"
+    },
+    {
+      "surface": "전력관리시스템(PMS, Power Management System)",
+      "concept_id": "전력관리시스템"
+    },
+    {
+      "surface": "전력변환장치(PCS, Power Conversion System)",
+      "concept_id": "전력변환장치"
+    }
+  ],
+  "newgrowth::14::가::3)": [
+    {
+      "surface": "수요반응",
+      "concept_id": "수요반응"
+    },
+    {
+      "surface": "신재생연계",
+      "concept_id": "신재생연계"
+    },
+    {
+      "surface": "에너지관리시스템(EMS, Energy Management System)",
+      "concept_id": "에너지관리시스템"
+    },
+    {
+      "surface": "주파수조정",
+      "concept_id": "주파수조정"
+    }
+  ],
+  "newgrowth::14::가::5)": [
+    {
+      "surface": "C-rate",
+      "concept_id": "c-rate"
+    },
+    {
+      "surface": "리튬이차전지",
+      "concept_id": "리튬이차전지"
+    },
+    {
+      "surface": "모듈(module)",
+      "concept_id": "모듈"
+    },
+    {
+      "surface": "셀(cell)",
+      "concept_id": "셀"
+    },
+    {
+      "surface": "에너지밀도",
+      "concept_id": "에너지밀도"
+    }
+  ],
+  "newgrowth::14::가::6)": [
+    {
+      "surface": "에너지 밀도",
+      "concept_id": "에너지-밀도"
+    },
+    {
+      "surface": "이차전지 팩",
+      "concept_id": "이차전지-팩"
+    },
+    {
+      "surface": "전기동력 자동차(xEV)",
+      "concept_id": "전기동력-자동차"
+    }
+  ],
+  "newgrowth::14::나::2)": [
+    {
+      "surface": "초임계상태의 이산화탄소(supercritical CO2)",
+      "concept_id": "초임계상태의-이산화탄소"
+    }
+  ],
+  "newgrowth::14::다::10)": [
+    {
+      "surface": "원자로",
+      "concept_id": "원자로"
+    },
+    {
+      "surface": "냉각재펌프",
+      "concept_id": "냉각재펌프"
+    }
+  ],
+  "newgrowth::14::다::11)": [
+    {
+      "surface": "다이오드 레이저 클래딩(DLC)",
+      "concept_id": "다이오드-레이저-클래딩"
+    },
+    {
+      "surface": "분말-열간등방압성형(PM-HIP)",
+      "concept_id": "분말-열간등방압성형"
+    },
+    {
+      "surface": "전자빔 용접(EBW)",
+      "concept_id": "전자빔-용접"
+    }
+  ],
+  "newgrowth::14::다::2)": [
+    {
+      "surface": "중성자 조사",
+      "concept_id": "중성자-조사"
+    },
+    {
+      "surface": "증기발생기 세관",
+      "concept_id": "증기발생기-세관"
+    },
+    {
+      "surface": "핵연료 피복관",
+      "concept_id": "핵연료-피복관"
+    }
+  ],
+  "newgrowth::14::다::3)": [
+    {
+      "surface": "방사선투시",
+      "concept_id": "방사선투시"
+    },
+    {
+      "surface": "와전류",
+      "concept_id": "와전류"
+    },
+    {
+      "surface": "이리듐(Ir)-192",
+      "concept_id": "이리듐-192"
+    }
+  ],
+  "newgrowth::14::다::4)": [
+    {
+      "surface": "APR+(Advanced Power Reactor Plus)",
+      "concept_id": "apr"
+    },
+    {
+      "surface": "SMART(System-integrated Modular Advanced Reactor)",
+      "concept_id": "smart"
+    },
+    {
+      "surface": "노심",
+      "concept_id": "노심"
+    },
+    {
+      "surface": "주기기",
+      "concept_id": "주기기"
+    },
+    {
+      "surface": "보조기기",
+      "concept_id": "보조기기"
+    },
+    {
+      "surface": "원전제어계통(MMIS, Man-Machine Interface System)",
+      "concept_id": "mmis"
+    },
+    {
+      "surface": "플랜트종합(BOP, Balance of Plant)",
+      "concept_id": "bop"
+    },
+    {
+      "surface": "핵증기공급계통(NSSS, Nuclear Steam Supply System)",
+      "concept_id": "핵증기공급계통"
+    }
+  ],
+  "newgrowth::14::다::5)": [
+    {
+      "surface": "격납건물",
+      "concept_id": "격납건물"
+    },
+    {
+      "surface": "노심",
+      "concept_id": "노심"
+    },
+    {
+      "surface": "열수력",
+      "concept_id": "열수력"
+    }
+  ],
+  "newgrowth::14::다::6)": [
+    {
+      "surface": "감용기술",
+      "concept_id": "감용기술"
+    },
+    {
+      "surface": "다중방벽",
+      "concept_id": "다중방벽"
+    },
+    {
+      "surface": "준위",
+      "concept_id": "준위"
+    },
+    {
+      "surface": "방폐물",
+      "concept_id": "방폐물"
+    },
+    {
+      "surface": "부지복원",
+      "concept_id": "부지복원"
+    },
+    {
+      "surface": "제염",
+      "concept_id": "제염"
+    },
+    {
+      "surface": "피폭선량",
+      "concept_id": "피폭선량"
+    }
+  ],
+  "newgrowth::14::다::7)": [
+    {
+      "surface": "계측제어",
+      "concept_id": "계측제어"
+    },
+    {
+      "surface": "신호선",
+      "concept_id": "신호선"
+    }
+  ],
+  "newgrowth::14::다::8)": [
+    {
+      "surface": "확률론적 안전성 분석(PSA; Probabilistic Safety Assessment)",
+      "concept_id": "확률론적-안전성-분석"
+    },
+    {
+      "surface": "SMR",
+      "concept_id": "smr"
+    },
+    {
+      "surface": "열수력",
+      "concept_id": "열수력"
+    },
+    {
+      "surface": "MMIS(Man-Machine Interface System)",
+      "concept_id": "mmis"
+    },
+    {
+      "surface": "BOP(Balance Of Plant)",
+      "concept_id": "bop"
+    },
+    {
+      "surface": "계측제어",
+      "concept_id": "계측제어"
+    },
+    {
+      "surface": "노심",
+      "concept_id": "노심"
+    }
+  ],
+  "newgrowth::14::다::9)": [
+    {
+      "surface": "핵연료집합체",
+      "concept_id": "핵연료집합체"
+    },
+    {
+      "surface": "제어봉집합체",
+      "concept_id": "제어봉집합체"
+    },
+    {
+      "surface": "무붕산 노심설계",
+      "concept_id": "무붕산-노심설계"
+    },
+    {
+      "surface": "가연성흡수봉",
+      "concept_id": "가연성흡수봉"
+    },
+    {
+      "surface": "증기발생기",
+      "concept_id": "증기발생기"
+    },
+    {
+      "surface": "전열관",
+      "concept_id": "전열관"
+    },
+    {
+      "surface": "원자로",
+      "concept_id": "원자로"
+    },
+    {
+      "surface": "가압기",
+      "concept_id": "가압기"
+    }
+  ],
+  "newgrowth::14::라::1)": [
+    {
+      "surface": "기액접촉층",
+      "concept_id": "기액접촉층"
+    },
+    {
+      "surface": "세라믹필터",
+      "concept_id": "세라믹필터"
+    },
+    {
+      "surface": "습식 플라즈마(wet plasma)",
+      "concept_id": "습식-플라즈마"
+    }
+  ],
+  "newgrowth::14::라::10)": [
+    {
+      "surface": "염폐수",
+      "concept_id": "염폐수"
+    },
+    {
+      "surface": "전해조",
+      "concept_id": "전해조"
+    }
+  ],
+  "newgrowth::14::라::2)": [
+    {
+      "surface": "과급기",
+      "concept_id": "과급기"
+    },
+    {
+      "surface": "선택적촉매환원법(SCR)",
+      "concept_id": "선택적촉매환원법"
+    },
+    {
+      "surface": "질소산화물",
+      "concept_id": "질소산화물"
+    },
+    {
+      "surface": "배기배출물",
+      "concept_id": "배기배출물"
+    }
+  ],
+  "newgrowth::14::라::4)": [
+    {
+      "surface": "용융",
+      "concept_id": "용융"
+    }
+  ],
+  "newgrowth::14::라::5)": [
+    {
+      "surface": "열분해",
+      "concept_id": "열분해"
+    },
+    {
+      "surface": "해중합",
+      "concept_id": "해중합"
+    }
+  ],
+  "newgrowth::14::라::6)": [
+    {
+      "surface": "생분해성수지",
+      "concept_id": "생분해성수지"
+    },
+    {
+      "surface": "플라스틱 컴파운드",
+      "concept_id": "플라스틱-컴파운드"
+    },
+    {
+      "surface": "물성",
+      "concept_id": "물성"
+    }
+  ],
+  "newgrowth::14::라::7)": [
+    {
+      "surface": "석유계 용제",
+      "concept_id": "석유계-용제"
+    }
+  ],
+  "newgrowth::14::라::9)": [
+    {
+      "surface": "방사기술",
+      "concept_id": "방사기술"
+    },
+    {
+      "surface": "모노머",
+      "concept_id": "모노머"
+    },
+    {
+      "surface": "재중합",
+      "concept_id": "재중합"
+    },
+    {
+      "surface": "해중합",
+      "concept_id": "해중합"
+    }
+  ],
+  "newgrowth::9::가::1)": [
+    {
+      "surface": "유연지그",
+      "concept_id": "유연지그"
+    },
+    {
+      "surface": "컴퓨터 수치제어기(CNC, Computerized Numerical Controller)",
+      "concept_id": "cnc"
+    },
+    {
+      "surface": "탄소섬유복합재",
+      "concept_id": "탄소섬유복합재"
+    }
+  ],
+  "newgrowth::9::가::2)": [
+    {
+      "surface": "CNT(Carbon Nano Tube, 탄소나노튜브)",
+      "concept_id": "cnt"
+    },
+    {
+      "surface": "아라미드(Aramid)",
+      "concept_id": "아라미드"
+    },
+    {
+      "surface": "액정섬유",
+      "concept_id": "액정섬유"
+    },
+    {
+      "surface": "초고분자량폴리에틸렌(UHMWPE)",
+      "concept_id": "초고분자량폴리에틸렌"
+    },
+    {
+      "surface": "탄소섬유",
+      "concept_id": "탄소섬유"
+    }
+  ],
+  "newgrowth::9::가::3)": [
+    {
+      "surface": "콘덴서",
+      "concept_id": "콘덴서"
+    },
+    {
+      "surface": "트랜지스터",
+      "concept_id": "트랜지스터"
+    }
+  ],
+  "newgrowth::9::가::4)": [
+    {
+      "surface": "나노섬유",
+      "concept_id": "나노섬유"
+    },
+    {
+      "surface": "섬유구조체",
+      "concept_id": "섬유구조체"
+    }
+  ],
+  "newgrowth::9::가::5)": [
+    {
+      "surface": "나노섬유",
+      "concept_id": "나노섬유"
+    },
+    {
+      "surface": "섬유고분자",
+      "concept_id": "섬유고분자"
+    },
+    {
+      "surface": "열가소성",
+      "concept_id": "열가소성"
+    },
+    {
+      "surface": "셀룰로오스",
+      "concept_id": "셀룰로오스"
+    }
+  ],
+  "newgrowth::9::가::6)": [
+    {
+      "surface": "PTFE(PolyTetraFluoro Ethylene)",
+      "concept_id": "ptfe"
+    },
+    {
+      "surface": "멤브레인",
+      "concept_id": "멤브레인-2"
+    }
+  ],
+  "newgrowth::9::가::7)": [
+    {
+      "surface": "PFOA",
+      "concept_id": "pfoa"
+    },
+    {
+      "surface": "PGMEA",
+      "concept_id": "pgmea"
+    },
+    {
+      "surface": "ppb",
+      "concept_id": "ppb"
+    },
+    {
+      "surface": "계면활성제",
+      "concept_id": "계면활성제"
+    },
+    {
+      "surface": "저표면에너지",
+      "concept_id": "저표면에너지"
+    },
+    {
+      "surface": "포소화제",
+      "concept_id": "포소화제"
+    }
+  ],
+  "newgrowth::9::가::8)": [
+    {
+      "surface": "HEPA(High Efficiency Particulate Air)",
+      "concept_id": "hepa"
+    }
+  ],
+  "newgrowth::9::나::2)": [
+    {
+      "surface": "열확산능",
+      "concept_id": "열확산능"
+    }
+  ],
+  "newgrowth::9::다::": [
+    {
+      "surface": "인장강도",
+      "concept_id": "인장강도"
+    },
+    {
+      "surface": "하이퍼플라스틱(High Performance Plastics)",
+      "concept_id": "하이퍼플라스틱"
+    }
+  ],
+  "newgrowth::9::라::1)": [
+    {
+      "surface": "인장강도",
+      "concept_id": "인장강도"
+    },
+    {
+      "surface": "Mpa",
+      "concept_id": "mpa"
+    }
+  ],
+  "newgrowth::9::라::2)": [
+    {
+      "surface": "박판",
+      "concept_id": "박판"
+    }
+  ],
+  "newgrowth::9::마::1)": [
+    {
+      "surface": "강관",
+      "concept_id": "강관"
+    },
+    {
+      "surface": "용접이음매",
+      "concept_id": "용접이음매"
+    }
+  ],
+  "newgrowth::9::마::2)": [
+    {
+      "surface": "H형강",
+      "concept_id": "h형강"
+    }
+  ],
+  "newgrowth::9::마::3)": [
+    {
+      "surface": "소성가공",
+      "concept_id": "소성가공"
+    },
+    {
+      "surface": "특수강",
+      "concept_id": "특수강"
+    }
+  ],
+  "newgrowth::9::바::1)": [
+    {
+      "surface": "기밀력",
+      "concept_id": "기밀력"
+    },
+    {
+      "surface": "psi",
+      "concept_id": "psi"
+    },
+    {
+      "surface": "내유체적변화율",
+      "concept_id": "내유체적변화율"
+    },
+    {
+      "surface": "영구압축줄음율",
+      "concept_id": "영구압축줄음율"
+    }
+  ],
+  "newgrowth::9::바::2)": [
+    {
+      "surface": "Fuel-C",
+      "concept_id": "fuel-c"
+    },
+    {
+      "surface": "공중합체",
+      "concept_id": "공중합체"
+    }
+  ],
+  "newgrowth::9::바::3)": [
+    {
+      "surface": "Cis content",
+      "concept_id": "cis-content"
+    },
+    {
+      "surface": "구름저항",
+      "concept_id": "구름저항"
+    },
+    {
+      "surface": "무니점도",
+      "concept_id": "무니점도"
+    },
+    {
+      "surface": "부타디엔",
+      "concept_id": "부타디엔"
+    }
+  ],
+  "newgrowth::9::바::4)": [
+    {
+      "surface": "Haze",
+      "concept_id": "haze"
+    },
+    {
+      "surface": "관능기",
+      "concept_id": "관능기"
+    },
+    {
+      "surface": "아크릴레이트",
+      "concept_id": "아크릴레이트"
+    },
+    {
+      "surface": "에틸렌",
+      "concept_id": "에틸렌"
+    }
+  ],
+  "newgrowth::9::바::5)": [
+    {
+      "surface": "T-박리강도",
+      "concept_id": "t-박리강도"
+    },
+    {
+      "surface": "WVTR( Water Vapor Transmission Rate)",
+      "concept_id": "wvtr"
+    },
+    {
+      "surface": "비할로겐",
+      "concept_id": "비할로겐"
+    },
+    {
+      "surface": "전단강도",
+      "concept_id": "전단강도"
+    },
+    {
+      "surface": "MPa",
+      "concept_id": "mpa"
+    },
+    {
+      "surface": "에폭시 수지",
+      "concept_id": "에폭시-수지"
+    }
+  ],
+  "newgrowth::9::사::1)": [
+    {
+      "surface": "단조",
+      "concept_id": "단조"
+    },
+    {
+      "surface": "루타일",
+      "concept_id": "루타일"
+    },
+    {
+      "surface": "사염화타이타늄(TiCl4)",
+      "concept_id": "사염화타이타늄"
+    },
+    {
+      "surface": "아나타제",
+      "concept_id": "아나타제"
+    },
+    {
+      "surface": "압연",
+      "concept_id": "압연"
+    },
+    {
+      "surface": "이산화타이타늄(TiO2)",
+      "concept_id": "이산화타이타늄"
+    },
+    {
+      "surface": "잉곳",
+      "concept_id": "잉곳"
+    }
+  ],
+  "newgrowth::9::사::2)": [
+    {
+      "surface": "금속괴",
+      "concept_id": "금속괴"
+    },
+    {
+      "surface": "몰리브덴",
+      "concept_id": "몰리브덴"
+    }
+  ],
+  "newgrowth::9::사::3)": [
+    {
+      "surface": "결정립",
+      "concept_id": "결정립"
+    },
+    {
+      "surface": "소결체",
+      "concept_id": "소결체"
+    },
+    {
+      "surface": "영구자석",
+      "concept_id": "영구자석"
+    },
+    {
+      "surface": "중희토",
+      "concept_id": "중희토"
+    }
+  ],
+  "newgrowth::9::사::4)": [
+    {
+      "surface": "질소산화물",
+      "concept_id": "질소산화물"
+    },
+    {
+      "surface": "황산화물",
+      "concept_id": "황산화물"
+    }
+  ],
+  "newgrowth::9::사::5)": [
+    {
+      "surface": "전구체",
+      "concept_id": "전구체"
+    }
+  ],
+  "newgrowth::2::가::1)": [
+    {
+      "surface": "모델링(modeling)",
+      "concept_id": "모델링"
+    },
+    {
+      "surface": "지식베이스(knowledge base)",
+      "concept_id": "지식베이스"
+    },
+    {
+      "surface": "딥러닝(deep learning)",
+      "concept_id": "딥러닝"
+    },
+    {
+      "surface": "지식추론",
+      "concept_id": "지식추론"
+    }
+  ],
+  "newgrowth::2::가::2)": [
+    {
+      "surface": "자연어",
+      "concept_id": "자연어"
+    }
+  ],
+  "newgrowth::2::가::3)": [
+    {
+      "surface": "컴퓨터 비전(computer vision)",
+      "concept_id": "컴퓨터-비전"
+    }
+  ],
+  "newgrowth::2::나::1)": [
+    {
+      "surface": "대량의 네트워크(Massive IoT)",
+      "concept_id": "대량의-네트워크"
+    },
+    {
+      "surface": "저전력 초경량 네트워크 기술(LPWA: Low Power Wide Area)",
+      "concept_id": "저전력-초경량-네트워크-기술"
+    }
+  ],
+  "newgrowth::2::나::3)": [
+    {
+      "surface": "분산제어 시스템",
+      "concept_id": "분산제어-시스템"
+    },
+    {
+      "surface": "액츄에이터(Actuator)",
+      "concept_id": "액츄에이터-3"
+    },
+    {
+      "surface": "임베디드(embedded)",
+      "concept_id": "임베디드"
+    }
+  ],
+  "newgrowth::2::다::1)": [
+    {
+      "surface": "SaaS",
+      "concept_id": "saas"
+    },
+    {
+      "surface": "매쉬업(mashup)",
+      "concept_id": "매쉬업"
+    }
+  ],
+  "newgrowth::2::다::3)": [
+    {
+      "surface": "가상머신(Virtual Machine)",
+      "concept_id": "가상머신"
+    },
+    {
+      "surface": "컨테이너(container",
+      "concept_id": "컨테이너-container"
+    },
+    {
+      "surface": "클라우드 서비스 브로커리지(Cloud Service Brokerage)",
+      "concept_id": "클라우드-서비스-브로커리지"
+    }
+  ],
+  "newgrowth::2::마::2)": [
+    {
+      "surface": "전극",
+      "concept_id": "전극"
+    },
+    {
+      "surface": "양ㆍ음극",
+      "concept_id": "양-음극"
+    },
+    {
+      "surface": "조성(composition)",
+      "concept_id": "조성"
+    }
+  ],
+  "newgrowth::2::마::3)": [
+    {
+      "surface": "에너지 밀도",
+      "concept_id": "에너지-밀도"
+    }
+  ],
+  "newgrowth::2::바::3)": [
+    {
+      "surface": "엔코더(Encoder)",
+      "concept_id": "엔코더-2"
+    }
+  ],
+  "newgrowth::2::사::": [
+    {
+      "surface": "분산형 네트워크(P2P Network)",
+      "concept_id": "분산형-네트워크"
+    }
+  ],
+  "newgrowth::2::아::": [
+    {
+      "surface": "큐비트, Qubit",
+      "concept_id": "큐비트-qubit"
+    }
+  ],
+  "newgrowth::6::가::1)": [
+    {
+      "surface": "셀(cell)",
+      "concept_id": "셀-2"
+    }
+  ],
+  "newgrowth::6::가::2)": [
+    {
+      "surface": "게이트웨이(gateway)",
+      "concept_id": "게이트웨이"
+    },
+    {
+      "surface": "라우터(router)",
+      "concept_id": "라우터"
+    },
+    {
+      "surface": "스위치(switch)",
+      "concept_id": "스위치"
+    }
+  ],
+  "newgrowth::6::가::3)": [
+    {
+      "surface": "RF(radio frequency)",
+      "concept_id": "rf"
+    },
+    {
+      "surface": "베이스밴드(baseband, 기저대역)",
+      "concept_id": "베이스밴드"
+    }
+  ],
+  "newgrowth::6::가::4)": [
+    {
+      "surface": "RF",
+      "concept_id": "rf"
+    },
+    {
+      "surface": "bps",
+      "concept_id": "bps"
+    },
+    {
+      "surface": "대역",
+      "concept_id": "대역"
+    }
+  ],
+  "newgrowth::6::가::5)": [
+    {
+      "surface": "802.11ac",
+      "concept_id": "802-11ac"
+    }
+  ],
+  "newgrowth::6::나::2)": [
+    {
+      "surface": "MMT(MPEG Media Transport)",
+      "concept_id": "mmt"
+    },
+    {
+      "surface": "UHD",
+      "concept_id": "uhd"
+    },
+    {
+      "surface": "MPEG-2 TS(Transport System)",
+      "concept_id": "mpeg-2-ts"
+    },
+    {
+      "surface": "ROUTE",
+      "concept_id": "route"
+    }
+  ],
+  "newgrowth::6::나::3)": [
+    {
+      "surface": "UHD",
+      "concept_id": "uhd"
+    },
+    {
+      "surface": "메타데이터(metadata)",
+      "concept_id": "메타데이터"
+    },
+    {
+      "surface": "서비스가이드 인코더(service guide encoder)",
+      "concept_id": "서비스가이드-인코더"
+    },
+    {
+      "surface": "시그널 인코더(signal encoder)",
+      "concept_id": "시그널-인코더"
+    },
+    {
+      "surface": "시그널/서비스가이드 서버(signal/service guide server)",
+      "concept_id": "시그널-서비스가이드-서버"
+    },
+    {
+      "surface": "시그널링(signaling)",
+      "concept_id": "시그널링"
+    },
+    {
+      "surface": "앱 시그널링 인코더(app signaling encoder)",
+      "concept_id": "앱-시그널링-인코더"
+    }
+  ],
+  "newgrowth::12::가::2)": [
+    {
+      "surface": "보조연산장치",
+      "concept_id": "보조연산장치"
+    },
+    {
+      "surface": "연산가속장치",
+      "concept_id": "연산가속장치"
+    },
+    {
+      "surface": "중앙연산장치(CPU)",
+      "concept_id": "cpu"
+    }
+  ],
+  "newgrowth::12::가::3)": [
+    {
+      "surface": "분산 컴퓨팅",
+      "concept_id": "분산-컴퓨팅"
+    }
+  ],
+  "newgrowth::12::가::4)": [
+    {
+      "surface": "비휘발성 메모리",
+      "concept_id": "비휘발성-메모리"
+    }
+  ],
+  "newgrowth::12::나::3)": [
+    {
+      "surface": "양자컴퓨팅(quantum computing)",
+      "concept_id": "양자컴퓨팅"
+    }
+  ],
+  "newgrowth::5::가::1)": [
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "뉴럴넷(Neural Network)",
+      "concept_id": "뉴럴넷"
+    },
+    {
+      "surface": "매니코어(Many Core)",
+      "concept_id": "매니코어"
+    },
+    {
+      "surface": "슈퍼프로세서",
+      "concept_id": "슈퍼프로세서"
+    }
+  ],
+  "newgrowth::5::가::10)": [
+    {
+      "surface": "RF(Radio Frequency)",
+      "concept_id": "rf"
+    },
+    {
+      "surface": "공진",
+      "concept_id": "공진"
+    },
+    {
+      "surface": "유도",
+      "concept_id": "유도"
+    }
+  ],
+  "newgrowth::5::가::11)": [
+    {
+      "surface": "다이싱(dicing)",
+      "concept_id": "다이싱"
+    },
+    {
+      "surface": "패키징",
+      "concept_id": "패키징"
+    }
+  ],
+  "newgrowth::5::가::2)": [
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    }
+  ],
+  "newgrowth::5::가::3)": [
+    {
+      "surface": "2D/2.5D/3D 패키징",
+      "concept_id": "2d-2-5d-3d-패키징"
+    },
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "파운드리(Foundry)",
+      "concept_id": "파운드리"
+    },
+    {
+      "surface": "파운드리",
+      "concept_id": "파운드리"
+    },
+    {
+      "surface": "후공정",
+      "concept_id": "후공정"
+    }
+  ],
+  "newgrowth::5::가::4)": [
+    {
+      "surface": "D램(DRAM)",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "PRAM(Phase-change Random Access Memory)",
+      "concept_id": "pram"
+    },
+    {
+      "surface": "ReRAM(Resistive Random Access Memory)",
+      "concept_id": "reram"
+    },
+    {
+      "surface": "STT-MRAM(Spin Transfer Torque-Magnetic Random Access Memory)",
+      "concept_id": "stt-mram"
+    },
+    {
+      "surface": "낸드 플래시메모리(Nand Flash Memory)",
+      "concept_id": "낸드플래시메모리"
+    }
+  ],
+  "newgrowth::5::가::5)": [
+    {
+      "surface": "CMOS 이미지센서",
+      "concept_id": "cmos-이미지센서"
+    },
+    {
+      "surface": "MEMS[Micro Electro Mechanical System, 기계부품ㆍ센서(sensor)ㆍ액츄에이터(actuator) 및 전자회로를 하나의 기판 위에 집적화)]",
+      "concept_id": "mems-micro-electro-mechanical-system-기계부품-센서-액츄에이터-및-전자회로를-하"
+    },
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "액츄에이터(actuator)",
+      "concept_id": "액츄에이터-4"
+    }
+  ],
+  "newgrowth::5::가::6)": [
+    {
+      "surface": "ECU(Electronic control unit)",
+      "concept_id": "ecu"
+    },
+    {
+      "surface": "MCU(Micro controller unit)",
+      "concept_id": "mcu"
+    },
+    {
+      "surface": "파워IC",
+      "concept_id": "파워ic"
+    }
+  ],
+  "newgrowth::5::가::7)": [
+    {
+      "surface": "IGBT",
+      "concept_id": "igbt"
+    },
+    {
+      "surface": "MOSFET(MOS field-effect transistor)",
+      "concept_id": "mosfet"
+    },
+    {
+      "surface": "SiC MOSFET",
+      "concept_id": "sic-mosfet"
+    },
+    {
+      "surface": "SJ(Super Junction) MOSFET",
+      "concept_id": "sj-mosfet"
+    },
+    {
+      "surface": "인버터",
+      "concept_id": "인버터"
+    }
+  ],
+  "newgrowth::5::가::8)": [
+    {
+      "surface": "D램",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "낸드플래시메모리",
+      "concept_id": "낸드플래시메모리"
+    }
+  ],
+  "newgrowth::5::가::9)": [
+    {
+      "surface": "BCDMOS(Bipolar /Complementary/Double-diffused metal-oxide-semiconductor)",
+      "concept_id": "bcdmos"
+    }
+  ],
+  "newgrowth::5::나::1)": [
+    {
+      "surface": "ArF(불화아르곤)",
+      "concept_id": "arf"
+    },
+    {
+      "surface": "EUV(극자외선)",
+      "concept_id": "euv"
+    },
+    {
+      "surface": "리소그래피(lithography)",
+      "concept_id": "리소그래피"
+    },
+    {
+      "surface": "Photoresist",
+      "concept_id": "photoresist"
+    },
+    {
+      "surface": "현상(Developing)",
+      "concept_id": "현상"
+    }
+  ],
+  "newgrowth::5::나::10)": [
+    {
+      "surface": "감광성 코팅",
+      "concept_id": "감광성-코팅"
+    },
+    {
+      "surface": "패키징",
+      "concept_id": "패키징"
+    }
+  ],
+  "newgrowth::5::나::2)": [
+    {
+      "surface": "high-k dielectric",
+      "concept_id": "high-k-dielectric"
+    },
+    {
+      "surface": "박막",
+      "concept_id": "박막"
+    },
+    {
+      "surface": "증착",
+      "concept_id": "증착"
+    },
+    {
+      "surface": "ALD",
+      "concept_id": "ald"
+    },
+    {
+      "surface": "이산화규소(SiO2)",
+      "concept_id": "이산화규소"
+    },
+    {
+      "surface": "전구체",
+      "concept_id": "전구체"
+    },
+    {
+      "surface": "CVD",
+      "concept_id": "cvd"
+    }
+  ],
+  "newgrowth::5::나::3)": [
+    {
+      "surface": "불화수소",
+      "concept_id": "불화수소"
+    }
+  ],
+  "newgrowth::5::나::4)": [
+    {
+      "surface": "블랭크마스크",
+      "concept_id": "블랭크마스크"
+    },
+    {
+      "surface": "스터러링용 타겟",
+      "concept_id": "스터러링용-타겟"
+    },
+    {
+      "surface": "펠리클(Pellicle)",
+      "concept_id": "펠리클"
+    },
+    {
+      "surface": "합성 쿼츠",
+      "concept_id": "합성-쿼츠"
+    },
+    {
+      "surface": "ArF(불화아르곤)",
+      "concept_id": "arf"
+    },
+    {
+      "surface": "EUV(극자외선)",
+      "concept_id": "euv"
+    }
+  ],
+  "newgrowth::5::나::5)": [
+    {
+      "surface": "D램",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "낸드플래시메모리",
+      "concept_id": "낸드플래시메모리"
+    },
+    {
+      "surface": "에피텍셜 반도체",
+      "concept_id": "에피텍셜-반도체"
+    }
+  ],
+  "newgrowth::5::나::6)": [
+    {
+      "surface": "D램(DRAM)",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "낸드 플래시메모리(Nand Flash Memory)",
+      "concept_id": "낸드플래시메모리"
+    }
+  ],
+  "newgrowth::5::나::8)": [
+    {
+      "surface": "SiNx",
+      "concept_id": "sinx"
+    },
+    {
+      "surface": "SiOx",
+      "concept_id": "siox"
+    },
+    {
+      "surface": "고선택비",
+      "concept_id": "고선택비"
+    },
+    {
+      "surface": "식각",
+      "concept_id": "식각"
+    },
+    {
+      "surface": "인산계 식각액",
+      "concept_id": "인산계-식각액"
+    }
+  ],
+  "newgrowth::5::나::9)": [
+    {
+      "surface": "용융",
+      "concept_id": "용융-2"
+    }
+  ],
+  "newgrowth::5::다::1)": [
+    {
+      "surface": "AMOLED",
+      "concept_id": "amoled"
+    },
+    {
+      "surface": "산화물(Oxide) TFT(Thin Film Transistor",
+      "concept_id": "산화물-tft-thin-film-transistor"
+    },
+    {
+      "surface": "저온폴리실리콘(LTPS, Low Temperature Poly Silicon)",
+      "concept_id": "저온폴리실리콘"
+    },
+    {
+      "surface": "진공 증발 증착",
+      "concept_id": "진공-증발-증착"
+    }
+  ],
+  "newgrowth::5::다::2)": [
+    {
+      "surface": "박막",
+      "concept_id": "박막-2"
+    },
+    {
+      "surface": "식각",
+      "concept_id": "식각-2"
+    },
+    {
+      "surface": "플라즈마(plasma)",
+      "concept_id": "플라즈마"
+    }
+  ],
+  "newgrowth::5::다::3)": [
+    {
+      "surface": "봉지",
+      "concept_id": "봉지"
+    },
+    {
+      "surface": "TFT(Thin Film Transistor)",
+      "concept_id": "tft"
+    }
+  ],
+  "newgrowth::5::다::4)": [
+    {
+      "surface": "black uniformity",
+      "concept_id": "black-uniformity"
+    },
+    {
+      "surface": "다결정 저온 폴리실리콘(LTPS-LCD)",
+      "concept_id": "다결정-저온-폴리실리콘"
+    }
+  ],
+  "newgrowth::5::다::5)": [
+    {
+      "surface": "마이크로 LED",
+      "concept_id": "마이크로led"
+    },
+    {
+      "surface": "에피공정",
+      "concept_id": "에피공정"
+    }
+  ],
+  "newgrowth::5::다::7)": [
+    {
+      "surface": "QD",
+      "concept_id": "qd"
+    }
+  ],
+  "newgrowth::5::라::": [
+    {
+      "surface": "금속분말",
+      "concept_id": "금속분말"
+    },
+    {
+      "surface": "액체수지",
+      "concept_id": "액체수지"
+    }
+  ],
+  "newgrowth::13::가::1)": [
+    {
+      "surface": "SST",
+      "concept_id": "sst"
+    },
+    {
+      "surface": "KSD9502",
+      "concept_id": "ksd9502"
+    },
+    {
+      "surface": "고온성형성",
+      "concept_id": "고온성형성"
+    },
+    {
+      "surface": "조성",
+      "concept_id": "조성-2"
+    }
+  ],
+  "newgrowth::13::가::10)": [
+    {
+      "surface": "저철손",
+      "concept_id": "저철손"
+    },
+    {
+      "surface": "전기강판",
+      "concept_id": "전기강판"
+    }
+  ],
+  "newgrowth::13::가::11)": [
+    {
+      "surface": "기능화 그래핀",
+      "concept_id": "기능화-그래핀"
+    }
+  ],
+  "newgrowth::13::가::12)": [
+    {
+      "surface": "에어로겔",
+      "concept_id": "에어로겔"
+    }
+  ],
+  "newgrowth::13::가::13)": [
+    {
+      "surface": "MLCC",
+      "concept_id": "mlcc"
+    },
+    {
+      "surface": "니켈 나노분말",
+      "concept_id": "니켈-나노분말"
+    },
+    {
+      "surface": "니켈 페이스트",
+      "concept_id": "니켈-페이스트"
+    }
+  ],
+  "newgrowth::13::가::2)": [
+    {
+      "surface": "산화알루미늄",
+      "concept_id": "산화알루미늄"
+    }
+  ],
+  "newgrowth::13::가::3)": [
+    {
+      "surface": "압전결정소자",
+      "concept_id": "압전결정소자"
+    },
+    {
+      "surface": "트랜스듀서",
+      "concept_id": "트랜스듀서"
+    }
+  ],
+  "newgrowth::13::가::4)": [
+    {
+      "surface": "등방블록",
+      "concept_id": "등방블록"
+    },
+    {
+      "surface": "전극봉",
+      "concept_id": "전극봉"
+    },
+    {
+      "surface": "코크스",
+      "concept_id": "코크스"
+    },
+    {
+      "surface": "피치",
+      "concept_id": "피치"
+    }
+  ],
+  "newgrowth::13::가::5)": [
+    {
+      "surface": "나노 실리콘",
+      "concept_id": "나노-실리콘"
+    },
+    {
+      "surface": "음극재",
+      "concept_id": "음극재"
+    },
+    {
+      "surface": "카본코팅",
+      "concept_id": "카본코팅"
+    }
+  ],
+  "newgrowth::13::가::6)": [
+    {
+      "surface": "도전재",
+      "concept_id": "도전재"
+    },
+    {
+      "surface": "비철계",
+      "concept_id": "비철계"
+    },
+    {
+      "surface": "열화 현상",
+      "concept_id": "열화-현상"
+    },
+    {
+      "surface": "탄소나노튜브(CNT, Carbon Nanotube)",
+      "concept_id": "cnt"
+    },
+    {
+      "surface": "CNT",
+      "concept_id": "cnt"
+    },
+    {
+      "surface": "전극",
+      "concept_id": "전극"
+    }
+  ],
+  "newgrowth::13::가::7)": [
+    {
+      "surface": "리튬화합물",
+      "concept_id": "리튬화합물"
+    },
+    {
+      "surface": "선광",
+      "concept_id": "선광"
+    },
+    {
+      "surface": "염화",
+      "concept_id": "염화"
+    }
+  ],
+  "newgrowth::13::가::8)": [
+    {
+      "surface": "고압산침출",
+      "concept_id": "고압산침출"
+    },
+    {
+      "surface": "라테라이트",
+      "concept_id": "라테라이트"
+    },
+    {
+      "surface": "질산침출",
+      "concept_id": "질산침출"
+    }
+  ],
+  "newgrowth::13::가::9)": [
+    {
+      "surface": "형광체",
+      "concept_id": "형광체"
+    },
+    {
+      "surface": "희토류",
+      "concept_id": "희토류"
+    }
+  ],
+  "newgrowth::13::나::1)": [
+    {
+      "surface": "구름베어링",
+      "concept_id": "구름베어링"
+    },
+    {
+      "surface": "롤러",
+      "concept_id": "롤러"
+    },
+    {
+      "surface": "볼",
+      "concept_id": "볼"
+    },
+    {
+      "surface": "정밀도 P5",
+      "concept_id": "정밀도-p5"
+    }
+  ],
+  "newgrowth::13::나::2)": [
+    {
+      "surface": "컨트롤 벨브",
+      "concept_id": "컨트롤-벨브"
+    },
+    {
+      "surface": "B5",
+      "concept_id": "b5"
+    },
+    {
+      "surface": "유압 액추에이터",
+      "concept_id": "유압-액추에이터"
+    },
+    {
+      "surface": "유압모터",
+      "concept_id": "유압모터"
+    }
+  ],
+  "newgrowth::13::나::3)": [
+    {
+      "surface": "공차",
+      "concept_id": "공차"
+    },
+    {
+      "surface": "정밀도 C3",
+      "concept_id": "정밀도-c3"
+    }
+  ],
+  "newgrowth::13::나::5)": [
+    {
+      "surface": "블레이드",
+      "concept_id": "블레이드"
+    },
+    {
+      "surface": "임펠러",
+      "concept_id": "임펠러"
+    },
+    {
+      "surface": "터보식 펌프",
+      "concept_id": "터보식-펌프"
+    }
+  ],
+  "newgrowth::13::나::6)": [
+    {
+      "surface": "굴절률(nd)",
+      "concept_id": "굴절률"
+    },
+    {
+      "surface": "원적외선",
+      "concept_id": "원적외선"
+    },
+    {
+      "surface": "자외광",
+      "concept_id": "자외광"
+    }
+  ],
+  "newgrowth::13::나::7)": [
+    {
+      "surface": "적층세라믹컨덴서",
+      "concept_id": "적층세라믹컨덴서"
+    }
+  ],
+  "newgrowth::13::나::8)": [
+    {
+      "surface": "방폭형 모터",
+      "concept_id": "방폭형-모터"
+    },
+    {
+      "surface": "수소 연료전지",
+      "concept_id": "수소-연료전지"
+    }
+  ],
+  "newgrowth::13::다::1)": [
+    {
+      "surface": "CNC(Computerized Numerical Controller)",
+      "concept_id": "cnc"
+    },
+    {
+      "surface": "드릴링",
+      "concept_id": "드릴링"
+    },
+    {
+      "surface": "머시닝센터",
+      "concept_id": "머시닝센터"
+    },
+    {
+      "surface": "밀링",
+      "concept_id": "밀링"
+    },
+    {
+      "surface": "보링가공",
+      "concept_id": "보링가공"
+    },
+    {
+      "surface": "자동공구교환장치(Automatic Tool Changer)",
+      "concept_id": "자동공구교환장치"
+    }
+  ],
+  "newgrowth::13::다::2)": [
+    {
+      "surface": "등방압",
+      "concept_id": "등방압"
+    },
+    {
+      "surface": "압력매체",
+      "concept_id": "압력매체"
+    },
+    {
+      "surface": "정수압",
+      "concept_id": "정수압"
+    }
+  ],
+  "newgrowth::13::다::3)": [
+    {
+      "surface": "결합제",
+      "concept_id": "결합제"
+    },
+    {
+      "surface": "고정도",
+      "concept_id": "고정도"
+    },
+    {
+      "surface": "숫돌",
+      "concept_id": "숫돌"
+    }
+  ],
+  "newgrowth::13::다::4)": [
+    {
+      "surface": "스카이빙",
+      "concept_id": "스카이빙"
+    }
+  ],
+  "newgrowth::13::다::5)": [
+    {
+      "surface": "맨드릴",
+      "concept_id": "맨드릴"
+    },
+    {
+      "surface": "주축",
+      "concept_id": "주축"
+    },
+    {
+      "surface": "롤러",
+      "concept_id": "롤러-2"
+    },
+    {
+      "surface": "성형",
+      "concept_id": "성형"
+    }
+  ],
+  "newgrowth::13::다::6)": [
+    {
+      "surface": "베어링",
+      "concept_id": "베어링"
+    }
+  ],
+  "newgrowth::13::다::7)": [
+    {
+      "surface": "레이저 가공헤드",
+      "concept_id": "레이저-가공헤드"
+    },
+    {
+      "surface": "용융",
+      "concept_id": "용융-3"
+    }
+  ],
+  "newgrowth::13::다::8)": [
+    {
+      "surface": "난삭재",
+      "concept_id": "난삭재"
+    },
+    {
+      "surface": "초경합금",
+      "concept_id": "초경합금"
+    }
+  ],
+  "newgrowth::4::가::3)": [
+    {
+      "surface": "증강현실(Augmented Reality)",
+      "concept_id": "증강현실"
+    }
+  ],
+  "newgrowth::4::가::4)": [
+    {
+      "surface": "간섭무늬",
+      "concept_id": "간섭무늬"
+    },
+    {
+      "surface": "조명광 파면(wavefront)",
+      "concept_id": "조명광-파면"
+    },
+    {
+      "surface": "프린지(fringe)",
+      "concept_id": "프린지"
+    },
+    {
+      "surface": "홀로그램",
+      "concept_id": "홀로그램"
+    }
+  ],
+  "newgrowth::4::나::1)": [
+    {
+      "surface": "UI(User Interface)",
+      "concept_id": "ui"
+    },
+    {
+      "surface": "게임엔진",
+      "concept_id": "게임엔진"
+    }
+  ],
+  "newgrowth::4::나::2)": [
+    {
+      "surface": "사전시각화(pre-visualization)",
+      "concept_id": "사전시각화"
+    }
+  ],
+  "newgrowth::4::나::3)": [
+    {
+      "surface": "머신러닝",
+      "concept_id": "머신러닝"
+    },
+    {
+      "surface": "게임엔진",
+      "concept_id": "게임엔진"
+    },
+    {
+      "surface": "버추얼 프로덕션(virtual production)",
+      "concept_id": "버추얼-프로덕션"
+    },
+    {
+      "surface": "에셋",
+      "concept_id": "에셋"
+    }
+  ],
+  "newgrowth::15::가::1)": [
+    {
+      "surface": "분리막",
+      "concept_id": "분리막"
+    },
+    {
+      "surface": "흡수제",
+      "concept_id": "흡수제"
+    },
+    {
+      "surface": "흡착제",
+      "concept_id": "흡착제"
+    }
+  ],
+  "newgrowth::15::가::2)": [
+    {
+      "surface": "분리막",
+      "concept_id": "분리막"
+    },
+    {
+      "surface": "흡수제",
+      "concept_id": "흡수제"
+    },
+    {
+      "surface": "흡착제",
+      "concept_id": "흡착제"
+    }
+  ],
+  "newgrowth::15::가::3)": [
+    {
+      "surface": "CLC(Chemical Looping Cycle)",
+      "concept_id": "clc"
+    },
+    {
+      "surface": "미분탄",
+      "concept_id": "미분탄"
+    },
+    {
+      "surface": "세라믹-메탈 복합분리막(Ceramic-metal composite membrane)",
+      "concept_id": "세라믹-메탈-복합분리막"
+    },
+    {
+      "surface": "순산소연소",
+      "concept_id": "순산소연소"
+    },
+    {
+      "surface": "심냉법",
+      "concept_id": "심냉법"
+    },
+    {
+      "surface": "이온전도성분리막(ITM, Ion Transfer Membrane)",
+      "concept_id": "이온전도성분리막"
+    }
+  ],
+  "newgrowth::15::나::10)": [
+    {
+      "surface": "가스터빈",
+      "concept_id": "가스터빈"
+    },
+    {
+      "surface": "미분탄 보일러",
+      "concept_id": "미분탄-보일러"
+    },
+    {
+      "surface": "연료전지",
+      "concept_id": "연료전지"
+    },
+    {
+      "surface": "유동층 보일러",
+      "concept_id": "유동층-보일러"
+    }
+  ],
+  "newgrowth::15::나::11)": [
+    {
+      "surface": "전소",
+      "concept_id": "전소"
+    },
+    {
+      "surface": "혼소",
+      "concept_id": "혼소"
+    }
+  ],
+  "newgrowth::15::나::12)": [
+    {
+      "surface": "연료전지",
+      "concept_id": "연료전지"
+    }
+  ],
+  "newgrowth::15::나::2)": [
+    {
+      "surface": "가성소다",
+      "concept_id": "가성소다"
+    }
+  ],
+  "newgrowth::15::나::4)": [
+    {
+      "surface": "LNG냉열",
+      "concept_id": "lng냉열"
+    },
+    {
+      "surface": "예냉사이클",
+      "concept_id": "예냉사이클"
+    }
+  ],
+  "newgrowth::15::나::9)": [
+    {
+      "surface": "화물창",
+      "concept_id": "화물창"
+    },
+    {
+      "surface": "적하역",
+      "concept_id": "적하역"
+    },
+    {
+      "surface": "카고핸들링",
+      "concept_id": "카고핸들링"
+    }
+  ],
+  "newgrowth::15::다::1)": [
+    {
+      "surface": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell)",
+      "concept_id": "고체산화물-연료전지"
+    },
+    {
+      "surface": "셀",
+      "concept_id": "셀-3"
+    },
+    {
+      "surface": "분리판",
+      "concept_id": "분리판"
+    },
+    {
+      "surface": "스택",
+      "concept_id": "스택-2"
+    },
+    {
+      "surface": "지지형셀",
+      "concept_id": "지지형셀"
+    }
+  ],
+  "newgrowth::15::다::12)": [
+    {
+      "surface": "열전소자",
+      "concept_id": "열전소자"
+    },
+    {
+      "surface": "유기냉매",
+      "concept_id": "유기냉매"
+    },
+    {
+      "surface": "초임계 이산화탄소",
+      "concept_id": "초임계-이산화탄소"
+    }
+  ],
+  "newgrowth::15::다::13)": [
+    {
+      "surface": "semi-wet 방식",
+      "concept_id": "semi-wet-방식"
+    },
+    {
+      "surface": "장조장",
+      "concept_id": "장조장"
+    }
+  ],
+  "newgrowth::15::다::14)": [
+    {
+      "surface": "n형 대면적",
+      "concept_id": "n형-대면적"
+    },
+    {
+      "surface": "결정질 실리콘",
+      "concept_id": "결정질-실리콘"
+    },
+    {
+      "surface": "출력밀도",
+      "concept_id": "출력밀도"
+    }
+  ],
+  "newgrowth::15::다::3)": [
+    {
+      "surface": "연료전지",
+      "concept_id": "연료전지"
+    },
+    {
+      "surface": "전도 세라믹(Conducting Ceramic)",
+      "concept_id": "전도-세라믹"
+    }
+  ],
+  "newgrowth::15::다::4)": [
+    {
+      "surface": "광활성층",
+      "concept_id": "광활성층"
+    },
+    {
+      "surface": "금속리본",
+      "concept_id": "금속리본"
+    },
+    {
+      "surface": "금속전극",
+      "concept_id": "금속전극"
+    },
+    {
+      "surface": "모듈",
+      "concept_id": "모듈-2"
+    },
+    {
+      "surface": "셀",
+      "concept_id": "셀-3"
+    },
+    {
+      "surface": "봉지",
+      "concept_id": "봉지-2"
+    },
+    {
+      "surface": "웨이퍼",
+      "concept_id": "웨이퍼"
+    },
+    {
+      "surface": "전자ㆍ정공수송층",
+      "concept_id": "전자-정공수송층"
+    },
+    {
+      "surface": "투명전극",
+      "concept_id": "투명전극"
+    }
+  ],
+  "newgrowth::15::다::5)": [
+    {
+      "surface": "베어링(bearing)",
+      "concept_id": "베어링"
+    },
+    {
+      "surface": "블레이드(blade)",
+      "concept_id": "블레이드-2"
+    },
+    {
+      "surface": "유성기어(planet carrier)",
+      "concept_id": "유성기어"
+    },
+    {
+      "surface": "이음쇠(coupling)",
+      "concept_id": "이음쇠"
+    },
+    {
+      "surface": "축(shaft)",
+      "concept_id": "축"
+    }
+  ],
+  "newgrowth::15::다::6)": [
+    {
+      "surface": "고정자(stator)",
+      "concept_id": "고정자"
+    },
+    {
+      "surface": "동기발전기",
+      "concept_id": "동기발전기"
+    },
+    {
+      "surface": "변환기",
+      "concept_id": "변환기"
+    },
+    {
+      "surface": "유도발전기",
+      "concept_id": "유도발전기"
+    },
+    {
+      "surface": "이중여자",
+      "concept_id": "이중여자"
+    },
+    {
+      "surface": "회전자(rotor)",
+      "concept_id": "회전자"
+    }
+  ],
+  "newgrowth::15::다::7)": [
+    {
+      "surface": "블레이드(Blade)",
+      "concept_id": "블레이드-2"
+    }
+  ],
+  "newgrowth::15::다::8)": [
+    {
+      "surface": "그라우팅(grouting)",
+      "concept_id": "그라우팅"
+    },
+    {
+      "surface": "보어홀(borehole)",
+      "concept_id": "보어홀"
+    },
+    {
+      "surface": "전열저항",
+      "concept_id": "전열저항"
+    },
+    {
+      "surface": "지중 축열",
+      "concept_id": "지중-축열"
+    }
+  ],
+  "newgrowth::15::다::9)": [
+    {
+      "surface": "심부",
+      "concept_id": "심부"
+    },
+    {
+      "surface": "심부시추공",
+      "concept_id": "심부시추공"
+    },
+    {
+      "surface": "인공 지열저류층 생성기술(enhanced geothermal system)",
+      "concept_id": "인공-지열저류층-생성기술"
+    },
+    {
+      "surface": "지열수",
+      "concept_id": "지열수"
+    },
+    {
+      "surface": "지열유체",
+      "concept_id": "지열유체"
+    }
+  ],
+  "newgrowth::15::라::10)": [
+    {
+      "surface": "GWP(Global Warming Potential)",
+      "concept_id": "gwp"
+    },
+    {
+      "surface": "식각",
+      "concept_id": "식각"
+    },
+    {
+      "surface": "증착",
+      "concept_id": "증착"
+    }
+  ],
+  "newgrowth::15::라::11)": [
+    {
+      "surface": "불소화합물",
+      "concept_id": "불소화합물"
+    },
+    {
+      "surface": "아산화질소",
+      "concept_id": "아산화질소"
+    }
+  ],
+  "newgrowth::15::라::12)": [
+    {
+      "surface": "MMSCFD(Million Metric Standard Cubic Feet per Day)",
+      "concept_id": "mmscfd"
+    }
+  ],
+  "newgrowth::15::라::13)": [
+    {
+      "surface": "단조",
+      "concept_id": "단조"
+    },
+    {
+      "surface": "압연",
+      "concept_id": "압연"
+    }
+  ],
+  "newgrowth::15::라::14)": [
+    {
+      "surface": "수소환원철",
+      "concept_id": "수소환원철"
+    },
+    {
+      "surface": "용해공정",
+      "concept_id": "용해공정"
+    },
+    {
+      "surface": "전기로",
+      "concept_id": "전기로"
+    },
+    {
+      "surface": "직접환원철",
+      "concept_id": "직접환원철"
+    }
+  ],
+  "newgrowth::15::라::15)": [
+    {
+      "surface": "고로",
+      "concept_id": "고로"
+    },
+    {
+      "surface": "용탕",
+      "concept_id": "용탕"
+    }
+  ],
+  "newgrowth::15::라::16)": [
+    {
+      "surface": "전기로",
+      "concept_id": "전기로"
+    },
+    {
+      "surface": "철스크랩",
+      "concept_id": "철스크랩"
+    }
+  ],
+  "newgrowth::15::라::2)": [
+    {
+      "surface": "고로",
+      "concept_id": "고로"
+    },
+    {
+      "surface": "함수소가스",
+      "concept_id": "함수소가스"
+    }
+  ],
+  "newgrowth::15::라::3)": [
+    {
+      "surface": "복합취련전로",
+      "concept_id": "복합취련전로"
+    },
+    {
+      "surface": "상저취전로",
+      "concept_id": "상저취전로"
+    },
+    {
+      "surface": "스크랩",
+      "concept_id": "스크랩"
+    },
+    {
+      "surface": "전로 공정",
+      "concept_id": "전로-공정"
+    }
+  ],
+  "newgrowth::15::라::4)": [
+    {
+      "surface": "Rankinite",
+      "concept_id": "rankinite"
+    },
+    {
+      "surface": "Wollastonite",
+      "concept_id": "wollastonite"
+    }
+  ],
+  "newgrowth::15::라::5)": [
+    {
+      "surface": "비탄산염",
+      "concept_id": "비탄산염"
+    },
+    {
+      "surface": "클링커",
+      "concept_id": "클링커"
+    }
+  ],
+  "newgrowth::15::라::6)": [
+    {
+      "surface": "비탄산염",
+      "concept_id": "비탄산염"
+    },
+    {
+      "surface": "소성",
+      "concept_id": "소성"
+    },
+    {
+      "surface": "탄산염광물",
+      "concept_id": "탄산염광물"
+    }
+  ],
+  "newgrowth::15::라::7)": [
+    {
+      "surface": "소성공정",
+      "concept_id": "소성공정"
+    },
+    {
+      "surface": "유연탄",
+      "concept_id": "유연탄"
+    }
+  ],
+  "newgrowth::15::라::8)": [
+    {
+      "surface": "글리세롤",
+      "concept_id": "글리세롤"
+    },
+    {
+      "surface": "바이오 고분자",
+      "concept_id": "바이오-고분자"
+    },
+    {
+      "surface": "지질",
+      "concept_id": "지질"
+    }
+  ],
+  "newgrowth::15::라::9)": [
+    {
+      "surface": "나프타",
+      "concept_id": "나프타"
+    },
+    {
+      "surface": "에틸렌",
+      "concept_id": "에틸렌"
+    },
+    {
+      "surface": "유도 가열",
+      "concept_id": "유도-가열"
+    },
+    {
+      "surface": "전기저항",
+      "concept_id": "전기저항"
+    },
+    {
+      "surface": "프로필렌",
+      "concept_id": "프로필렌"
+    }
+  ],
+  "newgrowth::15::마::12)": [
+    {
+      "surface": "연료전지",
+      "concept_id": "연료전지"
+    },
+    {
+      "surface": "축발전기",
+      "concept_id": "축발전기"
+    }
+  ],
+  "newgrowth::15::마::14)": [
+    {
+      "surface": "부유식 플랫폼",
+      "concept_id": "부유식-플랫폼"
+    }
+  ],
+  "newgrowth::15::마::15)": [
+    {
+      "surface": "냉동기유",
+      "concept_id": "냉동기유"
+    },
+    {
+      "surface": "회수ㆍ재생(RRR)",
+      "concept_id": "회수-재생"
+    }
+  ],
+  "newgrowth::15::마::2)": [
+    {
+      "surface": "개폐기",
+      "concept_id": "개폐기"
+    },
+    {
+      "surface": "배전계통",
+      "concept_id": "배전계통"
+    },
+    {
+      "surface": "지능형전력장치(IED, Intelligent Electric Device)",
+      "concept_id": "지능형전력장치"
+    },
+    {
+      "surface": "직류배전",
+      "concept_id": "직류배전"
+    }
+  ],
+  "newgrowth::15::마::6)": [
+    {
+      "surface": "베어링(Bearing)",
+      "concept_id": "베어링"
+    },
+    {
+      "surface": "터미널 헤더(Terminal Heather)",
+      "concept_id": "터미널-헤더"
+    }
+  ],
+  "newgrowth::15::마::7)": [
+    {
+      "surface": "히트펌프",
+      "concept_id": "히트펌프"
+    }
+  ],
+  "newgrowth::15::마::8)": [
+    {
+      "surface": "실린더헤드(Cylinder Head)",
+      "concept_id": "실린더헤드"
+    },
+    {
+      "surface": "크랭크 샤프트(Crankshaft)",
+      "concept_id": "크랭크-샤프트"
+    },
+    {
+      "surface": "피스톤(Piston)",
+      "concept_id": "피스톤"
+    },
+    {
+      "surface": "피스톤링(Piston Ring)",
+      "concept_id": "피스톤링"
+    }
+  ],
+  "newgrowth::11::가::1)": [
+    {
+      "surface": "유도제어",
+      "concept_id": "유도제어"
+    }
+  ],
+  "newgrowth::11::가::3)": [
+    {
+      "surface": "INS(Inertial Navigation System)",
+      "concept_id": "ins"
+    },
+    {
+      "surface": "LIDAR(Light detection and ranging)",
+      "concept_id": "lidar"
+    },
+    {
+      "surface": "GNSS(Global Navigation Satellite System)",
+      "concept_id": "gnss"
+    },
+    {
+      "surface": "멀티스펙트럼(multi-spectrum) 카메라",
+      "concept_id": "멀티스펙트럼-카메라"
+    }
+  ],
+  "newgrowth::11::가::4)": [
+    {
+      "surface": "인버터(inverter)",
+      "concept_id": "인버터-2"
+    }
+  ],
+  "newgrowth::11::가::6)": [
+    {
+      "surface": "텔레메트리(telemetry)",
+      "concept_id": "텔레메트리"
+    }
+  ],
+  "newgrowth::11::나::1)": [
+    {
+      "surface": "추력기",
+      "concept_id": "추력기"
+    },
+    {
+      "surface": "추진제",
+      "concept_id": "추진제"
+    }
+  ],
+  "newgrowth::11::가::7)": [
+    {
+      "surface": "도킹스테이션",
+      "concept_id": "도킹스테이션"
+    },
+    {
+      "surface": "비가시권 비행",
+      "concept_id": "비가시권-비행"
+    }
+  ],
+  "newgrowth::11::나::3)": [
+    {
+      "surface": "관성항법",
+      "concept_id": "관성항법"
+    },
+    {
+      "surface": "비행종단시스템",
+      "concept_id": "비행종단시스템"
+    },
+    {
+      "surface": "자세제어",
+      "concept_id": "자세제어"
+    }
+  ],
+  "newgrowth::11::나::4)": [
+    {
+      "surface": "자이로센서(Gyro sensor)",
+      "concept_id": "자이로센서"
+    }
+  ],
+  "strategic::4::::가.": [
+    {
+      "surface": "AMOLED",
+      "concept_id": "amoled"
+    },
+    {
+      "surface": "FHD",
+      "concept_id": "fhd"
+    },
+    {
+      "surface": "고휘도",
+      "concept_id": "고휘도"
+    },
+    {
+      "surface": "구동소자",
+      "concept_id": "구동소자"
+    },
+    {
+      "surface": "발광특성",
+      "concept_id": "발광특성"
+    },
+    {
+      "surface": "백플레인",
+      "concept_id": "백플레인"
+    },
+    {
+      "surface": "산화물(Oxide) TFT",
+      "concept_id": "tft"
+    },
+    {
+      "surface": "웨이퍼",
+      "concept_id": "웨이퍼-2"
+    },
+    {
+      "surface": "저온폴리실리콘(LTPS)",
+      "concept_id": "저온폴리실리콘"
+    },
+    {
+      "surface": "저온폴리실리콘산화물(LTPO)",
+      "concept_id": "저온폴리실리콘산화물"
+    },
+    {
+      "surface": "진공 증발 증착",
+      "concept_id": "진공-증발-증착"
+    },
+    {
+      "surface": "커버윈도우",
+      "concept_id": "커버윈도우"
+    },
+    {
+      "surface": "프린팅",
+      "concept_id": "프린팅"
+    }
+  ],
+  "strategic::4::::나.": [
+    {
+      "surface": "QD",
+      "concept_id": "qd"
+    },
+    {
+      "surface": "RoHS(유럽 6대 제한물질 환경규제)",
+      "concept_id": "rohs"
+    },
+    {
+      "surface": "구동소자",
+      "concept_id": "구동소자"
+    },
+    {
+      "surface": "노광",
+      "concept_id": "노광"
+    },
+    {
+      "surface": "반치폭(FWHM, full width at half maximum)",
+      "concept_id": "반치폭"
+    },
+    {
+      "surface": "커버윈도우",
+      "concept_id": "커버윈도우"
+    },
+    {
+      "surface": "패터닝",
+      "concept_id": "패터닝"
+    }
+  ],
+  "strategic::4::::다.": [
+    {
+      "surface": "Micro LED",
+      "concept_id": "micro-led"
+    },
+    {
+      "surface": "구동소자",
+      "concept_id": "구동소자"
+    },
+    {
+      "surface": "마이크로 LED",
+      "concept_id": "마이크로led"
+    },
+    {
+      "surface": "사파이어(Sapphire) 기판",
+      "concept_id": "사파이어-기판"
+    },
+    {
+      "surface": "에피(Epi)공정",
+      "concept_id": "에피공정"
+    },
+    {
+      "surface": "커버윈도우",
+      "concept_id": "커버윈도우"
+    }
+  ],
+  "strategic::4::::라.": [
+    {
+      "surface": "산화물 TFT(Thin Film Transistor)",
+      "concept_id": "tft"
+    },
+    {
+      "surface": "양자점(QD)",
+      "concept_id": "qd"
+    },
+    {
+      "surface": "발광ㆍ공통층",
+      "concept_id": "발광-공통층"
+    },
+    {
+      "surface": "전자이동도",
+      "concept_id": "전자이동도"
+    },
+    {
+      "surface": "증착",
+      "concept_id": "증착-2"
+    },
+    {
+      "surface": "코팅",
+      "concept_id": "코팅-2"
+    },
+    {
+      "surface": "폴리이미드(PI)",
+      "concept_id": "폴리이미드"
+    },
+    {
+      "surface": "화소격벽",
+      "concept_id": "화소격벽"
+    }
+  ],
+  "strategic::4::::마.": [
+    {
+      "surface": "TFT(Thin Film Transistor)",
+      "concept_id": "tft"
+    },
+    {
+      "surface": "노광",
+      "concept_id": "노광"
+    },
+    {
+      "surface": "식각",
+      "concept_id": "식각-2"
+    },
+    {
+      "surface": "이온주입기",
+      "concept_id": "이온주입기"
+    },
+    {
+      "surface": "전자이동도",
+      "concept_id": "전자이동도"
+    },
+    {
+      "surface": "TFT 형성",
+      "concept_id": "tft-형성"
+    },
+    {
+      "surface": "증착",
+      "concept_id": "증착-2"
+    }
+  ],
+  "strategic::4::::바.": [
+    {
+      "surface": "FMM(Fine Metal Mask)",
+      "concept_id": "fmm"
+    },
+    {
+      "surface": "OLED",
+      "concept_id": "oled"
+    },
+    {
+      "surface": "봉지장비(Encapsulation)",
+      "concept_id": "봉지장비"
+    },
+    {
+      "surface": "유기증착기(Evaporation)",
+      "concept_id": "유기증착기"
+    },
+    {
+      "surface": "잉크젯장비(Inkjet)",
+      "concept_id": "잉크젯장비"
+    },
+    {
+      "surface": "화소",
+      "concept_id": "화소"
+    }
+  ],
+  "strategic::4::::사.": [
+    {
+      "surface": "UTG",
+      "concept_id": "utg"
+    },
+    {
+      "surface": "광학증착",
+      "concept_id": "광학증착"
+    },
+    {
+      "surface": "초박형 유ㆍ무기 하이브리드 필름",
+      "concept_id": "초박형-유-무기-하이브리드-필름"
+    },
+    {
+      "surface": "초박형유리(Ultra Thin Glass, UTG)",
+      "concept_id": "utg"
+    },
+    {
+      "surface": "커버 윈도우",
+      "concept_id": "커버윈도우"
+    },
+    {
+      "surface": "코팅",
+      "concept_id": "코팅-2"
+    }
+  ],
+  "strategic::4::::아.": [
+    {
+      "surface": "Micro LED",
+      "concept_id": "micro-led"
+    },
+    {
+      "surface": "금속유기(Metal-Organic)",
+      "concept_id": "금속유기"
+    },
+    {
+      "surface": "기판(substrate)",
+      "concept_id": "기판"
+    },
+    {
+      "surface": "백플레인",
+      "concept_id": "백플레인"
+    },
+    {
+      "surface": "에피",
+      "concept_id": "에피"
+    },
+    {
+      "surface": "외부양자효율(External Quantum Efficiency, EQE)",
+      "concept_id": "외부양자효율"
+    },
+    {
+      "surface": "전극",
+      "concept_id": "전극-2"
+    },
+    {
+      "surface": "화소",
+      "concept_id": "화소"
+    }
+  ],
+  "strategic::9::::가.": [
+    {
+      "surface": "라이다 센서(LIDAR sensor)",
+      "concept_id": "라이다-센서"
+    },
+    {
+      "surface": "레이더 센서(radar sensor)",
+      "concept_id": "레이더-센서"
+    },
+    {
+      "surface": "비전 센서(vision sensor)",
+      "concept_id": "비전-센서"
+    }
+  ],
+  "strategic::9::::사.": [
+    {
+      "surface": "ROC(Remote Operation Center)",
+      "concept_id": "roc"
+    }
+  ],
+  "strategic::9::::아.": [
+    {
+      "surface": "카고핸들링",
+      "concept_id": "카고핸들링"
+    },
+    {
+      "surface": "화물창",
+      "concept_id": "화물창"
+    }
+  ],
+  "strategic::7::::가.": [
+    {
+      "surface": "단백질의약품",
+      "concept_id": "단백질의약품"
+    },
+    {
+      "surface": "펩타이드",
+      "concept_id": "펩타이드"
+    },
+    {
+      "surface": "핵산",
+      "concept_id": "핵산"
+    },
+    {
+      "surface": "핵산유도체",
+      "concept_id": "핵산유도체"
+    }
+  ],
+  "strategic::7::::나.": [
+    {
+      "surface": "바이오시밀러",
+      "concept_id": "바이오시밀러"
+    },
+    {
+      "surface": "서열변경",
+      "concept_id": "서열변경"
+    },
+    {
+      "surface": "제제변형",
+      "concept_id": "제제변형"
+    },
+    {
+      "surface": "중합체 부과",
+      "concept_id": "중합체-부과"
+    }
+  ],
+  "strategic::7::::라.": [
+    {
+      "surface": "내약성",
+      "concept_id": "내약성"
+    },
+    {
+      "surface": "바이오시밀러",
+      "concept_id": "바이오시밀러"
+    },
+    {
+      "surface": "약동학",
+      "concept_id": "약동학"
+    },
+    {
+      "surface": "약력학",
+      "concept_id": "약력학"
+    },
+    {
+      "surface": "약물대사",
+      "concept_id": "약물대사"
+    }
+  ],
+  "strategic::7::::마.": [
+    {
+      "surface": "바이오시밀러",
+      "concept_id": "바이오시밀러"
+    }
+  ],
+  "strategic::7::::바.": [
+    {
+      "surface": "바이오시밀러",
+      "concept_id": "바이오시밀러"
+    }
+  ],
+  "strategic::7::::사.": [
+    {
+      "surface": "버퍼",
+      "concept_id": "버퍼"
+    },
+    {
+      "surface": "필터",
+      "concept_id": "필터"
+    },
+    {
+      "surface": "배지",
+      "concept_id": "배지"
+    }
+  ],
+  "strategic::1::::가.": [
+    {
+      "surface": "D램",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "낸드플래시메모리",
+      "concept_id": "낸드플래시메모리"
+    }
+  ],
+  "strategic::1::::거.": [
+    {
+      "surface": "high-k dielectric",
+      "concept_id": "high-k-dielectric"
+    },
+    {
+      "surface": "박막",
+      "concept_id": "박막"
+    },
+    {
+      "surface": "원자층증착법(ALD, Atomic Layer Deposition)",
+      "concept_id": "ald"
+    },
+    {
+      "surface": "유전특성",
+      "concept_id": "유전특성"
+    },
+    {
+      "surface": "이산화규소(SiO2)",
+      "concept_id": "이산화규소-2"
+    },
+    {
+      "surface": "전구체",
+      "concept_id": "전구체"
+    },
+    {
+      "surface": "증착",
+      "concept_id": "증착"
+    },
+    {
+      "surface": "화학증착법(CVD, Chemical Vapor Deposition)",
+      "concept_id": "cvd"
+    }
+  ],
+  "strategic::1::::나.": [
+    {
+      "surface": "CPU",
+      "concept_id": "cpu"
+    },
+    {
+      "surface": "CXL(Compute eXpress Link)",
+      "concept_id": "cxl"
+    },
+    {
+      "surface": "D램(DRAM)",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "HBM(High Bandwidth Memory)",
+      "concept_id": "hbm"
+    },
+    {
+      "surface": "LLC(Last Level Cache)",
+      "concept_id": "llc"
+    },
+    {
+      "surface": "PIM(Processing In Memory)",
+      "concept_id": "pim"
+    },
+    {
+      "surface": "PRAM(Phase-change Random Access Memory)",
+      "concept_id": "pram"
+    },
+    {
+      "surface": "ReRAM(Resistive Random Access Memory)",
+      "concept_id": "reram"
+    },
+    {
+      "surface": "SOM(Selector Only Memory)",
+      "concept_id": "som"
+    },
+    {
+      "surface": "STT-MRAM(Spin Transfer Torque-Magnetic Random Access Memory)",
+      "concept_id": "stt-mram"
+    },
+    {
+      "surface": "낸드 플래시메모리(Nand Flash Memory)",
+      "concept_id": "낸드플래시메모리"
+    }
+  ],
+  "strategic::1::::너.": [
+    {
+      "surface": "불화수소",
+      "concept_id": "불화수소"
+    }
+  ],
+  "strategic::1::::다.": [
+    {
+      "surface": "AP(Application Processor)",
+      "concept_id": "ap"
+    },
+    {
+      "surface": "DVR (Digital Video Recoder)",
+      "concept_id": "dvr"
+    },
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "뉴럴넷(Neural Network)",
+      "concept_id": "뉴럴넷"
+    },
+    {
+      "surface": "매니코어(Many Core)",
+      "concept_id": "매니코어"
+    },
+    {
+      "surface": "슈퍼프로세서",
+      "concept_id": "슈퍼프로세서"
+    }
+  ],
+  "strategic::1::::더.": [
+    {
+      "surface": "ArF(불화아르곤)",
+      "concept_id": "arf"
+    },
+    {
+      "surface": "EUV(극자외선)",
+      "concept_id": "euv"
+    },
+    {
+      "surface": "블랭크마스크",
+      "concept_id": "블랭크마스크"
+    },
+    {
+      "surface": "스터러링용 타겟",
+      "concept_id": "스터러링용-타겟"
+    },
+    {
+      "surface": "펠리클(Pellicle)",
+      "concept_id": "펠리클"
+    },
+    {
+      "surface": "합성 쿼츠",
+      "concept_id": "합성-쿼츠-2"
+    }
+  ],
+  "strategic::1::::라.": [
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "Mixed signal 반도체",
+      "concept_id": "mixed-signal-반도체"
+    },
+    {
+      "surface": "RF switch",
+      "concept_id": "rf-switch"
+    },
+    {
+      "surface": "SoC",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "UWB(Ultra-wideband)",
+      "concept_id": "uwb"
+    },
+    {
+      "surface": "인버터",
+      "concept_id": "인버터"
+    },
+    {
+      "surface": "컨버터",
+      "concept_id": "컨버터"
+    },
+    {
+      "surface": "컨트롤 IC(eNVM)",
+      "concept_id": "컨트롤-ic"
+    }
+  ],
+  "strategic::1::::러.": [
+    {
+      "surface": "SiNx",
+      "concept_id": "sinx"
+    },
+    {
+      "surface": "SiOx",
+      "concept_id": "siox"
+    },
+    {
+      "surface": "선택비",
+      "concept_id": "선택비"
+    },
+    {
+      "surface": "막질",
+      "concept_id": "막질"
+    },
+    {
+      "surface": "식각",
+      "concept_id": "식각"
+    },
+    {
+      "surface": "인산계 식각액",
+      "concept_id": "인산계-식각액"
+    }
+  ],
+  "strategic::1::::마.": [
+    {
+      "surface": "CMOS(Complementary Metal-Oxide Semiconductor) 이미지센서",
+      "concept_id": "cmos-이미지센서"
+    },
+    {
+      "surface": "HDR(High Dynamic Range) CMOS 이미지센서",
+      "concept_id": "hdr-cmos-이미지센서"
+    },
+    {
+      "surface": "MEMS[Micro Electro Mechanical System",
+      "concept_id": "mems-micro-electro-mechanical-system"
+    },
+    {
+      "surface": "액츄에이터(actuator)",
+      "concept_id": "액츄에이터-4"
+    },
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "패키징",
+      "concept_id": "패키징"
+    }
+  ],
+  "strategic::1::::머.": [
+    {
+      "surface": "용융 실리콘",
+      "concept_id": "용융-실리콘"
+    },
+    {
+      "surface": "웨이퍼",
+      "concept_id": "웨이퍼"
+    }
+  ],
+  "strategic::1::::바.": [
+    {
+      "surface": "AEC-Q100",
+      "concept_id": "aec-q100"
+    },
+    {
+      "surface": "ECU(Electronic control unit)",
+      "concept_id": "ecu-2"
+    },
+    {
+      "surface": "ISO26262",
+      "concept_id": "iso26262"
+    },
+    {
+      "surface": "MCU(Micro controller unit)",
+      "concept_id": "mcu-2"
+    },
+    {
+      "surface": "SoC",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "자율주행용 IC",
+      "concept_id": "자율주행용-ic"
+    },
+    {
+      "surface": "파워IC",
+      "concept_id": "파워ic"
+    }
+  ],
+  "strategic::1::::버.": [
+    {
+      "surface": "감광성 코팅",
+      "concept_id": "감광성-코팅"
+    },
+    {
+      "surface": "패키징 재배선",
+      "concept_id": "패키징-재배선"
+    }
+  ],
+  "strategic::1::::사.": [
+    {
+      "surface": "IGBT",
+      "concept_id": "igbt"
+    },
+    {
+      "surface": "MOSFET",
+      "concept_id": "mosfet"
+    },
+    {
+      "surface": "SJ(Super Junction) MOSFET",
+      "concept_id": "sj-mosfet"
+    },
+    {
+      "surface": "패키징",
+      "concept_id": "패키징"
+    },
+    {
+      "surface": "SiC",
+      "concept_id": "sic"
+    },
+    {
+      "surface": "GaN",
+      "concept_id": "gan"
+    },
+    {
+      "surface": "Ga2O3",
+      "concept_id": "ga2o3"
+    },
+    {
+      "surface": "스마트그리드",
+      "concept_id": "스마트그리드"
+    }
+  ],
+  "strategic::1::::서.": [
+    {
+      "surface": "Derivative IP",
+      "concept_id": "derivative-ip"
+    },
+    {
+      "surface": "Derivative Library",
+      "concept_id": "derivative-library"
+    },
+    {
+      "surface": "IP",
+      "concept_id": "ip"
+    },
+    {
+      "surface": "Library(Standard Cell, I/O, Memory Compiler)",
+      "concept_id": "library"
+    },
+    {
+      "surface": "파운드리",
+      "concept_id": "파운드리"
+    }
+  ],
+  "strategic::1::::아.": [
+    {
+      "surface": "BCDMOS",
+      "concept_id": "bcdmos"
+    },
+    {
+      "surface": "PMIC",
+      "concept_id": "pmic"
+    },
+    {
+      "surface": "UHV",
+      "concept_id": "uhv"
+    },
+    {
+      "surface": "고전압 아날로그 IC",
+      "concept_id": "고전압-아날로그-ic"
+    }
+  ],
+  "strategic::1::::어.": [
+    {
+      "surface": "AEC-Q100",
+      "concept_id": "aec-q100"
+    },
+    {
+      "surface": "CMOS 이미지센서",
+      "concept_id": "cmos-이미지센서"
+    },
+    {
+      "surface": "MEMS(Micro Electro Mechanial System)",
+      "concept_id": "mems"
+    },
+    {
+      "surface": "OLED",
+      "concept_id": "oled"
+    },
+    {
+      "surface": "DDI(Display Driver IC)",
+      "concept_id": "ddi"
+    },
+    {
+      "surface": "RF(Radio Frequency) 반도체",
+      "concept_id": "rf-반도체"
+    },
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "소스채널",
+      "concept_id": "소스채널"
+    },
+    {
+      "surface": "전력반도체",
+      "concept_id": "전력반도체"
+    },
+    {
+      "surface": "프로브스테이션(Probe Station)",
+      "concept_id": "프로브스테이션"
+    },
+    {
+      "surface": "프로브카드",
+      "concept_id": "프로브카드"
+    }
+  ],
+  "strategic::1::::자.": [
+    {
+      "surface": "LCD",
+      "concept_id": "lcd"
+    },
+    {
+      "surface": "Mini LED",
+      "concept_id": "mini-led"
+    },
+    {
+      "surface": "OLED",
+      "concept_id": "oled"
+    },
+    {
+      "surface": "마이크로LED",
+      "concept_id": "마이크로led"
+    },
+    {
+      "surface": "DDI",
+      "concept_id": "ddi"
+    },
+    {
+      "surface": "PMIC",
+      "concept_id": "pmic"
+    },
+    {
+      "surface": "T-Con",
+      "concept_id": "t-con"
+    },
+    {
+      "surface": "퀀텀닷",
+      "concept_id": "퀀텀닷"
+    }
+  ],
+  "strategic::1::::저.": [
+    {
+      "surface": "3D 적층형 반도체",
+      "concept_id": "3d-적층형-반도체"
+    },
+    {
+      "surface": "웨이퍼",
+      "concept_id": "웨이퍼"
+    }
+  ],
+  "strategic::1::::차.": [
+    {
+      "surface": "SoC(System on Chip)",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "파운드리(Foundry)",
+      "concept_id": "파운드리"
+    }
+  ],
+  "strategic::1::::처.": [
+    {
+      "surface": "AI 가속기",
+      "concept_id": "ai-가속기"
+    },
+    {
+      "surface": "CCL(Copper Clad Laminate)",
+      "concept_id": "ccl"
+    },
+    {
+      "surface": "Df",
+      "concept_id": "df"
+    },
+    {
+      "surface": "PCB",
+      "concept_id": "pcb"
+    },
+    {
+      "surface": "실장",
+      "concept_id": "실장"
+    },
+    {
+      "surface": "열신뢰성 평가(Thermal Cycling Test)",
+      "concept_id": "열신뢰성-평가"
+    },
+    {
+      "surface": "열팽창계수(CTE)",
+      "concept_id": "열팽창계수"
+    },
+    {
+      "surface": "저손실 특성(Ultra Low Loss)",
+      "concept_id": "저손실-특성"
+    }
+  ],
+  "strategic::1::::카.": [
+    {
+      "surface": "2D/2.5D/3D 패키징",
+      "concept_id": "2d-2-5d-3d-패키징"
+    },
+    {
+      "surface": "WLP",
+      "concept_id": "wlp"
+    },
+    {
+      "surface": "PLP",
+      "concept_id": "plp"
+    },
+    {
+      "surface": "SiP",
+      "concept_id": "sip"
+    },
+    {
+      "surface": "플립칩",
+      "concept_id": "플립칩"
+    }
+  ],
+  "strategic::1::::타.": [
+    {
+      "surface": "D램",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "낸드플래시메모리",
+      "concept_id": "낸드플래시메모리"
+    },
+    {
+      "surface": "에피텍셜 반도체",
+      "concept_id": "에피텍셜-반도체"
+    },
+    {
+      "surface": "파운드리 SoC",
+      "concept_id": "파운드리-soc"
+    },
+    {
+      "surface": "SiC",
+      "concept_id": "sic"
+    },
+    {
+      "surface": "GaN",
+      "concept_id": "gan"
+    },
+    {
+      "surface": "Ga2O3",
+      "concept_id": "ga2o3"
+    }
+  ],
+  "strategic::1::::파.": [
+    {
+      "surface": "SoC",
+      "concept_id": "soc"
+    },
+    {
+      "surface": "D램",
+      "concept_id": "d램"
+    },
+    {
+      "surface": "낸드플래시메모리",
+      "concept_id": "낸드플래시메모리"
+    },
+    {
+      "surface": "STT-MRAM(Spin Transfer Torque-Magnetic RAM)",
+      "concept_id": "stt-mram"
+    },
+    {
+      "surface": "PRAM(Phase-change RAM)",
+      "concept_id": "pram"
+    },
+    {
+      "surface": "ReRAM(Resistive RAM)",
+      "concept_id": "reram"
+    },
+    {
+      "surface": "PIM(Processing In Memory)",
+      "concept_id": "pim"
+    },
+    {
+      "surface": "HBM(High Bandwidth Memory)",
+      "concept_id": "hbm"
+    },
+    {
+      "surface": "LLC(Last Level Cache)",
+      "concept_id": "llc"
+    },
+    {
+      "surface": "CXL(Compute eXpress Link)",
+      "concept_id": "cxl"
+    },
+    {
+      "surface": "SOM(Selector Only Memory)",
+      "concept_id": "som"
+    },
+    {
+      "surface": "파운드리",
+      "concept_id": "파운드리"
+    }
+  ],
+  "strategic::1::::하.": [
+    {
+      "surface": "ArF(불화아르곤)",
+      "concept_id": "arf"
+    },
+    {
+      "surface": "EUV(극자외선)",
+      "concept_id": "euv"
+    },
+    {
+      "surface": "리소그래피(lithography)",
+      "concept_id": "리소그래피"
+    },
+    {
+      "surface": "수지",
+      "concept_id": "수지"
+    },
+    {
+      "surface": "포토레지스트",
+      "concept_id": "포토레지스트"
+    },
+    {
+      "surface": "현상(Developing)",
+      "concept_id": "현상"
+    }
+  ],
+  "strategic::3::::가.": [
+    {
+      "surface": "바이러스벡터",
+      "concept_id": "바이러스벡터"
+    },
+    {
+      "surface": "스크리닝",
+      "concept_id": "스크리닝"
+    },
+    {
+      "surface": "항원",
+      "concept_id": "항원"
+    },
+    {
+      "surface": "핵산",
+      "concept_id": "핵산"
+    }
+  ],
+  "strategic::3::::다.": [
+    {
+      "surface": "내약성",
+      "concept_id": "내약성"
+    },
+    {
+      "surface": "약동학",
+      "concept_id": "약동학"
+    },
+    {
+      "surface": "약력학",
+      "concept_id": "약력학"
+    },
+    {
+      "surface": "약물대사",
+      "concept_id": "약물대사"
+    }
+  ],
+  "strategic::3::::바.": [
+    {
+      "surface": "면역보조제",
+      "concept_id": "면역보조제"
+    },
+    {
+      "surface": "필터",
+      "concept_id": "필터"
+    },
+    {
+      "surface": "레진",
+      "concept_id": "레진"
+    },
+    {
+      "surface": "버퍼",
+      "concept_id": "버퍼"
+    },
+    {
+      "surface": "배양배지",
+      "concept_id": "배양배지"
+    }
+  ],
+  "strategic::3::::사.": [
+    {
+      "surface": "필터",
+      "concept_id": "필터"
+    },
+    {
+      "surface": "레진",
+      "concept_id": "레진"
+    },
+    {
+      "surface": "버퍼",
+      "concept_id": "버퍼"
+    },
+    {
+      "surface": "배양배지",
+      "concept_id": "배양배지"
+    }
+  ],
+  "strategic::5::::가.": [
+    {
+      "surface": "계통제약 전력(미활용전력)",
+      "concept_id": "계통제약-전력"
+    },
+    {
+      "surface": "수전해",
+      "concept_id": "수전해"
+    },
+    {
+      "surface": "스택(stack)",
+      "concept_id": "스택-3"
+    }
+  ],
+  "strategic::5::::나.": [
+    {
+      "surface": "포집",
+      "concept_id": "포집"
+    }
+  ],
+  "strategic::5::::마.": [
+    {
+      "surface": "연료전지",
+      "concept_id": "연료전지-2"
+    },
+    {
+      "surface": "스택",
+      "concept_id": "스택-3"
+    },
+    {
+      "surface": "저위발열량(LHV, Lower Heating Value)",
+      "concept_id": "저위발열량"
+    },
+    {
+      "surface": "출력밀도",
+      "concept_id": "출력밀도-2"
+    }
+  ],
+  "strategic::5::::바.": [
+    {
+      "surface": "개질기",
+      "concept_id": "개질기"
+    },
+    {
+      "surface": "금속 분리판",
+      "concept_id": "금속-분리판"
+    },
+    {
+      "surface": "막전극 접합체",
+      "concept_id": "막전극-접합체"
+    },
+    {
+      "surface": "블로어",
+      "concept_id": "블로어"
+    },
+    {
+      "surface": "연료전지",
+      "concept_id": "연료전지-2"
+    }
+  ],
+  "strategic::5::::아.": [
+    {
+      "surface": "전기용융로",
+      "concept_id": "전기용융로"
+    },
+    {
+      "surface": "환원",
+      "concept_id": "환원"
+    }
+  ],
+  "strategic::5::::자.": [
+    {
+      "surface": "액상 유기물 수소 저장체(LOHC)",
+      "concept_id": "액상-유기물-수소-저장체"
+    },
+    {
+      "surface": "흡장",
+      "concept_id": "흡장"
+    },
+    {
+      "surface": "흡착",
+      "concept_id": "흡착"
+    }
+  ],
+  "strategic::2::::가.": [
+    {
+      "surface": "모듈",
+      "concept_id": "모듈-3"
+    },
+    {
+      "surface": "에너지저장장치",
+      "concept_id": "에너지저장장치"
+    },
+    {
+      "surface": "에너지밀도",
+      "concept_id": "에너지밀도-2"
+    },
+    {
+      "surface": "팩",
+      "concept_id": "팩"
+    }
+  ],
+  "strategic::2::::나.": [
+    {
+      "surface": "C-rate",
+      "concept_id": "c-rate-2"
+    },
+    {
+      "surface": "리튬이차전지",
+      "concept_id": "리튬이차전지-2"
+    },
+    {
+      "surface": "모듈",
+      "concept_id": "모듈-3"
+    },
+    {
+      "surface": "셀",
+      "concept_id": "셀-4"
+    },
+    {
+      "surface": "에너지밀도",
+      "concept_id": "에너지밀도-2"
+    }
+  ],
+  "strategic::2::::라.": [
+    {
+      "surface": "유가금속",
+      "concept_id": "유가금속"
+    }
+  ],
+  "strategic::2::::마.": [
+    {
+      "surface": "고체전해질",
+      "concept_id": "고체전해질"
+    },
+    {
+      "surface": "리튬이차전지",
+      "concept_id": "리튬이차전지-2"
+    },
+    {
+      "surface": "모듈",
+      "concept_id": "모듈-3"
+    },
+    {
+      "surface": "셀",
+      "concept_id": "셀-4"
+    },
+    {
+      "surface": "전극",
+      "concept_id": "전극-3"
+    }
+  ],
+  "strategic::2::::바.": [
+    {
+      "surface": "전구체",
+      "concept_id": "전구체-2"
+    },
+    {
+      "surface": "양극재",
+      "concept_id": "양극재"
+    }
+  ],
+  "strategic::2::::사.": [
+    {
+      "surface": "음극재",
+      "concept_id": "음극재-2"
+    }
+  ],
+  "strategic::2::::아.": [
+    {
+      "surface": "분리막",
+      "concept_id": "분리막-2"
+    },
+    {
+      "surface": "전해액",
+      "concept_id": "전해액"
+    }
+  ],
+  "strategic::2::::자.": [
+    {
+      "surface": "도전재",
+      "concept_id": "도전재-2"
+    },
+    {
+      "surface": "리드탭",
+      "concept_id": "리드탭"
+    },
+    {
+      "surface": "바인더",
+      "concept_id": "바인더"
+    },
+    {
+      "surface": "집전체",
+      "concept_id": "집전체"
+    },
+    {
+      "surface": "캔",
+      "concept_id": "캔"
+    },
+    {
+      "surface": "파우치",
+      "concept_id": "파우치"
+    },
+    {
+      "surface": "패키징",
+      "concept_id": "패키징-2"
+    }
+  ],
+  "strategic::2::::차.": [
+    {
+      "surface": "결정화",
+      "concept_id": "결정화"
+    },
+    {
+      "surface": "양극재",
+      "concept_id": "양극재"
+    },
+    {
+      "surface": "전환",
+      "concept_id": "전환"
+    },
+    {
+      "surface": "정련",
+      "concept_id": "정련"
+    }
+  ],
+  "strategic::10::::가.": [
+    {
+      "surface": "거대 인공지능 기초 모델(Foundation Model)",
+      "concept_id": "거대-인공지능-기초-모델"
+    }
+  ],
+  "strategic::10::::나.": [
+    {
+      "surface": "피지컬 인공지능(Physical AI)",
+      "concept_id": "피지컬-인공지능"
+    }
+  ],
+  "strategic::10::::다.": [
+    {
+      "surface": "강화학습",
+      "concept_id": "강화학습"
+    },
+    {
+      "surface": "다중 에이전트 추론기법",
+      "concept_id": "다중-에이전트-추론기법"
+    },
+    {
+      "surface": "딥러닝",
+      "concept_id": "딥러닝"
+    },
+    {
+      "surface": "멀티모달 학습",
+      "concept_id": "멀티모달-학습"
+    },
+    {
+      "surface": "메타러닝",
+      "concept_id": "메타러닝"
+    },
+    {
+      "surface": "분기구조 기반 추론기법",
+      "concept_id": "분기구조-기반-추론기법"
+    },
+    {
+      "surface": "연쇄사고 추론기법",
+      "concept_id": "연쇄사고-추론기법"
+    }
+  ]
+}

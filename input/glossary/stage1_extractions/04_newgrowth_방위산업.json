@@ -1,0 +1,61 @@
+[
+{
+"tech_id": "newgrowth::17::가::1)",
+"surfaces": [
+{ "surface": "터보제트엔진", "domain_hint": "항공" },
+{ "surface": "터보샤프트엔진", "domain_hint": "항공" },
+{ "surface": "터보프롭엔진", "domain_hint": "항공" },
+{ "surface": "터보팬엔진", "domain_hint": "항공" },
+{ "surface": "왕복엔진", "domain_hint": "항공" },
+{ "surface": "완제엔진", "domain_hint": "항공" },
+{ "surface": "부체계", "domain_hint": "방위산업" },
+{ "surface": "엔진제어", "domain_hint": "항공" },
+{ "surface": "기어박스", "domain_hint": "기계" },
+{ "surface": "압축기", "domain_hint": "기계" },
+{ "surface": "연소기", "domain_hint": "기계" },
+{ "surface": "터빈", "domain_hint": "기계" },
+{ "surface": "배기노즐", "domain_hint": "기계" },
+{ "surface": "내열ㆍ경량합금", "domain_hint": "소재" },
+{ "surface": "복합재", "domain_hint": "소재" },
+{ "surface": "고온코팅", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::17::가::2)",
+"surfaces": [
+{ "surface": "군사위성체계", "domain_hint": "우주" },
+{ "surface": "전력체계", "domain_hint": "방위산업" },
+{ "surface": "자세제어체계", "domain_hint": "우주" },
+{ "surface": "위성탑재컴퓨터", "domain_hint": "우주" },
+{ "surface": "송수신체계", "domain_hint": "통신" },
+{ "surface": "구조체", "domain_hint": "방위산업" },
+{ "surface": "위성통신송수신 안테나", "domain_hint": "통신" },
+{ "surface": "광학장비", "domain_hint": "방위산업" },
+{ "surface": "영상레이더", "domain_hint": "우주" },
+{ "surface": "항법체계", "domain_hint": "우주" },
+{ "surface": "발사체(고체연료)", "domain_hint": "우주" }
+]
+},
+{
+"tech_id": "newgrowth::17::가::3)",
+"surfaces": [
+{ "surface": "방위산업물자등", "domain_hint": "방위산업" },
+{ "surface": "형상변경", "domain_hint": "방위산업" },
+{ "surface": "성능개량", "domain_hint": "방위산업" },
+{ "surface": "양산", "domain_hint": "방위산업" }
+]
+},
+{
+"tech_id": "newgrowth::17::나::1)",
+"surfaces": [
+{ "surface": "유무인복합체계", "domain_hint": "방위산업" },
+{ "surface": "환경인식기술", "domain_hint": "로봇" },
+{ "surface": "위치추정기술", "domain_hint": "로봇" },
+{ "surface": "자율임무 수행기술", "domain_hint": "로봇" },
+{ "surface": "유무인협업기술", "domain_hint": "로봇" },
+{ "surface": "네트워크 보안기술", "domain_hint": "보안" },
+{ "surface": "의사결정지원기술", "domain_hint": "AI" },
+{ "surface": "원격통제기술", "domain_hint": "로봇" }
+]
+}
+]

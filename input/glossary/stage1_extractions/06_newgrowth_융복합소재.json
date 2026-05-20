@@ -1,0 +1,311 @@
+[
+{
+"tech_id": "newgrowth::9::가::1)",
+"surfaces": [
+{ "surface": "탄소섬유복합재", "domain_hint": "소재" },
+{ "surface": "유연지그", "domain_hint": "기계" },
+{ "surface": "공정 모니터링 센서모듈", "domain_hint": "기계" },
+{ "surface": "컴퓨터 수치제어기(CNC, Computerized Numerical Controller)", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::2)",
+"surfaces": [
+{ "surface": "탄소섬유", "domain_hint": "소재" },
+{ "surface": "CNT(Carbon Nano Tube, 탄소나노튜브)", "domain_hint": "소재" },
+{ "surface": "아라미드(Aramid)", "domain_hint": "소재" },
+{ "surface": "초고분자량폴리에틸렌(UHMWPE)", "domain_hint": "소재" },
+{ "surface": "액정섬유", "domain_hint": "소재" },
+{ "surface": "섬유복합체", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::3)",
+"surfaces": [
+{ "surface": "전도성 섬유", "domain_hint": "소재" },
+{ "surface": "트랜지스터", "domain_hint": "전자" },
+{ "surface": "콘덴서", "domain_hint": "전자" },
+{ "surface": "전자회로 소자", "domain_hint": "전자" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::4)",
+"surfaces": [
+{ "surface": "생체적합성", "domain_hint": "바이오" },
+{ "surface": "생체기능성", "domain_hint": "바이오" },
+{ "surface": "나노섬유", "domain_hint": "소재" },
+{ "surface": "감응섬유구조체", "domain_hint": "소재" },
+{ "surface": "투석ㆍ정화용 섬유구조체", "domain_hint": "바이오" },
+{ "surface": "인공혈관 섬유구조체", "domain_hint": "바이오" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::5)",
+"surfaces": [
+{ "surface": "생분해성", "domain_hint": "소재" },
+{ "surface": "섬유고분자", "domain_hint": "소재" },
+{ "surface": "열가소성 셀룰로오스", "domain_hint": "소재" },
+{ "surface": "바이오매스 나노섬유", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::6)",
+"surfaces": [
+{ "surface": "PTFE(PolyTetraFluoro Ethylene)", "domain_hint": "소재" },
+{ "surface": "멤브레인", "domain_hint": "소재" },
+{ "surface": "복합필터", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::7)",
+"surfaces": [
+{ "surface": "저표면에너지", "domain_hint": "소재" },
+{ "surface": "PGMEA", "domain_hint": "소재" },
+{ "surface": "불소계 계면활성제", "domain_hint": "소재" },
+{ "surface": "포소화제", "domain_hint": "소재" },
+{ "surface": "PFOA", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::8)",
+"surfaces": [
+{ "surface": "극세 장섬유 부직포", "domain_hint": "소재" },
+{ "surface": "HEPA(High Efficiency Particulate Air)", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::가::9)",
+"surfaces": [
+{ "surface": "저표면에너지", "domain_hint": "소재" },
+{ "surface": "PGMEA", "domain_hint": "소재" },
+{ "surface": "불소계 계면활성제", "domain_hint": "소재" },
+{ "surface": "포소화제", "domain_hint": "소재" },
+{ "surface": "PFOA", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::나::1)",
+"surfaces": [
+{ "surface": "온간성형", "domain_hint": "기계" },
+{ "surface": "미세조직", "domain_hint": "소재" },
+{ "surface": "Mg(마그네슘)", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::나::2)",
+"surfaces": [
+{ "surface": "주조", "domain_hint": "기계" },
+{ "surface": "표면처리", "domain_hint": "기계" },
+{ "surface": "고열전도도", "domain_hint": "소재" },
+{ "surface": "열확산능", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::나::3)",
+"surfaces": [
+{ "surface": "주조", "domain_hint": "기계" },
+{ "surface": "표면처리", "domain_hint": "기계" },
+{ "surface": "고열전도도", "domain_hint": "소재" },
+{ "surface": "열확산능", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::다::",
+"surfaces": [
+{ "surface": "인성특성", "domain_hint": "소재" },
+{ "surface": "하이퍼플라스틱(High Performance Plastics)", "domain_hint": "소재" },
+{ "surface": "내화학성", "domain_hint": "소재" },
+{ "surface": "내마모성", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::라::1)",
+"surfaces": [
+{ "surface": "인장강도", "domain_hint": "소재" },
+{ "surface": "구리합금(Cu-Ni-Sn계)", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::라::2)",
+"surfaces": [
+{ "surface": "박판", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::라::",
+"surfaces": [
+{ "surface": "사염화타이타늄(TiCl4)", "domain_hint": "소재" },
+{ "surface": "잉곳", "domain_hint": "소재" },
+{ "surface": "루타일", "domain_hint": "소재" },
+{ "surface": "아나타제", "domain_hint": "소재" },
+{ "surface": "이산화타이타늄(TiO2)", "domain_hint": "소재" },
+{ "surface": "압연", "domain_hint": "기계" },
+{ "surface": "단조", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::9::마::1)",
+"surfaces": [
+{ "surface": "고청정 스테인레스계 무계목강관", "domain_hint": "소재" },
+{ "surface": "용접이음매", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::9::마::2)",
+"surfaces": [
+{ "surface": "H형강", "domain_hint": "소재" },
+{ "surface": "고인성", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::마::3)",
+"surfaces": [
+{ "surface": "합금설계", "domain_hint": "소재" },
+{ "surface": "소성가공", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::9::바::1)",
+"surfaces": [
+{ "surface": "영구압축줄음율", "domain_hint": "소재" },
+{ "surface": "내유체적변화율", "domain_hint": "소재" },
+{ "surface": "기밀력", "domain_hint": "소재" },
+{ "surface": "불소계 실리콘 고무", "domain_hint": "소재" },
+{ "surface": "분자량 제어", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::바::2)",
+"surfaces": [
+{ "surface": "공중합체", "domain_hint": "소재" },
+{ "surface": "Fuel-C", "domain_hint": "소재" },
+{ "surface": "불소계 고무", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::바::3)",
+"surfaces": [
+{ "surface": "Cis content", "domain_hint": "소재" },
+{ "surface": "무니점도", "domain_hint": "소재" },
+{ "surface": "부타디엔류 고무", "domain_hint": "소재" },
+{ "surface": "구름저항", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::바::4)",
+"surfaces": [
+{ "surface": "Haze", "domain_hint": "소재" },
+{ "surface": "점착ㆍ접착 소재", "domain_hint": "소재" },
+{ "surface": "아크릴레이트", "domain_hint": "소재" },
+{ "surface": "관능기", "domain_hint": "소재" },
+{ "surface": "에틸렌계", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::바::5)",
+"surfaces": [
+{ "surface": "전단강도", "domain_hint": "소재" },
+{ "surface": "T-박리강도", "domain_hint": "소재" },
+{ "surface": "WVTR( Water Vapor Transmission Rate)", "domain_hint": "소재" },
+{ "surface": "비할로겐형", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::바::",
+"surfaces": [
+{ "surface": "탄화물 분말", "domain_hint": "소재" },
+{ "surface": "금속괴", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::사::1)",
+"surfaces": [
+{ "surface": "사염화타이타늄(TiCl4)", "domain_hint": "소재" },
+{ "surface": "잉곳", "domain_hint": "소재" },
+{ "surface": "루타일", "domain_hint": "소재" },
+{ "surface": "아나타제", "domain_hint": "소재" },
+{ "surface": "이산화타이타늄(TiO2)", "domain_hint": "소재" },
+{ "surface": "압연", "domain_hint": "기계" },
+{ "surface": "단조", "domain_hint": "기계" }
+]
+},
+{
+"tech_id": "newgrowth::9::사::2)",
+"surfaces": [
+{ "surface": "몰리브덴 탄화물 분말", "domain_hint": "소재" },
+{ "surface": "금속괴", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::사::3)",
+"surfaces": [
+{ "surface": "결정립도", "domain_hint": "소재" },
+{ "surface": "소결체", "domain_hint": "소재" },
+{ "surface": "중희토 확산층", "domain_hint": "소재" },
+{ "surface": "영구자석", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::사::4)",
+"surfaces": [
+{ "surface": "질소산화물", "domain_hint": "에너지" },
+{ "surface": "황산화물", "domain_hint": "에너지" }
+]
+},
+{
+"tech_id": "newgrowth::9::사::5)",
+"surfaces": [
+{ "surface": "고융점 금속", "domain_hint": "소재" },
+{ "surface": "4N급(99.99%)", "domain_hint": "소재" },
+{ "surface": "염화물", "domain_hint": "소재" },
+{ "surface": "불화물", "domain_hint": "소재" },
+{ "surface": "전구체", "domain_hint": "반도체" }
+]
+},
+{
+"tech_id": "newgrowth::9::아::1)",
+"surfaces": [
+{ "surface": "영구압축줄음율", "domain_hint": "소재" },
+{ "surface": "내유체적변화율", "domain_hint": "소재" },
+{ "surface": "기밀력", "domain_hint": "소재" },
+{ "surface": "불소계 실리콘 고무", "domain_hint": "소재" },
+{ "surface": "분자량 제어", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::아::2)",
+"surfaces": [
+{ "surface": "공중합체", "domain_hint": "소재" },
+{ "surface": "Fuel-C", "domain_hint": "소재" },
+{ "surface": "불소계 고무", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::아::3)",
+"surfaces": [
+{ "surface": "Cis content", "domain_hint": "소재" },
+{ "surface": "무니점도", "domain_hint": "소재" },
+{ "surface": "부타디엔류 고무", "domain_hint": "소재" },
+{ "surface": "구름저항", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::아::4)",
+"surfaces": [
+{ "surface": "Haze", "domain_hint": "소재" },
+{ "surface": "점착ㆍ접착 소재", "domain_hint": "소재" },
+{ "surface": "아크릴레이트", "domain_hint": "소재" },
+{ "surface": "관능기", "domain_hint": "소재" },
+{ "surface": "에틸렌계", "domain_hint": "소재" }
+]
+},
+{
+"tech_id": "newgrowth::9::아::5)",
+"surfaces": [
+{ "surface": "전단강도", "domain_hint": "소재" },
+{ "surface": "T-박리강도", "domain_hint": "소재" },
+{ "surface": "WVTR( Water Vapor Transmission Rate)", "domain_hint": "소재" },
+{ "surface": "비할로겐형", "domain_hint": "소재" }
+]
+}
+]
