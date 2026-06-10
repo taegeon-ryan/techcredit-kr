@@ -417,7 +417,7 @@
       "concept_id": "합성생물학"
     }
   ],
-  "newgrowth::17::가::1)": [
+  "newgrowth::14::가::1)": [
     {
       "surface": "기어박스",
       "concept_id": "기어박스"
@@ -447,7 +447,7 @@
       "concept_id": "터보프롭엔진"
     }
   ],
-  "newgrowth::17::가::2)": [
+  "newgrowth::14::가::2)": [
     {
       "surface": "구조체",
       "concept_id": "구조체"
@@ -465,13 +465,13 @@
       "concept_id": "항법체계"
     }
   ],
-  "newgrowth::17::나::1)": [
+  "newgrowth::14::나::1)": [
     {
       "surface": "유무인복합체계",
       "concept_id": "유무인복합체계"
     }
   ],
-  "newgrowth::14::가::1)": [
+  "newgrowth::8::가::1)": [
     {
       "surface": "나트륨(Sodium)계 이차전지",
       "concept_id": "나트륨계-이차전지"
@@ -513,7 +513,7 @@
       "concept_id": "흐름전지"
     }
   ],
-  "newgrowth::14::가::2)": [
+  "newgrowth::8::가::2)": [
     {
       "surface": "전력계통",
       "concept_id": "전력계통"
@@ -527,7 +527,7 @@
       "concept_id": "전력변환장치"
     }
   ],
-  "newgrowth::14::가::3)": [
+  "newgrowth::8::가::3)": [
     {
       "surface": "수요반응",
       "concept_id": "수요반응"
@@ -545,7 +545,7 @@
       "concept_id": "주파수조정"
     }
   ],
-  "newgrowth::14::가::5)": [
+  "newgrowth::8::가::5)": [
     {
       "surface": "C-rate",
       "concept_id": "c-rate"
@@ -567,7 +567,7 @@
       "concept_id": "에너지밀도"
     }
   ],
-  "newgrowth::14::가::6)": [
+  "newgrowth::8::가::6)": [
     {
       "surface": "에너지 밀도",
       "concept_id": "에너지-밀도"
@@ -581,13 +581,13 @@
       "concept_id": "전기동력-자동차"
     }
   ],
-  "newgrowth::14::나::2)": [
+  "newgrowth::8::나::2)": [
     {
       "surface": "초임계상태의 이산화탄소(supercritical CO2)",
       "concept_id": "초임계상태의-이산화탄소"
     }
   ],
-  "newgrowth::14::다::10)": [
+  "newgrowth::8::다::10)": [
     {
       "surface": "원자로",
       "concept_id": "원자로"
@@ -597,7 +597,7 @@
       "concept_id": "냉각재펌프"
     }
   ],
-  "newgrowth::14::다::11)": [
+  "newgrowth::8::다::11)": [
     {
       "surface": "다이오드 레이저 클래딩(DLC)",
       "concept_id": "다이오드-레이저-클래딩"
@@ -611,7 +611,7 @@
       "concept_id": "전자빔-용접"
     }
   ],
-  "newgrowth::14::다::2)": [
+  "newgrowth::8::다::2)": [
     {
       "surface": "중성자 조사",
       "concept_id": "중성자-조사"
@@ -625,7 +625,7 @@
       "concept_id": "핵연료-피복관"
     }
   ],
-  "newgrowth::14::다::3)": [
+  "newgrowth::8::다::3)": [
     {
       "surface": "방사선투시",
       "concept_id": "방사선투시"
@@ -639,7 +639,7 @@
       "concept_id": "이리듐-192"
     }
   ],
-  "newgrowth::14::다::4)": [
+  "newgrowth::8::다::4)": [
     {
       "surface": "APR+(Advanced Power Reactor Plus)",
       "concept_id": "apr"
@@ -673,7 +673,7 @@
       "concept_id": "핵증기공급계통"
     }
   ],
-  "newgrowth::14::다::5)": [
+  "newgrowth::8::다::5)": [
     {
       "surface": "격납건물",
       "concept_id": "격납건물"
@@ -687,7 +687,7 @@
       "concept_id": "열수력"
     }
   ],
-  "newgrowth::14::다::6)": [
+  "newgrowth::8::다::6)": [
     {
       "surface": "감용기술",
       "concept_id": "감용기술"
@@ -717,7 +717,7 @@
       "concept_id": "피폭선량"
     }
   ],
-  "newgrowth::14::다::7)": [
+  "newgrowth::8::다::7)": [
     {
       "surface": "계측제어",
       "concept_id": "계측제어"
@@ -727,7 +727,7 @@
       "concept_id": "신호선"
     }
   ],
-  "newgrowth::14::다::8)": [
+  "newgrowth::8::다::8)": [
     {
       "surface": "확률론적 안전성 분석(PSA; Probabilistic Safety Assessment)",
       "concept_id": "확률론적-안전성-분석"
@@ -757,7 +757,7 @@
       "concept_id": "노심"
     }
   ],
-  "newgrowth::14::다::9)": [
+  "newgrowth::8::다::9)": [
     {
       "surface": "핵연료집합체",
       "concept_id": "핵연료집합체"
@@ -791,7 +791,7 @@
       "concept_id": "가압기"
     }
   ],
-  "newgrowth::14::라::1)": [
+  "newgrowth::8::라::1)": [
     {
       "surface": "기액접촉층",
       "concept_id": "기액접촉층"
@@ -805,7 +805,7 @@
       "concept_id": "습식-플라즈마"
     }
   ],
-  "newgrowth::14::라::10)": [
+  "newgrowth::8::라::10)": [
     {
       "surface": "염폐수",
       "concept_id": "염폐수"
@@ -815,7 +815,7 @@
       "concept_id": "전해조"
     }
   ],
-  "newgrowth::14::라::2)": [
+  "newgrowth::8::라::2)": [
     {
       "surface": "과급기",
       "concept_id": "과급기"
@@ -833,13 +833,13 @@
       "concept_id": "배기배출물"
     }
   ],
-  "newgrowth::14::라::4)": [
+  "newgrowth::8::라::4)": [
     {
       "surface": "용융",
       "concept_id": "용융"
     }
   ],
-  "newgrowth::14::라::5)": [
+  "newgrowth::8::라::5)": [
     {
       "surface": "열분해",
       "concept_id": "열분해"
@@ -849,7 +849,7 @@
       "concept_id": "해중합"
     }
   ],
-  "newgrowth::14::라::6)": [
+  "newgrowth::8::라::6)": [
     {
       "surface": "생분해성수지",
       "concept_id": "생분해성수지"
@@ -863,13 +863,13 @@
       "concept_id": "물성"
     }
   ],
-  "newgrowth::14::라::7)": [
+  "newgrowth::8::라::7)": [
     {
       "surface": "석유계 용제",
       "concept_id": "석유계-용제"
     }
   ],
-  "newgrowth::14::라::9)": [
+  "newgrowth::8::라::9)": [
     {
       "surface": "방사기술",
       "concept_id": "방사기술"
@@ -1439,7 +1439,7 @@
       "concept_id": "앱-시그널링-인코더"
     }
   ],
-  "newgrowth::12::가::2)": [
+  "newgrowth::3::가::2)": [
     {
       "surface": "보조연산장치",
       "concept_id": "보조연산장치"
@@ -1453,19 +1453,19 @@
       "concept_id": "cpu"
     }
   ],
-  "newgrowth::12::가::3)": [
+  "newgrowth::3::가::3)": [
     {
       "surface": "분산 컴퓨팅",
       "concept_id": "분산-컴퓨팅"
     }
   ],
-  "newgrowth::12::가::4)": [
+  "newgrowth::3::가::4)": [
     {
       "surface": "비휘발성 메모리",
       "concept_id": "비휘발성-메모리"
     }
   ],
-  "newgrowth::12::나::3)": [
+  "newgrowth::3::나::3)": [
     {
       "surface": "양자컴퓨팅(quantum computing)",
       "concept_id": "양자컴퓨팅"
@@ -1857,7 +1857,7 @@
       "concept_id": "액체수지"
     }
   ],
-  "newgrowth::13::가::1)": [
+  "newgrowth::12::가::1)": [
     {
       "surface": "SST",
       "concept_id": "sst"
@@ -1875,7 +1875,7 @@
       "concept_id": "조성-2"
     }
   ],
-  "newgrowth::13::가::10)": [
+  "newgrowth::12::가::10)": [
     {
       "surface": "저철손",
       "concept_id": "저철손"
@@ -1885,19 +1885,19 @@
       "concept_id": "전기강판"
     }
   ],
-  "newgrowth::13::가::11)": [
+  "newgrowth::12::가::11)": [
     {
       "surface": "기능화 그래핀",
       "concept_id": "기능화-그래핀"
     }
   ],
-  "newgrowth::13::가::12)": [
+  "newgrowth::12::가::12)": [
     {
       "surface": "에어로겔",
       "concept_id": "에어로겔"
     }
   ],
-  "newgrowth::13::가::13)": [
+  "newgrowth::12::가::13)": [
     {
       "surface": "MLCC",
       "concept_id": "mlcc"
@@ -1911,13 +1911,13 @@
       "concept_id": "니켈-페이스트"
     }
   ],
-  "newgrowth::13::가::2)": [
+  "newgrowth::12::가::2)": [
     {
       "surface": "산화알루미늄",
       "concept_id": "산화알루미늄"
     }
   ],
-  "newgrowth::13::가::3)": [
+  "newgrowth::12::가::3)": [
     {
       "surface": "압전결정소자",
       "concept_id": "압전결정소자"
@@ -1927,7 +1927,7 @@
       "concept_id": "트랜스듀서"
     }
   ],
-  "newgrowth::13::가::4)": [
+  "newgrowth::12::가::4)": [
     {
       "surface": "등방블록",
       "concept_id": "등방블록"
@@ -1945,7 +1945,7 @@
       "concept_id": "피치"
     }
   ],
-  "newgrowth::13::가::5)": [
+  "newgrowth::12::가::5)": [
     {
       "surface": "나노 실리콘",
       "concept_id": "나노-실리콘"
@@ -1959,7 +1959,7 @@
       "concept_id": "카본코팅"
     }
   ],
-  "newgrowth::13::가::6)": [
+  "newgrowth::12::가::6)": [
     {
       "surface": "도전재",
       "concept_id": "도전재"
@@ -1985,7 +1985,7 @@
       "concept_id": "전극"
     }
   ],
-  "newgrowth::13::가::7)": [
+  "newgrowth::12::가::7)": [
     {
       "surface": "리튬화합물",
       "concept_id": "리튬화합물"
@@ -1999,7 +1999,7 @@
       "concept_id": "염화"
     }
   ],
-  "newgrowth::13::가::8)": [
+  "newgrowth::12::가::8)": [
     {
       "surface": "고압산침출",
       "concept_id": "고압산침출"
@@ -2013,7 +2013,7 @@
       "concept_id": "질산침출"
     }
   ],
-  "newgrowth::13::가::9)": [
+  "newgrowth::12::가::9)": [
     {
       "surface": "형광체",
       "concept_id": "형광체"
@@ -2023,7 +2023,7 @@
       "concept_id": "희토류"
     }
   ],
-  "newgrowth::13::나::1)": [
+  "newgrowth::12::나::1)": [
     {
       "surface": "구름베어링",
       "concept_id": "구름베어링"
@@ -2041,7 +2041,7 @@
       "concept_id": "정밀도-p5"
     }
   ],
-  "newgrowth::13::나::2)": [
+  "newgrowth::12::나::2)": [
     {
       "surface": "컨트롤 벨브",
       "concept_id": "컨트롤-벨브"
@@ -2059,7 +2059,7 @@
       "concept_id": "유압모터"
     }
   ],
-  "newgrowth::13::나::3)": [
+  "newgrowth::12::나::3)": [
     {
       "surface": "공차",
       "concept_id": "공차"
@@ -2069,7 +2069,7 @@
       "concept_id": "정밀도-c3"
     }
   ],
-  "newgrowth::13::나::5)": [
+  "newgrowth::12::나::5)": [
     {
       "surface": "블레이드",
       "concept_id": "블레이드"
@@ -2083,7 +2083,7 @@
       "concept_id": "터보식-펌프"
     }
   ],
-  "newgrowth::13::나::6)": [
+  "newgrowth::12::나::6)": [
     {
       "surface": "굴절률(nd)",
       "concept_id": "굴절률"
@@ -2097,13 +2097,13 @@
       "concept_id": "자외광"
     }
   ],
-  "newgrowth::13::나::7)": [
+  "newgrowth::12::나::7)": [
     {
       "surface": "적층세라믹컨덴서",
       "concept_id": "적층세라믹컨덴서"
     }
   ],
-  "newgrowth::13::나::8)": [
+  "newgrowth::12::나::8)": [
     {
       "surface": "방폭형 모터",
       "concept_id": "방폭형-모터"
@@ -2113,7 +2113,7 @@
       "concept_id": "수소-연료전지"
     }
   ],
-  "newgrowth::13::다::1)": [
+  "newgrowth::12::다::1)": [
     {
       "surface": "CNC(Computerized Numerical Controller)",
       "concept_id": "cnc"
@@ -2139,7 +2139,7 @@
       "concept_id": "자동공구교환장치"
     }
   ],
-  "newgrowth::13::다::2)": [
+  "newgrowth::12::다::2)": [
     {
       "surface": "등방압",
       "concept_id": "등방압"
@@ -2153,7 +2153,7 @@
       "concept_id": "정수압"
     }
   ],
-  "newgrowth::13::다::3)": [
+  "newgrowth::12::다::3)": [
     {
       "surface": "결합제",
       "concept_id": "결합제"
@@ -2167,13 +2167,13 @@
       "concept_id": "숫돌"
     }
   ],
-  "newgrowth::13::다::4)": [
+  "newgrowth::12::다::4)": [
     {
       "surface": "스카이빙",
       "concept_id": "스카이빙"
     }
   ],
-  "newgrowth::13::다::5)": [
+  "newgrowth::12::다::5)": [
     {
       "surface": "맨드릴",
       "concept_id": "맨드릴"
@@ -2191,13 +2191,13 @@
       "concept_id": "성형"
     }
   ],
-  "newgrowth::13::다::6)": [
+  "newgrowth::12::다::6)": [
     {
       "surface": "베어링",
       "concept_id": "베어링"
     }
   ],
-  "newgrowth::13::다::7)": [
+  "newgrowth::12::다::7)": [
     {
       "surface": "레이저 가공헤드",
       "concept_id": "레이저-가공헤드"
@@ -2207,7 +2207,7 @@
       "concept_id": "용융-3"
     }
   ],
-  "newgrowth::13::다::8)": [
+  "newgrowth::12::다::8)": [
     {
       "surface": "난삭재",
       "concept_id": "난삭재"
@@ -2275,7 +2275,7 @@
       "concept_id": "에셋"
     }
   ],
-  "newgrowth::15::가::1)": [
+  "newgrowth::13::가::1)": [
     {
       "surface": "분리막",
       "concept_id": "분리막"
@@ -2289,7 +2289,7 @@
       "concept_id": "흡착제"
     }
   ],
-  "newgrowth::15::가::2)": [
+  "newgrowth::13::가::2)": [
     {
       "surface": "분리막",
       "concept_id": "분리막"
@@ -2303,7 +2303,7 @@
       "concept_id": "흡착제"
     }
   ],
-  "newgrowth::15::가::3)": [
+  "newgrowth::13::가::3)": [
     {
       "surface": "CLC(Chemical Looping Cycle)",
       "concept_id": "clc"
@@ -2329,7 +2329,7 @@
       "concept_id": "이온전도성분리막"
     }
   ],
-  "newgrowth::15::나::10)": [
+  "newgrowth::13::나::10)": [
     {
       "surface": "가스터빈",
       "concept_id": "가스터빈"
@@ -2347,7 +2347,7 @@
       "concept_id": "유동층-보일러"
     }
   ],
-  "newgrowth::15::나::11)": [
+  "newgrowth::13::나::11)": [
     {
       "surface": "전소",
       "concept_id": "전소"
@@ -2357,19 +2357,19 @@
       "concept_id": "혼소"
     }
   ],
-  "newgrowth::15::나::12)": [
+  "newgrowth::13::나::12)": [
     {
       "surface": "연료전지",
       "concept_id": "연료전지"
     }
   ],
-  "newgrowth::15::나::2)": [
+  "newgrowth::13::나::2)": [
     {
       "surface": "가성소다",
       "concept_id": "가성소다"
     }
   ],
-  "newgrowth::15::나::4)": [
+  "newgrowth::13::나::4)": [
     {
       "surface": "LNG냉열",
       "concept_id": "lng냉열"
@@ -2379,7 +2379,7 @@
       "concept_id": "예냉사이클"
     }
   ],
-  "newgrowth::15::나::9)": [
+  "newgrowth::13::나::9)": [
     {
       "surface": "화물창",
       "concept_id": "화물창"
@@ -2393,7 +2393,7 @@
       "concept_id": "카고핸들링"
     }
   ],
-  "newgrowth::15::다::1)": [
+  "newgrowth::13::다::1)": [
     {
       "surface": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell)",
       "concept_id": "고체산화물-연료전지"
@@ -2415,7 +2415,7 @@
       "concept_id": "지지형셀"
     }
   ],
-  "newgrowth::15::다::12)": [
+  "newgrowth::13::다::12)": [
     {
       "surface": "열전소자",
       "concept_id": "열전소자"
@@ -2429,7 +2429,7 @@
       "concept_id": "초임계-이산화탄소"
     }
   ],
-  "newgrowth::15::다::13)": [
+  "newgrowth::13::다::13)": [
     {
       "surface": "semi-wet 방식",
       "concept_id": "semi-wet-방식"
@@ -2439,7 +2439,7 @@
       "concept_id": "장조장"
     }
   ],
-  "newgrowth::15::다::14)": [
+  "newgrowth::13::다::14)": [
     {
       "surface": "n형 대면적",
       "concept_id": "n형-대면적"
@@ -2453,7 +2453,7 @@
       "concept_id": "출력밀도"
     }
   ],
-  "newgrowth::15::다::3)": [
+  "newgrowth::13::다::3)": [
     {
       "surface": "연료전지",
       "concept_id": "연료전지"
@@ -2463,7 +2463,7 @@
       "concept_id": "전도-세라믹"
     }
   ],
-  "newgrowth::15::다::4)": [
+  "newgrowth::13::다::4)": [
     {
       "surface": "광활성층",
       "concept_id": "광활성층"
@@ -2501,7 +2501,7 @@
       "concept_id": "투명전극"
     }
   ],
-  "newgrowth::15::다::5)": [
+  "newgrowth::13::다::5)": [
     {
       "surface": "베어링(bearing)",
       "concept_id": "베어링"
@@ -2523,7 +2523,7 @@
       "concept_id": "축"
     }
   ],
-  "newgrowth::15::다::6)": [
+  "newgrowth::13::다::6)": [
     {
       "surface": "고정자(stator)",
       "concept_id": "고정자"
@@ -2549,13 +2549,13 @@
       "concept_id": "회전자"
     }
   ],
-  "newgrowth::15::다::7)": [
+  "newgrowth::13::다::7)": [
     {
       "surface": "블레이드(Blade)",
       "concept_id": "블레이드-2"
     }
   ],
-  "newgrowth::15::다::8)": [
+  "newgrowth::13::다::8)": [
     {
       "surface": "그라우팅(grouting)",
       "concept_id": "그라우팅"
@@ -2573,7 +2573,7 @@
       "concept_id": "지중-축열"
     }
   ],
-  "newgrowth::15::다::9)": [
+  "newgrowth::13::다::9)": [
     {
       "surface": "심부",
       "concept_id": "심부"
@@ -2595,7 +2595,7 @@
       "concept_id": "지열유체"
     }
   ],
-  "newgrowth::15::라::10)": [
+  "newgrowth::13::라::10)": [
     {
       "surface": "GWP(Global Warming Potential)",
       "concept_id": "gwp"
@@ -2609,7 +2609,7 @@
       "concept_id": "증착"
     }
   ],
-  "newgrowth::15::라::11)": [
+  "newgrowth::13::라::11)": [
     {
       "surface": "불소화합물",
       "concept_id": "불소화합물"
@@ -2619,13 +2619,13 @@
       "concept_id": "아산화질소"
     }
   ],
-  "newgrowth::15::라::12)": [
+  "newgrowth::13::라::12)": [
     {
       "surface": "MMSCFD(Million Metric Standard Cubic Feet per Day)",
       "concept_id": "mmscfd"
     }
   ],
-  "newgrowth::15::라::13)": [
+  "newgrowth::13::라::13)": [
     {
       "surface": "단조",
       "concept_id": "단조"
@@ -2635,7 +2635,7 @@
       "concept_id": "압연"
     }
   ],
-  "newgrowth::15::라::14)": [
+  "newgrowth::13::라::14)": [
     {
       "surface": "수소환원철",
       "concept_id": "수소환원철"
@@ -2653,7 +2653,7 @@
       "concept_id": "직접환원철"
     }
   ],
-  "newgrowth::15::라::15)": [
+  "newgrowth::13::라::15)": [
     {
       "surface": "고로",
       "concept_id": "고로"
@@ -2663,7 +2663,7 @@
       "concept_id": "용탕"
     }
   ],
-  "newgrowth::15::라::16)": [
+  "newgrowth::13::라::16)": [
     {
       "surface": "전기로",
       "concept_id": "전기로"
@@ -2673,7 +2673,7 @@
       "concept_id": "철스크랩"
     }
   ],
-  "newgrowth::15::라::2)": [
+  "newgrowth::13::라::2)": [
     {
       "surface": "고로",
       "concept_id": "고로"
@@ -2683,7 +2683,7 @@
       "concept_id": "함수소가스"
     }
   ],
-  "newgrowth::15::라::3)": [
+  "newgrowth::13::라::3)": [
     {
       "surface": "복합취련전로",
       "concept_id": "복합취련전로"
@@ -2701,7 +2701,7 @@
       "concept_id": "전로-공정"
     }
   ],
-  "newgrowth::15::라::4)": [
+  "newgrowth::13::라::4)": [
     {
       "surface": "Rankinite",
       "concept_id": "rankinite"
@@ -2711,7 +2711,7 @@
       "concept_id": "wollastonite"
     }
   ],
-  "newgrowth::15::라::5)": [
+  "newgrowth::13::라::5)": [
     {
       "surface": "비탄산염",
       "concept_id": "비탄산염"
@@ -2721,7 +2721,7 @@
       "concept_id": "클링커"
     }
   ],
-  "newgrowth::15::라::6)": [
+  "newgrowth::13::라::6)": [
     {
       "surface": "비탄산염",
       "concept_id": "비탄산염"
@@ -2735,7 +2735,7 @@
       "concept_id": "탄산염광물"
     }
   ],
-  "newgrowth::15::라::7)": [
+  "newgrowth::13::라::7)": [
     {
       "surface": "소성공정",
       "concept_id": "소성공정"
@@ -2745,7 +2745,7 @@
       "concept_id": "유연탄"
     }
   ],
-  "newgrowth::15::라::8)": [
+  "newgrowth::13::라::8)": [
     {
       "surface": "글리세롤",
       "concept_id": "글리세롤"
@@ -2759,7 +2759,7 @@
       "concept_id": "지질"
     }
   ],
-  "newgrowth::15::라::9)": [
+  "newgrowth::13::라::9)": [
     {
       "surface": "나프타",
       "concept_id": "나프타"
@@ -2781,7 +2781,7 @@
       "concept_id": "프로필렌"
     }
   ],
-  "newgrowth::15::마::12)": [
+  "newgrowth::13::마::12)": [
     {
       "surface": "연료전지",
       "concept_id": "연료전지"
@@ -2791,13 +2791,13 @@
       "concept_id": "축발전기"
     }
   ],
-  "newgrowth::15::마::14)": [
+  "newgrowth::13::마::14)": [
     {
       "surface": "부유식 플랫폼",
       "concept_id": "부유식-플랫폼"
     }
   ],
-  "newgrowth::15::마::15)": [
+  "newgrowth::13::마::15)": [
     {
       "surface": "냉동기유",
       "concept_id": "냉동기유"
@@ -2807,7 +2807,7 @@
       "concept_id": "회수-재생"
     }
   ],
-  "newgrowth::15::마::2)": [
+  "newgrowth::13::마::2)": [
     {
       "surface": "개폐기",
       "concept_id": "개폐기"
@@ -2825,7 +2825,7 @@
       "concept_id": "직류배전"
     }
   ],
-  "newgrowth::15::마::6)": [
+  "newgrowth::13::마::6)": [
     {
       "surface": "베어링(Bearing)",
       "concept_id": "베어링"
@@ -2835,13 +2835,13 @@
       "concept_id": "터미널-헤더"
     }
   ],
-  "newgrowth::15::마::7)": [
+  "newgrowth::13::마::7)": [
     {
       "surface": "히트펌프",
       "concept_id": "히트펌프"
     }
   ],
-  "newgrowth::15::마::8)": [
+  "newgrowth::13::마::8)": [
     {
       "surface": "실린더헤드(Cylinder Head)",
       "concept_id": "실린더헤드"
@@ -3195,7 +3195,7 @@
       "concept_id": "화소"
     }
   ],
-  "strategic::9::::가.": [
+  "strategic::6::::가.": [
     {
       "surface": "라이다 센서(LIDAR sensor)",
       "concept_id": "라이다-센서"
@@ -3209,13 +3209,13 @@
       "concept_id": "비전-센서"
     }
   ],
-  "strategic::9::::사.": [
+  "strategic::6::::사.": [
     {
       "surface": "ROC(Remote Operation Center)",
       "concept_id": "roc"
     }
   ],
-  "strategic::9::::아.": [
+  "strategic::6::::아.": [
     {
       "surface": "카고핸들링",
       "concept_id": "카고핸들링"
@@ -4231,19 +4231,19 @@
       "concept_id": "정련"
     }
   ],
-  "strategic::10::::가.": [
+  "strategic::8::::가.": [
     {
       "surface": "거대 인공지능 기초 모델(Foundation Model)",
       "concept_id": "거대-인공지능-기초-모델"
     }
   ],
-  "strategic::10::::나.": [
+  "strategic::8::::나.": [
     {
       "surface": "피지컬 인공지능(Physical AI)",
       "concept_id": "피지컬-인공지능"
     }
   ],
-  "strategic::10::::다.": [
+  "strategic::8::::다.": [
     {
       "surface": "강화학습",
       "concept_id": "강화학습"

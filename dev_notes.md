@@ -239,6 +239,20 @@ GitHub 푸시 및 Vercel 배포. Root Directory를 `dashboard`로 지정, Framew
 
 ---
 
+## 2026-06-10 (오후) — 글로서리 tech_id 분야번호 리맵 (파서 개편 후속)
+
+**증상**: 신성장 `에너지ㆍ환경` 등 여러 분야에서 글로서리 점선 밑줄·팝오버가 안 뜸.
+
+**원인**: 같은 날 오전 파서 개편(분야 번호 canonical 재정비)으로 `output/*.csv`의 `sector_number`가 바뀌었으나, 글로서리 파이프라인 산출물의 `tech_id`(= `dataset::sector_number::소분류::item_no`)는 **구 번호인 채로** 커밋돼 있었음. 런타임 `techId.js`는 현재 데이터의 신 번호로 키를 만들어 `term_spans.json`(구 번호 키)과 매칭 실패 → 하이라이트 0건. 에너지ㆍ환경(구 14 → 신 8)이 대표 사례, 그 외 SW(12→3)·첨단소부장(13→12)·탄소중립(15→13)·방위산업(17→14)·미래형운송(전략 9→6)·인공지능(전략 10→8) 등 10개 분야 영향.
+
+**수정**: LLM 재실행 없이 구→신 분야번호만 일괄 리맵(소분류 기호·item_no 는 개편에서 불변임을 확인, 리맵 후 spans tech_id 279/279 현재 데이터와 정합).
+- 리맵 맵 — newgrowth `12→3, 13→12, 14→8, 15→13, 17→14`, strategic `9→6, 10→8`
+- 적용 대상(정규식 `(newgrowth|strategic)::\d+::` 단일 패스, 체이닝 없음): `input/glossary/stage1_extractions/*.json`, `stage1_reference.csv`, `workbook.csv`, `concepts.json`. 치환 수가 행 수와 정확히 일치(오탐 0).
+- `dashboard/scripts/copyGlossary.js` 재실행으로 `term_spans.json`(929 surfaces/279 techs)·`glossary.json`(737) 재생성
+- 검증: spans 키 0건 불일치, `에너지ㆍ환경`(newgrowth::8) 24 techs spans 복구, `npm run build` 통과, 5173 브라우저에서 `비리튬계 이차전지…` 본문 22개 term-marker 점선 밑줄·`나트륨(Sodium)계 이차전지` 팝오버 표시 확인
+
+---
+
 ## 향후 개발 계획
 
 - [x] 다크모드 구현

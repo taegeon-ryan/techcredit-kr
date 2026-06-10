@@ -1,6 +1,6 @@
 [
 {
-"tech_id": "newgrowth::15::가::1)",
+"tech_id": "newgrowth::13::가::1)",
 "surfaces": [
 { "surface": "이산화탄소 포집", "domain_hint": "에너지" },
 { "surface": "흡수제", "domain_hint": "에너지" },
@@ -10,7 +10,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::가::2)",
+"tech_id": "newgrowth::13::가::2)",
 "surfaces": [
 { "surface": "석탄가스화", "domain_hint": "에너지" },
 { "surface": "흡수제", "domain_hint": "에너지" },
@@ -20,7 +20,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::가::3)",
+"tech_id": "newgrowth::13::가::3)",
 "surfaces": [
 { "surface": "심냉법", "domain_hint": "에너지" },
 { "surface": "이온전도성분리막(ITM, Ion Transfer Membrane)", "domain_hint": "에너지" },
@@ -31,13 +31,13 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::가::4)",
+"tech_id": "newgrowth::13::가::4)",
 "surfaces": [
 { "surface": "지중 저장소", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::가::5)",
+"tech_id": "newgrowth::13::가::5)",
 "surfaces": [
 { "surface": "대량발생원", "domain_hint": "에너지" },
 { "surface": "압축ㆍ액화 수송기술", "domain_hint": "에너지" },
@@ -49,21 +49,21 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::가::6)",
+"tech_id": "newgrowth::13::가::6)",
 "surfaces": [
 { "surface": "산업 부생가스(CO, CH4)", "domain_hint": "에너지" },
 { "surface": "화학ㆍ생물 전환기술", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::가::7)",
+"tech_id": "newgrowth::13::가::7)",
 "surfaces": [
 { "surface": "광물화", "domain_hint": "에너지" },
 { "surface": "화학적ㆍ생물학적 변환", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::1)",
+"tech_id": "newgrowth::13::나::1)",
 "surfaces": [
 { "surface": "수전해", "domain_hint": "에너지" },
 { "surface": "무탄소 전원", "domain_hint": "에너지" },
@@ -72,7 +72,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::나::10)",
+"tech_id": "newgrowth::13::나::10)",
 "surfaces": [
 { "surface": "암모니아 발전", "domain_hint": "에너지" },
 { "surface": "연료전지", "domain_hint": "에너지" },
@@ -82,41 +82,41 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::나::11)",
+"tech_id": "newgrowth::13::나::11)",
 "surfaces": [
 { "surface": "혼소ㆍ전소", "domain_hint": "에너지" },
 { "surface": "수소 연소기", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::12)",
+"tech_id": "newgrowth::13::나::12)",
 "surfaces": [
 { "surface": "암모니아를 분해", "domain_hint": "에너지" },
 { "surface": "연료전지", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::13)",
+"tech_id": "newgrowth::13::나::13)",
 "surfaces": [
 { "surface": "복합발전", "domain_hint": "에너지" },
 { "surface": "암모니아 분해", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::2)",
+"tech_id": "newgrowth::13::나::2)",
 "surfaces": [
 { "surface": "부생가스", "domain_hint": "에너지" },
 { "surface": "분리 정제", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::3)",
+"tech_id": "newgrowth::13::나::3)",
 "surfaces": [
 { "surface": "수소연료전지자동차(FCEV: Fuel Cell Electric Vehicle)", "domain_hint": "미래차" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::4)",
+"tech_id": "newgrowth::13::나::4)",
 "surfaces": [
 { "surface": "수소액화플랜트", "domain_hint": "에너지" },
 { "surface": "예냉사이클", "domain_hint": "에너지" },
@@ -124,7 +124,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::나::5)",
+"tech_id": "newgrowth::13::나::5)",
 "surfaces": [
 { "surface": "고압기체", "domain_hint": "에너지" },
 { "surface": "암모니아", "domain_hint": "소재" },
@@ -133,13 +133,13 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::나::6)",
+"tech_id": "newgrowth::13::나::6)",
 "surfaces": [
 { "surface": "가스터빈", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::나::7)",
+"tech_id": "newgrowth::13::나::7)",
 "surfaces": [
 { "surface": "수소 생산설비", "domain_hint": "에너지" },
 { "surface": "압축설비", "domain_hint": "에너지" },
@@ -148,7 +148,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::나::8)",
+"tech_id": "newgrowth::13::나::8)",
 "surfaces": [
 { "surface": "출력밀도", "domain_hint": "에너지" },
 { "surface": "연료전지 스택", "domain_hint": "에너지" },
@@ -156,7 +156,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::나::9)",
+"tech_id": "newgrowth::13::나::9)",
 "surfaces": [
 { "surface": "액화수소 운반선", "domain_hint": "조선" },
 { "surface": "적하역", "domain_hint": "조선" },
@@ -166,7 +166,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::1)",
+"tech_id": "newgrowth::13::다::1)",
 "surfaces": [
 { "surface": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell)", "domain_hint": "에너지" },
 { "surface": "연료극 지지형셀", "domain_hint": "에너지" },
@@ -176,7 +176,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::10)",
+"tech_id": "newgrowth::13::다::10)",
 "surfaces": [
 { "surface": "바이오매스", "domain_hint": "에너지" },
 { "surface": "고형연료", "domain_hint": "에너지" },
@@ -184,13 +184,13 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::11)",
+"tech_id": "newgrowth::13::다::11)",
 "surfaces": [
 { "surface": "열분해ㆍ가스화", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::다::12)",
+"tech_id": "newgrowth::13::다::12)",
 "surfaces": [
 { "surface": "폐열 회수", "domain_hint": "에너지" },
 { "surface": "초임계 이산화탄소", "domain_hint": "에너지" },
@@ -199,7 +199,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::13)",
+"tech_id": "newgrowth::13::다::13)",
 "surfaces": [
 { "surface": "해저케이블(HVAC 345kV 이상 또는 HVDC 500kV 이상)", "domain_hint": "에너지" },
 { "surface": "내부전력망", "domain_hint": "에너지" },
@@ -207,7 +207,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::14)",
+"tech_id": "newgrowth::13::다::14)",
 "surfaces": [
 { "surface": "n형 대면적(M10 이상)", "domain_hint": "에너지" },
 { "surface": "결정질 실리콘", "domain_hint": "소재" },
@@ -216,13 +216,13 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::15)",
+"tech_id": "newgrowth::13::다::15)",
 "surfaces": [
 { "surface": "탄소배출량", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::다::2)",
+"tech_id": "newgrowth::13::다::2)",
 "surfaces": [
 { "surface": "개질기", "domain_hint": "에너지" },
 { "surface": "막전극 접합체", "domain_hint": "에너지" },
@@ -231,7 +231,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::3)",
+"tech_id": "newgrowth::13::다::3)",
 "surfaces": [
 { "surface": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell)", "domain_hint": "에너지" },
 { "surface": "LPG", "domain_hint": "에너지" },
@@ -242,7 +242,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::4)",
+"tech_id": "newgrowth::13::다::4)",
 "surfaces": [
 { "surface": "페로브스카이트(Perovskite)", "domain_hint": "에너지" },
 { "surface": "탠덤 태양전지", "domain_hint": "에너지" },
@@ -257,7 +257,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::5)",
+"tech_id": "newgrowth::13::다::5)",
 "surfaces": [
 { "surface": "블레이드(blade)", "domain_hint": "에너지" },
 { "surface": "증속", "domain_hint": "에너지" },
@@ -270,7 +270,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::6)",
+"tech_id": "newgrowth::13::다::6)",
 "surfaces": [
 { "surface": "회전자(rotor)", "domain_hint": "에너지" },
 { "surface": "고정자(stator)", "domain_hint": "에너지" },
@@ -281,13 +281,13 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::7)",
+"tech_id": "newgrowth::13::다::7)",
 "surfaces": [
 { "surface": "블레이드(Blade)", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::15::다::8)",
+"tech_id": "newgrowth::13::다::8)",
 "surfaces": [
 {
 "surface": "그라우팅(grouting)",
@@ -312,7 +312,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::다::9)",
+"tech_id": "newgrowth::13::다::9)",
 "surfaces": [
 {
 "surface": "심부 지열자원",
@@ -345,7 +345,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::1)",
+"tech_id": "newgrowth::13::라::1)",
 "surfaces": [
 {
 "surface": "철광석(산화철)",
@@ -370,7 +370,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::10)",
+"tech_id": "newgrowth::13::라::10)",
 "surfaces": [
 {
 "surface": "식각",
@@ -395,7 +395,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::11)",
+"tech_id": "newgrowth::13::라::11)",
 "surfaces": [
 {
 "surface": "불소화합물",
@@ -416,7 +416,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::12)",
+"tech_id": "newgrowth::13::라::12)",
 "surfaces": [
 {
 "surface": "LNG",
@@ -437,7 +437,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::13)",
+"tech_id": "newgrowth::13::라::13)",
 "surfaces": [
 {
 "surface": "단조",
@@ -466,7 +466,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::14)",
+"tech_id": "newgrowth::13::라::14)",
 "surfaces": [
 {
 "surface": "전기로",
@@ -487,7 +487,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::15)",
+"tech_id": "newgrowth::13::라::15)",
 "surfaces": [
 {
 "surface": "전기로 용탕",
@@ -512,7 +512,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::16)",
+"tech_id": "newgrowth::13::라::16)",
 "surfaces": [
 {
 "surface": "철스크랩",
@@ -529,7 +529,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::2)",
+"tech_id": "newgrowth::13::라::2)",
 "surfaces": [
 {
 "surface": "함수소가스",
@@ -546,7 +546,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::3)",
+"tech_id": "newgrowth::13::라::3)",
 "surfaces": [
 {
 "surface": "전로 공정",
@@ -571,7 +571,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::4)",
+"tech_id": "newgrowth::13::라::4)",
 "surfaces": [
 {
 "surface": "석회석",
@@ -600,7 +600,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::5)",
+"tech_id": "newgrowth::13::라::5)",
 "surfaces": [
 {
 "surface": "클링커",
@@ -629,7 +629,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::6)",
+"tech_id": "newgrowth::13::라::6)",
 "surfaces": [
 {
 "surface": "석회석",
@@ -674,7 +674,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::7)",
+"tech_id": "newgrowth::13::라::7)",
 "surfaces": [
 {
 "surface": "소성공정",
@@ -707,7 +707,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::8)",
+"tech_id": "newgrowth::13::라::8)",
 "surfaces": [
 {
 "surface": "바이오 매스",
@@ -736,7 +736,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::라::9)",
+"tech_id": "newgrowth::13::라::9)",
 "surfaces": [
 {
 "surface": "전기저항",
@@ -769,7 +769,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::1)",
+"tech_id": "newgrowth::13::마::1)",
 "surfaces": [
 {
 "surface": "지능형 전력계통",
@@ -786,7 +786,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::10)",
+"tech_id": "newgrowth::13::마::10)",
 "surfaces": [
 {
 "surface": "암모니아",
@@ -803,7 +803,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::11)",
+"tech_id": "newgrowth::13::마::11)",
 "surfaces": [
 {
 "surface": "극저온 액체",
@@ -828,7 +828,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::12)",
+"tech_id": "newgrowth::13::마::12)",
 "surfaces": [
 {
 "surface": "연료전지",
@@ -849,7 +849,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::13)",
+"tech_id": "newgrowth::13::마::13)",
 "surfaces": [
 {
 "surface": "IEC 60034-30-1규격",
@@ -866,7 +866,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::14)",
+"tech_id": "newgrowth::13::마::14)",
 "surfaces": [
 {
 "surface": "해양풍력 발전단지",
@@ -883,7 +883,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::15)",
+"tech_id": "newgrowth::13::마::15)",
 "surfaces": [
 {
 "surface": "냉매",
@@ -916,7 +916,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::2)",
+"tech_id": "newgrowth::13::마::2)",
 "surfaces": [
 {
 "surface": "지능형 배전계통",
@@ -961,7 +961,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::3)",
+"tech_id": "newgrowth::13::마::3)",
 "surfaces": [
 {
 "surface": "계측",
@@ -970,7 +970,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::4)",
+"tech_id": "newgrowth::13::마::4)",
 "surfaces": [
 {
 "surface": "양방향 통신",
@@ -999,7 +999,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::5)",
+"tech_id": "newgrowth::13::마::5)",
 "surfaces": [
 {
 "surface": "냉방ㆍ공조",
@@ -1016,7 +1016,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::6)",
+"tech_id": "newgrowth::13::마::6)",
 "surfaces": [
 {
 "surface": "액화천연가스(LNG)",
@@ -1049,7 +1049,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::7)",
+"tech_id": "newgrowth::13::마::7)",
 "surfaces": [
 {
 "surface": "냉매",
@@ -1070,7 +1070,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::8)",
+"tech_id": "newgrowth::13::마::8)",
 "surfaces": [
 {
 "surface": "이중연료[액화천연가스(LNG), 액화석유가스(LPG) 등의 가스연료 포함]",
@@ -1099,7 +1099,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::15::마::9)",
+"tech_id": "newgrowth::13::마::9)",
 "surfaces": [
 {
 "surface": "하이브리드",

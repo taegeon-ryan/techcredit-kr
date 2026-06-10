@@ -1,6 +1,6 @@
 [
 {
-"tech_id": "strategic::10::::가.",
+"tech_id": "strategic::8::::가.",
 "surfaces": [
 {
 "surface": "거대 인공지능 기초 모델(Foundation Model)",
@@ -21,7 +21,7 @@
 ]
 },
 {
-"tech_id": "strategic::10::::나.",
+"tech_id": "strategic::8::::나.",
 "surfaces": [
 {
 "surface": "목표 설정",
@@ -54,7 +54,7 @@
 ]
 },
 {
-"tech_id": "strategic::10::::다.",
+"tech_id": "strategic::8::::다.",
 "surfaces": [
 {
 "surface": "학습 알고리즘",
@@ -99,7 +99,7 @@
 ]
 },
 {
-"tech_id": "strategic::10::::라.",
+"tech_id": "strategic::8::::라.",
 "surfaces": [
 {
 "surface": "저전력ㆍ고효율",
@@ -124,7 +124,7 @@
 ]
 },
 {
-"tech_id": "strategic::10::::마.",
+"tech_id": "strategic::8::::마.",
 "surfaces": [
 {
 "surface": "인공지능 모델",
