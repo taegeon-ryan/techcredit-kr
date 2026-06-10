@@ -355,25 +355,25 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::10)",
+        "tech_id": "newgrowth::13::나::10)",
         "sector_name": "탄소중립",
         "tech_name": "암모니아 발전 기술",
         "surface": "연료전지"
       },
       {
-        "tech_id": "newgrowth::15::나::12)",
+        "tech_id": "newgrowth::13::나::12)",
         "sector_name": "탄소중립",
         "tech_name": "선박용 암모니아 연료기반 수소생산 시스템 및 연료전지 적용 기술",
         "surface": "연료전지"
       },
       {
-        "tech_id": "newgrowth::15::다::3)",
+        "tech_id": "newgrowth::13::다::3)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell) 소재 기술",
         "surface": "연료전지"
       },
       {
-        "tech_id": "newgrowth::15::마::12)",
+        "tech_id": "newgrowth::13::마::12)",
         "sector_name": "탄소중립",
         "tech_name": "연료전지, 배터리 및 축발전기 모터를 적용한 선박 발전시스템",
         "surface": "연료전지"
@@ -400,7 +400,7 @@
         "surface": "웨이퍼"
       },
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "웨이퍼"
@@ -554,13 +554,13 @@
         "surface": "CNT(Carbon Nano Tube, 탄소나노튜브)"
       },
       {
-        "tech_id": "newgrowth::13::가::6)",
+        "tech_id": "newgrowth::12::가::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
         "surface": "탄소나노튜브(CNT, Carbon Nanotube)"
       },
       {
-        "tech_id": "newgrowth::13::가::6)",
+        "tech_id": "newgrowth::12::가::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
         "surface": "CNT"
@@ -850,19 +850,19 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "노심"
       },
       {
-        "tech_id": "newgrowth::14::다::5)",
+        "tech_id": "newgrowth::8::다::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "가압경수형원전(Pressurized Water Reactor) 원전설계 핵심코드 개발 기술",
         "surface": "노심"
       },
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "노심"
@@ -985,19 +985,19 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::6)",
+        "tech_id": "newgrowth::12::다::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 밸런싱머신 설계ㆍ제조기술",
         "surface": "베어링"
       },
       {
-        "tech_id": "newgrowth::15::다::5)",
+        "tech_id": "newgrowth::13::다::5)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
         "surface": "베어링(bearing)"
       },
       {
-        "tech_id": "newgrowth::15::마::6)",
+        "tech_id": "newgrowth::13::마::6)",
         "sector_name": "탄소중립",
         "tech_name": "극저온 액체 저장 및 이송용 펌프 설계ㆍ제조기술",
         "surface": "베어링(Bearing)"
@@ -1024,7 +1024,7 @@
         "surface": "식각"
       },
       {
-        "tech_id": "newgrowth::15::라::10)",
+        "tech_id": "newgrowth::13::라::10)",
         "sector_name": "탄소중립",
         "tech_name": "반도체ㆍ디스플레이 식각ㆍ증착공정의 대체소재 제조 및 적용기술",
         "surface": "식각"
@@ -1182,7 +1182,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "전극"
@@ -1194,7 +1194,7 @@
         "surface": "전극"
       },
       {
-        "tech_id": "newgrowth::13::가::6)",
+        "tech_id": "newgrowth::12::가::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
         "surface": "전극"
@@ -1221,7 +1221,7 @@
         "surface": "증착"
       },
       {
-        "tech_id": "newgrowth::15::라::10)",
+        "tech_id": "newgrowth::13::라::10)",
         "sector_name": "탄소중립",
         "tech_name": "반도체ㆍ디스플레이 식각ㆍ증착공정의 대체소재 제조 및 적용기술",
         "surface": "증착"
@@ -1413,13 +1413,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "플랜트종합(BOP, Balance of Plant)"
       },
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "BOP(Balance Of Plant)"
@@ -1446,7 +1446,7 @@
         "surface": "컴퓨터 수치제어기(CNC, Computerized Numerical Controller)"
       },
       {
-        "tech_id": "newgrowth::13::다::1)",
+        "tech_id": "newgrowth::12::다::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
         "surface": "CNC(Computerized Numerical Controller)"
@@ -1467,7 +1467,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::12::가::2)",
+        "tech_id": "newgrowth::3::가::2)",
         "sector_name": "차세대소프트웨어(SW) 및 보안",
         "tech_name": "이기종(異機種) 멀티코아 소프트웨어 기술",
         "surface": "중앙연산장치(CPU)"
@@ -1755,13 +1755,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "원전제어계통(MMIS, Man-Machine Interface System)"
       },
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "MMIS(Man-Machine Interface System)"
@@ -2119,13 +2119,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::7)",
+        "tech_id": "newgrowth::8::다::7)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "가동원전 계측제어설비 디지털 업그레이드 기술",
         "surface": "계측제어"
       },
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "계측제어"
@@ -2145,13 +2145,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::15)",
+        "tech_id": "newgrowth::13::라::15)",
         "sector_name": "탄소중립",
         "tech_name": "고로 용선 및 전기로 용강 합탕기술",
         "surface": "고로"
       },
       {
-        "tech_id": "newgrowth::15::라::2)",
+        "tech_id": "newgrowth::13::라::2)",
         "sector_name": "탄소중립",
         "tech_name": "함수소가스 활용 고로취입기술",
         "surface": "고로"
@@ -2254,7 +2254,7 @@
         "surface": "단조"
       },
       {
-        "tech_id": "newgrowth::15::라::13)",
+        "tech_id": "newgrowth::13::라::13)",
         "sector_name": "탄소중립",
         "tech_name": "철강 가열공정 탄소연료 대체기술",
         "surface": "단조"
@@ -2281,7 +2281,7 @@
         "surface": "딥러닝(deep learning)"
       },
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "딥러닝"
@@ -2507,13 +2507,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::1)",
+        "tech_id": "newgrowth::13::가::1)",
         "sector_name": "탄소중립",
         "tech_name": "연소 후 이산화탄소 포집 기술",
         "surface": "분리막"
       },
       {
-        "tech_id": "newgrowth::15::가::2)",
+        "tech_id": "newgrowth::13::가::2)",
         "sector_name": "탄소중립",
         "tech_name": "연소 전 이산화탄소 포집기술",
         "surface": "분리막"
@@ -2584,13 +2584,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::5)",
+        "tech_id": "newgrowth::13::다::5)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
         "surface": "블레이드(blade)"
       },
       {
-        "tech_id": "newgrowth::15::다::7)",
+        "tech_id": "newgrowth::13::다::7)",
         "sector_name": "탄소중립",
         "tech_name": "풍력발전 블레이드 기술",
         "surface": "블레이드(Blade)"
@@ -2610,13 +2610,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::5)",
+        "tech_id": "newgrowth::13::라::5)",
         "sector_name": "탄소중립",
         "tech_name": "산화칼슘 함유 비탄산염 산업부산물의 시멘트 원료화 기술",
         "surface": "비탄산염"
       },
       {
-        "tech_id": "newgrowth::15::라::6)",
+        "tech_id": "newgrowth::13::라::6)",
         "sector_name": "탄소중립",
         "tech_name": "이산화탄소 저감 시멘트 생산을 위한 연ㆍ원료 대체기술",
         "surface": "비탄산염"
@@ -2637,13 +2637,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "셀(Cell)"
       },
       {
-        "tech_id": "newgrowth::14::가::5)",
+        "tech_id": "newgrowth::8::가::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "고성능 리튬이차전지 기술",
         "surface": "셀(cell)"
@@ -2663,13 +2663,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::1)",
+        "tech_id": "newgrowth::13::다::1)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
         "surface": "셀"
       },
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "셀"
@@ -2851,7 +2851,7 @@
         "surface": "압연"
       },
       {
-        "tech_id": "newgrowth::15::라::13)",
+        "tech_id": "newgrowth::13::라::13)",
         "sector_name": "탄소중립",
         "tech_name": "철강 가열공정 탄소연료 대체기술",
         "surface": "압연"
@@ -2922,7 +2922,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::6)",
+        "tech_id": "newgrowth::8::가::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "전기동력 자동차의 에너지저장 시스템 기술",
         "surface": "에너지 밀도"
@@ -2980,7 +2980,7 @@
         "surface": "에틸렌"
       },
       {
-        "tech_id": "newgrowth::15::라::9)",
+        "tech_id": "newgrowth::13::라::9)",
         "sector_name": "탄소중립",
         "tech_name": "전기가열 나프타 분해기술",
         "surface": "에틸렌"
@@ -3079,13 +3079,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::5)",
+        "tech_id": "newgrowth::8::다::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "가압경수형원전(Pressurized Water Reactor) 원전설계 핵심코드 개발 기술",
         "surface": "열수력"
       },
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "열수력"
@@ -3105,13 +3105,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::10)",
+        "tech_id": "newgrowth::8::다::10)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "대형 원자력발전소 제조기술",
         "surface": "원자로"
       },
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "원자로"
@@ -3235,13 +3235,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::14)",
+        "tech_id": "newgrowth::13::라::14)",
         "sector_name": "탄소중립",
         "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
         "surface": "전기로"
       },
       {
-        "tech_id": "newgrowth::15::라::16)",
+        "tech_id": "newgrowth::13::라::16)",
         "sector_name": "탄소중립",
         "tech_name": "디지털 영상분석 기반 철스크랩 판정ㆍ선별기술",
         "surface": "전기로"
@@ -3339,7 +3339,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::2)",
+        "tech_id": "newgrowth::8::라::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "차세대 배기가스 규제 대응을 위한 운송ㆍ저장시스템 기술",
         "surface": "질소산화물"
@@ -3365,13 +3365,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::9)",
+        "tech_id": "newgrowth::13::나::9)",
         "sector_name": "탄소중립",
         "tech_name": "액화수소 운반선의 액화수소 저장ㆍ적하역 및 증발가스 처리기술",
         "surface": "카고핸들링"
       },
       {
-        "tech_id": "strategic::9::::아.",
+        "tech_id": "strategic::6::::아.",
         "sector_name": "미래형 운송 및 이동수단",
         "tech_name": "환경친화적 첨단 선박의 운송ㆍ추진 기술",
         "surface": "카고핸들링"
@@ -3495,13 +3495,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::5)",
+        "tech_id": "newgrowth::8::라::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐플라스틱 등의 화학적 재활용을 통한 산업원료화 기술",
         "surface": "해중합"
       },
       {
-        "tech_id": "newgrowth::14::라::9)",
+        "tech_id": "newgrowth::8::라::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐섬유의 화학 및 생물학적 재활용 기술을 활용한 자원순환 섬유소재 제조기술",
         "surface": "해중합"
@@ -3573,13 +3573,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::9)",
+        "tech_id": "newgrowth::13::나::9)",
         "sector_name": "탄소중립",
         "tech_name": "액화수소 운반선의 액화수소 저장ㆍ적하역 및 증발가스 처리기술",
         "surface": "화물창"
       },
       {
-        "tech_id": "strategic::9::::아.",
+        "tech_id": "strategic::6::::아.",
         "sector_name": "미래형 운송 및 이동수단",
         "tech_name": "환경친화적 첨단 선박의 운송ㆍ추진 기술",
         "surface": "화물창"
@@ -3625,13 +3625,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::1)",
+        "tech_id": "newgrowth::13::가::1)",
         "sector_name": "탄소중립",
         "tech_name": "연소 후 이산화탄소 포집 기술",
         "surface": "흡수제"
       },
       {
-        "tech_id": "newgrowth::15::가::2)",
+        "tech_id": "newgrowth::13::가::2)",
         "sector_name": "탄소중립",
         "tech_name": "연소 전 이산화탄소 포집기술",
         "surface": "흡수제"
@@ -3651,13 +3651,13 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::1)",
+        "tech_id": "newgrowth::13::가::1)",
         "sector_name": "탄소중립",
         "tech_name": "연소 후 이산화탄소 포집 기술",
         "surface": "흡착제"
       },
       {
-        "tech_id": "newgrowth::15::가::2)",
+        "tech_id": "newgrowth::13::가::2)",
         "sector_name": "탄소중립",
         "tech_name": "연소 전 이산화탄소 포집기술",
         "surface": "흡착제"
@@ -3753,7 +3753,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "APR+(Advanced Power Reactor Plus)"
@@ -3772,7 +3772,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::2)",
+        "tech_id": "newgrowth::12::나::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
         "surface": "B5"
@@ -3829,7 +3829,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::5)",
+        "tech_id": "newgrowth::8::가::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "고성능 리튬이차전지 기술",
         "surface": "C-rate"
@@ -3924,7 +3924,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::3)",
+        "tech_id": "newgrowth::13::가::3)",
         "sector_name": "탄소중립",
         "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
         "surface": "CLC(Chemical Looping Cycle)"
@@ -4190,7 +4190,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::10)",
+        "tech_id": "newgrowth::13::라::10)",
         "sector_name": "탄소중립",
         "tech_name": "반도체ㆍ디스플레이 식각ㆍ증착공정의 대체소재 제조 및 적용기술",
         "surface": "GWP(Global Warming Potential)"
@@ -4342,7 +4342,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::1)",
+        "tech_id": "newgrowth::12::가::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 알루미늄 도금강판 제조 기술",
         "surface": "KSD9502"
@@ -4418,7 +4418,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::4)",
+        "tech_id": "newgrowth::13::나::4)",
         "sector_name": "탄소중립",
         "tech_name": "액화수소 제조를 위한 수소액화플랜트 핵심부품 설계 및 제조기술",
         "surface": "LNG냉열"
@@ -4570,7 +4570,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::13)",
+        "tech_id": "newgrowth::12::가::13)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "MLCC용 초미세 니켈 나노분말 및 내부전극용 나노 페이스트 제조 기술",
         "surface": "MLCC"
@@ -4589,7 +4589,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::12)",
+        "tech_id": "newgrowth::13::라::12)",
         "sector_name": "탄소중립",
         "tech_name": "해상(FSRU) 및 육상 LNG터미널에서의 LNG 냉열발전 결합형 재기화 기술",
         "surface": "MMSCFD(Million Metric Standard Cubic Feet per Day)"
@@ -4646,7 +4646,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::14)",
+        "tech_id": "newgrowth::13::다::14)",
         "sector_name": "탄소중립",
         "tech_name": "고효율 n형 대면적 태양전지와 이를 집적한 모듈화 기술",
         "surface": "n형 대면적"
@@ -4834,7 +4834,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::4)",
+        "tech_id": "newgrowth::13::라::4)",
         "sector_name": "탄소중립",
         "tech_name": "이산화탄소 반응경화 시멘트 생산기술",
         "surface": "Rankinite"
@@ -4910,7 +4910,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::9::::사.",
+        "tech_id": "strategic::6::::사.",
         "sector_name": "미래형 운송 및 이동수단",
         "tech_name": "인공지능형 자율운항 기술",
         "surface": "ROC(Remote Operation Center)"
@@ -4986,7 +4986,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::13)",
+        "tech_id": "newgrowth::13::다::13)",
         "sector_name": "탄소중립",
         "tech_name": "해상풍력 발전단지 내ㆍ외부 전력망에 사용되는 해저케이블 시스템 기술",
         "surface": "semi-wet 방식"
@@ -5043,7 +5043,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "SMART(System-integrated Modular Advanced Reactor)"
@@ -5062,7 +5062,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "SMR"
@@ -5081,7 +5081,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::1)",
+        "tech_id": "newgrowth::12::가::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 알루미늄 도금강판 제조 기술",
         "surface": "SST"
@@ -5252,7 +5252,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::4)",
+        "tech_id": "newgrowth::13::라::4)",
         "sector_name": "탄소중립",
         "tech_name": "이산화탄소 반응경화 시멘트 생산기술",
         "surface": "Wollastonite"
@@ -5328,7 +5328,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::2)",
+        "tech_id": "newgrowth::13::나::2)",
         "sector_name": "탄소중립",
         "tech_name": "부생수소 생산기술",
         "surface": "가성소다"
@@ -5347,7 +5347,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::10)",
+        "tech_id": "newgrowth::13::나::10)",
         "sector_name": "탄소중립",
         "tech_name": "암모니아 발전 기술",
         "surface": "가스터빈"
@@ -5366,7 +5366,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "가압기"
@@ -5385,7 +5385,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "가연성흡수봉"
@@ -5442,7 +5442,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "감용기술"
@@ -5480,7 +5480,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "강화학습"
@@ -5518,7 +5518,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::2)",
+        "tech_id": "newgrowth::13::마::2)",
         "sector_name": "탄소중립",
         "tech_name": "지능형 배전계통 고도화 및 운용기술",
         "surface": "개폐기"
@@ -5556,7 +5556,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::가.",
+        "tech_id": "strategic::8::::가.",
         "sector_name": "인공지능",
         "tech_name": "생성형 인공지능 기술",
         "surface": "거대 인공지능 기초 모델(Foundation Model)"
@@ -5594,7 +5594,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::5)",
+        "tech_id": "newgrowth::8::다::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "가압경수형원전(Pressurized Water Reactor) 원전설계 핵심코드 개발 기술",
         "surface": "격납건물"
@@ -5632,7 +5632,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::14)",
+        "tech_id": "newgrowth::13::다::14)",
         "sector_name": "탄소중립",
         "tech_name": "고효율 n형 대면적 태양전지와 이를 집적한 모듈화 기술",
         "surface": "결정질 실리콘"
@@ -5670,7 +5670,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::3)",
+        "tech_id": "newgrowth::12::다::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "연삭가공기 설계ㆍ제조 기술",
         "surface": "결합제"
@@ -5765,7 +5765,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::8)",
+        "tech_id": "newgrowth::12::가::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "니켈광 대상 니켈 회수공정 기술",
         "surface": "고압산침출"
@@ -5803,7 +5803,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::1)",
+        "tech_id": "newgrowth::12::가::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 알루미늄 도금강판 제조 기술",
         "surface": "고온성형성"
@@ -5841,7 +5841,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::3)",
+        "tech_id": "newgrowth::12::다::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "연삭가공기 설계ㆍ제조 기술",
         "surface": "고정도"
@@ -5860,7 +5860,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::6)",
+        "tech_id": "newgrowth::13::다::6)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
         "surface": "고정자(stator)"
@@ -5879,7 +5879,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::1)",
+        "tech_id": "newgrowth::13::다::1)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
         "surface": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell)"
@@ -5898,7 +5898,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::2)",
+        "tech_id": "newgrowth::14::가::2)",
         "sector_name": "방위산업",
         "tech_name": "군사위성체계 기술",
         "surface": "고체연료"
@@ -5993,7 +5993,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::3)",
+        "tech_id": "newgrowth::12::나::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고정밀 볼스크류 설계ㆍ제조기술",
         "surface": "공차"
@@ -6012,7 +6012,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::2)",
+        "tech_id": "newgrowth::8::라::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "차세대 배기가스 규제 대응을 위한 운송ㆍ저장시스템 기술",
         "surface": "과급기"
@@ -6126,7 +6126,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "광활성층"
@@ -6145,7 +6145,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::1)",
+        "tech_id": "newgrowth::12::나::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고정밀 롤러베어링 및 볼베어링 설계ㆍ제조 기술",
         "surface": "구름베어링"
@@ -6183,7 +6183,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::2)",
+        "tech_id": "newgrowth::14::가::2)",
         "sector_name": "방위산업",
         "tech_name": "군사위성체계 기술",
         "surface": "구조체"
@@ -6202,7 +6202,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::6)",
+        "tech_id": "newgrowth::12::나::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "특수 렌즈 소재ㆍ부품ㆍ장비 제조기술",
         "surface": "굴절률(nd)"
@@ -6240,7 +6240,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::8)",
+        "tech_id": "newgrowth::13::다::8)",
         "sector_name": "탄소중립",
         "tech_name": "지열 에너지 회수 및 저장 기술",
         "surface": "그라우팅(grouting)"
@@ -6278,7 +6278,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::8)",
+        "tech_id": "newgrowth::13::라::8)",
         "sector_name": "탄소중립",
         "tech_name": "석유계 고분자 대체 바이오 케미칼 원료 생산기술",
         "surface": "글리세롤"
@@ -6335,7 +6335,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "금속리본"
@@ -6392,7 +6392,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "금속전극"
@@ -6449,7 +6449,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::11)",
+        "tech_id": "newgrowth::12::가::11)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "기능화 그래핀 기반 차세대 전자소자ㆍ에너지시스템용 복합소재 제조ㆍ공정기술",
         "surface": "기능화 그래핀"
@@ -6487,7 +6487,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::1)",
+        "tech_id": "newgrowth::8::라::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "미세먼지 제거 및 고정밀 미세먼지ㆍ온실가스 동시 측정 기술",
         "surface": "기액접촉층"
@@ -6506,7 +6506,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "기어박스"
@@ -6544,7 +6544,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::5)",
+        "tech_id": "newgrowth::12::가::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고효율ㆍ고용량 이차전지 음극재 제조 기술",
         "surface": "나노 실리콘"
@@ -6563,7 +6563,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "나트륨(Sodium)계 이차전지"
@@ -6582,7 +6582,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::9)",
+        "tech_id": "newgrowth::13::라::9)",
         "sector_name": "탄소중립",
         "tech_name": "전기가열 나프타 분해기술",
         "surface": "나프타"
@@ -6601,7 +6601,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::8)",
+        "tech_id": "newgrowth::12::다::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "방전가공기 장비ㆍ부품의 설계ㆍ제조기술",
         "surface": "난삭재"
@@ -6639,7 +6639,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::10)",
+        "tech_id": "newgrowth::8::다::10)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "대형 원자력발전소 제조기술",
         "surface": "냉각재펌프"
@@ -6658,7 +6658,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::15)",
+        "tech_id": "newgrowth::13::마::15)",
         "sector_name": "탄소중립",
         "tech_name": "친환경 냉매 개발 기술",
         "surface": "냉동기유"
@@ -6677,7 +6677,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::13)",
+        "tech_id": "newgrowth::12::가::13)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "MLCC용 초미세 니켈 나노분말 및 내부전극용 나노 페이스트 제조 기술",
         "surface": "니켈 나노분말"
@@ -6696,7 +6696,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::13)",
+        "tech_id": "newgrowth::12::가::13)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "MLCC용 초미세 니켈 나노분말 및 내부전극용 나노 페이스트 제조 기술",
         "surface": "니켈 페이스트"
@@ -6772,7 +6772,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::11)",
+        "tech_id": "newgrowth::8::다::11)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "혁신 제조공법 원전 분야 적용 기술",
         "surface": "다이오드 레이저 클래딩(DLC)"
@@ -6791,7 +6791,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "다중 에이전트 추론기법"
@@ -6810,7 +6810,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "다중방벽"
@@ -6905,7 +6905,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::6)",
+        "tech_id": "newgrowth::12::가::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
         "surface": "도전재"
@@ -6962,7 +6962,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::6)",
+        "tech_id": "newgrowth::13::다::6)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
         "surface": "동기발전기"
@@ -7019,7 +7019,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::1)",
+        "tech_id": "newgrowth::12::다::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
         "surface": "드릴링"
@@ -7038,7 +7038,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::4)",
+        "tech_id": "newgrowth::12::가::4)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 인조흑연 제조기술",
         "surface": "등방블록"
@@ -7057,7 +7057,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::2)",
+        "tech_id": "newgrowth::12::다::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "열간 등방압 정수압 프레스 설계ㆍ제조 기술",
         "surface": "등방압"
@@ -7095,7 +7095,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::9::::가.",
+        "tech_id": "strategic::6::::가.",
         "sector_name": "미래형 운송 및 이동수단",
         "tech_name": "주행상황 인지 센서 기술",
         "surface": "라이다 센서(LIDAR sensor)"
@@ -7114,7 +7114,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::8)",
+        "tech_id": "newgrowth::12::가::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "니켈광 대상 니켈 회수공정 기술",
         "surface": "라테라이트"
@@ -7152,7 +7152,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::9::::가.",
+        "tech_id": "strategic::6::::가.",
         "sector_name": "미래형 운송 및 이동수단",
         "tech_name": "주행상황 인지 센서 기술",
         "surface": "레이더 센서(radar sensor)"
@@ -7171,7 +7171,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::7)",
+        "tech_id": "newgrowth::12::다::7)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 레이저 가공장비 설계ㆍ제조기술",
         "surface": "레이저 가공헤드"
@@ -7190,7 +7190,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::1)",
+        "tech_id": "newgrowth::12::나::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고정밀 롤러베어링 및 볼베어링 설계ㆍ제조 기술",
         "surface": "롤러"
@@ -7209,7 +7209,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::5)",
+        "tech_id": "newgrowth::12::다::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
         "surface": "롤러"
@@ -7285,7 +7285,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::5)",
+        "tech_id": "newgrowth::8::가::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "고성능 리튬이차전지 기술",
         "surface": "리튬이차전지"
@@ -7304,7 +7304,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::7)",
+        "tech_id": "newgrowth::12::가::7)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고순도 리튬화합물 제조 기술",
         "surface": "리튬화합물"
@@ -7437,7 +7437,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::5)",
+        "tech_id": "newgrowth::12::다::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
         "surface": "맨드릴"
@@ -7456,7 +7456,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::1)",
+        "tech_id": "newgrowth::12::다::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
         "surface": "머시닝센터"
@@ -7494,7 +7494,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "멀티모달 학습"
@@ -7551,7 +7551,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "메타러닝"
@@ -7570,7 +7570,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "멤브레인(Membrane)"
@@ -7646,7 +7646,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::9)",
+        "tech_id": "newgrowth::8::라::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐섬유의 화학 및 생물학적 재활용 기술을 활용한 자원순환 섬유소재 제조기술",
         "surface": "모노머"
@@ -7684,7 +7684,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::5)",
+        "tech_id": "newgrowth::8::가::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "고성능 리튬이차전지 기술",
         "surface": "모듈(module)"
@@ -7703,7 +7703,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "모듈"
@@ -7779,7 +7779,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "무붕산 노심설계"
@@ -7798,7 +7798,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::6)",
+        "tech_id": "newgrowth::8::라::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "생분해성 플라스틱 생산기술",
         "surface": "물성"
@@ -7817,7 +7817,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::3)",
+        "tech_id": "newgrowth::13::가::3)",
         "sector_name": "탄소중립",
         "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
         "surface": "미분탄"
@@ -7836,7 +7836,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::10)",
+        "tech_id": "newgrowth::13::나::10)",
         "sector_name": "탄소중립",
         "tech_name": "암모니아 발전 기술",
         "surface": "미분탄 보일러"
@@ -7855,7 +7855,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::1)",
+        "tech_id": "newgrowth::12::다::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
         "surface": "밀링"
@@ -7893,7 +7893,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::8)",
+        "tech_id": "newgrowth::13::라::8)",
         "sector_name": "탄소중립",
         "tech_name": "석유계 고분자 대체 바이오 케미칼 원료 생산기술",
         "surface": "바이오 고분자"
@@ -8121,7 +8121,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::9)",
+        "tech_id": "newgrowth::8::라::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐섬유의 화학 및 생물학적 재활용 기술을 활용한 자원순환 섬유소재 제조기술",
         "surface": "방사기술"
@@ -8159,7 +8159,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::3)",
+        "tech_id": "newgrowth::8::다::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "방사선이용 대형 공정 시스템 검사기술",
         "surface": "방사선투시"
@@ -8178,7 +8178,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "방폐물"
@@ -8197,7 +8197,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::8)",
+        "tech_id": "newgrowth::12::나::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "선박용 모터(Motor) 설계ㆍ제조기술",
         "surface": "방폭형 모터"
@@ -8216,7 +8216,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::2)",
+        "tech_id": "newgrowth::8::라::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "차세대 배기가스 규제 대응을 위한 운송ㆍ저장시스템 기술",
         "surface": "배기배출물"
@@ -8235,7 +8235,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::2)",
+        "tech_id": "newgrowth::13::마::2)",
         "sector_name": "탄소중립",
         "tech_name": "지능형 배전계통 고도화 및 운용기술",
         "surface": "배전계통"
@@ -8311,7 +8311,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::6)",
+        "tech_id": "newgrowth::13::다::6)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
         "surface": "변환기"
@@ -8349,7 +8349,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::1)",
+        "tech_id": "newgrowth::12::다::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
         "surface": "보링가공"
@@ -8368,7 +8368,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::8)",
+        "tech_id": "newgrowth::13::다::8)",
         "sector_name": "탄소중립",
         "tech_name": "지열 에너지 회수 및 저장 기술",
         "surface": "보어홀(borehole)"
@@ -8387,7 +8387,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "보조기기"
@@ -8406,7 +8406,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::12::가::2)",
+        "tech_id": "newgrowth::3::가::2)",
         "sector_name": "차세대소프트웨어(SW) 및 보안",
         "tech_name": "이기종(異機種) 멀티코아 소프트웨어 기술",
         "surface": "보조연산장치"
@@ -8463,7 +8463,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::3)",
+        "tech_id": "newgrowth::13::라::3)",
         "sector_name": "탄소중립",
         "tech_name": "복합취련전로 활용 스크랩 다량 사용기술",
         "surface": "복합취련전로"
@@ -8482,7 +8482,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::1)",
+        "tech_id": "newgrowth::12::나::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고정밀 롤러베어링 및 볼베어링 설계ㆍ제조 기술",
         "surface": "볼"
@@ -8520,7 +8520,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "봉지"
@@ -8558,7 +8558,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::14)",
+        "tech_id": "newgrowth::13::마::14)",
         "sector_name": "탄소중립",
         "tech_name": "그린수소 생산 해양 플랫폼 설계기술",
         "surface": "부유식 플랫폼"
@@ -8577,7 +8577,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "부지복원"
@@ -8615,7 +8615,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "분기구조 기반 추론기법"
@@ -8653,7 +8653,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::1)",
+        "tech_id": "newgrowth::13::다::1)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
         "surface": "분리판"
@@ -8672,7 +8672,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::11)",
+        "tech_id": "newgrowth::8::다::11)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "혁신 제조공법 원전 분야 적용 기술",
         "surface": "분말-열간등방압성형(PM-HIP)"
@@ -8691,7 +8691,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::12::가::3)",
+        "tech_id": "newgrowth::3::가::3)",
         "sector_name": "차세대소프트웨어(SW) 및 보안",
         "tech_name": "분산병렬 소프트웨어 기술",
         "surface": "분산 컴퓨팅"
@@ -8805,7 +8805,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::11)",
+        "tech_id": "newgrowth::13::라::11)",
         "sector_name": "탄소중립",
         "tech_name": "반도체 및 디스플레이 제조공정에서 배출되는 불소화합물 및 아산화질소 배출 저감기술",
         "surface": "불소화합물"
@@ -8824,7 +8824,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::5)",
+        "tech_id": "newgrowth::12::나::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고성능 터보식 펌프 설계ㆍ제조기술",
         "surface": "블레이드"
@@ -8881,7 +8881,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::9::::가.",
+        "tech_id": "strategic::6::::가.",
         "sector_name": "미래형 운송 및 이동수단",
         "tech_name": "주행상황 인지 센서 기술",
         "surface": "비전 센서(vision sensor)"
@@ -8900,7 +8900,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::6)",
+        "tech_id": "newgrowth::12::가::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
         "surface": "비철계"
@@ -8957,7 +8957,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::12::가::4)",
+        "tech_id": "newgrowth::3::가::4)",
         "sector_name": "차세대소프트웨어(SW) 및 보안",
         "tech_name": "차세대 메모리 기반 시스템 소프트웨어 기술",
         "surface": "비휘발성 메모리"
@@ -9052,7 +9052,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::2)",
+        "tech_id": "newgrowth::12::가::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고순도 산화알루미늄 제조기술",
         "surface": "산화알루미늄"
@@ -9071,7 +9071,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::3)",
+        "tech_id": "newgrowth::13::라::3)",
         "sector_name": "탄소중립",
         "tech_name": "복합취련전로 활용 스크랩 다량 사용기술",
         "surface": "상저취전로"
@@ -9109,7 +9109,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::6)",
+        "tech_id": "newgrowth::8::라::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "생분해성 플라스틱 생산기술",
         "surface": "생분해성수지"
@@ -9185,7 +9185,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::7)",
+        "tech_id": "newgrowth::8::라::7)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐기물 저감형 포장소재 생산 기술",
         "surface": "석유계 용제"
@@ -9204,7 +9204,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::7)",
+        "tech_id": "newgrowth::12::가::7)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고순도 리튬화합물 제조 기술",
         "surface": "선광"
@@ -9242,7 +9242,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::2)",
+        "tech_id": "newgrowth::8::라::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "차세대 배기가스 규제 대응을 위한 운송ㆍ저장시스템 기술",
         "surface": "선택적촉매환원법(SCR)"
@@ -9299,7 +9299,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::5)",
+        "tech_id": "newgrowth::12::다::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
         "surface": "성형"
@@ -9318,7 +9318,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::3)",
+        "tech_id": "newgrowth::13::가::3)",
         "sector_name": "탄소중립",
         "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
         "surface": "세라믹-메탈 복합분리막(Ceramic-metal composite membrane)"
@@ -9337,7 +9337,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::1)",
+        "tech_id": "newgrowth::8::라::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "미세먼지 제거 및 고정밀 미세먼지ㆍ온실가스 동시 측정 기술",
         "surface": "세라믹필터"
@@ -9432,7 +9432,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::6)",
+        "tech_id": "newgrowth::13::라::6)",
         "sector_name": "탄소중립",
         "tech_name": "이산화탄소 저감 시멘트 생산을 위한 연ㆍ원료 대체기술",
         "surface": "소성"
@@ -9470,7 +9470,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::7)",
+        "tech_id": "newgrowth::13::라::7)",
         "sector_name": "탄소중립",
         "tech_name": "시멘트 소성공정 유연탄 대체 기술",
         "surface": "소성공정"
@@ -9527,7 +9527,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::8)",
+        "tech_id": "newgrowth::12::나::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "선박용 모터(Motor) 설계ㆍ제조기술",
         "surface": "수소 연료전지"
@@ -9546,7 +9546,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::14)",
+        "tech_id": "newgrowth::13::라::14)",
         "sector_name": "탄소중립",
         "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
         "surface": "수소환원철"
@@ -9565,7 +9565,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::3)",
+        "tech_id": "newgrowth::8::가::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "에너지관리시스템 기술",
         "surface": "수요반응"
@@ -9641,7 +9641,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::3)",
+        "tech_id": "newgrowth::13::가::3)",
         "sector_name": "탄소중립",
         "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
         "surface": "순산소연소"
@@ -9660,7 +9660,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::3)",
+        "tech_id": "newgrowth::12::다::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "연삭가공기 설계ㆍ제조 기술",
         "surface": "숫돌"
@@ -9717,7 +9717,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::4)",
+        "tech_id": "newgrowth::12::다::4)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 터닝센터 설계ㆍ제조기술",
         "surface": "스카이빙"
@@ -9736,7 +9736,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::3)",
+        "tech_id": "newgrowth::13::라::3)",
         "sector_name": "탄소중립",
         "tech_name": "복합취련전로 활용 스크랩 다량 사용기술",
         "surface": "스크랩"
@@ -9755,7 +9755,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "스택(Stack)"
@@ -9774,7 +9774,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::1)",
+        "tech_id": "newgrowth::13::다::1)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
         "surface": "스택"
@@ -9812,7 +9812,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::1)",
+        "tech_id": "newgrowth::8::라::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "미세먼지 제거 및 고정밀 미세먼지ㆍ온실가스 동시 측정 기술",
         "surface": "습식 플라즈마(wet plasma)"
@@ -9888,7 +9888,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::3)",
+        "tech_id": "newgrowth::8::가::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "에너지관리시스템 기술",
         "surface": "신재생연계"
@@ -9907,7 +9907,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::7)",
+        "tech_id": "newgrowth::8::다::7)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "가동원전 계측제어설비 디지털 업그레이드 기술",
         "surface": "신호선"
@@ -9926,7 +9926,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::8)",
+        "tech_id": "newgrowth::13::마::8)",
         "sector_name": "탄소중립",
         "tech_name": "선박용 디젤엔진 제조 기술",
         "surface": "실린더헤드(Cylinder Head)"
@@ -9964,7 +9964,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::3)",
+        "tech_id": "newgrowth::13::가::3)",
         "sector_name": "탄소중립",
         "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
         "surface": "심냉법"
@@ -9983,7 +9983,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::9)",
+        "tech_id": "newgrowth::13::다::9)",
         "sector_name": "탄소중립",
         "tech_name": "지열발전기술",
         "surface": "심부"
@@ -10002,7 +10002,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::9)",
+        "tech_id": "newgrowth::13::다::9)",
         "sector_name": "탄소중립",
         "tech_name": "지열발전기술",
         "surface": "심부시추공"
@@ -10059,7 +10059,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::11)",
+        "tech_id": "newgrowth::13::라::11)",
         "sector_name": "탄소중립",
         "tech_name": "반도체 및 디스플레이 제조공정에서 배출되는 불소화합물 및 아산화질소 배출 저감기술",
         "surface": "아산화질소"
@@ -10097,7 +10097,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::2)",
+        "tech_id": "newgrowth::12::다::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "열간 등방압 정수압 프레스 설계ㆍ제조 기술",
         "surface": "압력매체"
@@ -10116,7 +10116,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::3)",
+        "tech_id": "newgrowth::12::가::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "거리감지센서용 압전결정소자 및 초음파 트랜스듀서 기술",
         "surface": "압전결정소자"
@@ -10306,7 +10306,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "양극"
@@ -10325,7 +10325,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::12::나::3)",
+        "tech_id": "newgrowth::3::나::3)",
         "sector_name": "차세대소프트웨어(SW) 및 보안",
         "tech_name": "미래컴퓨팅 응용ㆍ보안기술",
         "surface": "양자컴퓨팅(quantum computing)"
@@ -10344,7 +10344,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::3)",
+        "tech_id": "newgrowth::8::가::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "에너지관리시스템 기술",
         "surface": "에너지관리시스템(EMS, Energy Management System)"
@@ -10363,7 +10363,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::5)",
+        "tech_id": "newgrowth::8::가::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "고성능 리튬이차전지 기술",
         "surface": "에너지밀도"
@@ -10420,7 +10420,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::12)",
+        "tech_id": "newgrowth::12::가::12)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고성능 실리카 에어로겔 단열재 제조 기술",
         "surface": "에어로겔"
@@ -10515,7 +10515,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::12::가::2)",
+        "tech_id": "newgrowth::3::가::2)",
         "sector_name": "차세대소프트웨어(SW) 및 보안",
         "tech_name": "이기종(異機種) 멀티코아 소프트웨어 기술",
         "surface": "연산가속장치"
@@ -10534,7 +10534,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::다.",
+        "tech_id": "strategic::8::::다.",
         "sector_name": "인공지능",
         "tech_name": "학습 및 추론 고도화 기술",
         "surface": "연쇄사고 추론기법"
@@ -10572,7 +10572,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::5)",
+        "tech_id": "newgrowth::8::라::5)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐플라스틱 등의 화학적 재활용을 통한 산업원료화 기술",
         "surface": "열분해"
@@ -10610,7 +10610,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::12)",
+        "tech_id": "newgrowth::13::다::12)",
         "sector_name": "탄소중립",
         "tech_name": "미활용 폐열 회수ㆍ활용을 통한 발전 기술",
         "surface": "열전소자"
@@ -10648,7 +10648,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::6)",
+        "tech_id": "newgrowth::12::가::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "전극용 탄소나노튜브 제조 및 이를 활용한 도전재 제조 공정 기술",
         "surface": "열화 현상"
@@ -10724,7 +10724,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::10)",
+        "tech_id": "newgrowth::8::라::10)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "이차전지 제조공정 염폐수 자원순환을 위한 전해조 시스템 및 전ㆍ후처리 통합 기술",
         "surface": "염폐수"
@@ -10743,7 +10743,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::7)",
+        "tech_id": "newgrowth::12::가::7)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고순도 리튬화합물 제조 기술",
         "surface": "염화"
@@ -10817,7 +10817,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::4)",
+        "tech_id": "newgrowth::13::나::4)",
         "sector_name": "탄소중립",
         "tech_name": "액화수소 제조를 위한 수소액화플랜트 핵심부품 설계 및 제조기술",
         "surface": "예냉사이클"
@@ -10836,7 +10836,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::3)",
+        "tech_id": "newgrowth::8::다::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "방사선이용 대형 공정 시스템 검사기술",
         "surface": "와전류"
@@ -10855,7 +10855,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "완제엔진"
@@ -10874,7 +10874,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "왕복엔진"
@@ -10912,7 +10912,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::4)",
+        "tech_id": "newgrowth::8::라::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐플라스틱 등의 물리적 재활용 기술",
         "surface": "용융"
@@ -10950,7 +10950,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::7)",
+        "tech_id": "newgrowth::12::다::7)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 레이저 가공장비 설계ㆍ제조기술",
         "surface": "용융"
@@ -11007,7 +11007,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::15)",
+        "tech_id": "newgrowth::13::라::15)",
         "sector_name": "탄소중립",
         "tech_name": "고로 용선 및 전기로 용강 합탕기술",
         "surface": "용탕"
@@ -11026,7 +11026,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::14)",
+        "tech_id": "newgrowth::13::라::14)",
         "sector_name": "탄소중립",
         "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
         "surface": "용해공정"
@@ -11064,7 +11064,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::6)",
+        "tech_id": "newgrowth::12::나::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "특수 렌즈 소재ㆍ부품ㆍ장비 제조기술",
         "surface": "원적외선"
@@ -11121,7 +11121,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::12)",
+        "tech_id": "newgrowth::13::다::12)",
         "sector_name": "탄소중립",
         "tech_name": "미활용 폐열 회수ㆍ활용을 통한 발전 기술",
         "surface": "유기냉매"
@@ -11197,7 +11197,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::9)",
+        "tech_id": "newgrowth::13::라::9)",
         "sector_name": "탄소중립",
         "tech_name": "전기가열 나프타 분해기술",
         "surface": "유도 가열"
@@ -11216,7 +11216,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::6)",
+        "tech_id": "newgrowth::13::다::6)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
         "surface": "유도발전기"
@@ -11254,7 +11254,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::10)",
+        "tech_id": "newgrowth::13::나::10)",
         "sector_name": "탄소중립",
         "tech_name": "암모니아 발전 기술",
         "surface": "유동층 보일러"
@@ -11273,7 +11273,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::나::1)",
+        "tech_id": "newgrowth::14::나::1)",
         "sector_name": "방위산업",
         "tech_name": "유무인복합체계 기술",
         "surface": "유무인복합체계"
@@ -11292,7 +11292,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::5)",
+        "tech_id": "newgrowth::13::다::5)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
         "surface": "유성기어(planet carrier)"
@@ -11311,7 +11311,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::2)",
+        "tech_id": "newgrowth::12::나::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
         "surface": "유압 액추에이터"
@@ -11330,7 +11330,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::2)",
+        "tech_id": "newgrowth::12::나::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
         "surface": "유압모터"
@@ -11368,7 +11368,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::7)",
+        "tech_id": "newgrowth::13::라::7)",
         "sector_name": "탄소중립",
         "tech_name": "시멘트 소성공정 유연탄 대체 기술",
         "surface": "유연탄"
@@ -11425,7 +11425,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "음극"
@@ -11444,7 +11444,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::5)",
+        "tech_id": "newgrowth::12::가::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고효율ㆍ고용량 이차전지 음극재 제조 기술",
         "surface": "음극재"
@@ -11482,7 +11482,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::3)",
+        "tech_id": "newgrowth::8::다::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "방사선이용 대형 공정 시스템 검사기술",
         "surface": "이리듐(Ir)-192"
@@ -11577,7 +11577,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::가::3)",
+        "tech_id": "newgrowth::13::가::3)",
         "sector_name": "탄소중립",
         "tech_name": "순산소 연소기술 및 저가 산소 대량 제조기술",
         "surface": "이온전도성분리막(ITM, Ion Transfer Membrane)"
@@ -11615,7 +11615,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::5)",
+        "tech_id": "newgrowth::13::다::5)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
         "surface": "이음쇠(coupling)"
@@ -11634,7 +11634,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::6)",
+        "tech_id": "newgrowth::13::다::6)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
         "surface": "이중여자"
@@ -11653,7 +11653,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::6)",
+        "tech_id": "newgrowth::8::가::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "전기동력 자동차의 에너지저장 시스템 기술",
         "surface": "이차전지 팩"
@@ -11672,7 +11672,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::9)",
+        "tech_id": "newgrowth::13::다::9)",
         "sector_name": "탄소중립",
         "tech_name": "지열발전기술",
         "surface": "인공 지열저류층 생성기술(enhanced geothermal system)"
@@ -11729,7 +11729,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::5)",
+        "tech_id": "newgrowth::12::나::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고성능 터보식 펌프 설계ㆍ제조기술",
         "surface": "임펠러"
@@ -11824,7 +11824,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::1)",
+        "tech_id": "newgrowth::12::다::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 머시닝센터 설계ㆍ제조기술",
         "surface": "자동공구교환장치(Automatic Tool Changer)"
@@ -11862,7 +11862,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::2)",
+        "tech_id": "newgrowth::14::가::2)",
         "sector_name": "방위산업",
         "tech_name": "군사위성체계 기술",
         "surface": "자세제어체계"
@@ -11900,7 +11900,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::6)",
+        "tech_id": "newgrowth::12::나::6)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "특수 렌즈 소재ㆍ부품ㆍ장비 제조기술",
         "surface": "자외광"
@@ -11957,7 +11957,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::13)",
+        "tech_id": "newgrowth::13::다::13)",
         "sector_name": "탄소중립",
         "tech_name": "해상풍력 발전단지 내ㆍ외부 전력망에 사용되는 해저케이블 시스템 기술",
         "surface": "장조장"
@@ -11976,7 +11976,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::9)",
+        "tech_id": "newgrowth::8::라::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "폐섬유의 화학 및 생물학적 재활용 기술을 활용한 자원순환 섬유소재 제조기술",
         "surface": "재중합"
@@ -12014,7 +12014,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "저가 분리판"
@@ -12109,7 +12109,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::10)",
+        "tech_id": "newgrowth::12::가::10)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고규소 함량 저철손 전기강판 제조기술",
         "surface": "저철손"
@@ -12147,7 +12147,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::7)",
+        "tech_id": "newgrowth::12::나::7)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능 적층세라믹콘덴서(MLCC: Multi Layer Ceramic Capacitor) 소재ㆍ부품 제조기술",
         "surface": "적층세라믹컨덴서"
@@ -12166,7 +12166,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::9)",
+        "tech_id": "newgrowth::13::나::9)",
         "sector_name": "탄소중립",
         "tech_name": "액화수소 운반선의 액화수소 저장ㆍ적하역 및 증발가스 처리기술",
         "surface": "적하역"
@@ -12242,7 +12242,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::4)",
+        "tech_id": "newgrowth::12::가::4)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 인조흑연 제조기술",
         "surface": "전극봉"
@@ -12261,7 +12261,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::10)",
+        "tech_id": "newgrowth::12::가::10)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고규소 함량 저철손 전기강판 제조기술",
         "surface": "전기강판"
@@ -12280,7 +12280,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::6)",
+        "tech_id": "newgrowth::8::가::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "전기동력 자동차의 에너지저장 시스템 기술",
         "surface": "전기동력 자동차(xEV)"
@@ -12318,7 +12318,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::9)",
+        "tech_id": "newgrowth::13::라::9)",
         "sector_name": "탄소중립",
         "tech_name": "전기가열 나프타 분해기술",
         "surface": "전기저항"
@@ -12375,7 +12375,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::3)",
+        "tech_id": "newgrowth::13::다::3)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지(SOFC, Solid Oxide Fuel Cell) 소재 기술",
         "surface": "전도 세라믹(Conducting Ceramic)"
@@ -12394,7 +12394,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::2)",
+        "tech_id": "newgrowth::8::가::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "전력관리시스템 설계 및 전력변환장치 설계 및 제조 기술",
         "surface": "전력계통"
@@ -12413,7 +12413,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::2)",
+        "tech_id": "newgrowth::8::가::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "전력관리시스템 설계 및 전력변환장치 설계 및 제조 기술",
         "surface": "전력관리시스템(PMS, Power Management System)"
@@ -12451,7 +12451,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::2)",
+        "tech_id": "newgrowth::8::가::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "전력관리시스템 설계 및 전력변환장치 설계 및 제조 기술",
         "surface": "전력변환장치(PCS, Power Conversion System)"
@@ -12470,7 +12470,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::3)",
+        "tech_id": "newgrowth::13::라::3)",
         "sector_name": "탄소중립",
         "tech_name": "복합취련전로 활용 스크랩 다량 사용기술",
         "surface": "전로 공정"
@@ -12489,7 +12489,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::11)",
+        "tech_id": "newgrowth::13::나::11)",
         "sector_name": "탄소중립",
         "tech_name": "산업용 수소 보일러 및 연소기 설계ㆍ제작 기술",
         "surface": "전소"
@@ -12508,7 +12508,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "전열관"
@@ -12527,7 +12527,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::8)",
+        "tech_id": "newgrowth::13::다::8)",
         "sector_name": "탄소중립",
         "tech_name": "지열 에너지 회수 및 저장 기술",
         "surface": "전열저항"
@@ -12546,7 +12546,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "전자ㆍ정공수송층"
@@ -12584,7 +12584,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::11)",
+        "tech_id": "newgrowth::8::다::11)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "혁신 제조공법 원전 분야 적용 기술",
         "surface": "전자빔 용접(EBW)"
@@ -12622,7 +12622,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::10)",
+        "tech_id": "newgrowth::8::라::10)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "이차전지 제조공정 염폐수 자원순환을 위한 전해조 시스템 및 전ㆍ후처리 통합 기술",
         "surface": "전해조"
@@ -12641,7 +12641,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "전해질"
@@ -12698,7 +12698,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::3)",
+        "tech_id": "newgrowth::12::나::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고정밀 볼스크류 설계ㆍ제조기술",
         "surface": "정밀도 C3"
@@ -12717,7 +12717,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::1)",
+        "tech_id": "newgrowth::12::나::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고정밀 롤러베어링 및 볼베어링 설계ㆍ제조 기술",
         "surface": "정밀도 P5"
@@ -12736,7 +12736,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::2)",
+        "tech_id": "newgrowth::12::다::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "열간 등방압 정수압 프레스 설계ㆍ제조 기술",
         "surface": "정수압"
@@ -12755,7 +12755,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "제어봉집합체"
@@ -12774,7 +12774,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "제염"
@@ -12850,7 +12850,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::1)",
+        "tech_id": "newgrowth::12::가::1)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 알루미늄 도금강판 제조 기술",
         "surface": "조성"
@@ -12888,7 +12888,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "주기기"
@@ -12907,7 +12907,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::5)",
+        "tech_id": "newgrowth::12::다::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "첨단 회전 성형기 설계ㆍ제조 기술",
         "surface": "주축"
@@ -12926,7 +12926,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::3)",
+        "tech_id": "newgrowth::8::가::3)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "에너지관리시스템 기술",
         "surface": "주파수조정"
@@ -12945,7 +12945,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "준위"
@@ -12964,7 +12964,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::2)",
+        "tech_id": "newgrowth::8::다::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "내열 내식성 원자력 소재 기술",
         "surface": "중성자 조사"
@@ -13040,7 +13040,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "증기발생기"
@@ -13059,7 +13059,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::2)",
+        "tech_id": "newgrowth::8::다::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "내열 내식성 원자력 소재 기술",
         "surface": "증기발생기 세관"
@@ -13097,7 +13097,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::2)",
+        "tech_id": "newgrowth::13::마::2)",
         "sector_name": "탄소중립",
         "tech_name": "지능형 배전계통 고도화 및 운용기술",
         "surface": "지능형전력장치(IED, Intelligent Electric Device)"
@@ -13154,7 +13154,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::9)",
+        "tech_id": "newgrowth::13::다::9)",
         "sector_name": "탄소중립",
         "tech_name": "지열발전기술",
         "surface": "지열수"
@@ -13173,7 +13173,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::9)",
+        "tech_id": "newgrowth::13::다::9)",
         "sector_name": "탄소중립",
         "tech_name": "지열발전기술",
         "surface": "지열유체"
@@ -13192,7 +13192,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::8)",
+        "tech_id": "newgrowth::13::다::8)",
         "sector_name": "탄소중립",
         "tech_name": "지열 에너지 회수 및 저장 기술",
         "surface": "지중 축열"
@@ -13230,7 +13230,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::1)",
+        "tech_id": "newgrowth::13::다::1)",
         "sector_name": "탄소중립",
         "tech_name": "고체산화물 연료전지 지지형셀ㆍ스택ㆍ시스템  설계 및 제조 기술",
         "surface": "지지형셀"
@@ -13249,7 +13249,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::8)",
+        "tech_id": "newgrowth::13::라::8)",
         "sector_name": "탄소중립",
         "tech_name": "석유계 고분자 대체 바이오 케미칼 원료 생산기술",
         "surface": "지질"
@@ -13268,7 +13268,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::2)",
+        "tech_id": "newgrowth::13::마::2)",
         "sector_name": "탄소중립",
         "tech_name": "지능형 배전계통 고도화 및 운용기술",
         "surface": "직류배전"
@@ -13287,7 +13287,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::14)",
+        "tech_id": "newgrowth::13::라::14)",
         "sector_name": "탄소중립",
         "tech_name": "전기로 저탄소원료(직접환원철ㆍ수소환원철) 활용기술",
         "surface": "직접환원철"
@@ -13306,7 +13306,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::8)",
+        "tech_id": "newgrowth::12::가::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "니켈광 대상 니켈 회수공정 기술",
         "surface": "질산침출"
@@ -13363,7 +13363,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::16)",
+        "tech_id": "newgrowth::13::라::16)",
         "sector_name": "탄소중립",
         "tech_name": "디지털 영상분석 기반 철스크랩 판정ㆍ선별기술",
         "surface": "철스크랩"
@@ -13401,7 +13401,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::다::8)",
+        "tech_id": "newgrowth::12::다::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "방전가공기 장비ㆍ부품의 설계ㆍ제조기술",
         "surface": "초경합금"
@@ -13458,7 +13458,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::12)",
+        "tech_id": "newgrowth::13::다::12)",
         "sector_name": "탄소중립",
         "tech_name": "미활용 폐열 회수ㆍ활용을 통한 발전 기술",
         "surface": "초임계 이산화탄소"
@@ -13477,7 +13477,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::나::2)",
+        "tech_id": "newgrowth::8::나::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "초임계 이산화탄소 터빈구동 시스템 설계ㆍ제조기술",
         "surface": "초임계상태의 이산화탄소(supercritical CO2)"
@@ -13572,7 +13572,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::5)",
+        "tech_id": "newgrowth::13::다::5)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 회전동력을 증속시켜 발전기에 전달하는 부품 설계 및 제조기술",
         "surface": "축(shaft)"
@@ -13591,7 +13591,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::12)",
+        "tech_id": "newgrowth::13::마::12)",
         "sector_name": "탄소중립",
         "tech_name": "연료전지, 배터리 및 축발전기 모터를 적용한 선박 발전시스템",
         "surface": "축발전기"
@@ -13610,7 +13610,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::14)",
+        "tech_id": "newgrowth::13::다::14)",
         "sector_name": "탄소중립",
         "tech_name": "고효율 n형 대면적 태양전지와 이를 집적한 모듈화 기술",
         "surface": "출력밀도"
@@ -13648,7 +13648,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::5)",
+        "tech_id": "newgrowth::12::가::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고효율ㆍ고용량 이차전지 음극재 제조 기술",
         "surface": "카본코팅"
@@ -13743,7 +13743,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::2)",
+        "tech_id": "newgrowth::12::나::2)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고압 컨트롤 밸브 설계ㆍ제조 기술",
         "surface": "컨트롤 벨브"
@@ -13781,7 +13781,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::4)",
+        "tech_id": "newgrowth::12::가::4)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 인조흑연 제조기술",
         "surface": "코크스"
@@ -13876,7 +13876,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::8)",
+        "tech_id": "newgrowth::13::마::8)",
         "sector_name": "탄소중립",
         "tech_name": "선박용 디젤엔진 제조 기술",
         "surface": "크랭크 샤프트(Crankshaft)"
@@ -13895,7 +13895,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::8)",
+        "tech_id": "newgrowth::12::나::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "선박용 모터(Motor) 설계ㆍ제조기술",
         "surface": "크레인(Crane)"
@@ -13933,7 +13933,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::5)",
+        "tech_id": "newgrowth::13::라::5)",
         "sector_name": "탄소중립",
         "tech_name": "산화칼슘 함유 비탄산염 산업부산물의 시멘트 원료화 기술",
         "surface": "클링커"
@@ -13952,7 +13952,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::6)",
+        "tech_id": "newgrowth::13::라::6)",
         "sector_name": "탄소중립",
         "tech_name": "이산화탄소 저감 시멘트 생산을 위한 연ㆍ원료 대체기술",
         "surface": "탄산염광물"
@@ -14028,7 +14028,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::6)",
+        "tech_id": "newgrowth::13::마::6)",
         "sector_name": "탄소중립",
         "tech_name": "극저온 액체 저장 및 이송용 펌프 설계ㆍ제조기술",
         "surface": "터미널 헤더(Terminal Heather)"
@@ -14047,7 +14047,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "터보샤프트엔진"
@@ -14066,7 +14066,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::5)",
+        "tech_id": "newgrowth::12::나::5)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고성능 터보식 펌프 설계ㆍ제조기술",
         "surface": "터보식 펌프"
@@ -14085,7 +14085,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "터보제트엔진"
@@ -14104,7 +14104,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "터보팬엔진"
@@ -14123,7 +14123,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::1)",
+        "tech_id": "newgrowth::14::가::1)",
         "sector_name": "방위산업",
         "tech_name": "추진체계 기술",
         "surface": "터보프롭엔진"
@@ -14161,7 +14161,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::4)",
+        "tech_id": "newgrowth::13::다::4)",
         "sector_name": "탄소중립",
         "tech_name": "페로브스카이트(Perovskite), 페로브스카이트ㆍ결정질 실리콘 등 탠덤 태양전지 핵심소재 제조 및 대면적화 기술",
         "surface": "투명전극"
@@ -14199,7 +14199,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::3)",
+        "tech_id": "newgrowth::12::가::3)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "거리감지센서용 압전결정소자 및 초음파 트랜스듀서 기술",
         "surface": "트랜스듀서"
@@ -14370,7 +14370,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::나::8)",
+        "tech_id": "newgrowth::12::나::8)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "선박용 모터(Motor) 설계ㆍ제조기술",
         "surface": "팬(Pan)"
@@ -14598,7 +14598,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::9)",
+        "tech_id": "newgrowth::13::라::9)",
         "sector_name": "탄소중립",
         "tech_name": "전기가열 나프타 분해기술",
         "surface": "프로필렌"
@@ -14655,7 +14655,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::라::6)",
+        "tech_id": "newgrowth::8::라::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "생분해성 플라스틱 생산기술",
         "surface": "플라스틱 컴파운드"
@@ -14712,7 +14712,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::8)",
+        "tech_id": "newgrowth::13::마::8)",
         "sector_name": "탄소중립",
         "tech_name": "선박용 디젤엔진 제조 기술",
         "surface": "피스톤(Piston)"
@@ -14731,7 +14731,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::8)",
+        "tech_id": "newgrowth::13::마::8)",
         "sector_name": "탄소중립",
         "tech_name": "선박용 디젤엔진 제조 기술",
         "surface": "피스톤링(Piston Ring)"
@@ -14750,7 +14750,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "strategic::10::::나.",
+        "tech_id": "strategic::8::::나.",
         "sector_name": "인공지능",
         "tech_name": "에이전트 인공지능 기술",
         "surface": "피지컬 인공지능(Physical AI)"
@@ -14769,7 +14769,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::4)",
+        "tech_id": "newgrowth::12::가::4)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "고기능성 인조흑연 제조기술",
         "surface": "피치"
@@ -14788,7 +14788,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::6)",
+        "tech_id": "newgrowth::8::다::6)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "친환경ㆍ저탄소 후행 핵주기 기술",
         "surface": "피폭선량"
@@ -14824,7 +14824,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::라::2)",
+        "tech_id": "newgrowth::13::라::2)",
         "sector_name": "탄소중립",
         "tech_name": "함수소가스 활용 고로취입기술",
         "surface": "함수소가스"
@@ -14900,7 +14900,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::17::가::2)",
+        "tech_id": "newgrowth::14::가::2)",
         "sector_name": "방위산업",
         "tech_name": "군사위성체계 기술",
         "surface": "항법체계"
@@ -14938,7 +14938,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::2)",
+        "tech_id": "newgrowth::8::다::2)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "내열 내식성 원자력 소재 기술",
         "surface": "핵연료 피복관"
@@ -14957,7 +14957,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::9)",
+        "tech_id": "newgrowth::8::다::9)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 제조 기술",
         "surface": "핵연료집합체"
@@ -14976,7 +14976,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::4)",
+        "tech_id": "newgrowth::8::다::4)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "신형원전(Advanced Power Reactor) 표준설계 기술",
         "surface": "핵증기공급계통(NSSS, Nuclear Steam Supply System)"
@@ -15014,7 +15014,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::9)",
+        "tech_id": "newgrowth::12::가::9)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "희토류 원료 제조공정 기술",
         "surface": "형광체"
@@ -15052,7 +15052,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::나::11)",
+        "tech_id": "newgrowth::13::나::11)",
         "sector_name": "탄소중립",
         "tech_name": "산업용 수소 보일러 및 연소기 설계ㆍ제작 기술",
         "surface": "혼소"
@@ -15109,7 +15109,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::다::8)",
+        "tech_id": "newgrowth::8::다::8)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "SMR(Small Modular Reactor) 설계 및 검증 기술",
         "surface": "확률론적 안전성 분석(PSA; Probabilistic Safety Assessment)"
@@ -15185,7 +15185,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::15)",
+        "tech_id": "newgrowth::13::마::15)",
         "sector_name": "탄소중립",
         "tech_name": "친환경 냉매 개발 기술",
         "surface": "회수ㆍ재생(RRR)"
@@ -15204,7 +15204,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::다::6)",
+        "tech_id": "newgrowth::13::다::6)",
         "sector_name": "탄소중립",
         "tech_name": "풍력에너지 생산 기술로서 발전기(Generator) 및 변환기(Inverter) 제조기술",
         "surface": "회전자(rotor)"
@@ -15261,7 +15261,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::14::가::1)",
+        "tech_id": "newgrowth::8::가::1)",
         "sector_name": "에너지ㆍ환경",
         "tech_name": "비리튬계 이차전지 소재 등 설계 및 제조기술",
         "surface": "흐름전지(Flow Battery)"
@@ -15318,7 +15318,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::13::가::9)",
+        "tech_id": "newgrowth::12::가::9)",
         "sector_name": "첨단 소재ㆍ부품ㆍ장비",
         "tech_name": "희토류 원료 제조공정 기술",
         "surface": "희토류"
@@ -15337,7 +15337,7 @@
     ],
     "sample_techs": [
       {
-        "tech_id": "newgrowth::15::마::7)",
+        "tech_id": "newgrowth::13::마::7)",
         "sector_name": "탄소중립",
         "tech_name": "히트펌프 적용 온도 범위 확대 및 효율 향상 기술",
         "surface": "히트펌프"

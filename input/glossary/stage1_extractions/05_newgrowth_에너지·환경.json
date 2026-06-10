@@ -1,6 +1,6 @@
 [
 {
-"tech_id": "newgrowth::14::가::1)",
+"tech_id": "newgrowth::8::가::1)",
 "surfaces": [
 { "surface": "흐름전지(Flow Battery)", "domain_hint": "에너지" },
 { "surface": "전극", "domain_hint": "에너지" },
@@ -15,7 +15,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::가::2)",
+"tech_id": "newgrowth::8::가::2)",
 "surfaces": [
 { "surface": "전력관리시스템(PMS, Power Management System)", "domain_hint": "에너지" },
 { "surface": "전력계통", "domain_hint": "에너지" },
@@ -23,7 +23,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::가::3)",
+"tech_id": "newgrowth::8::가::3)",
 "surfaces": [
 { "surface": "주파수조정", "domain_hint": "에너지" },
 { "surface": "신재생연계", "domain_hint": "에너지" },
@@ -32,7 +32,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::가::4)",
+"tech_id": "newgrowth::8::가::4)",
 "surfaces": [
 { "surface": "초기용량", "domain_hint": "에너지" },
 { "surface": "안전성 평가", "domain_hint": "에너지" },
@@ -40,7 +40,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::가::5)",
+"tech_id": "newgrowth::8::가::5)",
 "surfaces": [
 { "surface": "리튬이차전지", "domain_hint": "에너지" },
 { "surface": "에너지밀도", "domain_hint": "에너지" },
@@ -51,7 +51,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::가::6)",
+"tech_id": "newgrowth::8::가::6)",
 "surfaces": [
 { "surface": "전기동력 자동차(xEV)", "domain_hint": "미래차" },
 { "surface": "이차전지 팩", "domain_hint": "에너지" },
@@ -59,7 +59,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::나::1)",
+"tech_id": "newgrowth::8::나::1)",
 "surfaces": [
 { "surface": "대형가스터빈", "domain_hint": "에너지" },
 { "surface": "천연가스", "domain_hint": "에너지" },
@@ -67,7 +67,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::나::2)",
+"tech_id": "newgrowth::8::나::2)",
 "surfaces": [
 { "surface": "초임계 이산화탄소 터빈구동 시스템", "domain_hint": "에너지" },
 { "surface": "초임계상태의 이산화탄소(supercritical CO2)", "domain_hint": "에너지" },
@@ -76,14 +76,14 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::나::3)",
+"tech_id": "newgrowth::8::나::3)",
 "surfaces": [
 { "surface": "증기터빈", "domain_hint": "에너지" },
 { "surface": "3,600 RPM", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::14::다::1)",
+"tech_id": "newgrowth::8::다::1)",
 "surfaces": [
 { "surface": "원자로 냉각재 펌프(RCP, Reactor Coolant Pump)", "domain_hint": "원자력" },
 { "surface": "냉각재", "domain_hint": "원자력" },
@@ -91,7 +91,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::10)",
+"tech_id": "newgrowth::8::다::10)",
 "surfaces": [
 { "surface": "내부구조물", "domain_hint": "원자력" },
 { "surface": "핵연료", "domain_hint": "원자력" },
@@ -101,7 +101,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::11)",
+"tech_id": "newgrowth::8::다::11)",
 "surfaces": [
 { "surface": "분말-열간등방압성형(PM-HIP)", "domain_hint": "원자력" },
 { "surface": "전자빔 용접(EBW)", "domain_hint": "원자력" },
@@ -110,7 +110,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::2)",
+"tech_id": "newgrowth::8::다::2)",
 "surfaces": [
 { "surface": "내부식성", "domain_hint": "원자력" },
 { "surface": "핵연료 피복관", "domain_hint": "원자력" },
@@ -119,7 +119,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::3)",
+"tech_id": "newgrowth::8::다::3)",
 "surfaces": [
 { "surface": "와전류 자동 검사시스템", "domain_hint": "원자력" },
 { "surface": "X선 발생장치", "domain_hint": "원자력" },
@@ -128,7 +128,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::4)",
+"tech_id": "newgrowth::8::다::4)",
 "surfaces": [
 { "surface": "신형원전(Advanced Power Reactor)", "domain_hint": "원자력" },
 { "surface": "노심", "domain_hint": "원자력" },
@@ -141,7 +141,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::5)",
+"tech_id": "newgrowth::8::다::5)",
 "surfaces": [
 { "surface": "가압경수형원전(Pressurized Water Reactor)", "domain_hint": "원자력" },
 { "surface": "노심설계코드", "domain_hint": "원자력" },
@@ -154,7 +154,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::6)",
+"tech_id": "newgrowth::8::다::6)",
 "surfaces": [
 { "surface": "후행 핵주기", "domain_hint": "원자력" },
 { "surface": "해체 엔지니어링", "domain_hint": "원자력" },
@@ -168,7 +168,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::7)",
+"tech_id": "newgrowth::8::다::7)",
 "surfaces": [
 { "surface": "계측제어설비", "domain_hint": "원자력" },
 { "surface": "공통유형고장대응", "domain_hint": "원자력" },
@@ -178,7 +178,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::8)",
+"tech_id": "newgrowth::8::다::8)",
 "surfaces": [
 { "surface": "SMR(Small Modular Reactor)", "domain_hint": "원자력" },
 { "surface": "PSA; Probabilistic Safety Assessment", "domain_hint": "원자력" },
@@ -187,7 +187,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::다::9)",
+"tech_id": "newgrowth::8::다::9)",
 "surfaces": [
 { "surface": "탄력운전", "domain_hint": "원자력" },
 { "surface": "핵연료집합체", "domain_hint": "원자력" },
@@ -199,7 +199,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::1)",
+"tech_id": "newgrowth::8::라::1)",
 "surfaces": [
 { "surface": "세라믹필터", "domain_hint": "에너지" },
 { "surface": "기액접촉층", "domain_hint": "에너지" },
@@ -207,7 +207,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::10)",
+"tech_id": "newgrowth::8::라::10)",
 "surfaces": [
 { "surface": "염폐수", "domain_hint": "에너지" },
 { "surface": "전해조 시스템", "domain_hint": "에너지" },
@@ -216,7 +216,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::2)",
+"tech_id": "newgrowth::8::라::2)",
 "surfaces": [
 { "surface": "질소산화물", "domain_hint": "에너지" },
 { "surface": "과급기", "domain_hint": "에너지" },
@@ -224,7 +224,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::3)",
+"tech_id": "newgrowth::8::라::3)",
 "surfaces": [
 { "surface": "디젤 미립자 필터(DPF)", "domain_hint": "에너지" },
 { "surface": "탄화수소 찌꺼기", "domain_hint": "에너지" },
@@ -232,7 +232,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::4)",
+"tech_id": "newgrowth::8::라::4)",
 "surfaces": [
 { "surface": "폐플라스틱", "domain_hint": "에너지" },
 { "surface": "폐타이어", "domain_hint": "에너지" },
@@ -241,7 +241,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::5)",
+"tech_id": "newgrowth::8::라::5)",
 "surfaces": [
 { "surface": "해중합", "domain_hint": "에너지" },
 { "surface": "열분해", "domain_hint": "에너지" },
@@ -250,7 +250,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::6)",
+"tech_id": "newgrowth::8::라::6)",
 "surfaces": [
 { "surface": "생분해성 플라스틱", "domain_hint": "소재" },
 { "surface": "컴파운드", "domain_hint": "소재" },
@@ -258,7 +258,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::7)",
+"tech_id": "newgrowth::8::라::7)",
 "surfaces": [
 { "surface": "수(水)분리성 강화", "domain_hint": "에너지" },
 { "surface": "소재 경량화", "domain_hint": "소재" },
@@ -266,14 +266,14 @@
 ]
 },
 {
-"tech_id": "newgrowth::14::라::8)",
+"tech_id": "newgrowth::8::라::8)",
 "surfaces": [
 { "surface": "공업용수", "domain_hint": "에너지" },
 { "surface": "수처리 시스템", "domain_hint": "에너지" }
 ]
 },
 {
-"tech_id": "newgrowth::14::라::9)",
+"tech_id": "newgrowth::8::라::9)",
 "surfaces": [
 { "surface": "해중합", "domain_hint": "에너지" },
 { "surface": "원료(모노머)", "domain_hint": "소재" },

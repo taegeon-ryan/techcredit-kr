@@ -1,6 +1,6 @@
 [
 {
-"tech_id": "strategic::9::::가.",
+"tech_id": "strategic::6::::가.",
 "surfaces": [
 { "surface": "비전 센서(vision sensor)", "domain_hint": "미래차" },
 { "surface": "레이더 센서(radar sensor)", "domain_hint": "미래차" },
@@ -9,14 +9,14 @@
 ]
 },
 {
-"tech_id": "strategic::9::::나.",
+"tech_id": "strategic::6::::나.",
 "surfaces": [
 { "surface": "인지 센서", "domain_hint": "미래차" },
 { "surface": "컴퓨팅모듈", "domain_hint": "미래차" }
 ]
 },
 {
-"tech_id": "strategic::9::::다.",
+"tech_id": "strategic::6::::다.",
 "surfaces": [
 { "surface": "주행경로 생성", "domain_hint": "미래차" },
 { "surface": "고장예지", "domain_hint": "미래차" },
@@ -27,21 +27,21 @@
 ]
 },
 {
-"tech_id": "strategic::9::::라.",
+"tech_id": "strategic::6::::라.",
 "surfaces": [
 { "surface": "감속기ㆍ변속기", "domain_hint": "미래차" },
 { "surface": "구동시스템", "domain_hint": "미래차" }
 ]
 },
 {
-"tech_id": "strategic::9::::마.",
+"tech_id": "strategic::6::::마.",
 "surfaces": [
 { "surface": "전력변환장치", "domain_hint": "에너지" },
 { "surface": "충전 인터페이스장치", "domain_hint": "미래차" }
 ]
 },
 {
-"tech_id": "strategic::9::::바.",
+"tech_id": "strategic::6::::바.",
 "surfaces": [
 { "surface": "안면인식", "domain_hint": "AI" },
 { "surface": "감정적 변화 감지", "domain_hint": "AI" },
@@ -50,7 +50,7 @@
 ]
 },
 {
-"tech_id": "strategic::9::::사.",
+"tech_id": "strategic::6::::사.",
 "surfaces": [
 { "surface": "자율항해", "domain_hint": "조선" },
 { "surface": "최적 경로", "domain_hint": "조선" },
@@ -65,7 +65,7 @@
 ]
 },
 {
-"tech_id": "strategic::9::::아.",
+"tech_id": "strategic::6::::아.",
 "surfaces": [
 { "surface": "가스화물", "domain_hint": "조선" },
 { "surface": "적하역", "domain_hint": "조선" },
@@ -79,7 +79,7 @@
 ]
 },
 {
-"tech_id": "strategic::9::::자.",
+"tech_id": "strategic::6::::자.",
 "surfaces": [
 { "surface": "설계 자동화", "domain_hint": "조선" },
 { "surface": "건조 공정", "domain_hint": "조선" },

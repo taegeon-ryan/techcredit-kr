@@ -1,6 +1,6 @@
 [
 {
-"tech_id": "newgrowth::17::가::1)",
+"tech_id": "newgrowth::14::가::1)",
 "surfaces": [
 { "surface": "터보제트엔진", "domain_hint": "항공" },
 { "surface": "터보샤프트엔진", "domain_hint": "항공" },
@@ -21,7 +21,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::17::가::2)",
+"tech_id": "newgrowth::14::가::2)",
 "surfaces": [
 { "surface": "군사위성체계", "domain_hint": "우주" },
 { "surface": "전력체계", "domain_hint": "방위산업" },
@@ -37,7 +37,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::17::가::3)",
+"tech_id": "newgrowth::14::가::3)",
 "surfaces": [
 { "surface": "방위산업물자등", "domain_hint": "방위산업" },
 { "surface": "형상변경", "domain_hint": "방위산업" },
@@ -46,7 +46,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::17::나::1)",
+"tech_id": "newgrowth::14::나::1)",
 "surfaces": [
 { "surface": "유무인복합체계", "domain_hint": "방위산업" },
 { "surface": "환경인식기술", "domain_hint": "로봇" },

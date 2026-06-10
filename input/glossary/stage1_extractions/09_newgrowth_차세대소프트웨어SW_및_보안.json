@@ -1,6 +1,6 @@
 [
 {
-"tech_id": "newgrowth::12::가::1)",
+"tech_id": "newgrowth::3::가::1)",
 "surfaces": [
 { "surface": "지능형 소프트웨어", "domain_hint": "AI" },
 { "surface": "신뢰성", "domain_hint": "SW" },
@@ -9,7 +9,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::12::가::2)",
+"tech_id": "newgrowth::3::가::2)",
 "surfaces": [
 { "surface": "중앙연산장치(CPU)", "domain_hint": "AI" },
 { "surface": "보조연산장치", "domain_hint": "AI" },
@@ -17,7 +17,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::12::가::3)",
+"tech_id": "newgrowth::3::가::3)",
 "surfaces": [
 { "surface": "분산 컴퓨팅", "domain_hint": "AI" },
 { "surface": "노드(센서, 컴퓨터 등)", "domain_hint": "AI" },
@@ -26,20 +26,20 @@
 ]
 },
 {
-"tech_id": "newgrowth::12::가::4)",
+"tech_id": "newgrowth::3::가::4)",
 "surfaces": [
 { "surface": "비휘발성 메모리", "domain_hint": "반도체" }
 ]
 },
 {
-"tech_id": "newgrowth::12::가::5)",
+"tech_id": "newgrowth::3::가::5)",
 "surfaces": [
 { "surface": "개념 설계", "domain_hint": "AI" },
 { "surface": "제작도면", "domain_hint": "기계" }
 ]
 },
 {
-"tech_id": "newgrowth::12::나::1)",
+"tech_id": "newgrowth::3::나::1)",
 "surfaces": [
 { "surface": "사이버 공격", "domain_hint": "보안" },
 { "surface": "지능정보기술", "domain_hint": "AI" },
@@ -49,7 +49,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::12::나::2)",
+"tech_id": "newgrowth::3::나::2)",
 "surfaces": [
 { "surface": "신체적 특성(지문, 얼굴, 홍채, 정맥 등)", "domain_hint": "보안" },
 { "surface": "행동적 특성(서명, 음성, 걸음걸이 등)", "domain_hint": "보안" },
@@ -59,7 +59,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::12::나::3)",
+"tech_id": "newgrowth::3::나::3)",
 "surfaces": [
 { "surface": "양자컴퓨팅(quantum computing)", "domain_hint": "AI" },
 { "surface": "암호화", "domain_hint": "보안" },
@@ -67,7 +67,7 @@
 ]
 },
 {
-"tech_id": "newgrowth::12::나::4)",
+"tech_id": "newgrowth::3::나::4)",
 "surfaces": [
 { "surface": "정보통신기술(ICT)", "domain_hint": "통신" },
 { "surface": "자율주행차", "domain_hint": "미래차" },
